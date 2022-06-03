@@ -2,6 +2,7 @@
   "version": 2,
   "projects": {
     "web": "apps/web",
-    "web-e2e": "apps/web-e2e"
+    "web-e2e": "apps/web-e2e",
+    "web-layouts-base-ui": "libs/web/layouts/base/ui"
   }
 }
