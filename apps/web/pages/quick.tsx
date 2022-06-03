@@ -1,4 +1,4 @@
-
+import type { ReactElement } from 'react';
 
 /* eslint-disable-next-line */
 export interface QuickProps {}
@@ -10,5 +10,9 @@ export function Quick(props: QuickProps) {
     </div>
   );
 }
+
+Quick.getLayout = function getLayout(page: ReactElement) {
+  return <Layout>{page}</Layout>;
+};
 
 export default Quick;
