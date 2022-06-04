@@ -21,7 +21,8 @@
       "@nuldrive/web/layouts/base/ui": [
         "libs/web/layouts/base/ui/src/index.ts"
       ],
-      "@nuldrive/web/util/icons": ["libs/web/util/icons/src/index.ts"]
+      "@nuldrive/web/util/icons": ["libs/web/util/icons/src/index.ts"],
+      "@nuldrive/web/util/sync": ["libs/web/util/sync/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]

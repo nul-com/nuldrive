@@ -1,0 +1,23 @@
+{
+  "root": "libs/web/util/sync",
+  "sourceRoot": "libs/web/util/sync/src",
+  "projectType": "library",
+  "tags": [],
+  "targets": {
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "outputs": ["{options.outputFile}"],
+      "options": {
+        "lintFilePatterns": ["libs/web/util/sync/**/*.{ts,tsx,js,jsx}"]
+      }
+    },
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "outputs": ["coverage/libs/web/util/sync"],
+      "options": {
+        "jestConfig": "libs/web/util/sync/jest.config.js",
+        "passWithNoTests": true
+      }
+    }
+  }
+}
