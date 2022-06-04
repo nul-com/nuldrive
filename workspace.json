@@ -4,6 +4,7 @@
     "web": "apps/web",
     "web-e2e": "apps/web-e2e",
     "web-layouts-base-header": "libs/web/layouts/base/header",
+    "web-layouts-base-navigation": "libs/web/layouts/base/navigation",
     "web-layouts-base-ui": "libs/web/layouts/base/ui",
     "web-util-icons": "libs/web/util/icons",
     "web-util-sync": "libs/web/util/sync"
