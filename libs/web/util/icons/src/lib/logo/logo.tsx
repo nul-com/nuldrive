@@ -1,13 +1,17 @@
 import styles from './logo.module.css';
 
 /* eslint-disable-next-line */
-export interface LogoProps {}
+export interface LogoProps {
+  w?: number;
+  h?: number;
+}
 
 export function Logo(props: LogoProps) {
+  const { w, h } = props;
   return (
     <svg
-      width={102}
-      height={80}
+      width={w}
+      height={h}
       viewBox="0 0 102 80"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
