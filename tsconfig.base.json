@@ -18,7 +18,10 @@
       "@nuldrive/web/layouts/base/header": [
         "libs/web/layouts/base/header/src/index.ts"
       ],
-      "@nuldrive/web/layouts/base/ui": ["libs/web/layouts/base/ui/src/index.ts"]
+      "@nuldrive/web/layouts/base/ui": [
+        "libs/web/layouts/base/ui/src/index.ts"
+      ],
+      "@nuldrive/web/util/icons": ["libs/web/util/icons/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]
