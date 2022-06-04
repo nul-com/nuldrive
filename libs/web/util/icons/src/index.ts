@@ -4,3 +4,7 @@ export * from './lib/cloud-times/cloud-times';
 export * from './lib/cloud-download/cloud-download';
 export * from './lib/cloud-check/cloud-check';
 export * from './lib/apps/apps';
+export * from './lib/bolt/bolt';
+export * from './lib/folder/folder';
+export * from './lib/user/user';
+export * from './lib/times/times';
