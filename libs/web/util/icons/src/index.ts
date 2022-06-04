@@ -1,1 +1,1 @@
-export * from './lib/WebUtilIcons';
+export * from './lib/logo/logo';
