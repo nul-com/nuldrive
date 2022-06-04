@@ -5,8 +5,8 @@ export interface WebLayoutsBaseHeaderProps {}
 
 export function WebLayoutsBaseHeader(props: WebLayoutsBaseHeaderProps) {
   return (
-    <div className={styles['container']}>
-      <h1>Welcome to WebLayoutsBaseHeader!</h1>
+    <div className="h-header bg-white w-screen">
+      <div className="">Hello world</div>
     </div>
   );
 }
