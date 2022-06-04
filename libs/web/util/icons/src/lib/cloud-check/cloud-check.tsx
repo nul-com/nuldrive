@@ -3,7 +3,7 @@ import styles from './cloud-check.module.css';
 /* eslint-disable-next-line */
 export interface CloudCheckProps {}
 
-export function CloudCheck(props: CloudCheckProps) {
+export function CloudCheck(props: any) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
