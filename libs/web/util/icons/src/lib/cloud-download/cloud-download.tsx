@@ -3,7 +3,7 @@ import styles from './cloud-download.module.css';
 /* eslint-disable-next-line */
 export interface CloudDownloadProps {}
 
-export function CloudDownload(props: CloudDownloadProps) {
+export function CloudDownload(props: any) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
