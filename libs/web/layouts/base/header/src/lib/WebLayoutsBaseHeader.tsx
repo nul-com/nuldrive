@@ -63,7 +63,7 @@ export function WebLayoutsBaseHeader(props: WebLayoutsBaseHeaderProps) {
             leaveTo="-bottom-40"
           >
             <div className="fixed bottom-0">
-              <WebLayoutsBaseNavigation />
+              <WebLayoutsBaseNavigation setNavMenuOpen={setNavMenuOpen} />
             </div>
           </Transition.Child>
         </Dialog>
