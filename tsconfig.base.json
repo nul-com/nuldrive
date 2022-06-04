@@ -18,6 +18,9 @@
       "@nuldrive/web/layouts/base/header": [
         "libs/web/layouts/base/header/src/index.ts"
       ],
+      "@nuldrive/web/layouts/base/navigation": [
+        "libs/web/layouts/base/navigation/src/index.ts"
+      ],
       "@nuldrive/web/layouts/base/ui": [
         "libs/web/layouts/base/ui/src/index.ts"
       ],
