@@ -3,7 +3,7 @@ import styles from './cloud-times.module.css';
 /* eslint-disable-next-line */
 export interface CloudTimesProps {}
 
-export function CloudTimes(props: CloudTimesProps) {
+export function CloudTimes(props: any) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
