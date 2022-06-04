@@ -25,6 +25,7 @@
         "libs/web/layouts/base/ui/src/index.ts"
       ],
       "@nuldrive/web/util/icons": ["libs/web/util/icons/src/index.ts"],
+      "@nuldrive/web/util/search": ["libs/web/util/search/src/index.ts"],
       "@nuldrive/web/util/sync": ["libs/web/util/sync/src/index.ts"]
     }
   },
