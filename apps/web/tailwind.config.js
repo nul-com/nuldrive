@@ -12,6 +12,23 @@ module.exports = {
       spacing: {
         header: '47px',
       },
+      width: {
+        7.5: '1.8rem',
+      },
+      fontSize: {
+        xxs: '.6rem',
+      },
+      colors: {
+        transparent: 'transparent',
+        current: 'currentColor',
+        white: '#ffffff',
+        primaryColor: '#ffffff',
+        countryCode: '#989DA3',
+        titleColor: '#f1f2f3',
+        searchBarBg: '#1C2534',
+        searchBarBorder: '#27303E',
+        searchBarText: '#8494AA',
+      },
     },
   },
   plugins: [],
