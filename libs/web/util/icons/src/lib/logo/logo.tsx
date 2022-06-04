@@ -1,17 +1,12 @@
 import styles from './logo.module.css';
 
 /* eslint-disable-next-line */
-export interface LogoProps {
-  w?: number;
-  h?: number;
-}
+export interface LogoProps {}
 
-export function Logo(props: LogoProps) {
-  const { w, h } = props;
+// Width and height can be changed with passing width and height props
+export function Logo(props: any) {
   return (
     <svg
-      width={w}
-      height={h}
       viewBox="0 0 102 80"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
