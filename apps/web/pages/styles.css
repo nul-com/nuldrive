@@ -1,3 +1,8 @@
 @tailwind components;
 @tailwind base;
 @tailwind utilities;
+
+.grid-template-rows {
+  grid-template-rows: theme('spacing.header') auto theme('spacing.footer');
+  grid-template-columns: auto;
+}
