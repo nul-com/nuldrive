@@ -6,8 +6,10 @@ export interface QuickProps {}
 
 export function Quick(props: QuickProps) {
   return (
-    <div className="relative top-header">
-      <h1>Welcome to Quick!</h1>
+    <div className="">
+      <div className="">
+        <h1>Welcome to Quick!</h1>
+      </div>
     </div>
   );
 }
