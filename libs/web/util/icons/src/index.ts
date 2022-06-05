@@ -8,3 +8,5 @@ export * from './lib/bolt/bolt';
 export * from './lib/folder/folder';
 export * from './lib/user/user';
 export * from './lib/times/times';
+export * from './lib/search/search';
+export * from './lib/command/command';
