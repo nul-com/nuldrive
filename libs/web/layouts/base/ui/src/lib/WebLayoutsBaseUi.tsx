@@ -14,7 +14,7 @@ export function WebLayoutsBaseUi(props: WebLayoutsBaseUiProps) {
     <main className="grid grid-template-rows h-screen w-screen overflow-hidden">
       <WebLayoutsBaseHeader />
       <div className="overflow-scroll">{children}</div>
-      <div className="text-sm">Hello World</div>
+      <div className="text-sm border-t-[1px] border-borderColor flex items-center">Hello World</div>
     </main>
   );
 }
