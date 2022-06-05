@@ -11,6 +11,7 @@ module.exports = {
     extend: {
       spacing: {
         header: '47px',
+        footer: '24px',
       },
       width: {
         7.5: '1.8rem',
@@ -28,6 +29,7 @@ module.exports = {
         searchBarBg: '#1C2534',
         searchBarBorder: '#27303E',
         searchBarText: '#8494AA',
+        borderColor: '#E6E6E6',
       },
     },
   },
