@@ -1,6 +1,6 @@
 {
-  "root": "libs/web/util/imageloader",
-  "sourceRoot": "libs/web/util/imageloader/src",
+  "root": "libs/web/util/imageLoader",
+  "sourceRoot": "libs/web/util/imageLoader/src",
   "projectType": "library",
   "tags": [],
   "targets": {
@@ -8,14 +8,14 @@
       "executor": "@nrwl/linter:eslint",
       "outputs": ["{options.outputFile}"],
       "options": {
-        "lintFilePatterns": ["libs/web/util/imageloader/**/*.{ts,tsx,js,jsx}"]
+        "lintFilePatterns": ["libs/web/util/imageLoader/**/*.{ts,tsx,js,jsx}"]
       }
     },
     "test": {
       "executor": "@nrwl/jest:jest",
-      "outputs": ["coverage/libs/web/util/imageloader"],
+      "outputs": ["coverage/libs/web/util/imageLoader"],
       "options": {
-        "jestConfig": "libs/web/util/imageloader/jest.config.js",
+        "jestConfig": "libs/web/util/imageLoader/jest.config.js",
         "passWithNoTests": true
       }
     }
