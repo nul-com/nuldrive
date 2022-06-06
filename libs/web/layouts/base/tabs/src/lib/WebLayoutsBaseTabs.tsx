@@ -1,4 +1,5 @@
 import { WebUtilAvatar } from '@nuldrive/web/util/avatar';
+import { WebUtilButtonsBucketSelect } from '@nuldrive/web/util/buttons/bucketSelect';
 
 import styles from './WebLayoutsBaseTabs.module.css';
 
@@ -11,11 +12,14 @@ export function WebLayoutsBaseTabs(props: WebLayoutsBaseTabsProps) {
       <div className="h-full flex">
         <div className="w-[256px] flex-none h-full border-r-border border-borderColor">
           <div className="flex justify-between h-full pl-[14px] pr-[7px] items-center">
-            <div className="h-[26px]">
-              <WebUtilAvatar
-                src="https://r2.eriascdn.com/erias.png"
-                width={26}
-              />
+            <div className="flex gap-[9px] justify-center items-center">
+              <div className="h-[26px]">
+                <WebUtilAvatar
+                  src="https://r2.eriascdn.com/erias.png"
+                  width={26}
+                />
+              </div>
+              <WebUtilButtonsBucketSelect />
             </div>
             <div className="flex gap-[5px] text-[11px]">
               <button className="bg-[#EDEDED] rounded-[4px]">
