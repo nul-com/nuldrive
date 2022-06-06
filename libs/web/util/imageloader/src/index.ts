@@ -1,1 +1,1 @@
-export * from './lib/WebUtilImageloader';
+export * from './lib/WebUtilImageLoader';
