@@ -7,6 +7,7 @@ import { Apps, Octagon, Bell } from '@nuldrive/web/util/icons';
 import { WebLayoutsBaseNavigation } from '@nuldrive/web/layouts/base/navigation';
 import { WebUtilButtonsSync } from '@nuldrive/web/util/buttons/sync';
 import { WebUtilButtonsInvite } from '@nuldrive/web/util/buttons/invite';
+import { WebUtilAvatar } from '@nuldrive/web/util/avatar';
 
 import styles from './WebLayoutsBaseHeader.module.css';
 
@@ -45,6 +46,7 @@ export function WebLayoutsBaseHeader(props: WebLayoutsBaseHeaderProps) {
             <WebUtilButtonsInvite />
             <Octagon fill="#6B6B6B" width={18} />
             <Bell fill="#6B6B6B" width={18} />
+            <WebUtilAvatar src="https://r2.eriascdn.com/erias.png" width={22} />
           </div>
         </div>
       </nav>
