@@ -1,0 +1,23 @@
+{
+  "root": "libs/web/layouts/base/tabs",
+  "sourceRoot": "libs/web/layouts/base/tabs/src",
+  "projectType": "library",
+  "tags": [],
+  "targets": {
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "outputs": ["{options.outputFile}"],
+      "options": {
+        "lintFilePatterns": ["libs/web/layouts/base/tabs/**/*.{ts,tsx,js,jsx}"]
+      }
+    },
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "outputs": ["coverage/libs/web/layouts/base/tabs"],
+      "options": {
+        "jestConfig": "libs/web/layouts/base/tabs/jest.config.js",
+        "passWithNoTests": true
+      }
+    }
+  }
+}
