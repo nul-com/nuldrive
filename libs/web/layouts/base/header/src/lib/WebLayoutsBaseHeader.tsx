@@ -5,7 +5,7 @@ import { Logo } from '@nuldrive/web/util/icons';
 import { CloudUpload } from '@nuldrive/web/util/icons';
 import { Apps } from '@nuldrive/web/util/icons';
 import { WebLayoutsBaseNavigation } from '@nuldrive/web/layouts/base/navigation';
-import { WebUtilSync } from '@nuldrive/web/util/sync';
+import { WebUtilButtonsSync } from '@nuldrive/web/util/buttons/sync';
 
 import styles from './WebLayoutsBaseHeader.module.css';
 
@@ -40,7 +40,7 @@ export function WebLayoutsBaseHeader(props: WebLayoutsBaseHeaderProps) {
             <Apps />
           </div>
           <div className="hidden md:block">
-            <WebUtilSync />
+            <WebUtilButtonsSync />
           </div>
         </div>
       </nav>

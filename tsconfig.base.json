@@ -15,6 +15,7 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
+      "@nuldrive/web-util-buttons": ["libs/web/util/buttons/src/index.ts"],
       "@nuldrive/web/layouts/base/footer": [
         "libs/web/layouts/base/footer/src/index.ts"
       ],
@@ -39,9 +40,11 @@
       "@nuldrive/web/layouts/base/ui": [
         "libs/web/layouts/base/ui/src/index.ts"
       ],
+      "@nuldrive/web/util/buttons/sync": [
+        "libs/web/util/buttons/sync/src/index.ts"
+      ],
       "@nuldrive/web/util/icons": ["libs/web/util/icons/src/index.ts"],
-      "@nuldrive/web/util/search": ["libs/web/util/search/src/index.ts"],
-      "@nuldrive/web/util/sync": ["libs/web/util/sync/src/index.ts"]
+      "@nuldrive/web/util/search": ["libs/web/util/search/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]
