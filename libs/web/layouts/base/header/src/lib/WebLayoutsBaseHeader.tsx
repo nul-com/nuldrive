@@ -8,6 +8,7 @@ import { WebLayoutsBaseNavigation } from '@nuldrive/web/layouts/base/navigation'
 import { WebUtilButtonsSync } from '@nuldrive/web/util/buttons/sync';
 import { WebUtilButtonsInvite } from '@nuldrive/web/util/buttons/invite';
 import { WebUtilAvatar } from '@nuldrive/web/util/avatar';
+import { WebUtilButtonsUpgrade } from '@nuldrive/web/util/buttons/upgrade';
 
 import styles from './WebLayoutsBaseHeader.module.css';
 
@@ -18,7 +19,7 @@ export function WebLayoutsBaseHeader(props: WebLayoutsBaseHeaderProps) {
   const [navMenuOpen, setNavMenuOpen] = useState(false);
   return (
     <header className="grid h-header w-screen bottom-0 left-0 z-40 bg-primaryColor md:top-0 border-b-border border-borderColor">
-      <nav className="max-w-header ml-6 mr-5 flex h-header justify-between items-center text-black">
+      <nav className="max-w-header ml-6 mr-5 flex h-header justify-between items-center text-black md:mx-[14px]">
         <Link href="/">
           <div className="cursor-pointer flex gap-1.5 items-center">
             <div className="w-[34px]">
@@ -47,6 +48,7 @@ export function WebLayoutsBaseHeader(props: WebLayoutsBaseHeaderProps) {
             <Octagon fill="#6B6B6B" width={18} />
             <Bell fill="#6B6B6B" width={18} />
             <WebUtilAvatar src="https://r2.eriascdn.com/erias.png" width={22} />
+            <WebUtilButtonsUpgrade />
           </div>
         </div>
       </nav>
