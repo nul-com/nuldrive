@@ -16,6 +16,6 @@
     "web-util-buttons-search": "libs/web/util/buttons/search",
     "web-util-buttons-sync": "libs/web/util/buttons/sync",
     "web-util-icons": "libs/web/util/icons",
-    "web-util-imageloader": "libs/web/util/imageloader"
+    "web-util-imageLoader": "libs/web/util/imageLoader"
   }
 }
