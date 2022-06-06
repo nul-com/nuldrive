@@ -32,6 +32,10 @@ module.exports = {
         borderColor: '#E6E6E6',
         borderHoverColor: '#81acf0',
       },
+      borderWidth: {
+        DEFAULT: '1px',
+        border: '1px',
+      },
     },
   },
   plugins: [],
