@@ -30,6 +30,7 @@ module.exports = {
         searchBarBorder: '#27303E',
         searchBarText: '#8494AA',
         borderColor: '#E6E6E6',
+        borderHoverColor: '#81acf0',
       },
     },
   },
