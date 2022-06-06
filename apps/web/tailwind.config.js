@@ -32,6 +32,7 @@ module.exports = {
         searchBarText: '#8494AA',
         borderColor: '#E6E6E6',
         borderHoverColor: '#81acf0',
+        blue: '#3679E5',
       },
       borderWidth: {
         DEFAULT: '1px',
