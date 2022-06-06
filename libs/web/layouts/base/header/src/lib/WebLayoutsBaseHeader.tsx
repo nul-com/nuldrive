@@ -3,7 +3,7 @@ import { Dialog, Transition } from '@headlessui/react';
 import { Fragment, useState } from 'react';
 import { Logo } from '@nuldrive/web/util/icons';
 import { CloudUpload } from '@nuldrive/web/util/icons';
-import { Apps, Octagon } from '@nuldrive/web/util/icons';
+import { Apps, Octagon, Bell } from '@nuldrive/web/util/icons';
 import { WebLayoutsBaseNavigation } from '@nuldrive/web/layouts/base/navigation';
 import { WebUtilButtonsSync } from '@nuldrive/web/util/buttons/sync';
 import { WebUtilButtonsInvite } from '@nuldrive/web/util/buttons/invite';
@@ -44,6 +44,7 @@ export function WebLayoutsBaseHeader(props: WebLayoutsBaseHeaderProps) {
             <WebUtilButtonsSync />
             <WebUtilButtonsInvite />
             <Octagon fill="#6B6B6B" width={18} />
+            <Bell fill="#6B6B6B" width={18} />
           </div>
         </div>
       </nav>
