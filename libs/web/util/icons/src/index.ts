@@ -13,3 +13,4 @@ export * from './lib/command/command';
 export * from './lib/user-plus/user-plus';
 export * from './lib/octagon/octagon';
 export * from './lib/bell/bell';
+export * from './lib/angle-down/angle-down';
