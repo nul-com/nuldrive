@@ -1,0 +1,25 @@
+{
+  "root": "libs/web/layouts/base/panels",
+  "sourceRoot": "libs/web/layouts/base/panels/src",
+  "projectType": "library",
+  "tags": [],
+  "targets": {
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "outputs": ["{options.outputFile}"],
+      "options": {
+        "lintFilePatterns": [
+          "libs/web/layouts/base/panels/**/*.{ts,tsx,js,jsx}"
+        ]
+      }
+    },
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "outputs": ["coverage/libs/web/layouts/base/panels"],
+      "options": {
+        "jestConfig": "libs/web/layouts/base/panels/jest.config.js",
+        "passWithNoTests": true
+      }
+    }
+  }
+}

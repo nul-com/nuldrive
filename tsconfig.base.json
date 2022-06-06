@@ -21,6 +21,9 @@
       "@nuldrive/web/layouts/base/navigation": [
         "libs/web/layouts/base/navigation/src/index.ts"
       ],
+      "@nuldrive/web/layouts/base/panels": [
+        "libs/web/layouts/base/panels/src/index.ts"
+      ],
       "@nuldrive/web/layouts/base/ui": [
         "libs/web/layouts/base/ui/src/index.ts"
       ],
