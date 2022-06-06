@@ -30,6 +30,9 @@
       "@nuldrive/web/layouts/base/search": [
         "libs/web/layouts/base/search/src/index.ts"
       ],
+      "@nuldrive/web/layouts/base/sidebar": [
+        "libs/web/layouts/base/sidebar/src/index.ts"
+      ],
       "@nuldrive/web/layouts/base/tabs": [
         "libs/web/layouts/base/tabs/src/index.ts"
       ],
