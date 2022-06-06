@@ -37,9 +37,6 @@
       "@nuldrive/web/layouts/base/sidebar": [
         "libs/web/layouts/base/sidebar/src/index.ts"
       ],
-      "@nuldrive/web/layouts/base/tabs": [
-        "libs/web/layouts/base/tabs/src/index.ts"
-      ],
       "@nuldrive/web/layouts/base/ui": [
         "libs/web/layouts/base/ui/src/index.ts"
       ],
