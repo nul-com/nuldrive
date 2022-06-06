@@ -10,3 +10,4 @@ export * from './lib/user/user';
 export * from './lib/times/times';
 export * from './lib/search/search';
 export * from './lib/command/command';
+export * from './lib/user-plus/user-plus';
