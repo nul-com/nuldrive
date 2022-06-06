@@ -7,11 +7,13 @@ export interface WebUtilButtonsInviteProps {}
 
 export function WebUtilButtonsInvite(props: WebUtilButtonsInviteProps) {
   return (
-    <button className="w-[67px] h-[24px] bg-blue rounded-[6px] flex justify-center items-center gap-[5px]">
-      <div className="w-[17px] fill-white">
-        <UserPlus />
+    <button className="bg-blue rounded-[6px]">
+      <div className="flex justify-center items-center gap-[5px] px-[8px] py-[3.5px]">
+        <div className="w-[17px] fill-white">
+          <UserPlus />
+        </div>
+        <div className="text-white text-[11px]">Invite</div>
       </div>
-      <div className="text-white text-[11px]">Invite</div>
     </button>
   );
 }
