@@ -1,5 +1,5 @@
 module.exports = {
-  displayName: 'web-util-imageloader',
+  displayName: 'web-util-imageLoader',
   preset: '../../../../jest.preset.js',
   globals: {
     'ts-jest': {
@@ -10,5 +10,5 @@ module.exports = {
     '^.+\\.[tj]sx?$': 'ts-jest',
   },
   moduleFileExtensions: ['ts', 'tsx', 'js', 'jsx'],
-  coverageDirectory: '../../../../coverage/libs/web/util/imageloader',
+  coverageDirectory: '../../../../coverage/libs/web/util/imageLoader',
 };
