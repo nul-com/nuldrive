@@ -1,0 +1,25 @@
+{
+  "root": "libs/web/util/buttons/upgrade",
+  "sourceRoot": "libs/web/util/buttons/upgrade/src",
+  "projectType": "library",
+  "tags": [],
+  "targets": {
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "outputs": ["{options.outputFile}"],
+      "options": {
+        "lintFilePatterns": [
+          "libs/web/util/buttons/upgrade/**/*.{ts,tsx,js,jsx}"
+        ]
+      }
+    },
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "outputs": ["coverage/libs/web/util/buttons/upgrade"],
+      "options": {
+        "jestConfig": "libs/web/util/buttons/upgrade/jest.config.js",
+        "passWithNoTests": true
+      }
+    }
+  }
+}
