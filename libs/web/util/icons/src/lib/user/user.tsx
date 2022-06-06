@@ -3,7 +3,7 @@ import styles from './user.module.css';
 /* eslint-disable-next-line */
 export interface UserProps {}
 
-export function User(props: UserProps) {
+export function User(props: any) {
   return (
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" {...props}>
       <path
