@@ -50,7 +50,10 @@
       "@nuldrive/web/util/buttons/sync": [
         "libs/web/util/buttons/sync/src/index.ts"
       ],
-      "@nuldrive/web/util/icons": ["libs/web/util/icons/src/index.ts"]
+      "@nuldrive/web/util/icons": ["libs/web/util/icons/src/index.ts"],
+      "@nuldrive/web/util/imageloader": [
+        "libs/web/util/imageloader/src/index.ts"
+      ]
     }
   },
   "exclude": ["node_modules", "tmp"]
