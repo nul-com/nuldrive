@@ -1,10 +1,10 @@
 import { render } from '@testing-library/react';
 
-import WebUtilImageloader from './WebUtilImageloader';
+import WebUtilImageLoader from './WebUtilImageLoader';
 
 describe('WebUtilImageloader', () => {
   it('should render successfully', () => {
-    const { baseElement } = render(<WebUtilImageloader />);
+    const { baseElement } = render(<WebUtilImageLoader />);
     expect(baseElement).toBeTruthy();
   });
 });
