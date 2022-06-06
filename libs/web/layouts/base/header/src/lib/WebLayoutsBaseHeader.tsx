@@ -5,6 +5,7 @@ import { Logo } from '@nuldrive/web/util/icons';
 import { CloudUpload } from '@nuldrive/web/util/icons';
 import { Apps } from '@nuldrive/web/util/icons';
 import { WebLayoutsBaseNavigation } from '@nuldrive/web/layouts/base/navigation';
+import { WebUtilSync } from '@nuldrive/web/util/sync';
 
 import styles from './WebLayoutsBaseHeader.module.css';
 
@@ -14,27 +15,32 @@ export interface WebLayoutsBaseHeaderProps {}
 export function WebLayoutsBaseHeader(props: WebLayoutsBaseHeaderProps) {
   const [navMenuOpen, setNavMenuOpen] = useState(false);
   return (
-    <header className="grid h-header w-screen bottom-0 left-0 z-40 bg-primaryColor md:top-0 border-b-[1px] border-borderColor">
+    <header className="grid h-header w-screen bottom-0 left-0 z-40 bg-primaryColor md:top-0 border-b-border border-borderColor">
       <nav className="max-w-header ml-6 mr-5 flex h-header justify-between items-center text-black">
         <Link href="/">
           <div className="cursor-pointer flex gap-1.5 items-center">
-            <div className="w-7.5">
+            <div className="w-[34px]">
               <Logo />
             </div>
             <div className="flex gap-1">
-              <h1 className="font-extrabold text-lg">nuldrive</h1>
-              <p className="text-xxs text-countryCode font-medium">AT</p>
+              <h1 className="font-extrabold text-lg md:hidden">nuldrive</h1>
+              <p className="text-xxs text-countryCode font-medium md:hidden">
+                AT
+              </p>
             </div>
           </div>
         </Link>
         <div className="flex items-center cursor-pointer">
           <Link href="/">
-            <div className="px-2.5 py-1 border-[1px] border-black rounded-3xl text-sm font-semibold mr-3">
+            <div className="px-2.5 py-1 border-[1px] border-black rounded-3xl text-sm font-semibold mr-3 md:hidden">
               Open Chat
             </div>
           </Link>
-          <div className="w-5" onClick={() => setNavMenuOpen(true)}>
+          <div className="w-5 md:hidden" onClick={() => setNavMenuOpen(true)}>
             <Apps />
+          </div>
+          <div className="hidden md:block">
+            <WebUtilSync />
           </div>
         </div>
       </nav>
