@@ -11,6 +11,7 @@
   "dependencies": {
     "@headlessui/react": "^1.6.4",
     "@nrwl/next": "13.9.5",
+    "allotment": "^1.14.2",
     "autoprefixer": "^10.4.7",
     "core-js": "^3.6.5",
     "next": "12.1.0",
