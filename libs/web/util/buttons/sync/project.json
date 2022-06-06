@@ -1,0 +1,23 @@
+{
+  "root": "libs/web/util/buttons/sync",
+  "sourceRoot": "libs/web/util/buttons/sync/src",
+  "projectType": "library",
+  "tags": [],
+  "targets": {
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "outputs": ["{options.outputFile}"],
+      "options": {
+        "lintFilePatterns": ["libs/web/util/buttons/sync/**/*.{ts,tsx,js,jsx}"]
+      }
+    },
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "outputs": ["coverage/libs/web/util/buttons/sync"],
+      "options": {
+        "jestConfig": "libs/web/util/buttons/sync/jest.config.js",
+        "passWithNoTests": true
+      }
+    }
+  }
+}
