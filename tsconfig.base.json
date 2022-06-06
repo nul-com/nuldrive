@@ -40,6 +40,7 @@
       "@nuldrive/web/layouts/base/ui": [
         "libs/web/layouts/base/ui/src/index.ts"
       ],
+      "@nuldrive/web/util/avatar": ["libs/web/util/avatar/src/index.ts"],
       "@nuldrive/web/util/buttons/invite": [
         "libs/web/util/buttons/invite/src/index.ts"
       ],
