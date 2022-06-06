@@ -6,3 +6,49 @@
   grid-template-rows: theme('spacing.header') auto theme('spacing.footer');
   grid-template-columns: auto;
 }
+
+.gutter {
+  background-color: theme('colors.borderColor');
+  background-repeat: no-repeat;
+  background-position: 50%;
+  width: 1px !important;
+  position: relative;
+  z-index: 100;
+}
+
+.gutter:before {
+  position: absolute;
+  content: '';
+  width: 11px;
+  height: 100%;
+  top: 0;
+  left: -5px;
+  /* background: rgba(0, 0, 0, 0.1); */
+}
+
+/* .gutter:after {
+  position: absolute;
+  content: '';
+  width: 1px;
+  height: 100%;
+  top: 0;
+  left: 0px;
+  background: theme('colors.borderColor');
+} */
+
+/* .gutter:hover:after {
+  background-color: theme('colors.borderHoverColor') !important;
+} */
+
+.gutter:hover {
+  background-color: theme('colors.borderHoverColor') !important;
+}
+
+/* .gutter.gutter-horizontal:hover {
+  background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAeCAYAAADkftS9AAAAIklEQVQoU2M4c+bMfxAGAgYYmwGrIIiDjrELjpo5aiZeMwF+yNnOs5KSvgAAAABJRU5ErkJggg==');
+  cursor: col-resize;
+} */
+
+.gutter.gutter-horizontal {
+  cursor: col-resize;
+}
