@@ -2,6 +2,7 @@ import { ReactChild, useRef, useState, useEffect } from 'react';
 import { WebLayoutsBaseHeader } from '@nuldrive/web/layouts/base/header';
 import styles from './WebLayoutsBaseUi.module.css';
 import { WebLayoutsBasePanels } from '@nuldrive/web/layouts/base/panels';
+import { WebLayoutsBaseFooter } from '@nuldrive/web/layouts/base/footer';
 
 /* eslint-disable-next-line */
 export interface WebLayoutsBaseUiProps {
@@ -22,7 +23,7 @@ export function WebLayoutsBaseUi(props: WebLayoutsBaseUiProps) {
       <WebLayoutsBaseHeader />
       <WebLayoutsBasePanels children={children} />
       <div className="text-sm h-footer border-t-[1px] border-borderColor flex items-center">
-        Hello World
+        <WebLayoutsBaseFooter />
       </div>
     </main>
   );
