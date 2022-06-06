@@ -22,9 +22,7 @@ export function WebLayoutsBaseUi(props: WebLayoutsBaseUiProps) {
     <main className="flex flex-col h-screen w-screen overflow-hidden">
       <WebLayoutsBaseHeader />
       <WebLayoutsBasePanels children={children} />
-      <div className="text-sm h-footer border-t-[1px] border-borderColor flex items-center">
-        <WebLayoutsBaseFooter />
-      </div>
+      <WebLayoutsBaseFooter />
     </main>
   );
 }

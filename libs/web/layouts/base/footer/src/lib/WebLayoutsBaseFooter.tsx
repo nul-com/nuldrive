@@ -4,7 +4,11 @@ import styles from './WebLayoutsBaseFooter.module.css';
 export interface WebLayoutsBaseFooterProps {}
 
 export function WebLayoutsBaseFooter(props: WebLayoutsBaseFooterProps) {
-  return <div className="">Hello World</div>;
+  return (
+    <div className="text-sm h-footer border-t-[1px] border-borderColor flex items-center">
+      <div className="">Hello World</div>
+    </div>
+  );
 }
 
 export default WebLayoutsBaseFooter;
