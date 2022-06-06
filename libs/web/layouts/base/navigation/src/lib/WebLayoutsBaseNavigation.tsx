@@ -1,5 +1,5 @@
 import { Bolt, Folder, User, Times } from '@nuldrive/web/util/icons';
-import { WebUtilSearch } from '@nuldrive/web/util/search';
+import { WebUtilButtonsSearch } from '@nuldrive/web/util/buttons/search';
 import Link from 'next/link';
 
 import styles from './WebLayoutsBaseNavigation.module.css';
@@ -48,7 +48,7 @@ export function WebLayoutsBaseNavigation(props: WebLayoutsBaseNavigationProps) {
         </ul>
         <div className="flex justify-between items-center">
           <div className="w-[80%] ml-3">
-            <WebUtilSearch />
+            <WebUtilButtonsSearch />
           </div>
           <span
             className="w-6 cursor-pointer text-titleColor mr-1"
