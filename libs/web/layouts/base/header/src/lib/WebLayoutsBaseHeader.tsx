@@ -14,8 +14,8 @@ export interface WebLayoutsBaseHeaderProps {}
 export function WebLayoutsBaseHeader(props: WebLayoutsBaseHeaderProps) {
   const [navMenuOpen, setNavMenuOpen] = useState(false);
   return (
-    <header className="grid w-screen bottom-0 left-0 z-40 bg-primaryColor md:top-0 border-b-[1px] border-borderColor">
-      <nav className="max-w-header ml-6 mr-5 flex justify-between items-center text-black">
+    <header className="grid h-header w-screen bottom-0 left-0 z-40 bg-primaryColor md:top-0 border-b-[1px] border-borderColor">
+      <nav className="max-w-header ml-6 mr-5 flex h-header justify-between items-center text-black">
         <Link href="/">
           <div className="cursor-pointer flex gap-1.5 items-center">
             <div className="w-7.5">
