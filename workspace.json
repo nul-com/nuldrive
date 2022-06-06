@@ -5,6 +5,7 @@
     "web-e2e": "apps/web-e2e",
     "web-layouts-base-footer": "libs/web/layouts/base/footer",
     "web-layouts-base-header": "libs/web/layouts/base/header",
+    "web-layouts-base-menu": "libs/web/layouts/base/menu",
     "web-layouts-base-navigation": "libs/web/layouts/base/navigation",
     "web-layouts-base-panels": "libs/web/layouts/base/panels",
     "web-layouts-base-search": "libs/web/layouts/base/search",
