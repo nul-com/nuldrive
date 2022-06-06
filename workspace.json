@@ -10,7 +10,6 @@
     "web-layouts-base-panels": "libs/web/layouts/base/panels",
     "web-layouts-base-search": "libs/web/layouts/base/search",
     "web-layouts-base-sidebar": "libs/web/layouts/base/sidebar",
-    "web-layouts-base-tabs": "libs/web/layouts/base/tabs",
     "web-layouts-base-ui": "libs/web/layouts/base/ui",
     "web-util-avatar": "libs/web/util/avatar",
     "web-util-buttons-bucketSelect": "libs/web/util/buttons/bucketSelect",
