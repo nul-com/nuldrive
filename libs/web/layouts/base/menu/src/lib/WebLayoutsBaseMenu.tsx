@@ -1,5 +1,6 @@
 import { WebUtilAvatar } from '@nuldrive/web/util/avatar';
 import { WebUtilButtonsBucketSelect } from '@nuldrive/web/util/buttons/bucketSelect';
+import { WebUtilTabs } from '@nuldrive/web/util/tabs';
 
 import styles from './WebLayoutsBaseMenu.module.css';
 
@@ -11,9 +12,7 @@ export function WebLayoutsBaseMenu(props: WebLayoutsBaseMenuProps) {
     <div className="border-b-border h-tabs">
       <div className="h-full flex">
         <WebUtilButtonsBucketSelect />
-        <div className="grow w-auto">
-          <div className="">Hello world</div>
-        </div>
+        <WebUtilTabs />
         <div className="w-[227px] flex-none border-l-border border-borderColor">
           Hello world
         </div>
