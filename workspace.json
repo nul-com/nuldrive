@@ -12,7 +12,6 @@
     "web-layouts-base-tabs": "libs/web/layouts/base/tabs",
     "web-layouts-base-ui": "libs/web/layouts/base/ui",
     "web-util-buttons-sync": "libs/web/util/buttons/sync",
-    "web-util-icons": "libs/web/util/icons",
-    "web-util-search": "libs/web/util/search"
+    "web-util-icons": "libs/web/util/icons"
   }
 }
