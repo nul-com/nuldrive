@@ -13,6 +13,7 @@ export interface WebLayoutsBaseUiProps {
 export function WebLayoutsBaseUi(props: WebLayoutsBaseUiProps) {
   const { children } = props;
   const [panelSizes, setPanelSizes] = useState<any>();
+  const allotmentRef = useRef<any>();
 
   useEffect(() => {
     const localPanelSizes = localStorage.getItem('panelSizes')!;
@@ -24,9 +25,10 @@ export function WebLayoutsBaseUi(props: WebLayoutsBaseUiProps) {
       {panelSizes && (
         <div className="h-full">
           <Allotment
-            onChange={(event) =>
-              localStorage.setItem('panelSizes', JSON.stringify(event))
-            }
+            onChange={(event) => {
+              localStorage.setItem('panelSizes', JSON.stringify(event));
+            }}
+            ref={allotmentRef}
             defaultSizes={panelSizes}
             proportionalLayout={false}
           >
