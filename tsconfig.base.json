@@ -15,6 +15,9 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
+      "@nuldrive/web/layouts/base/footer": [
+        "libs/web/layouts/base/footer/src/index.ts"
+      ],
       "@nuldrive/web/layouts/base/header": [
         "libs/web/layouts/base/header/src/index.ts"
       ],
