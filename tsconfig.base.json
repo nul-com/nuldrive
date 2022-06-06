@@ -41,6 +41,9 @@
         "libs/web/layouts/base/ui/src/index.ts"
       ],
       "@nuldrive/web/util/avatar": ["libs/web/util/avatar/src/index.ts"],
+      "@nuldrive/web/util/buttons/bucketSelect": [
+        "libs/web/util/buttons/bucketSelect/src/index.ts"
+      ],
       "@nuldrive/web/util/buttons/invite": [
         "libs/web/util/buttons/invite/src/index.ts"
       ],

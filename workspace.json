@@ -12,6 +12,7 @@
     "web-layouts-base-tabs": "libs/web/layouts/base/tabs",
     "web-layouts-base-ui": "libs/web/layouts/base/ui",
     "web-util-avatar": "libs/web/util/avatar",
+    "web-util-buttons-bucketSelect": "libs/web/util/buttons/bucketSelect",
     "web-util-buttons-invite": "libs/web/util/buttons/invite",
     "web-util-buttons-search": "libs/web/util/buttons/search",
     "web-util-buttons-sync": "libs/web/util/buttons/sync",

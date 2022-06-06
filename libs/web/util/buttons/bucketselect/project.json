@@ -1,0 +1,25 @@
+{
+  "root": "libs/web/util/buttons/bucketSelect",
+  "sourceRoot": "libs/web/util/buttons/bucketSelect/src",
+  "projectType": "library",
+  "tags": [],
+  "targets": {
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "outputs": ["{options.outputFile}"],
+      "options": {
+        "lintFilePatterns": [
+          "libs/web/util/buttons/bucketSelect/**/*.{ts,tsx,js,jsx}"
+        ]
+      }
+    },
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "outputs": ["coverage/libs/web/util/buttons/bucketSelect"],
+      "options": {
+        "jestConfig": "libs/web/util/buttons/bucketSelect/jest.config.js",
+        "passWithNoTests": true
+      }
+    }
+  }
+}
