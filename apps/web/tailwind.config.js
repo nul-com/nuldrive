@@ -1,6 +1,7 @@
 // apps/app1/tailwind.config.js
 const { createGlobPatternsForDependencies } = require('@nrwl/react/tailwind');
 const { join } = require('path');
+const defaultTheme = require('tailwindcss/defaultTheme');
 
 module.exports = {
   content: [
@@ -9,6 +10,9 @@ module.exports = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        sans: ['Proppins, sans-serif', ...defaultTheme.fontFamily.sans],
+      },
       spacing: {
         header: '47px',
         footer: '24px',
