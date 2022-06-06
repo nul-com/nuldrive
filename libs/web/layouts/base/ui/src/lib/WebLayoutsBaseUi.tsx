@@ -2,35 +2,46 @@ import { ReactChild, useRef, useState, useEffect } from 'react';
 import { WebLayoutsBaseHeader } from '@nuldrive/web/layouts/base/header';
 import styles from './WebLayoutsBaseUi.module.css';
 import { WebUtilSearch } from '@nuldrive/web/util/search';
+import { Allotment } from 'allotment';
+import 'allotment/dist/style.css';
 
 /* eslint-disable-next-line */
 export interface WebLayoutsBaseUiProps {
   children: ReactChild;
 }
 
-type SplitType = {
-  split: {
-    setSizes: (number: number[]) => void;
-  };
-};
-
 export function WebLayoutsBaseUi(props: WebLayoutsBaseUiProps) {
   const { children } = props;
-  const splitRef = useRef<any>(undefined);
-  const [sizes, setSizes] = useState<any>([5, 90, 5]);
-  useEffect(() => {
-    const items = JSON.parse(localStorage.getItem('sizes')!);
-    if (items) {
-      setSizes(items);
-    }
-  }, []);
+  const [panelSizes, setPanelSizes] = useState<any>();
 
-  let maxW = '40px';
+  useEffect(() => {
+    const localPanelSizes = localStorage.getItem('panelSizes')!;
+    setPanelSizes(JSON.parse(localPanelSizes));
+  }, []);
   return (
     <main className="flex flex-col h-screen w-screen overflow-hidden">
       <WebLayoutsBaseHeader />
-      <div className="h-full">
-      </div>
+      {panelSizes && (
+        <div className="h-full">
+          <Allotment
+            onChange={(event) =>
+              localStorage.setItem('panelSizes', JSON.stringify(event))
+            }
+            defaultSizes={panelSizes}
+            proportionalLayout={false}
+          >
+            <Allotment.Pane minSize={71} maxSize={380}>
+              <div>Pane 1</div>
+            </Allotment.Pane>
+            <Allotment.Pane>
+              <div>Pane 1</div>
+            </Allotment.Pane>
+            <Allotment.Pane minSize={48} maxSize={380} preferredSize={'50px'}>
+              <div>Pane 1</div>
+            </Allotment.Pane>
+          </Allotment>
+        </div>
+      )}
       <div className="text-sm h-footer border-t-[1px] border-borderColor flex items-center">
         Hello World
       </div>
