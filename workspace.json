@@ -7,6 +7,7 @@
     "web-layouts-base-header": "libs/web/layouts/base/header",
     "web-layouts-base-navigation": "libs/web/layouts/base/navigation",
     "web-layouts-base-panels": "libs/web/layouts/base/panels",
+    "web-layouts-base-search": "libs/web/layouts/base/search",
     "web-layouts-base-tabs": "libs/web/layouts/base/tabs",
     "web-layouts-base-ui": "libs/web/layouts/base/ui",
     "web-util-icons": "libs/web/util/icons",
