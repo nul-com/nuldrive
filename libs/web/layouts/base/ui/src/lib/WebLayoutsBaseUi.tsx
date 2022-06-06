@@ -3,7 +3,7 @@ import { WebLayoutsBaseHeader } from '@nuldrive/web/layouts/base/header';
 import styles from './WebLayoutsBaseUi.module.css';
 import { WebLayoutsBasePanels } from '@nuldrive/web/layouts/base/panels';
 import { WebLayoutsBaseFooter } from '@nuldrive/web/layouts/base/footer';
-import { WebLayoutsBaseTabs } from '@nuldrive/web/layouts/base/tabs';
+import { WebLayoutsBaseMenu } from '@nuldrive/web/layouts/base/menu';
 
 /* eslint-disable-next-line */
 export interface WebLayoutsBaseUiProps {
@@ -22,7 +22,7 @@ export function WebLayoutsBaseUi(props: WebLayoutsBaseUiProps) {
   return (
     <main className="flex flex-col h-screen w-screen overflow-hidden">
       <WebLayoutsBaseHeader />
-      <WebLayoutsBaseTabs />
+      <WebLayoutsBaseMenu />
       <WebLayoutsBasePanels children={children} />
       <WebLayoutsBaseFooter />
     </main>
