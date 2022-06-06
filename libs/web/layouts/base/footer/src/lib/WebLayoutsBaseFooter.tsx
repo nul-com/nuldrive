@@ -4,11 +4,7 @@ import styles from './WebLayoutsBaseFooter.module.css';
 export interface WebLayoutsBaseFooterProps {}
 
 export function WebLayoutsBaseFooter(props: WebLayoutsBaseFooterProps) {
-  return (
-    <div className={styles['container']}>
-      <h1>Welcome to WebLayoutsBaseFooter!</h1>
-    </div>
-  );
+  return <div className="">Hello World</div>;
 }
 
 export default WebLayoutsBaseFooter;
