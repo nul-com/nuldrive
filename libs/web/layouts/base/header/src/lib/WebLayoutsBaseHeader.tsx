@@ -6,6 +6,7 @@ import { CloudUpload } from '@nuldrive/web/util/icons';
 import { Apps } from '@nuldrive/web/util/icons';
 import { WebLayoutsBaseNavigation } from '@nuldrive/web/layouts/base/navigation';
 import { WebUtilButtonsSync } from '@nuldrive/web/util/buttons/sync';
+import { WebUtilButtonsInvite } from '@nuldrive/web/util/buttons/invite';
 
 import styles from './WebLayoutsBaseHeader.module.css';
 
@@ -39,8 +40,9 @@ export function WebLayoutsBaseHeader(props: WebLayoutsBaseHeaderProps) {
           <div className="w-5 md:hidden" onClick={() => setNavMenuOpen(true)}>
             <Apps />
           </div>
-          <div className="hidden md:block">
+          <div className="hidden md:flex items-center gap-[15px]">
             <WebUtilButtonsSync />
+            <WebUtilButtonsInvite />
           </div>
         </div>
       </nav>
