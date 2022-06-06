@@ -15,7 +15,7 @@ export function WebLayoutsBasePanels(props: WebLayoutsBasePanelsProps) {
   const allotmentRef = useRef<any>();
 
   useEffect(() => {
-    const localPanelSizes = localStorage.getItem('panelSizes')!;
+    const localPanelSizes = localStorage.getItem('panelSizes')! || '[71, 2000, 48]';
     setPanelSizes(JSON.parse(localPanelSizes));
   }, []);
   return (
