@@ -18,7 +18,7 @@ export interface WebLayoutsBaseFooterProps {}
 
 export function WebLayoutsBaseFooter(props: WebLayoutsBaseFooterProps) {
   return (
-    <div className="text-sm h-footer border-t-[1px] border-borderColor flex items-center overflow-hidden">
+    <div className="hidden md:flex text-sm h-footer border-t-[1px] border-borderColor items-center overflow-hidden">
       <div className="flex justify-between items-center w-full px-[16px] text-[#6B6B6B]">
         <div className="flex gap-[15px] items-center">
           <Swatchbook width={13} fill="#6B6B6B" className="cursor-pointer" />
