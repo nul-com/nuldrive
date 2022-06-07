@@ -9,7 +9,7 @@ export interface WebLayoutsBaseMenuProps {}
 
 export function WebLayoutsBaseMenu(props: WebLayoutsBaseMenuProps) {
   return (
-    <div className="border-b-border h-tabs">
+    <div className="h-menu">
       <div className="h-full flex">
         <WebUtilButtonsBucketSelect />
         <WebUtilTabs />
