@@ -27,3 +27,5 @@ export * from './lib/graduation-cap/graduation-cap';
 export * from './lib/cookie/cookie';
 export * from './lib/terminal/terminal';
 export * from './lib/swatchbook/swatchbook';
+export * from './lib/lock/lock';
+export * from './lib/lock-open/lock-open';
