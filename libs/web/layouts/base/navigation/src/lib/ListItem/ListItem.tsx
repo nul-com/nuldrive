@@ -1,13 +1,30 @@
-import styles from './ListItem.module.css';
+import { motion } from 'framer-motion';
+import { ReactChild } from 'react';
+import { ListHover } from '@nuldrive/web/layouts/base/navigation';
+
+import styles from './menuitem.module.css';
 
 /* eslint-disable-next-line */
-export interface ListItemProps {}
+export interface MenuItemProps {
+  onHoverStart?: any;
+  onHoverEnd?: any;
+  onClick?: any;
+  active?: any;
+  children?: ReactChild;
+}
 
-export function ListItem(props: ListItemProps) {
+export function ListItem(props: MenuItemProps) {
+  const { onHoverStart, onHoverEnd, onClick, active, children } = props;
   return (
-    <div className={styles['container']}>
-      <h1>Welcome to ListItem!</h1>
-    </div>
+    <motion.li
+      className="relative"
+      onHoverStart={onHoverStart}
+      onHoverEnd={onHoverEnd}
+      onClick={onClick}
+    >
+      {children}
+      {active && <ListHover />}
+    </motion.li>
   );
 }
 
