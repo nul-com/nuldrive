@@ -17,3 +17,4 @@ export * from './lib/angle-down/angle-down';
 export * from './lib/plus/plus';
 export * from './lib/ellipsis-h/ellipsis-h';
 export * from './lib/file/file';
+export * from './lib/eye/eye';
