@@ -10,7 +10,7 @@ export function WebUtilButtonsBucketSelect(
   props: WebUtilButtonsBucketSelectProps
 ) {
   return (
-    <div className="w-[256px] flex-none h-full border-r-border border-borderColor">
+    <div className="w-auto md:w-[256px] flex-none h-full border-r-border border-borderColor">
       <div className="flex justify-between h-full pl-[14px] pr-[7px] items-center">
         <div className="flex gap-[9px] justify-center items-center">
           <div className="h-[26px]">
@@ -23,7 +23,7 @@ export function WebUtilButtonsBucketSelect(
             </div>
           </button>
         </div>
-        <div className="flex gap-[5px] text-[11px]">
+        <div className="hidden md:flex gap-[5px] text-[11px]">
           <button className="bg-[#EDEDED] rounded-[4px]">
             <p className="px-[7px] py-[2px] font-semibold">New</p>
           </button>
