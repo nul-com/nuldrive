@@ -24,7 +24,7 @@ export function WebLayoutsBasePanels(props: WebLayoutsBasePanelsProps) {
   return (
     <Fragment>
       {panelSizes && (
-        <div className="h-full border-t-border border-borderColor z-50">
+        <div className="hidden md:block md:h-full md:border-t-border md:border-borderColor md:z-50">
           <Allotment
             onChange={(event: number[]) => {
               localStorage.setItem('panelSizes', JSON.stringify(event));
