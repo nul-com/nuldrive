@@ -15,25 +15,85 @@ const menuItems = [
     id: 0,
     href: '/quick',
     name: 'Quick',
-    icon: Bolt({ width: '12', fill: '#6B6B6B' }),
+    icon: Bolt({ width: '17', fill: '#6B6B6B' }),
   },
   {
     id: 1,
     href: '/about',
-    name: 'About',
-    icon: Bolt({ width: '12', fill: '#6B6B6B' }),
+    name: 'Collections',
+    icon: Folder({ width: '17', fill: '#6B6B6B' }),
   },
   {
     id: 2,
     href: '/work',
-    name: 'Work',
-    icon: Bolt({ width: '12', fill: '#6B6B6B' }),
+    name: 'Photos',
+    icon: Bolt({ width: '17', fill: '#6B6B6B' }),
   },
   {
     id: 3,
     href: '/blog',
-    name: 'Blog',
-    icon: Bolt({ width: '12', fill: '#6B6B6B' }),
+    name: 'Share',
+    icon: Bolt({ width: '17', fill: '#6B6B6B' }),
+  },
+  {
+    id: 4,
+    href: '/blog',
+    name: 'Web',
+    icon: Bolt({ width: '17', fill: '#6B6B6B' }),
+  },
+  {
+    id: 5,
+    href: '/blog',
+    name: 'APIs',
+    icon: Bolt({ width: '17', fill: '#6B6B6B' }),
+  },
+  {
+    id: 6,
+    href: '/blog',
+    name: 'Environments',
+    icon: Bolt({ width: '17', fill: '#6B6B6B' }),
+  },
+  {
+    id: 7,
+    href: '/blog',
+    name: 'Mock Servers',
+    icon: Bolt({ width: '17', fill: '#6B6B6B' }),
+  },
+  {
+    id: 8,
+    href: '/blog',
+    name: 'Monitors',
+    icon: Bolt({ width: '17', fill: '#6B6B6B' }),
+  },
+  {
+    id: 9,
+    href: '/blog',
+    name: 'Statistics',
+    icon: Bolt({ width: '17', fill: '#6B6B6B' }),
+  },
+  {
+    id: 10,
+    href: '/blog',
+    name: 'Flows',
+    icon: Bolt({ width: '17', fill: '#6B6B6B' }),
+  },
+  {
+    id: 11,
+    href: '/blog',
+    name: 'Quick Share',
+    icon: Bolt({ width: '17', fill: '#6B6B6B' }),
+  },
+  {
+    id: 12,
+    href: '/blog',
+    name: 'Speed Test',
+    icon: Bolt({ width: '17', fill: '#6B6B6B' }),
+  },
+  {
+    id: 13,
+    href: '/blog',
+    name: 'History',
+    icon: Bolt({ width: '17', fill: '#6B6B6B' }),
   },
 ];
 
@@ -86,7 +146,7 @@ export function ListUi(props: ListUiProps) {
 
   return (
     <AnimateSharedLayout>
-      <ul className="grid grid-cols-3 text-black md:flex md:flex-col  md:fill-[#6B6B6B] md:text-[#6B6B6B] md:w-full">
+      <ul className="grid grid-cols-3 gap-x-8 gap-y-4 text-black md:flex md:flex-col md:gap-0 md:items-center md:fill-[#6B6B6B] md:text-[#6B6B6B] md:w-full">
         {menuItems.map(({ href, name, id, icon }) => (
           <ListItem
             key={id}
@@ -96,16 +156,12 @@ export function ListUi(props: ListUiProps) {
             onClick={handleOnClicked}
           >
             <Link href={href}>
-              <div className="realtive items-center justify-center text-sm font-medium cursor-pointer py-4">
-                <div className="flex flex-col items-center justify-center z-20">
-                  <span className=" z-20">{icon}</span>
-                  <p className="md:text-[10px] z-20">{name}</p>
-                </div>
-              </div>
-              {/* <p className="relative z-20 cursor-pointer px-4 lg:px-6">
-                <div className="w-6 h-6 fill-black">{icon}</div>
-                {name}
-              </p> */}
+              <button className="flex flex-col items-center justify-center w-[71px] h-[57px]">
+                <span className="z-20">{icon}</span>
+                <p className="z-20 text-sm md:text-[10px] text-[#6B6B6B]">
+                  {name}
+                </p>
+              </button>
             </Link>
           </ListItem>
         ))}
