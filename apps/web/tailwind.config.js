@@ -16,7 +16,7 @@ module.exports = {
       spacing: {
         header: '47px',
         footer: '24px',
-        menu: '40px',
+        menu: '35px',
       },
       width: {
         7.5: '1.8rem',
