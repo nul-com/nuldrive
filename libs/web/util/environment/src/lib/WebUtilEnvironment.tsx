@@ -7,7 +7,7 @@ export interface WebUtilEnvironmentProps {}
 
 export function WebUtilEnvironment(props: WebUtilEnvironmentProps) {
   return (
-    <div className="w-[227px] flex-none border-l-border border-borderColor">
+    <div className="w-[227px] flex-none border-l-border border-borderColor hidden lg:block">
       <div className="flex h-full justify-between items-center gap-[23px] pl-[21px] pr-[14px]">
         <div className="flex gap-[34px] cursor-pointer">
           <p className="text-[12px] text-[#6B6B6B]">No Environment</p>
