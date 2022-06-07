@@ -1,7 +1,8 @@
 import { useEffect, useState, useRef, Fragment, ReactChild } from 'react';
 import { Allotment } from 'allotment';
-import 'allotment/dist/style.css';
+import { WebLayoutsBasePanel1 } from '@nuldrive/web/layouts/base/panel1';
 
+import 'allotment/dist/style.css';
 import styles from './WebLayoutsBasePanels.module.css';
 
 /* eslint-disable-next-line */
@@ -34,7 +35,7 @@ export function WebLayoutsBasePanels(props: WebLayoutsBasePanelsProps) {
             proportionalLayout={false}
           >
             <Allotment.Pane minSize={71} maxSize={380}>
-              <div>Pane 1</div>
+              <WebLayoutsBasePanel1 />
             </Allotment.Pane>
             <Allotment.Pane>{children}</Allotment.Pane>
             <Allotment.Pane minSize={48} maxSize={380} preferredSize={'50px'}>
