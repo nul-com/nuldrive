@@ -12,17 +12,8 @@ export interface WebLayoutsBasePanelsProps {
 export function WebLayoutsBasePanels(props: WebLayoutsBasePanelsProps) {
   const { children } = props;
   const [panelSizes, setPanelSizes] = useState<any>();
-  const collapsed: boolean[] = [false, false, false];
+  let panelWidth: number[] = [];
   const allotmentRef = useRef<any>();
-  const collapseWidth: number[] = [300, Infinity, 340];
-  let cycleInterval = 0;
-
-  const collapseHandler = (event: any) => {
-    cycleInterval = 0;
-    for (let i = 0; i < collapseWidth.length; i += 10) {
-      collapsed[i] = event[i] < collapseWidth[i] ? true : false;
-    }
-  };
 
   useEffect(() => {
     const localPanelSizes =
@@ -36,10 +27,7 @@ export function WebLayoutsBasePanels(props: WebLayoutsBasePanelsProps) {
           <Allotment
             onChange={(event: number[]) => {
               localStorage.setItem('panelSizes', JSON.stringify(event));
-              cycleInterval += 1;
-              if (cycleInterval == 10) {
-                collapseHandler(event);
-              }
+              panelWidth = event;
             }}
             ref={allotmentRef}
             defaultSizes={panelSizes}
