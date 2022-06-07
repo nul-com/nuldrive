@@ -1,9 +1,10 @@
+import { SVGProps } from "react"
 import styles from './bolt.module.css';
 
 /* eslint-disable-next-line */
 export interface BoltProps {}
 
-export function Bolt(props: any) {
+export function Bolt(props: SVGProps<SVGSVGElement>) {
   return (
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" {...props}>
       <path
