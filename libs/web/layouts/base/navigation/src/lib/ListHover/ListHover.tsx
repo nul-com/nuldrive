@@ -23,10 +23,10 @@ export function ListHover(props: MenuHoverProps) {
       initial={false}
       transition={spring}
       layoutId="hover"
-      className="absolute left-0 right-0 rounded-md bg-[#D9D9D9] z-10"
+      className="absolute left-0 right-0 rounded-[11px] md:bg-[#D9D9D9] z-10 cursor-pointer"
       style={{
-        top: -7,
-        bottom: -7,
+        top: 3,
+        bottom: 7,
         left: 0,
         right: 0,
       }}
