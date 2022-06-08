@@ -66,7 +66,6 @@
       "@nuldrive/web/util/imageLoader": [
         "libs/web/util/imageLoader/src/index.ts"
       ],
-      "@nuldrive/web/util/resize": ["libs/web/util/resize/src/index.ts"],
       "@nuldrive/web/util/tabs": ["libs/web/util/tabs/src/index.ts"]
     }
   },

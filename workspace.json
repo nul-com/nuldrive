@@ -21,7 +21,6 @@
     "web-util-environment": "libs/web/util/environment",
     "web-util-icons": "libs/web/util/icons",
     "web-util-imageLoader": "libs/web/util/imageLoader",
-    "web-util-resize": "libs/web/util/resize",
     "web-util-tabs": "libs/web/util/tabs"
   }
 }
