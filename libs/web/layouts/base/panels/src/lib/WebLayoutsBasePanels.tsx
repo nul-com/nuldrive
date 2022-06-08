@@ -13,8 +13,9 @@ export interface WebLayoutsBasePanelsProps {
 export function WebLayoutsBasePanels(props: WebLayoutsBasePanelsProps) {
   const { children } = props;
   const [panelSizes, setPanelSizes] = useState<any>();
-  let panelWidth: number[] = [];
+  const [panelWidth, setPanelWidth] = useState<number[]>();
   const allotmentRef = useRef<any>();
+  let memoryHandler = 0;
 
   useEffect(() => {
     const localPanelSizes =
@@ -28,14 +29,15 @@ export function WebLayoutsBasePanels(props: WebLayoutsBasePanelsProps) {
           <Allotment
             onChange={(event: number[]) => {
               localStorage.setItem('panelSizes', JSON.stringify(event));
-              panelWidth = event;
+              if (memoryHandler == 10) setPanelWidth(event);
+              memoryHandler++;
             }}
             ref={allotmentRef}
             defaultSizes={panelSizes}
             proportionalLayout={false}
           >
             <Allotment.Pane minSize={71} maxSize={380}>
-              <WebLayoutsBasePanel1 />
+              <WebLayoutsBasePanel1 size={panelWidth && panelWidth[0]} />
             </Allotment.Pane>
             <Allotment.Pane>{children}</Allotment.Pane>
             <Allotment.Pane minSize={48} maxSize={380} preferredSize={'50px'}>
