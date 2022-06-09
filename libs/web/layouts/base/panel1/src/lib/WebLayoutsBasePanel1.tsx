@@ -1,62 +1,42 @@
 import { WebLayoutsBaseNavigation } from '@nuldrive/web/layouts/base/navigation';
 import { WebUtilButtonsSearch } from '@nuldrive/web/util/buttons/search';
 import { useEffect, useRef, useState } from 'react';
+import { webUtilResize } from '@nuldrive/web/util/resize';
+import { Search } from '@nuldrive/web/util/icons';
 
 import styles from './WebLayoutsBasePanel1.module.css';
 
 /* eslint-disable-next-line */
-export interface WebLayoutsBasePanel1Props {
-  size: any;
-}
+export interface WebLayoutsBasePanel1Props {}
 
 export function WebLayoutsBasePanel1(props: WebLayoutsBasePanel1Props) {
-  const { size } = props;
-  const [searchCollapsed, setSearchCollapsed] = useState<boolean>(
-    size < 250 ? true : false
-  );
-  let divRef = useRef<any>();
-
-  const useContainerDimensions = (myRef: any) => {
-    const getDimensions = () => ({
-      width: myRef?.current?.clientWidth,
-      height: myRef?.current?.clientHeight,
-    });
-
-    const [dimensions, setDimensions] = useState({ width: 0, height: 0 });
-
-    useEffect(() => {
-      const handleResize = () => {
-        setDimensions(getDimensions());
-      };
-
-      if (myRef.current) {
-        setDimensions(getDimensions());
-      }
-
-      window.addEventListener('resize', handleResize);
-
-      return () => {
-        window.removeEventListener('resize', handleResize);
-      };
-    }, [myRef]);
-
-    return dimensions;
-  };
-  const { width, height } = useContainerDimensions(divRef);
-  console.log(width);
+  const divRef = useRef<any>();
+  const size: any = webUtilResize(divRef, [
+    { 0: 97 }, // xsmall
+    { 1: 160 }, // small
+    { 2: 190 }, // medium
+    { 3: 245 }, // large
+    { 4: 250 }, // xlarge
+    { 5: 1000 }, // xxlarge
+  ]);
 
   return (
-    <div
-      className="hidden md:flex md:h-full"
-      onClick={() => console.log(size)}
-      ref={divRef}
-    >
+    <div className="hidden md:flex md:h-full" ref={divRef}>
       <div className="">
-        <WebLayoutsBaseNavigation />
+        <WebLayoutsBaseNavigation size={size} />
       </div>
-      <div className="h-[34px] w-full px-3 mt-[13px]">
-        <WebUtilButtonsSearch />
-      </div>
+      {size != 0 ? (
+        <div className="h-[34px] w-full px-3 mt-[13px]">
+          <WebUtilButtonsSearch size={size} />
+        </div>
+      ) : (
+        <div className="origin-top-left rotate-90 translate-x-[28px] translate-y-[14px]">
+          <div className="flex gap-[9px]">
+            <Search width="16" fill="#8494AA" />
+            <p className="text-[#8494AA] font-medium text-[14px]">Search</p>
+          </div>
+        </div>
+      )}
     </div>
   );
 }
