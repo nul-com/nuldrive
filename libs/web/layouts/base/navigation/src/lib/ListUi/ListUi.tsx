@@ -8,7 +8,9 @@ import { Bolt, Folder, User, Times } from '@nuldrive/web/util/icons';
 import styles from './list.module.css';
 
 /* eslint-disable-next-line */
-export interface ListUiProps {}
+export interface ListUiProps {
+  size?: any;
+}
 
 const menuItems = [
   {
@@ -102,6 +104,7 @@ function getActiveIndex(pathname: any) {
 }
 
 export function ListUi(props: ListUiProps) {
+  const { size } = props;
   const { route } = useRouter();
   const [activeHoverIndex, setActiveHoverIndex] = useState<any>(() =>
     getActiveIndex(route)
@@ -156,11 +159,17 @@ export function ListUi(props: ListUiProps) {
             onClick={handleOnClicked}
           >
             <Link href={href}>
-              <button className="flex flex-col items-center justify-center w-[71px] h-[57px]">
+              <button
+                className={`flex flex-col items-center justify-center ${
+                  size < 3 ? 'list_sm' : 'list_md'
+                }`}
+              >
                 <span className="z-20">{icon}</span>
-                <p className="z-20 text-sm md:text-[10px] text-[#6B6B6B]">
-                  {name}
-                </p>
+                {size >= 3 && (
+                  <p className="z-20 text-sm md:text-[10px] text-[#6B6B6B]">
+                    {name}
+                  </p>
+                )}
               </button>
             </Link>
           </ListItem>
