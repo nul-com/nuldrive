@@ -5,3 +5,13 @@
  * .container {
  * }
 */
+
+.list_sm {
+  width: 38px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.list_md {
+  width: 71px;
+}
