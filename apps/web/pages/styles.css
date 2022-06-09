@@ -16,6 +16,17 @@
   background: transparent; /*Optional: just make scrollbar invisible*/
 }
 
+.list_sm {
+  width: 38px;
+  height: 50px;
+}
+
+.list_md {
+  height: 57px;
+  width: 71px;
+}
+
+
 .grid-template-rows {
   grid-template-rows: theme('spacing.header') auto theme('spacing.footer');
   grid-template-columns: auto;
