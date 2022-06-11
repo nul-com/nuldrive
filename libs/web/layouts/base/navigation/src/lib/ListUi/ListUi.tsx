@@ -166,10 +166,13 @@ export function ListUi(props: ListUiProps) {
               >
                 <span className="z-20">{icon}</span>
                 {size >= 3 && (
-                  <p className="z-20 text-sm md:text-[10px] text-[#6B6B6B]">
+                  <p className="z-20 text-sm w-max md:text-[10px] text-[#6B6B6B]">
                     {name}
                   </p>
                 )}
+                <p className="z-20 text-sm w-max md:hidden">
+                  {name}
+                </p>
               </button>
             </Link>
           </ListItem>
