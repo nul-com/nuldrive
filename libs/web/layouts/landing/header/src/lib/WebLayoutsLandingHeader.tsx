@@ -78,8 +78,8 @@ export function WebLayoutsLandingHeader(props: WebLayoutsLandingHeaderProps) {
                 <Link href="/pricing">Pricing</Link>
               </li>
               {/* 1st level: hover */}
-              <Dropdown title="Support">
-                {/* 2nd level: hover */}
+              {/* <Dropdown title="Support">
+                2nd level: hover
                 <li className="font-medium text-sm text-gray-400 hover:text-purple-600 flex py-2 px-4 leading-tight">
                   <Link href="/contact">Contact us</Link>
                 </li>
@@ -89,7 +89,7 @@ export function WebLayoutsLandingHeader(props: WebLayoutsLandingHeaderProps) {
                 <li className="font-medium text-sm text-gray-400 hover:text-purple-600 flex py-2 px-4 leading-tight">
                   <Link href="/404">404</Link>
                 </li>
-              </Dropdown>
+              </Dropdown> */}
             </ul>
 
             {/* Desktop sign in links */}
