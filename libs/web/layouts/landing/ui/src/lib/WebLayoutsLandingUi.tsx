@@ -11,9 +11,9 @@ export interface WebLayoutsLandingUiProps {
 export function WebLayoutsLandingUi(props: WebLayoutsLandingUiProps) {
   const { children } = props;
   return (
-    <Fragment>
+    <div className="overflow-hidden">
       <WebLayoutsLandingHeader />
-    </Fragment>
+    </div>
   );
 }
 
