@@ -1,6 +1,7 @@
 import { useEffect, useState, useRef, Fragment, ReactChild } from 'react';
 import { Allotment } from 'allotment';
 import { WebLayoutsBasePanel1 } from '@nuldrive/web/layouts/base/panel1';
+import { WebLayoutsBaseSidebar } from '@nuldrive/web/layouts/base/sidebar';
 
 import 'allotment/dist/style.css';
 import styles from './WebLayoutsBasePanels.module.css';
@@ -26,7 +27,7 @@ export function WebLayoutsBasePanels(props: WebLayoutsBasePanelsProps) {
           <Allotment
             onChange={(event: number[]) => {
               localStorage.setItem('panelSizes', JSON.stringify(event));
-              // console.log(event);
+              console.log(event);
             }}
             defaultSizes={panelSizes}
             proportionalLayout={false}
@@ -35,8 +36,8 @@ export function WebLayoutsBasePanels(props: WebLayoutsBasePanelsProps) {
               <WebLayoutsBasePanel1 />
             </Allotment.Pane>
             <Allotment.Pane>{children}</Allotment.Pane>
-            <Allotment.Pane minSize={50} maxSize={380} preferredSize={353}>
-              <div>Pane 1</div>
+            <Allotment.Pane minSize={50} maxSize={380} preferredSize={335}>
+              <WebLayoutsBaseSidebar />
             </Allotment.Pane>
           </Allotment>
         </div>
