@@ -29,3 +29,4 @@ export * from './lib/terminal/terminal';
 export * from './lib/swatchbook/swatchbook';
 export * from './lib/lock/lock';
 export * from './lib/lock-open/lock-open';
+export * from './lib/sort/sort';
