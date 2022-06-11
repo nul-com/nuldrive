@@ -42,6 +42,10 @@ module.exports = {
         DEFAULT: '1px',
         border: '1px',
       },
+      gridTemplateColumns: {
+        // Simple 16 column grid
+        sidebar: 'fit-content(100%) auto',
+      },
     },
   },
   plugins: [],
