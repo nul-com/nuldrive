@@ -1,13 +1,19 @@
+import { Fragment, ReactChild } from 'react';
+import { WebLayoutsLandingHeader } from '@nuldrive/web/layouts/landing/header';
+
 import styles from './WebLayoutsLandingUi.module.css';
 
 /* eslint-disable-next-line */
-export interface WebLayoutsLandingUiProps {}
+export interface WebLayoutsLandingUiProps {
+  children: ReactChild;
+}
 
 export function WebLayoutsLandingUi(props: WebLayoutsLandingUiProps) {
+  const { children } = props;
   return (
-    <div className={styles['container']}>
-      <h1>Welcome to WebLayoutsLandingUi!</h1>
-    </div>
+    <Fragment>
+      <WebLayoutsLandingHeader />
+    </Fragment>
   );
 }
 
