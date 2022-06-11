@@ -1,5 +1,5 @@
 import type { ReactElement } from 'react';
-import { WebLayoutsBaseUi } from '@nuldrive/web/layouts/base/ui';
+import { WebLayoutsLandingUi } from '@nuldrive/web/layouts/landing/ui';
 
 import styles from './index.module.css';
 
@@ -15,7 +15,7 @@ export function Index(props: IndexProps) {
 }
 
 Index.getLayout = function getLayout(page: ReactElement) {
-  return <WebLayoutsBaseUi>{page}</WebLayoutsBaseUi>;
+  return <WebLayoutsLandingUi>{page}</WebLayoutsLandingUi>;
 };
 
 export default Index;
