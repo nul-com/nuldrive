@@ -46,6 +46,9 @@
       "@nuldrive/web/layouts/landing/header": [
         "libs/web/layouts/landing/header/src/index.ts"
       ],
+      "@nuldrive/web/layouts/landing/ui": [
+        "libs/web/layouts/landing/ui/src/index.ts"
+      ],
       "@nuldrive/web/util/avatar": ["libs/web/util/avatar/src/index.ts"],
       "@nuldrive/web/util/buttons/bucketSelect": [
         "libs/web/util/buttons/bucketSelect/src/index.ts"
