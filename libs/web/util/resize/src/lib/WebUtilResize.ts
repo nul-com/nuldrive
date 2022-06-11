@@ -19,7 +19,10 @@ export function webUtilResize(elRef: any, breakpoints: any): string {
     }
 
     return () => {
-      observer.current.unobserve(elRef);
+      console.log(elRef);
+      // disconnect the observer seems to fix an observer bug, however an error is still be trown (has to be redone)
+      observer.current.disconnect();
+      // observer.current.unobserve(elRef.current);
     };
   }, [elRef, observer]);
 
