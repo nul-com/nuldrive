@@ -24,6 +24,7 @@ export function WebUtilButtonsSearch(props: WebUtilButtonsSearchProps) {
             <Search />
           </span>
           {size > 3 && <p className="font-medium text-[14px]">Search</p>}
+          <p className="font-medium text-[14px] md:hidden">Search</p>
         </div>
         {size > 1 && (
           <div className="flex items-center gap-1 mr-2">
@@ -37,6 +38,16 @@ export function WebUtilButtonsSearch(props: WebUtilButtonsSearchProps) {
             </kbd>
           </div>
         )}
+        <div className="flex items-center gap-1 mr-2 md:hidden">
+          <kbd className="self-center rounded-md border-[#E8E8E8] border-2 px-1 py-0.5">
+            <span className="w-[10px] fill-[#8494AA]">
+              <Command width={10} />
+            </span>
+          </kbd>
+          <kbd className="text-center rounded-md border-[#E8E8E8] border-2 w-[17px] h-[18px]">
+            <p className="-translate-y-[2px] text-[12px]">K</p>
+          </kbd>
+        </div>
       </div>
     </button>
   );
