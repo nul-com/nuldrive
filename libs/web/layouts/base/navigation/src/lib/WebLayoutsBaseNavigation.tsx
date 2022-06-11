@@ -18,7 +18,7 @@ export function WebLayoutsBaseNavigation(props: WebLayoutsBaseNavigationProps) {
       <div className="grid gap-6 md:flex md:gap-0 md:h-full md:w-full md:py-[10px] md:justify-center overflow-scroll">
         <ListUi size={size} />
         <div className="flex justify-between items-center md:hidden">
-          <div className="w-[80%] ml-3">
+          <div className="w-[80%] ml-3 h-[34px]">
             <WebUtilButtonsSearch />
           </div>
           <span
