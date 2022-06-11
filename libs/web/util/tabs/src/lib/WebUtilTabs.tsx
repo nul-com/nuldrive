@@ -77,7 +77,7 @@ export function WebUtilTabs(props: WebUtilTabsProps) {
             </button>
           </div>
 
-          <div className="flex gap-[11px] w-[76px] items-centers sticky right-0 z-50 bg-white px-[12px] border-l-border border-borderColor">
+          <div className="hidden md:flex gap-[11px] w-[76px] items-centers sticky right-0 z-50 bg-white px-[12px] border-l-border border-borderColor">
             <Plus fill="#6B6B6B" width={20} className="cursor-pointer" />
             <EllipsisH fill="#6B6B6B" width={20} className="cursor-pointer" />
           </div>
