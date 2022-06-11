@@ -9,6 +9,7 @@ export interface WebLayoutsLandingHeaderProps {}
 
 export function WebLayoutsLandingHeader(props: WebLayoutsLandingHeaderProps) {
   const [mobileNavOpen, setMobileNavOpen] = useState<any>(false);
+  const [top, setTop] = useState(true);
 
   const trigger = useRef<any>(null);
   const mobileNav = useRef<any>(null);
@@ -38,8 +39,21 @@ export function WebLayoutsLandingHeader(props: WebLayoutsLandingHeaderProps) {
     document.addEventListener('keydown', keyHandler);
     return () => document.removeEventListener('keydown', keyHandler);
   });
+
+  useEffect(() => {
+    const scrollHandler = () => {
+      window.pageYOffset > 10 ? setTop(false) : setTop(true);
+    };
+    window.addEventListener('scroll', scrollHandler);
+    return () => window.removeEventListener('scroll', scrollHandler);
+  }, [top]);
+
   return (
-    <header className="absolute w-full z-30">
+    <header
+      className={`fixed w-full z-30 md:bg-opacity-90 transition duration-300 ease-in-out ${
+        !top && 'bg-gray-900 backdrop-blur-sm shadow-lg'
+      }`}
+    >
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
         <div className="flex items-center justify-between h-20">
           {/* Site branding */}
