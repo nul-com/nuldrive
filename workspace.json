@@ -12,6 +12,7 @@
     "web-layouts-base-search": "libs/web/layouts/base/search",
     "web-layouts-base-sidebar": "libs/web/layouts/base/sidebar",
     "web-layouts-base-ui": "libs/web/layouts/base/ui",
+    "web-layouts-landing-header": "libs/web/layouts/landing/header",
     "web-util-avatar": "libs/web/util/avatar",
     "web-util-buttons-bucketSelect": "libs/web/util/buttons/bucketSelect",
     "web-util-buttons-invite": "libs/web/util/buttons/invite",
