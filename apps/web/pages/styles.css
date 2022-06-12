@@ -26,7 +26,6 @@
   width: 71px;
 }
 
-
 .grid-template-rows {
   grid-template-rows: theme('spacing.header') auto theme('spacing.footer');
   grid-template-columns: auto;
@@ -76,4 +75,8 @@
 
 .gutter.gutter-horizontal {
   cursor: col-resize;
+}
+
+.styles_typicalWrapper__1_Uvh::after {
+  content: '_'!important;
 }
