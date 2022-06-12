@@ -166,14 +166,14 @@ export function WebLayoutsLandingSectionsTabs(
                 <article className="relative max-w-md mx-auto md:max-w-none">
                   <figure className="md:absolute md:inset-y-0 md:right-0 md:w-1/2">
                     <img
-                      className="w-full h-full object-cover rounded-r-2xl"
+                      className="w-full h-full object-cover rounded-t-2xl md:rounded-r-2xl"
                       src="https://r2.eriascdn.com/tabs-image-01.jpg"
                       width="516"
                       height="387"
                       alt="Tabs 01"
                     />
                   </figure>
-                  <div className="relative bg-gray-800 rounded-l-2xl py-8 md:py-16 px-6 md:pr-16 md:max-w-lg lg:max-w-xl">
+                  <div className="relative bg-gray-800 rounded-b-2xl md:rounded-b-2xl py-8 md:py-16 px-6 md:pr-16 md:max-w-lg lg:max-w-xl">
                     <h4 className="h4 mb-2">
                       Optimize and scale, easy to start
                     </h4>
@@ -217,14 +217,14 @@ export function WebLayoutsLandingSectionsTabs(
                 <article className="relative max-w-md mx-auto md:max-w-none">
                   <figure className="md:absolute md:inset-y-0 md:left-0 md:w-1/2">
                     <img
-                      className="w-full h-full object-cover rounded-l-2xl"
+                      className="w-full h-full object-cover rounded-t-2xl md:rounded-l-2xl"
                       src="https://r2.eriascdn.com/hero-image-01.jpg"
                       width="516"
                       height="387"
                       alt="Tabs 02"
                     />
                   </figure>
-                  <div className="relative bg-gray-800 rounded-r-2xl py-8 md:py-16 px-6 md:pl-16 md:max-w-lg lg:max-w-xl md:ml-auto">
+                  <div className="relative bg-gray-800 rounded-b-2xl md:rounded-r-2xl py-8 md:py-16 px-6 md:pl-16 md:max-w-lg lg:max-w-xl md:ml-auto">
                     <h4 className="h4 mb-2">
                       Easy to start, optimize and scale
                     </h4>
@@ -268,14 +268,14 @@ export function WebLayoutsLandingSectionsTabs(
                 <article className="relative max-w-md mx-auto md:max-w-none">
                   <figure className="md:absolute md:inset-y-0 md:right-0 md:w-1/2">
                     <img
-                      className="w-full h-full object-cover rounded-r-2xl"
+                      className="w-full h-full object-cover rounded-t-2xl md:rounded-r-2xl"
                       src="https://r2.eriascdn.com/tabs-image-01.jpg"
                       width="516"
                       height="387"
                       alt="Tabs 01"
                     />
                   </figure>
-                  <div className="relative bg-gray-800 rounded-l-2xl py-8 md:py-16 px-6 md:pr-16 md:max-w-lg lg:max-w-xl">
+                  <div className="relative bg-gray-800 rounded-b-2xl md:rounded-l-2xl py-8 md:py-16 px-6 md:pr-16 md:max-w-lg lg:max-w-xl">
                     <h4 className="h4 mb-2">
                       Optimize and scale, easy to start
                     </h4>
@@ -319,14 +319,14 @@ export function WebLayoutsLandingSectionsTabs(
                 <article className="relative max-w-md mx-auto md:max-w-none">
                   <figure className="md:absolute md:inset-y-0 md:left-0 md:w-1/2">
                     <img
-                      className="w-full h-full object-cover rounded-l-2xl"
+                      className="w-full h-full object-cover rounded-t-2xl md:rounded-l-2xl"
                       src="https://r2.eriascdn.com/hero-image-01.jpg"
                       width="516"
                       height="387"
                       alt="Tabs 02"
                     />
                   </figure>
-                  <div className="relative bg-gray-800 py-8 rounded-r-2xl md:py-16 px-6 md:pl-16 md:max-w-lg lg:max-w-xl md:ml-auto">
+                  <div className="relative bg-gray-800 py-8 rounded-b-2xl md:rounded-r-2xl md:py-16 px-6 md:pl-16 md:max-w-lg lg:max-w-xl md:ml-auto">
                     <h4 className="h4 mb-2">
                       Easy to start, optimize and scale
                     </h4>
@@ -370,14 +370,14 @@ export function WebLayoutsLandingSectionsTabs(
                 <article className="relative max-w-md mx-auto md:max-w-none">
                   <figure className="md:absolute md:inset-y-0 md:right-0 md:w-1/2">
                     <img
-                      className="w-full h-full object-cover rounded-r-2xl"
+                      className="w-full h-full object-cover rounded-t-2xl md:rounded-r-2xl"
                       src="https://r2.eriascdn.com/tabs-image-01.jpg"
                       width="516"
                       height="387"
                       alt="Tabs 01"
                     />
                   </figure>
-                  <div className="relative bg-gray-800 rounded-l-2xl py-8 md:py-16 px-6 md:pr-16 md:max-w-lg lg:max-w-xl">
+                  <div className="relative bg-gray-800 rounded-b-2xl md:rounded-l-2xl py-8 md:py-16 px-6 md:pr-16 md:max-w-lg lg:max-w-xl">
                     <h4 className="h4 mb-2">
                       Optimize and scale, easy to start
                     </h4>

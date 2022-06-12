@@ -50,7 +50,7 @@
       "@nuldrive/web/layouts/base/ui": [
         "libs/web/layouts/base/ui/src/index.ts"
       ],
-      "@nuldrive/web/layouts/landing//footer": [
+      "@nuldrive/web/layouts/landing/footer": [
         "libs/web/layouts/landing/footer/src/index.ts"
       ],
       "@nuldrive/web/layouts/landing/header": [
@@ -58,6 +58,9 @@
       ],
       "@nuldrive/web/layouts/landing/sections//newsletter": [
         "libs/web/layouts/landing/sections/newsletter/src/index.ts"
+      ],
+      "@nuldrive/web/layouts/landing/sections/features-explore": [
+        "libs/web/layouts/landing/sections/features-explore/src/index.ts"
       ],
       "@nuldrive/web/layouts/landing/sections/features-home": [
         "libs/web/layouts/landing/sections/features-home/src/index.ts"
