@@ -27,11 +27,6 @@ const menuItems = [
   },
   {
     id: 3,
-    href: '/docs',
-    name: 'Documentation',
-  },
-  {
-    id: 4,
     href: '/pricing',
     name: 'Pricing',
   },
