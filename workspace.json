@@ -13,6 +13,7 @@
     "web-layouts-base-sidebar": "libs/web/layouts/base/sidebar",
     "web-layouts-base-ui": "libs/web/layouts/base/ui",
     "web-layouts-landing-header": "libs/web/layouts/landing/header",
+    "web-layouts-landing-illustration": "libs/web/layouts/landing/illustration",
     "web-layouts-landing-ui": "libs/web/layouts/landing/ui",
     "web-util-avatar": "libs/web/util/avatar",
     "web-util-buttons-bucketSelect": "libs/web/util/buttons/bucketSelect",
