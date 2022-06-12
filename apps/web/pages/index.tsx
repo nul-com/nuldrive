@@ -1,5 +1,6 @@
 import type { ReactElement } from 'react';
 import { WebLayoutsLandingUi } from '@nuldrive/web/layouts/landing/ui';
+import { WebLayoutsLandingIllustration } from '@nuldrive/web/layouts/landing/illustration';
 
 import styles from './index.module.css';
 
@@ -17,7 +18,7 @@ export function Index(props: IndexProps) {
         className="relative max-w-6xl mx-auto h-0 pointer-events-none"
         aria-hidden="true"
       >
-        <PageIllustration />
+        <WebLayoutsLandingIllustration />
       </div>
     </main>
   );
