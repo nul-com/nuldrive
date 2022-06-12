@@ -1,7 +1,7 @@
-import React, { useState, useRef, useEffect } from 'react';
+import React, { useState, useRef, useEffect, Fragment } from 'react';
 import Link from 'next/link';
 import { WebLayoutsLandingList } from '@nuldrive/web/layouts/landing/list';
-// import Dropdown from '../utils/Dropdown';
+import { Dropdown } from '@nuldrive/web/layouts/landing/header';
 
 import styles from './WebLayoutsLandingHeader.module.css';
 
@@ -79,18 +79,20 @@ export function WebLayoutsLandingHeader(props: WebLayoutsLandingHeaderProps) {
             <ul className="flex grow justify-end flex-wrap items-center">
               <WebLayoutsLandingList />
               {/* 1st level: hover */}
-              {/* <Dropdown title="Support">
-                2nd level: hover
-                <li className="font-medium text-sm text-gray-400 hover:text-purple-600 flex py-2 px-4 leading-tight">
-                  <Link href="/contact">Contact us</Link>
-                </li>
-                <li className="font-medium text-sm text-gray-400 hover:text-purple-600 flex py-2 px-4 leading-tight">
-                  <Link href="/help">Help center</Link>
-                </li>
-                <li className="font-medium text-sm text-gray-400 hover:text-purple-600 flex py-2 px-4 leading-tight">
-                  <Link href="/404">404</Link>
-                </li>
-              </Dropdown> */}
+              <Dropdown title="Support">
+                {/* 2nd level: hover */}
+                <Fragment>
+                  <li className="font-medium text-sm text-gray-400 hover:text-purple-600 flex py-2 px-4 leading-tight">
+                    <Link href="/contact">Contact us</Link>
+                  </li>
+                  <li className="font-medium text-sm text-gray-400 hover:text-purple-600 flex py-2 px-4 leading-tight">
+                    <Link href="/help">Help center</Link>
+                  </li>
+                  <li className="font-medium text-sm text-gray-400 hover:text-purple-600 flex py-2 px-4 leading-tight">
+                    <Link href="/docs">Documentation</Link>
+                  </li>
+                </Fragment>
+              </Dropdown>
             </ul>
 
             {/* Desktop sign in links */}
