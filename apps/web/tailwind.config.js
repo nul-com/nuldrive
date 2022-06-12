@@ -51,7 +51,17 @@ module.exports = {
         searchBarText: '#8494AA',
         borderColor: '#E6E6E6',
         borderHoverColor: '#81acf0',
-        blue: '#3679E5',
+        blue: {
+          100: '#E6F0FD',
+          200: '#CCE2FC',
+          300: '#99C5FA',
+          400: '#66A9F7',
+          500: '#338CF5',
+          600: '#0070F4',
+          700: '#0064DA',
+          800: '#0059C2',
+          900: '#3679E5',
+        },
         gray: {
           100: '#EBF1F5',
           200: '#D9E3EA',
@@ -102,5 +112,5 @@ module.exports = {
       },
     },
   },
-  plugins: [require("@tailwindcss/forms")],
+  plugins: [require('@tailwindcss/forms')],
 };
