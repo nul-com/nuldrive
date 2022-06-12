@@ -9,6 +9,7 @@ import { WebLayoutsLandingSectionsTarget } from '@nuldrive/web/layouts/landing/s
 import { WebLayoutsLandingSectionsNews } from '@nuldrive/web/layouts/landing/sections/news';
 import { WebLayoutsLandingSectionsNewsletter } from '@nuldrive/web/layouts/landing/sections//newsletter';
 import { WebLayoutsLandingSectionsFeaturesExplore } from '@nuldrive/web/layouts/landing/sections/features-explore';
+import { WebLayoutsLandingSectionsFeaturesWorld } from '@nuldrive/web/layouts/landing/sections/features-world';
 
 import styles from './index.module.css';
 
@@ -32,6 +33,7 @@ export function Index(props: IndexProps) {
       <WebLayoutsLandingSectionsFeaturesExplore />
       <WebLayoutsLandingSectionsProcess />
       <WebLayoutsLandingSectionsFeaturesHome />
+      <WebLayoutsLandingSectionsFeaturesWorld />
       <WebLayoutsLandingSectionsTabs />
       <WebLayoutsLandingSectionsTarget />
       <WebLayoutsLandingSectionsNews />
