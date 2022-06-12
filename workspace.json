@@ -16,6 +16,7 @@
     "web-layouts-landing-sections-features-home": "libs/web/layouts/landing/sections/features-home",
     "web-layouts-landing-sections-hero": "libs/web/layouts/landing/sections/hero",
     "web-layouts-landing-sections-illustration": "libs/web/layouts/landing/sections/illustration",
+    "web-layouts-landing-sections-news": "libs/web/layouts/landing/sections/news",
     "web-layouts-landing-sections-process": "libs/web/layouts/landing/sections/process",
     "web-layouts-landing-sections-tabs": "libs/web/layouts/landing/sections/tabs",
     "web-layouts-landing-sections-target": "libs/web/layouts/landing/sections/target",

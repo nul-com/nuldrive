@@ -1,0 +1,25 @@
+{
+  "root": "libs/web/layouts/landing/sections/news",
+  "sourceRoot": "libs/web/layouts/landing/sections/news/src",
+  "projectType": "library",
+  "tags": [],
+  "targets": {
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "outputs": ["{options.outputFile}"],
+      "options": {
+        "lintFilePatterns": [
+          "libs/web/layouts/landing/sections/news/**/*.{ts,tsx,js,jsx}"
+        ]
+      }
+    },
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "outputs": ["coverage/libs/web/layouts/landing/sections/news"],
+      "options": {
+        "jestConfig": "libs/web/layouts/landing/sections/news/jest.config.js",
+        "passWithNoTests": true
+      }
+    }
+  }
+}
