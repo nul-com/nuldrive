@@ -135,7 +135,10 @@ export function WebLayoutsLandingHeader(props: WebLayoutsLandingHeaderProps) {
               className="absolute top-full z-20 left-0 w-full px-4 sm:px-6 overflow-hidden transition-all duration-300 ease-in-out"
               style={
                 mobileNavOpen
-                  ? { maxHeight: mobileNav.current.scrollHeight, opacity: 1 }
+                  ? {
+                      maxHeight: mobileNav.current.scrollHeight,
+                      opacity: 1,
+                    }
                   : { maxHeight: 0, opacity: 0.8 }
               }
             >
