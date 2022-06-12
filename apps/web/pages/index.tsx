@@ -4,6 +4,7 @@ import { WebLayoutsLandingIllustration } from '@nuldrive/web-layouts-landing-sec
 import { WebLayoutsLandingHero } from '@nuldrive/web-layouts-landing-sections-hero';
 import { WebLayoutsLandingSectionsProcess } from '@nuldrive/web/layouts/landing/sections/process';
 import { WebLayoutsLandingSectionsFeaturesHome } from '@nuldrive/web/layouts/landing/sections/features-home';
+import { WebLayoutsLandingSectionsTabs } from '@nuldrive/web/layouts/landing/sections/tabs'; 
 
 import styles from './index.module.css';
 
@@ -26,6 +27,7 @@ export function Index(props: IndexProps) {
       <WebLayoutsLandingHero />
       <WebLayoutsLandingSectionsProcess />
       <WebLayoutsLandingSectionsFeaturesHome />
+      <WebLayoutsLandingSectionsTabs />
     </main>
   );
 }
