@@ -1,6 +1,6 @@
 import type { ReactElement } from 'react';
 import { WebLayoutsLandingUi } from '@nuldrive/web/layouts/landing/ui';
-import { WebLayoutsLandingIllustration } from '@nuldrive/web/layouts/landing/illustration';
+import { WebLayoutsLandingIllustration } from '@nuldrive/web-layouts-landing-sections-illustration';
 import { WebLayoutsLandingHero } from '@nuldrive/web-layouts-landing-sections-hero';
 
 import styles from './index.module.css';
