@@ -1,6 +1,6 @@
 module.exports = {
-  displayName: 'web-layouts-landing-list',
-  preset: '../../../../../jest.preset.js',
+  displayName: 'web-util-list',
+  preset: '../../../../jest.preset.js',
   globals: {
     'ts-jest': {
       tsconfig: '<rootDir>/tsconfig.spec.json',
@@ -10,5 +10,5 @@ module.exports = {
     '^.+\\.[tj]sx?$': 'ts-jest',
   },
   moduleFileExtensions: ['ts', 'tsx', 'js', 'jsx'],
-  coverageDirectory: '../../../../../coverage/libs/web/layouts/landing/list',
+  coverageDirectory: '../../../../coverage/libs/web/util/list',
 };

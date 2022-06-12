@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion';
 import { ReactChild } from 'react';
-import { ListHover } from '@nuldrive/web/layouts/landing/list';
+import { ListHover } from '@nuldrive/web-util-list';
 
 import styles from './menuitem.module.css';
 

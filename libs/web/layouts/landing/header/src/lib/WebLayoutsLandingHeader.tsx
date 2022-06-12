@@ -1,6 +1,6 @@
 import React, { useState, useRef, useEffect, Fragment } from 'react';
 import Link from 'next/link';
-import { WebLayoutsLandingList } from '@nuldrive/web/layouts/landing/list';
+import { WebLayoutsLandingList } from '@nuldrive/web-util-list';
 import { Dropdown } from '@nuldrive/web/layouts/landing/header';
 
 import styles from './WebLayoutsLandingHeader.module.css';

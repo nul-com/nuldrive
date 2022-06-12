@@ -22,6 +22,7 @@
         "libs/web/layouts/landing/sections/illustration/src/index.ts"
       ],
       "@nuldrive/web-util-buttons": ["libs/web/util/buttons/src/index.ts"],
+      "@nuldrive/web-util-list": ["libs/web/util/list/src/index.ts"],
       "@nuldrive/web/layouts/base/footer": [
         "libs/web/layouts/base/footer/src/index.ts"
       ],
@@ -51,9 +52,6 @@
       ],
       "@nuldrive/web/layouts/landing/header": [
         "libs/web/layouts/landing/header/src/index.ts"
-      ],
-      "@nuldrive/web/layouts/landing/list": [
-        "libs/web/layouts/landing/list/src/index.ts"
       ],
       "@nuldrive/web/layouts/landing/ui": [
         "libs/web/layouts/landing/ui/src/index.ts"

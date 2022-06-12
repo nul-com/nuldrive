@@ -1,7 +1,7 @@
 import { useRouter } from 'next/router';
 import { useState, useRef, useCallback, useEffect } from 'react';
 import { AnimateSharedLayout } from 'framer-motion';
-import { ListItem } from '@nuldrive/web/layouts/landing/list';
+import { ListItem } from '@nuldrive/web-util-list';
 import Link from 'next/link';
 
 import styles from './list.module.css';
