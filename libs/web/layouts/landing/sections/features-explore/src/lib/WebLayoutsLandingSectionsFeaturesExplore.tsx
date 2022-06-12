@@ -1,3 +1,5 @@
+import React, { useState, useRef, useEffect } from 'react';
+
 import styles from './WebLayoutsLandingSectionsFeaturesExplore.module.css';
 
 /* eslint-disable-next-line */
