@@ -305,9 +305,9 @@ nav .menu .menu_links:hover {
   opacity: 1;
 }
 @media screen and (max-width: 799px) {
-  /* nav .menu .menu_links {
+  nav .menu .menu_links {
     display: none;
-  } */
+  }
 }
 nav .menu .menu_links .link {
   color: white;
