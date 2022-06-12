@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import { Modal } from '@nuldrive/web/layouts/landing/hero';
+import Typical from 'react-typical';
 
 import styles from './WebLayoutsLandingHero.module.css';
 
@@ -59,7 +60,32 @@ export function WebLayoutsLandingHero(props: WebLayoutsLandingHeroProps) {
               The Storage for
               <br />{' '}
               <span className="bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-teal-400">
-                developers
+                <Typical
+                  steps={[
+                    'developers',
+                    4000,
+                    'creators',
+                    4000,
+                    'programmers',
+                    4000,
+                    'designers',
+                    4000,
+                    'innovators',
+                    4000,
+                    'entrepreneurs',
+                    4000,
+                    'engineers',
+                    4000,
+                    'founders',
+                    4000,
+                    'originators',
+                    4000,
+                    'planner',
+                    4000,
+                  ]}
+                  loop={Infinity}
+                  wrapper="span"
+                />
               </span>
             </h1>
             <div className="max-w-3xl mx-auto">
@@ -68,8 +94,9 @@ export function WebLayoutsLandingHero(props: WebLayoutsLandingHeroProps) {
                 data-aos="fade-up"
                 data-aos-delay="200"
               >
-                Our landing page template works on all devices, so you only have
-                to set it up once, and get beautiful results forever.
+                Store photos, videos, your whole collection of files and access
+                them anywhere, anytime with 🚀 blasting speed while enjoying
+                free bandwidth.
               </p>
               <div
                 className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center"
