@@ -13,6 +13,7 @@
     "web-layouts-base-sidebar": "libs/web/layouts/base/sidebar",
     "web-layouts-base-ui": "libs/web/layouts/base/ui",
     "web-layouts-landing-header": "libs/web/layouts/landing/header",
+    "web-layouts-landing-sections-features-home": "libs/web/layouts/landing/sections/features-home",
     "web-layouts-landing-sections-hero": "libs/web/layouts/landing/sections/hero",
     "web-layouts-landing-sections-illustration": "libs/web/layouts/landing/sections/illustration",
     "web-layouts-landing-sections-process": "libs/web/layouts/landing/sections/process",
