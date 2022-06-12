@@ -95,7 +95,7 @@ export function WebLayoutsLandingHeader(props: WebLayoutsLandingHeaderProps) {
 
             {/* Desktop sign in links */}
             <ul className="flex gap-3 grow justify-end flex-wrap items-center">
-              <li className="font-medium text-purple-600 hover:bg-slate-800 hover:backdrop-blur-sm btn-sm rounded-lg hover:text-gray-200 flex items-center transition duration-150 ease-in-out cursor-pointer">
+              <li className="font-medium text-purple-600 hover:bg-gray-800 hover:backdrop-blur-sm btn-sm rounded-lg hover:text-gray-200 flex items-center transition duration-150 ease-in-out cursor-pointer">
                 <Link href="/signin">Sign in</Link>
               </li>
               <li className="btn-sm text-white bg-purple-600 hover:bg-purple-700 ml-3 rounded-lg cursor-pointer">
