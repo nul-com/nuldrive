@@ -15,6 +15,7 @@
     "web-layouts-landing-header": "libs/web/layouts/landing/header",
     "web-layouts-landing-sections-hero": "libs/web/layouts/landing/sections/hero",
     "web-layouts-landing-sections-illustration": "libs/web/layouts/landing/sections/illustration",
+    "web-layouts-landing-sections-process": "libs/web/layouts/landing/sections/process",
     "web-layouts-landing-ui": "libs/web/layouts/landing/ui",
     "web-util-avatar": "libs/web/util/avatar",
     "web-util-buttons-bucketSelect": "libs/web/util/buttons/bucketSelect",
