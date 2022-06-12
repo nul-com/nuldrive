@@ -1,6 +1,6 @@
 {
-  "root": "libs/web/layouts/landing/hero",
-  "sourceRoot": "libs/web/layouts/landing/hero/src",
+  "root": "libs/web/layouts/landing/sections/hero",
+  "sourceRoot": "libs/web/layouts/landing/sections/hero/src",
   "projectType": "library",
   "tags": [],
   "targets": {
@@ -9,15 +9,15 @@
       "outputs": ["{options.outputFile}"],
       "options": {
         "lintFilePatterns": [
-          "libs/web/layouts/landing/hero/**/*.{ts,tsx,js,jsx}"
+          "libs/web/layouts/landing/sections/hero/**/*.{ts,tsx,js,jsx}"
         ]
       }
     },
     "test": {
       "executor": "@nrwl/jest:jest",
-      "outputs": ["coverage/libs/web/layouts/landing/hero"],
+      "outputs": ["coverage/libs/web/layouts/landing/sections/hero"],
       "options": {
-        "jestConfig": "libs/web/layouts/landing/hero/jest.config.js",
+        "jestConfig": "libs/web/layouts/landing/sections/hero/jest.config.js",
         "passWithNoTests": true
       }
     }

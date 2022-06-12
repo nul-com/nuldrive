@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { Modal } from '@nuldrive/web/layouts/landing/hero';
+import { Modal } from '@nuldrive/web-layouts-landing-sections-hero';
 import Typical from 'react-typical';
 
 import styles from './WebLayoutsLandingHero.module.css';

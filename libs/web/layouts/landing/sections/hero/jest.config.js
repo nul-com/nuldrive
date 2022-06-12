@@ -1,6 +1,6 @@
 module.exports = {
-  displayName: 'web-layouts-landing-hero',
-  preset: '../../../../../jest.preset.js',
+  displayName: 'web-layouts-landing-sections-hero',
+  preset: '../../../../../../jest.preset.js',
   globals: {
     'ts-jest': {
       tsconfig: '<rootDir>/tsconfig.spec.json',
@@ -10,5 +10,6 @@ module.exports = {
     '^.+\\.[tj]sx?$': 'ts-jest',
   },
   moduleFileExtensions: ['ts', 'tsx', 'js', 'jsx'],
-  coverageDirectory: '../../../../../coverage/libs/web/layouts/landing/hero',
+  coverageDirectory:
+    '../../../../../../coverage/libs/web/layouts/landing/sections/hero',
 };

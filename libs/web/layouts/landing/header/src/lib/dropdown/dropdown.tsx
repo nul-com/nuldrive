@@ -1,5 +1,5 @@
 import { ReactChild, useState } from 'react';
-import { Transition } from '@nuldrive/web/layouts/landing/hero';
+import { Transition } from '@nuldrive/web-layouts-landing-sections-hero';
 
 import styles from './dropdown.module.css';
 

@@ -1,6 +1,6 @@
 import { ReactChild, useRef, useEffect } from 'react';
 import styles from './modal.module.css';
-import { Transition } from '@nuldrive/web/layouts/landing/hero';
+import { Transition } from '@nuldrive/web-layouts-landing-sections-hero';
 
 /* eslint-disable-next-line */
 export interface ModalProps {
