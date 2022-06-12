@@ -54,7 +54,7 @@ export function WebLayoutsLandingHero(props: WebLayoutsLandingHeroProps) {
           <div className="text-center pb-12 md:pb-16">
             <h1
               className="text-5xl md:text-6xl font-extrabold leading-tighter tracking-tighter mb-4 leading-tight"
-              data-aos="zoom-y-out"
+              data-aos="fade-up"
             >
               The Storage for
               <br />{' '}
@@ -65,8 +65,8 @@ export function WebLayoutsLandingHero(props: WebLayoutsLandingHeroProps) {
             <div className="max-w-3xl mx-auto">
               <p
                 className="text-xl text-gray-400 mb-8"
-                data-aos="zoom-y-out"
-                data-aos-delay="150"
+                data-aos="fade-up"
+                data-aos-delay="200"
               >
                 Our landing page template works on all devices, so you only have
                 to set it up once, and get beautiful results forever.
@@ -76,7 +76,7 @@ export function WebLayoutsLandingHero(props: WebLayoutsLandingHeroProps) {
                 data-aos="zoom-y-out"
                 data-aos-delay="300"
               >
-                <div>
+                <div data-aos="fade-up" data-aos-delay="400">
                   <a
                     className="btn text-white bg-purple-600 hover:bg-blue-700 rounded-lg w-full mb-4 sm:w-auto sm:mb-0"
                     href="#0"
@@ -84,7 +84,7 @@ export function WebLayoutsLandingHero(props: WebLayoutsLandingHeroProps) {
                     Start free trial
                   </a>
                 </div>
-                <div>
+                <div data-aos="fade-up" data-aos-delay="600">
                   <a
                     className="btn text-white bg-gray-700 hover:bg-gray-800 rounded-lg w-full sm:w-auto sm:ml-4"
                     href="#0"
@@ -100,8 +100,8 @@ export function WebLayoutsLandingHero(props: WebLayoutsLandingHeroProps) {
           <div>
             <div
               className="relative flex justify-center mb-8"
-              data-aos="zoom-y-out"
-              data-aos-delay="450"
+              data-aos="fade-up"
+              data-aos-delay="200"
             >
               <div
                 className="flex flex-col justify-center cursor-pointer"
