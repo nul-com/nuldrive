@@ -1,13 +1,54 @@
+import React, { useRef, useEffect, useContext } from 'react';
+import { CssTransition } from '@nuldrive/web/layouts/landing/hero';
+
 import styles from './transition.module.css';
 
 /* eslint-disable-next-line */
-export interface TransitionProps {}
+export interface TransitionProps {
+  show: any;
+  appear: any;
+}
+
+const TransitionContext = React.createContext({
+  parent: {},
+});
+
+function useIsInitialRender() {
+  const isInitialRender = useRef(true);
+  useEffect(() => {
+    isInitialRender.current = false;
+  }, []);
+  return isInitialRender.current;
+}
 
 export function Transition(props: TransitionProps) {
+  const { show, appear, ...rest } = props;
+
+  const { parent } = useContext<any>(TransitionContext);
+  const isInitialRender = useIsInitialRender();
+  const isChild = show === undefined;
+
+  if (isChild) {
+    return (
+      <CssTransition
+        appear={parent.appear || !parent.isInitialRender}
+        show={parent.show}
+        {...rest}
+      />
+    );
+  }
   return (
-    <div className={styles['container']}>
-      <h1>Welcome to Transition!</h1>
-    </div>
+    <TransitionContext.Provider
+      value={{
+        parent: {
+          show,
+          isInitialRender,
+          appear,
+        },
+      }}
+    >
+      <CssTransition appear={appear} show={show} {...rest} />
+    </TransitionContext.Provider>
   );
 }
 
