@@ -62,6 +62,7 @@ export function WebLayoutsLandingHero(props: WebLayoutsLandingHeroProps) {
               <span className="bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-teal-400">
                 <Typical
                   steps={[
+                    300,
                     'developers',
                     4000,
                     'creators',
