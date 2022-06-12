@@ -1,5 +1,5 @@
 import React, { useRef, useEffect, useContext } from 'react';
-import { CssTransition } from '@nuldrive/web-layouts-landing-sections-hero';
+import { CssTransition } from '@nuldrive/web/util/transition';
 
 import styles from './transition.module.css';
 
