@@ -1,5 +1,5 @@
 import React, { useState, useRef, useEffect } from 'react';
-import { Transition } from '@nuldrive/web-layouts-landing-sections-hero';
+import { WebUtilTransition } from '@nuldrive/web/util/transition';
 
 import styles from './WebLayoutsLandingSectionsTabs.module.css';
 
@@ -152,7 +152,7 @@ export function WebLayoutsLandingSectionsTabs(
               ref={tabs}
             >
               {/* Item 1 */}
-              <Transition
+              <WebUtilTransition
                 show={tab === 1}
                 appear={true}
                 className="w-full"
@@ -200,10 +200,10 @@ export function WebLayoutsLandingSectionsTabs(
                     </a>
                   </div>
                 </article>
-              </Transition>
+              </WebUtilTransition>
 
               {/* Item 2 */}
-              <Transition
+              <WebUtilTransition
                 show={tab === 2}
                 appear={true}
                 className="w-full"
@@ -251,10 +251,10 @@ export function WebLayoutsLandingSectionsTabs(
                     </a>
                   </div>
                 </article>
-              </Transition>
+              </WebUtilTransition>
 
               {/* Item 3 */}
-              <Transition
+              <WebUtilTransition
                 show={tab === 3}
                 appear={true}
                 className="w-full"
@@ -302,10 +302,10 @@ export function WebLayoutsLandingSectionsTabs(
                     </a>
                   </div>
                 </article>
-              </Transition>
+              </WebUtilTransition>
 
               {/* Item 4 */}
-              <Transition
+              <WebUtilTransition
                 show={tab === 4}
                 appear={true}
                 className="w-full"
@@ -353,10 +353,10 @@ export function WebLayoutsLandingSectionsTabs(
                     </a>
                   </div>
                 </article>
-              </Transition>
+              </WebUtilTransition>
 
               {/* Item 5 */}
-              <Transition
+              <WebUtilTransition
                 show={tab === 5}
                 appear={true}
                 className="w-full"
@@ -404,7 +404,7 @@ export function WebLayoutsLandingSectionsTabs(
                     </a>
                   </div>
                 </article>
-              </Transition>
+              </WebUtilTransition>
             </div>
           </div>
         </div>
