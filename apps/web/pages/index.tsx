@@ -11,7 +11,16 @@ export function Index(props: IndexProps) {
    *
    * Note: The corresponding styles are in the ./index.css file.
    */
-  return <h1 className="text-xl font-bold">Hello World</h1>;
+  return (
+    <main className="grow">
+      <div
+        className="relative max-w-6xl mx-auto h-0 pointer-events-none"
+        aria-hidden="true"
+      >
+        <PageIllustration />
+      </div>
+    </main>
+  );
 }
 
 Index.getLayout = function getLayout(page: ReactElement) {
