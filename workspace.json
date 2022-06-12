@@ -35,6 +35,7 @@
     "web-util-imageLoader": "libs/web/util/imageLoader",
     "web-util-list": "libs/web/util/list",
     "web-util-resize": "libs/web/util/resize",
-    "web-util-tabs": "libs/web/util/tabs"
+    "web-util-tabs": "libs/web/util/tabs",
+    "web-util-transition": "libs/web/util/transition"
   }
 }
