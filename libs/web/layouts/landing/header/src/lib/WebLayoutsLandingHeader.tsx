@@ -1,5 +1,6 @@
 import React, { useState, useRef, useEffect } from 'react';
 import Link from 'next/link';
+import { WebLayoutsLandingList } from '@nuldrive/web/layouts/landing/list';
 // import Dropdown from '../utils/Dropdown';
 
 import styles from './WebLayoutsLandingHeader.module.css';
@@ -76,21 +77,7 @@ export function WebLayoutsLandingHeader(props: WebLayoutsLandingHeaderProps) {
           <nav className="hidden md:flex md:grow">
             {/* Desktop menu links */}
             <ul className="flex grow justify-end flex-wrap items-center">
-              <li className="text-gray-300 hover:text-gray-200 px-4 py-2 flex items-center transition duration-150 ease-in-out">
-                <Link href="/features">Features</Link>
-              </li>
-              <li className="text-gray-300 hover:text-gray-200 px-4 py-2 flex items-center transition duration-150 ease-in-out">
-                <Link href="/pricing">Pricing</Link>
-              </li>
-              <li className="text-gray-300 hover:text-gray-200 px-4 py-2 flex items-center transition duration-150 ease-in-out">
-                <Link href="/blog">Blog</Link>
-              </li>
-              <li className="text-gray-300 hover:text-gray-200 px-4 py-2 flex items-center transition duration-150 ease-in-out">
-                <Link href="/about">About us</Link>
-              </li>
-              <li className="text-gray-300 hover:text-gray-200 px-4 py-2 flex items-center transition duration-150 ease-in-out">
-                <Link href="/pricing">Pricing</Link>
-              </li>
+              <WebLayoutsLandingList />
               {/* 1st level: hover */}
               {/* <Dropdown title="Support">
                 2nd level: hover
@@ -107,11 +94,11 @@ export function WebLayoutsLandingHeader(props: WebLayoutsLandingHeaderProps) {
             </ul>
 
             {/* Desktop sign in links */}
-            <ul className="flex grow justify-end flex-wrap items-center">
-              <li className="font-medium text-purple-600 hover:text-gray-200 px-4 py-3 flex items-center transition duration-150 ease-in-out">
+            <ul className="flex gap-3 grow justify-end flex-wrap items-center">
+              <li className="font-medium text-purple-600 hover:bg-slate-800 hover:backdrop-blur-sm btn-sm rounded-lg hover:text-gray-200 flex items-center transition duration-150 ease-in-out cursor-pointer">
                 <Link href="/signin">Sign in</Link>
               </li>
-              <li className="btn-sm text-white bg-purple-600 hover:bg-purple-700 ml-3">
+              <li className="btn-sm text-white bg-purple-600 hover:bg-purple-700 ml-3 rounded-lg cursor-pointer">
                 <Link href="/signup">Sign up</Link>
               </li>
             </ul>
