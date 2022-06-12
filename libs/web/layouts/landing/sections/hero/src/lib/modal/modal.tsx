@@ -1,6 +1,6 @@
 import { ReactChild, useRef, useEffect } from 'react';
 import styles from './modal.module.css';
-import { Transition } from '@nuldrive/web-layouts-landing-sections-hero';
+import { WebUtilTransition } from '@nuldrive/web/util/transition';
 
 /* eslint-disable-next-line */
 export interface ModalProps {
@@ -38,7 +38,7 @@ export function Modal(props: ModalProps) {
   return (
     <>
       {/* Modal backdrop */}
-      <Transition
+      <WebUtilTransition
         className="fixed inset-0 z-50 bg-gray-800 bg-opacity-75 transition-opacity backdrop-blur-sm"
         show={show}
         enter="transition ease-out duration-200"
@@ -51,7 +51,7 @@ export function Modal(props: ModalProps) {
       />
 
       {/* Modal dialog */}
-      <Transition
+      <WebUtilTransition
         id={id}
         className="fixed inset-0 z-50 overflow-hidden flex items-center justify-center transform px-4 sm:px-6"
         role="dialog"
@@ -71,7 +71,7 @@ export function Modal(props: ModalProps) {
         >
           {children}
         </div>
-      </Transition>
+      </WebUtilTransition>
     </>
   );
 }
