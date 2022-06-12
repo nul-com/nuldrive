@@ -18,6 +18,7 @@
     "web-layouts-landing-sections-illustration": "libs/web/layouts/landing/sections/illustration",
     "web-layouts-landing-sections-process": "libs/web/layouts/landing/sections/process",
     "web-layouts-landing-sections-tabs": "libs/web/layouts/landing/sections/tabs",
+    "web-layouts-landing-sections-target": "libs/web/layouts/landing/sections/target",
     "web-layouts-landing-ui": "libs/web/layouts/landing/ui",
     "web-util-avatar": "libs/web/util/avatar",
     "web-util-buttons-bucketSelect": "libs/web/util/buttons/bucketSelect",

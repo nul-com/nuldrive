@@ -62,6 +62,9 @@
       "@nuldrive/web/layouts/landing/sections/tabs": [
         "libs/web/layouts/landing/sections/tabs/src/index.ts"
       ],
+      "@nuldrive/web/layouts/landing/sections/target": [
+        "libs/web/layouts/landing/sections/target/src/index.ts"
+      ],
       "@nuldrive/web/layouts/landing/ui": [
         "libs/web/layouts/landing/ui/src/index.ts"
       ],
