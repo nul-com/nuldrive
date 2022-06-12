@@ -173,7 +173,7 @@ export function WebLayoutsLandingSectionsTabs(
                       alt="Tabs 01"
                     />
                   </figure>
-                  <div className="relative bg-gray-800 rounded-b-2xl md:rounded-b-2xl py-8 md:py-16 px-6 md:pr-16 md:max-w-lg lg:max-w-xl">
+                  <div className="relative bg-gray-800 rounded-b-2xl md:rounded-l-2xl md:rounded-br-none py-8 md:py-16 px-6 md:pr-16 md:max-w-lg lg:max-w-xl">
                     <h4 className="h4 mb-2">
                       Optimize and scale, easy to start
                     </h4>
@@ -224,7 +224,7 @@ export function WebLayoutsLandingSectionsTabs(
                       alt="Tabs 02"
                     />
                   </figure>
-                  <div className="relative bg-gray-800 rounded-b-2xl md:rounded-r-2xl py-8 md:py-16 px-6 md:pl-16 md:max-w-lg lg:max-w-xl md:ml-auto">
+                  <div className="relative bg-gray-800 rounded-b-2xl md:rounded-r-2xl md:rounded-bl-none py-8 md:py-16 px-6 md:pl-16 md:max-w-lg lg:max-w-xl md:ml-auto">
                     <h4 className="h4 mb-2">
                       Easy to start, optimize and scale
                     </h4>
@@ -275,7 +275,7 @@ export function WebLayoutsLandingSectionsTabs(
                       alt="Tabs 01"
                     />
                   </figure>
-                  <div className="relative bg-gray-800 rounded-b-2xl md:rounded-l-2xl py-8 md:py-16 px-6 md:pr-16 md:max-w-lg lg:max-w-xl">
+                  <div className="relative bg-gray-800 rounded-b-2xl md:rounded-l-2xl md:rounded-br-none py-8 md:py-16 px-6 md:pr-16 md:max-w-lg lg:max-w-xl">
                     <h4 className="h4 mb-2">
                       Optimize and scale, easy to start
                     </h4>
@@ -326,7 +326,7 @@ export function WebLayoutsLandingSectionsTabs(
                       alt="Tabs 02"
                     />
                   </figure>
-                  <div className="relative bg-gray-800 py-8 rounded-b-2xl md:rounded-r-2xl md:py-16 px-6 md:pl-16 md:max-w-lg lg:max-w-xl md:ml-auto">
+                  <div className="relative bg-gray-800 py-8 rounded-b-2xl md:rounded-r-2xl md:rounded-bl-none md:py-16 px-6 md:pl-16 md:max-w-lg lg:max-w-xl md:ml-auto">
                     <h4 className="h4 mb-2">
                       Easy to start, optimize and scale
                     </h4>
@@ -377,7 +377,7 @@ export function WebLayoutsLandingSectionsTabs(
                       alt="Tabs 01"
                     />
                   </figure>
-                  <div className="relative bg-gray-800 rounded-b-2xl md:rounded-l-2xl py-8 md:py-16 px-6 md:pr-16 md:max-w-lg lg:max-w-xl">
+                  <div className="relative bg-gray-800 rounded-b-2xl md:rounded-l-2xl md:rounded-br-none py-8 md:py-16 px-6 md:pr-16 md:max-w-lg lg:max-w-xl">
                     <h4 className="h4 mb-2">
                       Optimize and scale, easy to start
                     </h4>
