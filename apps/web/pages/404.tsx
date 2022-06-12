@@ -55,9 +55,9 @@ export function Error(props: ErrorProps) {
               contact us
             </a>
           </div>
-          {/* <div className="menu_icon">
+          <div className="menu_icon">
             <span className="icon"></span>
-          </div> */}
+          </div>
         </div>
       </nav>
       <section className="wrapper">
