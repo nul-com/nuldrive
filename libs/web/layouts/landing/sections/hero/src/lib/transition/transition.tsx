@@ -22,7 +22,7 @@ function useIsInitialRender() {
   return isInitialRender.current;
 }
 
-export function Transition(props: TransitionProps) {
+export function Transition(props: any) {
   const { show, appear, ...rest } = props;
 
   const { parent } = useContext<any>(TransitionContext);
