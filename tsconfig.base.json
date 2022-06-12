@@ -50,6 +50,9 @@
       "@nuldrive/web/layouts/base/ui": [
         "libs/web/layouts/base/ui/src/index.ts"
       ],
+      "@nuldrive/web/layouts/landing//footer": [
+        "libs/web/layouts/landing/footer/src/index.ts"
+      ],
       "@nuldrive/web/layouts/landing/header": [
         "libs/web/layouts/landing/header/src/index.ts"
       ],

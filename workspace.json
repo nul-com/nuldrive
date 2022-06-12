@@ -12,6 +12,7 @@
     "web-layouts-base-search": "libs/web/layouts/base/search",
     "web-layouts-base-sidebar": "libs/web/layouts/base/sidebar",
     "web-layouts-base-ui": "libs/web/layouts/base/ui",
+    "web-layouts-landing--footer": "libs/web/layouts/landing/footer",
     "web-layouts-landing-header": "libs/web/layouts/landing/header",
     "web-layouts-landing-sections--newsletter": "libs/web/layouts/landing/sections/newsletter",
     "web-layouts-landing-sections-features-home": "libs/web/layouts/landing/sections/features-home",
