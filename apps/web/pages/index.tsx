@@ -2,6 +2,7 @@ import type { ReactElement } from 'react';
 import { WebLayoutsLandingUi } from '@nuldrive/web/layouts/landing/ui';
 import { WebLayoutsLandingIllustration } from '@nuldrive/web-layouts-landing-sections-illustration';
 import { WebLayoutsLandingHero } from '@nuldrive/web-layouts-landing-sections-hero';
+import { WebLayoutsLandingSectionsProcess } from '@nuldrive/web/layouts/landing/sections/process';
 
 import styles from './index.module.css';
 
@@ -22,6 +23,7 @@ export function Index(props: IndexProps) {
         <WebLayoutsLandingIllustration />
       </div>
       <WebLayoutsLandingHero />
+      <WebLayoutsLandingSectionsProcess />
     </main>
   );
 }
