@@ -5,8 +5,9 @@ import styles from './transition.module.css';
 
 /* eslint-disable-next-line */
 export interface TransitionProps {
-  show: any;
-  appear: any;
+  show?: any;
+  appear?: any;
+  className?: any;
 }
 
 const TransitionContext = React.createContext({
