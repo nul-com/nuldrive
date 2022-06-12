@@ -7,6 +7,7 @@ import { WebLayoutsLandingSectionsFeaturesHome } from '@nuldrive/web/layouts/lan
 import { WebLayoutsLandingSectionsTabs } from '@nuldrive/web/layouts/landing/sections/tabs';
 import { WebLayoutsLandingSectionsTarget } from '@nuldrive/web/layouts/landing/sections/target';
 import { WebLayoutsLandingSectionsNews } from '@nuldrive/web/layouts/landing/sections/news';
+import { WebLayoutsLandingSectionsNewsletter } from '@nuldrive/web/layouts/landing/sections//newsletter';
 
 import styles from './index.module.css';
 
@@ -32,6 +33,7 @@ export function Index(props: IndexProps) {
       <WebLayoutsLandingSectionsTabs />
       <WebLayoutsLandingSectionsTarget />
       <WebLayoutsLandingSectionsNews />
+      <WebLayoutsLandingSectionsNewsletter />
     </main>
   );
 }
