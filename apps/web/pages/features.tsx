@@ -2,6 +2,7 @@ import { ReactElement } from 'react';
 import { WebLayoutsLandingUi } from '@nuldrive/web/layouts/landing/ui';
 import { WebLayoutsLandingIllustration } from '@nuldrive/web-layouts-landing-sections-illustration';
 import { WebLayoutsLandingSectionsHeroFeatures } from '@nuldrive/web/layouts/landing/sections/hero-features';
+import { WebLayoutsLandingSectionsStatsCircle } from '@nuldrive/web/layouts/landing/sections/stats-circle';
 
 export interface FeaturesProps {}
 export function Features(props: FeaturesProps) {
@@ -13,7 +14,8 @@ export function Features(props: FeaturesProps) {
       >
         <WebLayoutsLandingIllustration />
       </div>
-      <WebLayoutsLandingSectionsHeroFeatures />
+          <WebLayoutsLandingSectionsHeroFeatures />
+          <WebLayoutsLandingSectionsStatsCircle />
     </main>
   );
 }
