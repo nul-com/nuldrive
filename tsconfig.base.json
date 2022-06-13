@@ -104,6 +104,9 @@
       "@nuldrive/web/layouts/landing/sections/target": [
         "libs/web/layouts/landing/sections/target/src/index.ts"
       ],
+      "@nuldrive/web/layouts/landing/sections/team": [
+        "libs/web/layouts/landing/sections/team/src/index.ts"
+      ],
       "@nuldrive/web/layouts/landing/sections/timeline": [
         "libs/web/layouts/landing/sections/timeline/src/index.ts"
       ],
