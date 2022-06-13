@@ -21,7 +21,7 @@ export function WebLayoutsLandingSectionsFeaturesTable(
               {/* Table header */}
               <thead>
                 <tr className="text-base sm:text-lg border-t border-gray-600">
-                  <th className="text-bold text-left pr-2 py-4 min-w-48">
+                  <th className="text-bold text-left px-2 py-4 min-w-48">
                     Breakdown of features
                   </th>
                   <th className="text-bold text-center px-2 py-4">Starter</th>
@@ -32,8 +32,8 @@ export function WebLayoutsLandingSectionsFeaturesTable(
               {/* Table body */}
               <tbody>
                 {/* Row */}
-                <tr className="border-t border-gray-600">
-                  <td className="text-sm sm:text-base pr-2 py-4">
+                <tr className="border-t border-gray-600 hover:bg-gray-750 transition-all duration-300">
+                  <td className="text-sm sm:text-base px-2 py-4">
                     <div className="font-medium underline">
                       Unlimited viewers
                     </div>
@@ -70,8 +70,8 @@ export function WebLayoutsLandingSectionsFeaturesTable(
                   </td>
                 </tr>
                 {/* Row */}
-                <tr className="border-t border-gray-600">
-                  <td className="text-sm sm:text-base pr-2 py-4">
+                <tr className="border-t border-gray-600 hover:bg-gray-750 transition-all duration-300">
+                  <td className="text-sm sm:text-base px-2 py-4">
                     <div className="font-medium underline">Team members</div>
                     <div className="text-gray-400">
                       Excepteur sint occaecat cupidatat non proident
@@ -88,8 +88,8 @@ export function WebLayoutsLandingSectionsFeaturesTable(
                   </td>
                 </tr>
                 {/* Row */}
-                <tr className="border-t border-gray-600">
-                  <td className="text-sm sm:text-base pr-2 py-4">
+                <tr className="border-t border-gray-600 hover:bg-gray-750 transition-all duration-300">
+                  <td className="text-sm sm:text-base px-2 py-4">
                     <div className="font-medium underline">Projects</div>
                     <div className="text-gray-400">
                       Culpa qui officia deserunt mollit anim
@@ -106,8 +106,8 @@ export function WebLayoutsLandingSectionsFeaturesTable(
                   </td>
                 </tr>
                 {/* Row */}
-                <tr className="border-t border-gray-600">
-                  <td className="text-sm sm:text-base pr-2 py-4">
+                <tr className="border-t border-gray-600 hover:bg-gray-750 transition-all duration-300">
+                  <td className="text-sm sm:text-base px-2 py-4">
                     <div className="font-medium underline">
                       Dedicated support
                     </div>
@@ -144,8 +144,8 @@ export function WebLayoutsLandingSectionsFeaturesTable(
                   </td>
                 </tr>
                 {/* Row */}
-                <tr className="border-t border-gray-600">
-                  <td className="text-sm sm:text-base pr-2 py-4">
+                <tr className="border-t border-gray-600 hover:bg-gray-750 transition-all duration-300">
+                  <td className="text-sm sm:text-base px-2 py-4">
                     <div className="font-medium underline">
                       Private projects
                     </div>
@@ -182,8 +182,8 @@ export function WebLayoutsLandingSectionsFeaturesTable(
                   </td>
                 </tr>
                 {/* Row */}
-                <tr className="border-t border-gray-600">
-                  <td className="text-sm sm:text-base pr-2 py-4">
+                <tr className="border-t border-gray-600 hover:bg-gray-750 transition-all duration-300">
+                  <td className="text-sm sm:text-base px-2 py-4">
                     <div className="font-medium underline">
                       Public repositories
                     </div>
@@ -220,8 +220,8 @@ export function WebLayoutsLandingSectionsFeaturesTable(
                   </td>
                 </tr>
                 {/* Row */}
-                <tr className="border-t border-gray-600">
-                  <td className="text-sm sm:text-base pr-2 py-4">
+                <tr className="border-t border-gray-600 hover:bg-gray-750 transition-all duration-300">
+                  <td className="text-sm sm:text-base px-2 py-4">
                     <div className="font-medium underline">Account manager</div>
                     <div className="text-gray-400">
                       Condimentum id venenatis a condimentum vitae
