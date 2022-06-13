@@ -172,6 +172,7 @@
       ],
       "@nuldrive/web/util/resize": ["libs/web/util/resize/src/index.ts"],
       "@nuldrive/web/util/tabs": ["libs/web/util/tabs/src/index.ts"],
+      "@nuldrive/web/util/tooltip": ["libs/web/util/tooltip/src/index.ts"],
       "@nuldrive/web/util/transition": ["libs/web/util/transition/src/index.ts"]
     }
   },

@@ -59,6 +59,7 @@
     "web-util-list": "libs/web/util/list",
     "web-util-resize": "libs/web/util/resize",
     "web-util-tabs": "libs/web/util/tabs",
+    "web-util-tooltip": "libs/web/util/tooltip",
     "web-util-transition": "libs/web/util/transition"
   }
 }
