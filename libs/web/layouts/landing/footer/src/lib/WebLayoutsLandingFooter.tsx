@@ -18,7 +18,7 @@ export function WebLayoutsLandingFooter(props: WebLayoutsLandingFooterProps) {
                 {/* Logo */}
                 <Link href="/" aria-label="Cruip">
                   <svg
-                    className="w-8 h-8"
+                    className="w-8 h-8 cursor-pointer"
                     viewBox="0 0 32 32"
                     xmlns="http://www.w3.org/2000/svg"
                   >
@@ -47,11 +47,11 @@ export function WebLayoutsLandingFooter(props: WebLayoutsLandingFooterProps) {
                 </Link>
               </div>
               <div className="text-sm text-gray-400">
-                <span className="hover:text-gray-900 hover:underline transition duration-150 ease-in-out">
+                <span className="hover:text-gray-100 transition duration-150 ease-in-out">
                   <Link href="#">Terms</Link>
                   {' · '}
                 </span>
-                <span className=" hover:text-gray-900 hover:underline transition duration-150 ease-in-out">
+                <span className=" hover:text-gray-100 transition duration-150 ease-in-out">
                   <Link href="#">Privacy Policy</Link>
                 </span>
               </div>
@@ -130,7 +130,7 @@ export function WebLayoutsLandingFooter(props: WebLayoutsLandingFooterProps) {
                 Get the latest news and articles to your inbox every month.
               </p>
               <form>
-                <div className="flex flex-wrap mb-4">
+                <div className="flex flex-wrap mb-4 border-gray-400">
                   <div className="w-full">
                     <label
                       className="block text-sm sr-only"
@@ -142,7 +142,7 @@ export function WebLayoutsLandingFooter(props: WebLayoutsLandingFooterProps) {
                       <input
                         id="newsletter"
                         type="email"
-                        className="form-input w-full text-gray-800 px-3 py-2 pr-12 text-sm"
+                        className="form-input w-full text-gray-200 px-3 py-2 pr-12 text-sm"
                         placeholder="Your email"
                         required
                       />
