@@ -348,7 +348,7 @@ export function WebLayoutsLandingSectionsPricingCarousel(
                 >
                   <span className="sr-only">Previous</span>
                   <svg
-                    className="w-4 h-4 fill-current text-gray-500"
+                    className="w-4 h-4 fill-current text-gray-400"
                     viewBox="0 0 16 16"
                     xmlns="http://www.w3.org/2000/svg"
                   >
@@ -364,7 +364,7 @@ export function WebLayoutsLandingSectionsPricingCarousel(
                 >
                   <span className="sr-only">Next</span>
                   <svg
-                    className="w-4 h-4 fill-current text-gray-500"
+                    className="w-4 h-4 fill-current text-gray-400"
                     viewBox="0 0 16 16"
                     xmlns="http://www.w3.org/2000/svg"
                   >
