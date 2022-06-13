@@ -14,7 +14,7 @@ export function WebLayoutsLandingSectionsFaq(
         <div className="py-12 md:py-20 border-t border-gray-700">
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-20">
-            <h2 className="h2">Questions & Answers</h2>
+            <h2 data-aos="fade-up" className="h2">Questions & Answers</h2>
           </div>
 
           {/* Faqs */}
