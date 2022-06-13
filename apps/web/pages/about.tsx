@@ -10,6 +10,7 @@ import { WebLayoutsLandingSectionsTestimonialCarousel } from '@nuldrive/web/layo
 import { WebLayoutsLandingSectionsCareer } from 'libs/web/layouts/landing/sections/career/src';
 import { WebLayoutsLandingSectionsAboutClients } from 'libs/web/layouts/landing/sections/about-clients/src';
 import { WebLayoutsLandingSectionsNewsletter } from '@nuldrive/web/layouts/landing/sections//newsletter';
+import { WebLayoutsLandingSectionsProcess } from '@nuldrive/web/layouts/landing/sections/process';
 
 export interface AboutProps {}
 
@@ -29,6 +30,7 @@ export function About(props: AboutProps) {
       <WebLayoutsLandingSectionsTeam />
       <WebLayoutsLandingSectionsTestimonialCarousel />
       <WebLayoutsLandingSectionsCareer />
+      <WebLayoutsLandingSectionsProcess />
       <WebLayoutsLandingSectionsAboutClients />
       <WebLayoutsLandingSectionsNewsletter />
     </div>
