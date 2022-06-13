@@ -5,6 +5,7 @@ import { WebLayoutsLandingSectionsPricingTable } from 'libs/web/layouts/landing/
 import { WebLayoutsLandingSectionsFeaturesTable } from 'libs/web/layouts/landing/sections/features-table/src';
 import { WebLayoutsLandingSectionsPricingCarousel } from 'libs/web/layouts/landing/sections/pricing-carousel/src';
 import { WebLayoutsLandingSectionsFaq } from 'libs/web/layouts/landing/sections/faq/src';
+import { WebLayoutsLandingSectionsPricingCta } from 'libs/web/layouts/landing/sections/pricing-cta/src';
 
 export interface PricingProps {}
 
@@ -21,6 +22,7 @@ export function Pricing(props: PricingProps) {
       <WebLayoutsLandingSectionsFeaturesTable />
       <WebLayoutsLandingSectionsPricingCarousel />
       <WebLayoutsLandingSectionsFaq />
+      <WebLayoutsLandingSectionsPricingCta />
     </main>
   );
 }
