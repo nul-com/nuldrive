@@ -91,7 +91,7 @@ export function WebLayoutsLandingList(props: WebLayoutsLandingListProps) {
             onClick={handleOnClicked}
           >
             <Link href={href}>
-              <p className="relative z-20 cursor-pointer px-4 lg:px-6">
+              <p className="relative z-20 cursor-pointer px-4 lg:px-6 font-bold">
                 {name}
               </p>
             </Link>
