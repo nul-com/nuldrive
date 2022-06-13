@@ -19,7 +19,10 @@ export function WebLayoutsLandingSectionsFeaturesTable(
 
           {/* Table */}
           <div className="overflow-x-auto">
-            <table className="table-auto w-full border-b border-gray-600" data-aos="fade-up">
+            <table
+              className="table-auto w-full border-b border-gray-600"
+              data-aos="fade-up"
+            >
               {/* Table header */}
               <thead data-aos="fade" data-aos-delay="200" data-aos-once="true">
                 <tr className="text-base sm:text-lg border-t border-gray-600">
@@ -36,7 +39,6 @@ export function WebLayoutsLandingSectionsFeaturesTable(
                 {/* Row */}
                 <tr
                   data-aos="fade"
-                  data-aos-delay="200"
                   data-aos-once="true"
                   className="border-t border-gray-600 hover:bg-gray-750 transition-all duration-300"
                 >
@@ -79,7 +81,6 @@ export function WebLayoutsLandingSectionsFeaturesTable(
                 {/* Row */}
                 <tr
                   data-aos="fade"
-                  data-aos-delay="200"
                   data-aos-once="true"
                   className="border-t border-gray-600 hover:bg-gray-750 transition-all duration-300"
                 >
@@ -102,7 +103,6 @@ export function WebLayoutsLandingSectionsFeaturesTable(
                 {/* Row */}
                 <tr
                   data-aos="fade"
-                  data-aos-delay="200"
                   data-aos-once="true"
                   className="border-t border-gray-600 hover:bg-gray-750 transition-all duration-300"
                 >
@@ -125,7 +125,6 @@ export function WebLayoutsLandingSectionsFeaturesTable(
                 {/* Row */}
                 <tr
                   data-aos="fade"
-                  data-aos-delay="200"
                   data-aos-once="true"
                   className="border-t border-gray-600 hover:bg-gray-750 transition-all duration-300"
                 >
@@ -168,7 +167,6 @@ export function WebLayoutsLandingSectionsFeaturesTable(
                 {/* Row */}
                 <tr
                   data-aos="fade"
-                  data-aos-delay="200"
                   data-aos-once="true"
                   className="border-t border-gray-600 hover:bg-gray-750 transition-all duration-300"
                 >
@@ -211,7 +209,6 @@ export function WebLayoutsLandingSectionsFeaturesTable(
                 {/* Row */}
                 <tr
                   data-aos="fade"
-                  data-aos-delay="200"
                   data-aos-once="true"
                   className="border-t border-gray-600 hover:bg-gray-750 transition-all duration-300"
                 >
@@ -254,7 +251,6 @@ export function WebLayoutsLandingSectionsFeaturesTable(
                 {/* Row */}
                 <tr
                   data-aos="fade"
-                  data-aos-delay="200"
                   data-aos-once="true"
                   className="border-t border-gray-600 hover:bg-gray-750 transition-all duration-300"
                 >
