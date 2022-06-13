@@ -33,6 +33,7 @@
     "web-layouts-landing-sections-tabs": "libs/web/layouts/landing/sections/tabs",
     "web-layouts-landing-sections-target": "libs/web/layouts/landing/sections/target",
     "web-layouts-landing-sections-team": "libs/web/layouts/landing/sections/team",
+    "web-layouts-landing-sections-testimonial-carousel": "libs/web/layouts/landing/sections/testimonial-carousel",
     "web-layouts-landing-sections-timeline": "libs/web/layouts/landing/sections/timeline",
     "web-layouts-landing-ui": "libs/web/layouts/landing/ui",
     "web-util-avatar": "libs/web/util/avatar",
