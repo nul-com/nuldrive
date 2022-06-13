@@ -82,7 +82,7 @@ export function WebLayoutsLandingHero(props: WebLayoutsLandingHeroProps) {
                     4000,
                     'originators',
                     4000,
-                    'planner',
+                    'planners',
                     4000,
                   ]}
                   loop={Infinity}
