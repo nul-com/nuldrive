@@ -7,7 +7,7 @@ export function IllustrationRed(props: IllustrationRedProps) {
   return (
     <svg
       width="2080"
-      className="absolute top-0 right-0 transform translate-x-1/2 mr-[612px]"
+      className="absolute top-0 right-0 transform translate-x-1/2 mr-[612px] z-10"
       height="612"
       xmlns="http://www.w3.org/2000/svg"
     >
