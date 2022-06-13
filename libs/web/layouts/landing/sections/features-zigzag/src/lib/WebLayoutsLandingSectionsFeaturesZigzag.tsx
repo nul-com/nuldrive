@@ -1,3 +1,5 @@
+import { WebUtilImageLoader } from '@nuldrive/web/util/imageLoader';
+
 import styles from './WebLayoutsLandingSectionsFeaturesZigzag.module.css';
 
 /* eslint-disable-next-line */
@@ -31,7 +33,7 @@ export function WebLayoutsLandingSectionsFeaturesZigzag(
                 className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-5 lg:col-span-6 mb-8 md:mb-0 md:order-1"
                 data-aos="fade-up"
               >
-                <img
+                <WebUtilImageLoader
                   className="max-w-full mx-auto md:max-w-none h-auto"
                   src="https://r2.eriascdn.com/features-03-image-01.png"
                   width="540"
@@ -97,7 +99,7 @@ export function WebLayoutsLandingSectionsFeaturesZigzag(
                 className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-5 lg:col-span-6 mb-8 md:mb-0 md:rtl"
                 data-aos="fade-up"
               >
-                <img
+                <WebUtilImageLoader
                   className="max-w-full mx-auto md:max-w-none h-auto"
                   src="https://r2.eriascdn.com/features-03-image-02.png"
                   width="540"
@@ -163,7 +165,7 @@ export function WebLayoutsLandingSectionsFeaturesZigzag(
                 className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-5 lg:col-span-6 mb-8 md:mb-0 md:order-1"
                 data-aos="fade-up"
               >
-                <img
+                <WebUtilImageLoader
                   className="max-w-full mx-auto md:max-w-none h-auto"
                   src="https://r2.eriascdn.com/features-03-image-03.png"
                   width="540"

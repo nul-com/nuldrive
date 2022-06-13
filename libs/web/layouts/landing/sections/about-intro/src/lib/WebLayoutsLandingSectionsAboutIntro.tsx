@@ -1,3 +1,5 @@
+import { WebUtilImageLoader } from '@nuldrive/web/util/imageLoader';
+
 import styles from './WebLayoutsLandingSectionsAboutIntro.module.css';
 
 /* eslint-disable-next-line */
@@ -27,7 +29,7 @@ export function WebLayoutsLandingSectionsAboutIntro(
           </div>
 
           <figure className="flex justify-center items-start">
-            <img
+            <WebUtilImageLoader
               className="rounded-xl shadow-2xl z-20"
               src="https://r2.eriascdn.com/hero-image-02.png"
               width="768"

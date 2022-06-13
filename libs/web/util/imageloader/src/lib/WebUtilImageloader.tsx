@@ -5,10 +5,13 @@ import styles from './WebUtilImageloader.module.css';
 /* eslint-disable-next-line */
 export interface WebUtilImageLoaderProps {
   src: string;
-  width: number;
-  height?: number;
+  width?: number | string;
+  height?: number | string;
   quality?: string;
   alt?: string;
+  className?: string;
+  style?: any;
+  layout?: 'fixed' | 'fill' | 'intrinsic' | 'responsive' | undefined;
 }
 
 interface IimageLoader {
@@ -23,16 +26,17 @@ const imageLoader = (props: IimageLoader) => {
 };
 
 export function WebUtilImageLoader(props: WebUtilImageLoaderProps) {
-  const { src, width, height, quality, alt } = props;
+  const { src, width, height, quality, alt, className, style, layout } = props;
   return (
     <Image
       loader={imageLoader}
       src={src}
-      className=""
+      className={className}
       quality={quality}
-      alt={alt || 'user'}
+      alt={alt ? alt : 'nuldrive'}
       width={width}
-      height={height || width}
+      height={height}
+      layout={layout}
     />
   );
 }

@@ -1,5 +1,6 @@
 import React, { useState, useRef, useEffect } from 'react';
 import { WebUtilTransition } from '@nuldrive/web/util/transition';
+import { WebUtilImageLoader } from '@nuldrive/web/util/imageLoader';
 
 import styles from './WebLayoutsLandingSectionsFeaturesExplore.module.css';
 
@@ -48,10 +49,10 @@ export function WebLayoutsLandingSectionsFeaturesExplore(
 
           {/* Top image */}
           <div className="pb-12 md:pb-16 opacity-80">
-            <img
+            <WebUtilImageLoader
               src="https://r2.eriascdn.com/features-top-image.png"
-              width="1104"
-              height="325"
+              width={1104}
+              height={325}
               alt="Features top"
             />
           </div>
@@ -193,34 +194,34 @@ export function WebLayoutsLandingSectionsFeaturesExplore(
                   leaveEnd="opacity-0 -translate-y-16"
                 >
                   <div className="relative inline-flex flex-col">
-                    <img
+                    <WebUtilImageLoader
                       className="md:max-w-none mx-auto rounded"
                       src="https://r2.eriascdn.com/features-home-bg-01.png"
-                      width="500"
-                      height="375"
+                      width={500}
+                      height={375}
                       alt="Features bg"
                     />
                     <img
-                      className="md:max-w-none absolute w-full left-0 transform animate-float"
+                      className="md:max-w-none absolute w-full left-0 transform animate-float top-1/4"
                       src="https://r2.eriascdn.com/features-home-element-01.png"
-                      width="500"
-                      height="147"
+                      width={500}
+                      height={147}
                       alt="Element 01"
                       style={{ top: '22%' }}
                     />
                     <img
-                      className="md:max-w-none absolute w-full left-0 transform animate-float animation-delay-500"
+                      className="md:max-w-none absolute w-full left-0 transform animate-float animation-delay-500 top-[39%]"
                       src="https://r2.eriascdn.com/features-home-element-02.png"
-                      width="500"
-                      height="158"
+                      width={500}
+                      height={158}
                       alt="Element 02"
                       style={{ top: '39%' }}
                     />
                     <img
                       className="md:max-w-none absolute w-full left-0 bottom-0 transform animate-float animation-delay-1000"
                       src="https://r2.eriascdn.com/features-home-element-03.png"
-                      width="500"
-                      height="167"
+                      width={500}
+                      height={167}
                       alt="Element 03"
                       style={{ top: '77%' }}
                     />
@@ -239,11 +240,11 @@ export function WebLayoutsLandingSectionsFeaturesExplore(
                   leaveEnd="opacity-0 -translate-y-16"
                 >
                   <div className="relative inline-flex flex-col">
-                    <img
+                    <WebUtilImageLoader
                       className="md:max-w-none mx-auto rounded"
                       src="https://r2.eriascdn.com/features-home-bg-01.png"
-                      width="500"
-                      height="375"
+                      width={500}
+                      height={375}
                       alt="Features bg"
                     />
                     <img
@@ -285,8 +286,8 @@ export function WebLayoutsLandingSectionsFeaturesExplore(
                   leaveEnd="opacity-0 -translate-y-16"
                 >
                   <div className="relative inline-flex flex-col">
-                    <img
-                      className="md:max-w-none mx-auto rounded"
+                    <WebUtilImageLoader
+                      className="md:max-w-none w-max mx-auto rounded"
                       src="https://r2.eriascdn.com/features-home-bg-01.png"
                       width="500"
                       height="375"

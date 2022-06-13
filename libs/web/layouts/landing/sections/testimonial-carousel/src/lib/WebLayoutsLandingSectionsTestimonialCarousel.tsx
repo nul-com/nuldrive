@@ -1,5 +1,6 @@
 import React, { useState, useRef, useEffect } from 'react';
 import { WebUtilTransition } from '@nuldrive/web/util/transition';
+import { WebUtilImageLoader } from '@nuldrive/web/util/imageLoader';
 
 import styles from './WebLayoutsLandingSectionsTestimonialCarousel.module.css';
 
@@ -236,7 +237,7 @@ export function WebLayoutsLandingSectionsTestimonialCarousel(
                   ></div>
                 </div>
                 {/* People pics */}
-                <img
+                <WebUtilImageLoader
                   src="https://r2.eriascdn.com/worldmap.png"
                   width="672"
                   height="330"
@@ -342,7 +343,7 @@ export function WebLayoutsLandingSectionsTestimonialCarousel(
                     leaveEnd="opacity-0 scale-98"
                   >
                     <div className="relative inline-flex flex-col justify-center mb-4">
-                      <img
+                      <WebUtilImageLoader
                         className="rounded-full"
                         src={item.img}
                         width="56"

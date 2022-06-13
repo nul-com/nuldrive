@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import Link from 'next/link';
+import { WebUtilImageLoader } from '@nuldrive/web/util/imageLoader';
 
 import styles from './WebLayoutsLandingSectionsCaseStudies.module.css';
 
@@ -125,7 +126,7 @@ export function WebLayoutsLandingSectionsCaseStudies(
               <article className="flex flex-col h-full" data-aos="fade-up">
                 <a className="block" href="#0">
                   <figure className="relative h-0 pb-9/16 overflow-hidden">
-                    <img
+                    <WebUtilImageLoader
                       className="absolute inset-0 w-full h-full object-cover transform hover:scale-105 transition duration-700 ease-out"
                       src="https://r2.eriascdn.com/news-10.jpg"
                       width="352"
@@ -180,7 +181,7 @@ export function WebLayoutsLandingSectionsCaseStudies(
               >
                 <a className="block" href="#0">
                   <figure className="relative h-0 pb-9/16 overflow-hidden">
-                    <img
+                    <WebUtilImageLoader
                       className="absolute inset-0 w-full h-full object-cover transform hover:scale-105 transition duration-700 ease-out"
                       src="https://r2.eriascdn.com/news-11.jpg"
                       width="352"
@@ -235,7 +236,7 @@ export function WebLayoutsLandingSectionsCaseStudies(
               >
                 <a className="block" href="#0">
                   <figure className="relative h-0 pb-9/16 overflow-hidden">
-                    <img
+                    <WebUtilImageLoader
                       className="absolute inset-0 w-full h-full object-cover transform hover:scale-105 transition duration-700 ease-out"
                       src="https://r2.eriascdn.com/news-12.jpg"
                       width="352"

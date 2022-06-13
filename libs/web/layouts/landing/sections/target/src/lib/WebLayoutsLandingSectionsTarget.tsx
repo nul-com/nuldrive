@@ -1,3 +1,5 @@
+import { WebUtilImageLoader } from '@nuldrive/web/util/imageLoader';
+
 import styles from './WebLayoutsLandingSectionsTarget.module.css';
 
 /* eslint-disable-next-line */
@@ -28,7 +30,7 @@ export function WebLayoutsLandingSectionsTarget(
                 data-aos-delay="200"
                 data-aos-anchor="[data-aos-id-target]"
               >
-                <img
+                <WebUtilImageLoader
                   className="mx-auto md:max-w-none"
                   src="https://r2.eriascdn.com/features-02-image.png"
                   width="540"

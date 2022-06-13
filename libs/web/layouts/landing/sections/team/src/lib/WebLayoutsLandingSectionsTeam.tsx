@@ -1,3 +1,5 @@
+import { WebUtilImageLoader } from '@nuldrive/web/util/imageLoader';
+
 import styles from './WebLayoutsLandingSectionsTeam.module.css';
 
 /* eslint-disable-next-line */
@@ -37,7 +39,7 @@ export function WebLayoutsLandingSectionsTeam(
               data-aos-anchor="[data-aos-id-team]"
             >
               <div className="flex flex-col items-center">
-                <img
+                <WebUtilImageLoader
                   className="rounded-full mb-4"
                   src="https://r2.eriascdn.com/team-member-01.jpg"
                   width="120"
@@ -76,7 +78,7 @@ export function WebLayoutsLandingSectionsTeam(
               data-aos-anchor="[data-aos-id-team]"
             >
               <div className="flex flex-col items-center">
-                <img
+                <WebUtilImageLoader
                   className="rounded-full mb-4"
                   src="https://r2.eriascdn.com/team-member-02.jpg"
                   width="120"
@@ -115,7 +117,7 @@ export function WebLayoutsLandingSectionsTeam(
               data-aos-anchor="[data-aos-id-team]"
             >
               <div className="flex flex-col items-center">
-                <img
+                <WebUtilImageLoader
                   className="rounded-full mb-4"
                   src="https://r2.eriascdn.com/team-member-03.jpg"
                   width="120"
@@ -154,7 +156,7 @@ export function WebLayoutsLandingSectionsTeam(
               data-aos-anchor="[data-aos-id-team]"
             >
               <div className="flex flex-col items-center">
-                <img
+                <WebUtilImageLoader
                   className="rounded-full mb-4"
                   src="https://r2.eriascdn.com/team-member-04.jpg"
                   width="120"
@@ -193,7 +195,7 @@ export function WebLayoutsLandingSectionsTeam(
               data-aos-anchor="[data-aos-id-team]"
             >
               <div className="flex flex-col items-center">
-                <img
+                <WebUtilImageLoader
                   className="rounded-full mb-4"
                   src="https://r2.eriascdn.com/team-member-05.jpg"
                   width="120"
@@ -232,7 +234,7 @@ export function WebLayoutsLandingSectionsTeam(
               data-aos-anchor="[data-aos-id-team]"
             >
               <div className="flex flex-col items-center">
-                <img
+                <WebUtilImageLoader
                   className="rounded-full mb-4"
                   src="https://r2.eriascdn.com/team-member-06.jpg"
                   width="120"
@@ -271,7 +273,7 @@ export function WebLayoutsLandingSectionsTeam(
               data-aos-anchor="[data-aos-id-team]"
             >
               <div className="flex flex-col items-center">
-                <img
+                <WebUtilImageLoader
                   className="rounded-full mb-4"
                   src="https://r2.eriascdn.com/team-member-07.jpg"
                   width="120"
@@ -310,7 +312,7 @@ export function WebLayoutsLandingSectionsTeam(
               data-aos-anchor="[data-aos-id-team]"
             >
               <div className="flex flex-col items-center">
-                <img
+                <WebUtilImageLoader
                   className="rounded-full mb-4"
                   src="https://r2.eriascdn.com/team-member-08.jpg"
                   width="120"
@@ -349,7 +351,7 @@ export function WebLayoutsLandingSectionsTeam(
               data-aos-anchor="[data-aos-id-team]"
             >
               <div className="flex flex-col items-center">
-                <img
+                <WebUtilImageLoader
                   className="rounded-full mb-4"
                   src="https://r2.eriascdn.com/team-member-09.jpg"
                   width="120"

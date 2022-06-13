@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { Modal } from '@nuldrive/web-layouts-landing-sections-hero';
 import Typical from 'react-typical';
+import { WebUtilImageLoader } from '@nuldrive/web/util/imageLoader';
 
 import styles from './WebLayoutsLandingHero.module.css';
 
@@ -139,11 +140,11 @@ export function WebLayoutsLandingHero(props: WebLayoutsLandingHeroProps) {
                   setVideoModalOpen(true);
                 }}
               >
-                <img
-                  className="mx-auto"
+                <WebUtilImageLoader
+                  className="mx-auto rounded-xl"
                   src="https://r2.eriascdn.com/hero-image-01.png"
-                  width="768"
-                  height="432"
+                  width={768}
+                  height={432}
                   alt="Hero"
                 />
                 <svg

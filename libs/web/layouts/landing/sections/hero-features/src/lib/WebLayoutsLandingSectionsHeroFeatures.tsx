@@ -1,3 +1,5 @@
+import { WebUtilImageLoader } from '@nuldrive/web/util/imageLoader';
+
 import styles from './WebLayoutsLandingSectionsHeroFeatures.module.css';
 
 /* eslint-disable-next-line */
@@ -8,7 +10,7 @@ export function WebLayoutsLandingSectionsHeroFeatures(
 ) {
   return (
     <section className="relative">
-      <div className="max-w-6xl mx-auto px-4 sm:px-6 relative">
+      <div className="max-w-6xl mx-auto px-4 sm:px-6 relative flex justify-center items-start">
         {/* Illustration behind hero content */}
         <div
           className="absolute left-0 bottom-0 -ml-64 hidden lg:block pointer-events-none"
@@ -63,11 +65,11 @@ export function WebLayoutsLandingSectionsHeroFeatures(
             </p>
           </div>
           {/* Image */}
-          <img
+          <WebUtilImageLoader
             className="mx-auto"
             src="https://r2.eriascdn.com/hero-image-02.png"
-            width="768"
-            height="432"
+            width={768}
+            height={432}
             alt="Hero"
             data-aos="fade-up"
             data-aos-delay="400"

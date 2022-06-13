@@ -1,5 +1,6 @@
 import React, { useState, useRef, useEffect } from 'react';
 import { WebUtilTransition } from '@nuldrive/web/util/transition';
+import { WebUtilImageLoader } from '@nuldrive/web/util/imageLoader';
 
 import styles from './WebLayoutsLandingSectionsTabs.module.css';
 
@@ -165,12 +166,13 @@ export function WebLayoutsLandingSectionsTabs(
               >
                 <article className="relative max-w-md mx-auto md:max-w-none">
                   <figure className="md:absolute md:inset-y-0 md:right-0 md:w-1/2">
-                    <img
+                    <WebUtilImageLoader
                       className="w-full h-full object-cover rounded-t-2xl md:rounded-r-2xl"
                       src="https://r2.eriascdn.com/tabs-image-01.jpg"
-                      width="516"
-                      height="387"
+                      width={516}
+                      height={387}
                       alt="Tabs 01"
+                      layout='fill'
                     />
                   </figure>
                   <div className="relative bg-gray-800 rounded-b-2xl md:rounded-l-2xl md:rounded-br-none py-8 md:py-16 px-6 md:pr-16 md:max-w-lg lg:max-w-xl">
@@ -215,13 +217,14 @@ export function WebLayoutsLandingSectionsTabs(
                 leaveEnd="opacity-0 scale-98"
               >
                 <article className="relative max-w-md mx-auto md:max-w-none">
-                  <figure className="md:absolute md:inset-y-0 md:left-0 md:w-1/2">
-                    <img
-                      className="w-full h-full object-cover rounded-t-2xl md:rounded-l-2xl"
-                      src="https://r2.eriascdn.com/hero-image-01.jpg"
-                      width="516"
-                      height="387"
+                  <figure className="md:absolute md:inset-y-0 md:left-0 md:w-1/2 md:translate-x-3">
+                    <WebUtilImageLoader
+                      className="w-full h-full object-cover rounded-t-2xl md:rounded-tr-none md:rounded-l-2xl"
+                      src="https://r2.eriascdn.com/tabs-image-01.jpg"
+                      width={516}
+                      height={387}
                       alt="Tabs 02"
+                      layout='fill'
                     />
                   </figure>
                   <div className="relative bg-gray-800 rounded-b-2xl md:rounded-r-2xl md:rounded-bl-none py-8 md:py-16 px-6 md:pl-16 md:max-w-lg lg:max-w-xl md:ml-auto">
@@ -267,12 +270,13 @@ export function WebLayoutsLandingSectionsTabs(
               >
                 <article className="relative max-w-md mx-auto md:max-w-none">
                   <figure className="md:absolute md:inset-y-0 md:right-0 md:w-1/2">
-                    <img
+                    <WebUtilImageLoader
                       className="w-full h-full object-cover rounded-t-2xl md:rounded-r-2xl"
                       src="https://r2.eriascdn.com/tabs-image-01.jpg"
                       width="516"
                       height="387"
                       alt="Tabs 01"
+                      layout='fill'
                     />
                   </figure>
                   <div className="relative bg-gray-800 rounded-b-2xl md:rounded-l-2xl md:rounded-br-none py-8 md:py-16 px-6 md:pr-16 md:max-w-lg lg:max-w-xl">
@@ -317,13 +321,14 @@ export function WebLayoutsLandingSectionsTabs(
                 leaveEnd="opacity-0 scale-98"
               >
                 <article className="relative max-w-md mx-auto md:max-w-none">
-                  <figure className="md:absolute md:inset-y-0 md:left-0 md:w-1/2">
-                    <img
-                      className="w-full h-full object-cover rounded-t-2xl md:rounded-l-2xl"
+                  <figure className="md:absolute md:inset-y-0 md:left-0 md:w-1/2 right-0 md:translate-x-3">
+                    <WebUtilImageLoader
+                      className="w-full h-full object-cover rounded-t-2xl md:rounded-tr-none md:rounded-l-2xl"
                       src="https://r2.eriascdn.com/hero-image-01.jpg"
                       width="516"
                       height="387"
                       alt="Tabs 02"
+                      layout='fill'
                     />
                   </figure>
                   <div className="relative bg-gray-800 py-8 rounded-b-2xl md:rounded-r-2xl md:rounded-bl-none md:py-16 px-6 md:pl-16 md:max-w-lg lg:max-w-xl md:ml-auto">
@@ -369,12 +374,13 @@ export function WebLayoutsLandingSectionsTabs(
               >
                 <article className="relative max-w-md mx-auto md:max-w-none">
                   <figure className="md:absolute md:inset-y-0 md:right-0 md:w-1/2">
-                    <img
+                    <WebUtilImageLoader
                       className="w-full h-full object-cover rounded-t-2xl md:rounded-r-2xl"
                       src="https://r2.eriascdn.com/tabs-image-01.jpg"
                       width="516"
                       height="387"
                       alt="Tabs 01"
+                      layout='fill'
                     />
                   </figure>
                   <div className="relative bg-gray-800 rounded-b-2xl md:rounded-l-2xl md:rounded-br-none py-8 md:py-16 px-6 md:pr-16 md:max-w-lg lg:max-w-xl">

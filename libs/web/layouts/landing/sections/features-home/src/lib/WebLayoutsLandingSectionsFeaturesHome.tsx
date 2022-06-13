@@ -1,3 +1,5 @@
+import { WebUtilImageLoader } from '@nuldrive/web/util/imageLoader';
+
 import styles from './WebLayoutsLandingSectionsFeaturesHome.module.css';
 
 /* eslint-disable-next-line */
@@ -21,15 +23,15 @@ export function WebLayoutsLandingSectionsFeaturesHome(
                 data-aos-anchor="[data-aos-id-features-home]"
               >
                 <div className="relative">
-                  <img
+                  <WebUtilImageLoader
                     className="md:max-w-none"
                     src="https://r2.eriascdn.com/features-illustration.png"
-                    width="540"
-                    height="520"
+                    width={540}
+                    height={520}
                     alt="Features illustration"
                   />
                   <svg
-                    className="absolute inset-0 max-w-full mx-auto md:max-w-none h-auto"
+                    className="absolute inset-0 max-w-full mx-auto md:max-w-none h-auto md:inset-auto md:-top-16 md:-left-16 lg:inset-0"
                     width="540"
                     height="520"
                     viewBox="0 0 540 520"

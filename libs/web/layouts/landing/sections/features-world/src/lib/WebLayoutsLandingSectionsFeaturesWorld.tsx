@@ -1,3 +1,5 @@
+import { WebUtilImageLoader } from '@nuldrive/web/util/imageLoader';
+
 import styles from './WebLayoutsLandingSectionsFeaturesWorld.module.css';
 
 /* eslint-disable-next-line */
@@ -42,11 +44,11 @@ export function WebLayoutsLandingSectionsFeaturesWorld(
                 </g>
               </svg>
               {/* Globe image */}
-              <img
+              <WebUtilImageLoader
                 className="relative rounded-full shadow-xl"
                 src="https://r2.eriascdn.com/planet.png"
-                width="400"
-                height="400"
+                width={400}
+                height={400}
                 alt="Planet"
               />
               {/* Static dots */}
