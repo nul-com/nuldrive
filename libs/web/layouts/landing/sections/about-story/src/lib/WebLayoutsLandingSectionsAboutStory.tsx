@@ -30,7 +30,7 @@ export function WebLayoutsLandingSectionsAboutStory(
           </div>
 
           <div className="sm:flex">
-            <figure className="flex shrink-0 max-w-none sm:max-w-xs lg:max-w-none mb-8 sm:mb-0">
+            <figure data-aos="fade-right" className="flex shrink-0 max-w-none sm:max-w-xs lg:max-w-none mb-8 sm:mb-0">
               <img
                 className="grow self-start rounded"
                 src="https://r2.eriascdn.com/hero-image-02.png"
@@ -40,15 +40,15 @@ export function WebLayoutsLandingSectionsAboutStory(
               />
             </figure>
             <div className="sm:ml-8 lg:ml-16">
-              <h4 className="h4 mb-2">2017 - 2020</h4>
-              <p className="text-lg text-gray-400 mb-8">
+              <h4 data-aos="fade-left" className="h4 mb-2">2017 - 2020</h4>
+              <p data-aos="fade-left" className="text-lg text-gray-400 mb-8">
                 Quam pellentesque nec nam aliquam sem et tortor consequat,
                 pellentesque adipiscing commodo elit at imperdiet. Semper auctor
                 neque vitae tempus quam pellentesque nec. Amet dictum sit amet
                 justo donec enim diam varius sit amet mattis vulputate enim
                 nulla aliquet porttitor.
               </p>
-              <div className="flex  mb-8">
+              <div data-aos="fade-left" className="flex  mb-8">
                 <img
                   className="rounded-full self-start shrink-0 shadow-lg mr-4"
                   src="https://r2.eriascdn.com/about-logo.png"
@@ -76,7 +76,7 @@ export function WebLayoutsLandingSectionsAboutStory(
             </div>
           </div>
 
-          <div className="max-w-3xl mx-auto">
+          <div data-aos="fade-up" className="max-w-3xl mx-auto">
             <p className="text-lg text-gray-400">
               Aenean sed adipiscing diam donec adipiscing tristique risus nec
               feugiat auctor urna nunc id cursus metus aliquam eleifend, arcu
