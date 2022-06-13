@@ -18,6 +18,7 @@
     "web-layouts-landing-sections-about-intro": "libs/web/layouts/landing/sections/about-intro",
     "web-layouts-landing-sections-about-stats": "libs/web/layouts/landing/sections/about-stats",
     "web-layouts-landing-sections-about-story": "libs/web/layouts/landing/sections/about-story",
+    "web-layouts-landing-sections-career": "libs/web/layouts/landing/sections/career",
     "web-layouts-landing-sections-case-studies": "libs/web/layouts/landing/sections/case-studies",
     "web-layouts-landing-sections-features-blocks": "libs/web/layouts/landing/sections/features-blocks",
     "web-layouts-landing-sections-features-explore": "libs/web/layouts/landing/sections/features-explore",

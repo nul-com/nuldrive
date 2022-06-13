@@ -1,0 +1,25 @@
+{
+  "root": "libs/web/layouts/landing/sections/career",
+  "sourceRoot": "libs/web/layouts/landing/sections/career/src",
+  "projectType": "library",
+  "tags": [],
+  "targets": {
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "outputs": ["{options.outputFile}"],
+      "options": {
+        "lintFilePatterns": [
+          "libs/web/layouts/landing/sections/career/**/*.{ts,tsx,js,jsx}"
+        ]
+      }
+    },
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "outputs": ["coverage/libs/web/layouts/landing/sections/career"],
+      "options": {
+        "jestConfig": "libs/web/layouts/landing/sections/career/jest.config.js",
+        "passWithNoTests": true
+      }
+    }
+  }
+}

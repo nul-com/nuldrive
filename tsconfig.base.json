@@ -68,6 +68,9 @@
       "@nuldrive/web/layouts/landing/sections/about-story": [
         "libs/web/layouts/landing/sections/about-story/src/index.ts"
       ],
+      "@nuldrive/web/layouts/landing/sections/career": [
+        "libs/web/layouts/landing/sections/career/src/index.ts"
+      ],
       "@nuldrive/web/layouts/landing/sections/case-studies": [
         "libs/web/layouts/landing/sections/case-studies/src/index.ts"
       ],
