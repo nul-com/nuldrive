@@ -97,11 +97,12 @@ export function WebLayoutsLandingSectionsBlogList(
           <div className="max-w-sm mx-auto md:max-w-none">
             {/*  Section title */}
             <h4
-              className="h4 pb-6 mb-10 border-b border-gray-700 w-full"
+              className="h4 border-b border-gray-700 w-full"
               data-aos="fade-up"
             >
               Latest articles
             </h4>
+            <div className="pb-6 mb-10 border-b border-gray-700 w-full"></div>
 
             {/*  Articles container */}
             <div className="grid gap-12 md:grid-cols-3 md:gap-x-6 md:gap-y-8 items-start">
