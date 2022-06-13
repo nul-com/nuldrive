@@ -1,6 +1,7 @@
 import { ReactElement } from 'react';
 import { WebLayoutsLandingUi } from '@nuldrive/web/layouts/landing/ui';
 import { IllustrationRed } from '@nuldrive/web-layouts-landing-sections-illustration';
+import { WebLayoutsLandingSectionsAboutIntro } from '@nuldrive/web/layouts/landing/sections/about-intro';
 
 export interface AboutProps {}
 
@@ -13,6 +14,7 @@ export function About(props: AboutProps) {
       >
         <IllustrationRed />
       </div>
+      <WebLayoutsLandingSectionsAboutIntro />
     </div>
   );
 }
