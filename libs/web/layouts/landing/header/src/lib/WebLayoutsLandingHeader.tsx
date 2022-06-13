@@ -63,7 +63,7 @@ export function WebLayoutsLandingHeader(props: WebLayoutsLandingHeaderProps) {
             <div className="block">
               <Link href="/" aria-label="Cruip">
                 <svg
-                  className="w-8 h-8 fill-current text-purple-600"
+                  className="w-8 h-8 fill-current text-purple-600 cursor-pointer"
                   viewBox="0 0 32 32"
                   xmlns="http://www.w3.org/2000/svg"
                 >
