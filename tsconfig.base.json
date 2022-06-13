@@ -65,6 +65,9 @@
       "@nuldrive/web/layouts/landing/sections/about-intro": [
         "libs/web/layouts/landing/sections/about-intro/src/index.ts"
       ],
+      "@nuldrive/web/layouts/landing/sections/about-process": [
+        "libs/web/layouts/landing/sections/about-process/src/index.ts"
+      ],
       "@nuldrive/web/layouts/landing/sections/about-stats": [
         "libs/web/layouts/landing/sections/about-stats/src/index.ts"
       ],

@@ -17,6 +17,7 @@
     "web-layouts-landing-sections--newsletter": "libs/web/layouts/landing/sections/newsletter",
     "web-layouts-landing-sections-about-clients": "libs/web/layouts/landing/sections/about-clients",
     "web-layouts-landing-sections-about-intro": "libs/web/layouts/landing/sections/about-intro",
+    "web-layouts-landing-sections-about-process": "libs/web/layouts/landing/sections/about-process",
     "web-layouts-landing-sections-about-stats": "libs/web/layouts/landing/sections/about-stats",
     "web-layouts-landing-sections-about-story": "libs/web/layouts/landing/sections/about-story",
     "web-layouts-landing-sections-career": "libs/web/layouts/landing/sections/career",
