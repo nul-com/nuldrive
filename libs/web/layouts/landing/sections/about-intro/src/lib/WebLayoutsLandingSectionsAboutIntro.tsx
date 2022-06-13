@@ -22,15 +22,15 @@ export function WebLayoutsLandingSectionsAboutIntro(
             </p>
           </div>
 
-          {/* <figure className="flex justify-center items-start">
+          <figure className="flex justify-center items-start">
             <img
               className="rounded-xl shadow-2xl z-20"
-              src="https://r2.eriascdn.com/about-01.jpg"
+              src="https://r2.eriascdn.com/hero-image-02.png"
               width="768"
               height="432"
               alt="About us"
             />
-          </figure> */}
+          </figure>
         </div>
       </div>
     </section>
