@@ -1,0 +1,25 @@
+{
+  "root": "libs/web/layouts/landing/sections/blog-list",
+  "sourceRoot": "libs/web/layouts/landing/sections/blog-list/src",
+  "projectType": "library",
+  "tags": [],
+  "targets": {
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "outputs": ["{options.outputFile}"],
+      "options": {
+        "lintFilePatterns": [
+          "libs/web/layouts/landing/sections/blog-list/**/*.{ts,tsx,js,jsx}"
+        ]
+      }
+    },
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "outputs": ["coverage/libs/web/layouts/landing/sections/blog-list"],
+      "options": {
+        "jestConfig": "libs/web/layouts/landing/sections/blog-list/jest.config.js",
+        "passWithNoTests": true
+      }
+    }
+  }
+}

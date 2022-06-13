@@ -20,6 +20,7 @@
     "web-layouts-landing-sections-about-process": "libs/web/layouts/landing/sections/about-process",
     "web-layouts-landing-sections-about-stats": "libs/web/layouts/landing/sections/about-stats",
     "web-layouts-landing-sections-about-story": "libs/web/layouts/landing/sections/about-story",
+    "web-layouts-landing-sections-blog-list": "libs/web/layouts/landing/sections/blog-list",
     "web-layouts-landing-sections-career": "libs/web/layouts/landing/sections/career",
     "web-layouts-landing-sections-case-studies": "libs/web/layouts/landing/sections/case-studies",
     "web-layouts-landing-sections-cta-alternative": "libs/web/layouts/landing/sections/cta-alternative",
