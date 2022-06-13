@@ -12,10 +12,14 @@ export function WebLayoutsLandingSectionsAboutIntro(
         <div className="pt-32 pb-12 md:pt-40 md:pb-20">
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
-            <h1 className="h1 mb-4">
+            <h1 data-aos="fade-up" className="h1 mb-4">
               We enable developers to build amazing things
             </h1>
-            <p className="text-xl text-gray-400">
+            <p
+              data-aos="fade-up"
+              data-aos-delay="200"
+              className="text-xl text-gray-400"
+            >
               We have transformed product development, making it faster,
               simpler... better! That's why in just three years we now help more
               developers build projects than anyone else.
@@ -29,6 +33,8 @@ export function WebLayoutsLandingSectionsAboutIntro(
               width="768"
               height="432"
               alt="About us"
+              data-aos="fade-up"
+              data-aos-delay="400"
             />
           </figure>
         </div>
