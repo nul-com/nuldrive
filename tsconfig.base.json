@@ -134,6 +134,9 @@
       "@nuldrive/web/layouts/landing/sections/support": [
         "libs/web/layouts/landing/sections/support/src/index.ts"
       ],
+      "@nuldrive/web/layouts/landing/sections/support-form": [
+        "libs/web/layouts/landing/sections/support-form/src/index.ts"
+      ],
       "@nuldrive/web/layouts/landing/sections/tabs": [
         "libs/web/layouts/landing/sections/tabs/src/index.ts"
       ],

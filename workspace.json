@@ -42,6 +42,7 @@
     "web-layouts-landing-sections-process": "libs/web/layouts/landing/sections/process",
     "web-layouts-landing-sections-stats-circle": "libs/web/layouts/landing/sections/stats-circle",
     "web-layouts-landing-sections-support": "libs/web/layouts/landing/sections/support",
+    "web-layouts-landing-sections-support-form": "libs/web/layouts/landing/sections/support-form",
     "web-layouts-landing-sections-tabs": "libs/web/layouts/landing/sections/tabs",
     "web-layouts-landing-sections-target": "libs/web/layouts/landing/sections/target",
     "web-layouts-landing-sections-team": "libs/web/layouts/landing/sections/team",

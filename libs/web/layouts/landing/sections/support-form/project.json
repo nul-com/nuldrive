@@ -1,0 +1,25 @@
+{
+  "root": "libs/web/layouts/landing/sections/support-form",
+  "sourceRoot": "libs/web/layouts/landing/sections/support-form/src",
+  "projectType": "library",
+  "tags": [],
+  "targets": {
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "outputs": ["{options.outputFile}"],
+      "options": {
+        "lintFilePatterns": [
+          "libs/web/layouts/landing/sections/support-form/**/*.{ts,tsx,js,jsx}"
+        ]
+      }
+    },
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "outputs": ["coverage/libs/web/layouts/landing/sections/support-form"],
+      "options": {
+        "jestConfig": "libs/web/layouts/landing/sections/support-form/jest.config.js",
+        "passWithNoTests": true
+      }
+    }
+  }
+}
