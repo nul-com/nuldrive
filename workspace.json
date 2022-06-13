@@ -15,6 +15,7 @@
     "web-layouts-landing-footer": "libs/web/layouts/landing/footer",
     "web-layouts-landing-header": "libs/web/layouts/landing/header",
     "web-layouts-landing-sections--newsletter": "libs/web/layouts/landing/sections/newsletter",
+    "web-layouts-landing-sections-about-clients": "libs/web/layouts/landing/sections/about-clients",
     "web-layouts-landing-sections-about-intro": "libs/web/layouts/landing/sections/about-intro",
     "web-layouts-landing-sections-about-stats": "libs/web/layouts/landing/sections/about-stats",
     "web-layouts-landing-sections-about-story": "libs/web/layouts/landing/sections/about-story",
