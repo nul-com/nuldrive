@@ -12,14 +12,16 @@ export function WebLayoutsLandingSectionsFeaturesTable(
         <div className="pt-6 md:pt-6">
           {/* Section header */}
           <div className="pb-12">
-            <h2 className="h2">Features</h2>
+            <h2 data-aos="fade-up" className="h2">
+              Features
+            </h2>
           </div>
 
           {/* Table */}
           <div className="overflow-x-auto">
-            <table className="table-auto w-full border-b border-gray-600">
+            <table className="table-auto w-full border-b border-gray-600" data-aos="fade-up">
               {/* Table header */}
-              <thead>
+              <thead data-aos="fade" data-aos-delay="200" data-aos-once="true">
                 <tr className="text-base sm:text-lg border-t border-gray-600">
                   <th className="text-bold text-left px-2 py-4 min-w-48">
                     Breakdown of features
@@ -32,7 +34,12 @@ export function WebLayoutsLandingSectionsFeaturesTable(
               {/* Table body */}
               <tbody>
                 {/* Row */}
-                <tr className="border-t border-gray-600 hover:bg-gray-750 transition-all duration-300">
+                <tr
+                  data-aos="fade"
+                  data-aos-delay="200"
+                  data-aos-once="true"
+                  className="border-t border-gray-600 hover:bg-gray-750 transition-all duration-300"
+                >
                   <td className="text-sm sm:text-base px-2 py-4">
                     <div className="font-medium underline">
                       Unlimited viewers
@@ -70,7 +77,12 @@ export function WebLayoutsLandingSectionsFeaturesTable(
                   </td>
                 </tr>
                 {/* Row */}
-                <tr className="border-t border-gray-600 hover:bg-gray-750 transition-all duration-300">
+                <tr
+                  data-aos="fade"
+                  data-aos-delay="200"
+                  data-aos-once="true"
+                  className="border-t border-gray-600 hover:bg-gray-750 transition-all duration-300"
+                >
                   <td className="text-sm sm:text-base px-2 py-4">
                     <div className="font-medium underline">Team members</div>
                     <div className="text-gray-400">
@@ -88,7 +100,12 @@ export function WebLayoutsLandingSectionsFeaturesTable(
                   </td>
                 </tr>
                 {/* Row */}
-                <tr className="border-t border-gray-600 hover:bg-gray-750 transition-all duration-300">
+                <tr
+                  data-aos="fade"
+                  data-aos-delay="200"
+                  data-aos-once="true"
+                  className="border-t border-gray-600 hover:bg-gray-750 transition-all duration-300"
+                >
                   <td className="text-sm sm:text-base px-2 py-4">
                     <div className="font-medium underline">Projects</div>
                     <div className="text-gray-400">
@@ -106,7 +123,12 @@ export function WebLayoutsLandingSectionsFeaturesTable(
                   </td>
                 </tr>
                 {/* Row */}
-                <tr className="border-t border-gray-600 hover:bg-gray-750 transition-all duration-300">
+                <tr
+                  data-aos="fade"
+                  data-aos-delay="200"
+                  data-aos-once="true"
+                  className="border-t border-gray-600 hover:bg-gray-750 transition-all duration-300"
+                >
                   <td className="text-sm sm:text-base px-2 py-4">
                     <div className="font-medium underline">
                       Dedicated support
@@ -144,7 +166,12 @@ export function WebLayoutsLandingSectionsFeaturesTable(
                   </td>
                 </tr>
                 {/* Row */}
-                <tr className="border-t border-gray-600 hover:bg-gray-750 transition-all duration-300">
+                <tr
+                  data-aos="fade"
+                  data-aos-delay="200"
+                  data-aos-once="true"
+                  className="border-t border-gray-600 hover:bg-gray-750 transition-all duration-300"
+                >
                   <td className="text-sm sm:text-base px-2 py-4">
                     <div className="font-medium underline">
                       Private projects
@@ -182,7 +209,12 @@ export function WebLayoutsLandingSectionsFeaturesTable(
                   </td>
                 </tr>
                 {/* Row */}
-                <tr className="border-t border-gray-600 hover:bg-gray-750 transition-all duration-300">
+                <tr
+                  data-aos="fade"
+                  data-aos-delay="200"
+                  data-aos-once="true"
+                  className="border-t border-gray-600 hover:bg-gray-750 transition-all duration-300"
+                >
                   <td className="text-sm sm:text-base px-2 py-4">
                     <div className="font-medium underline">
                       Public repositories
@@ -220,7 +252,12 @@ export function WebLayoutsLandingSectionsFeaturesTable(
                   </td>
                 </tr>
                 {/* Row */}
-                <tr className="border-t border-gray-600 hover:bg-gray-750 transition-all duration-300">
+                <tr
+                  data-aos="fade"
+                  data-aos-delay="200"
+                  data-aos-once="true"
+                  className="border-t border-gray-600 hover:bg-gray-750 transition-all duration-300"
+                >
                   <td className="text-sm sm:text-base px-2 py-4">
                     <div className="font-medium underline">Account manager</div>
                     <div className="text-gray-400">
