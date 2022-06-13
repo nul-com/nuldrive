@@ -1,6 +1,7 @@
 import { ReactElement } from 'react';
 import { WebLayoutsLandingUi } from '@nuldrive/web/layouts/landing/ui';
 import { IllustrationRed } from '@nuldrive/web-layouts-landing-sections-illustration';
+import { WebLayoutsLandingSectionsPricingTable } from 'libs/web/layouts/landing/sections/pricing-table/src';
 
 export interface PricingProps {}
 
@@ -13,6 +14,7 @@ export function Pricing(props: PricingProps) {
       >
         <IllustrationRed />
       </div>
+      <WebLayoutsLandingSectionsPricingTable />
     </main>
   );
 }
