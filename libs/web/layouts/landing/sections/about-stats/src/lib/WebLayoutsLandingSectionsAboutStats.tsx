@@ -13,7 +13,7 @@ export function WebLayoutsLandingSectionsAboutStats(
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
             <h1 className="h2 mb-4">Developing a global mindset</h1>
-            <p className="text-xl text-gray-600">
+            <p className="text-xl text-gray-400">
               Duis aute irure dolor in reprehenderit in voluptate velit esse
               cillum dolore eu fugiat nulla pariatur excepteur sint occaecat
               cupidatat.
