@@ -79,7 +79,7 @@ export function WebLayoutsLandingSectionsPricingTable(
             <div className="max-w-sm mx-auto grid gap-8 lg:grid-cols-3 lg:gap-6 items-start lg:max-w-none">
               {/* Pricing table 1 */}
               <div
-                className="relative flex flex-col h-full p-6 bg-gray-800"
+                className="relative flex flex-col h-full p-6 bg-gray-800 rounded-2xl"
                 data-aos="fade-up"
                 data-aos-delay="700"
               >
@@ -154,7 +154,7 @@ export function WebLayoutsLandingSectionsPricingTable(
 
               {/* Pricing table 2 */}
               <div
-                className="relative flex flex-col h-full p-6 bg-gray-800"
+                className="relative flex flex-col h-full p-6 bg-gray-800 rounded-2xl"
                 data-aos="fade-up"
                 data-aos-delay="600"
               >
@@ -246,7 +246,7 @@ export function WebLayoutsLandingSectionsPricingTable(
 
               {/* Pricing table 3 */}
               <div
-                className="relative flex flex-col h-full p-6 bg-gray-800"
+                className="relative flex flex-col h-full p-6 bg-gray-800 rounded-2xl"
                 data-aos="fade-up"
                 data-aos-delay="800"
               >
