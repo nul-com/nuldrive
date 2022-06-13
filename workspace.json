@@ -27,6 +27,7 @@
     "web-layouts-landing-sections-features-blocks": "libs/web/layouts/landing/sections/features-blocks",
     "web-layouts-landing-sections-features-explore": "libs/web/layouts/landing/sections/features-explore",
     "web-layouts-landing-sections-features-home": "libs/web/layouts/landing/sections/features-home",
+    "web-layouts-landing-sections-features-table": "libs/web/layouts/landing/sections/features-table",
     "web-layouts-landing-sections-features-world": "libs/web/layouts/landing/sections/features-world",
     "web-layouts-landing-sections-features-zigzag": "libs/web/layouts/landing/sections/features-zigzag",
     "web-layouts-landing-sections-hero": "libs/web/layouts/landing/sections/hero",
