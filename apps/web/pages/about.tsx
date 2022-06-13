@@ -8,6 +8,7 @@ import { WebLayoutsLandingSectionsAboutStats } from '@nuldrive/web/layouts/landi
 import { WebLayoutsLandingSectionsTeam } from '@nuldrive/web/layouts/landing/sections/team';
 import { WebLayoutsLandingSectionsTestimonialCarousel } from '@nuldrive/web/layouts/landing/sections/testimonial-carousel';
 import { WebLayoutsLandingSectionsCareer } from 'libs/web/layouts/landing/sections/career/src';
+import { WebLayoutsLandingSectionsAboutClients } from 'libs/web/layouts/landing/sections/about-clients/src';
 
 export interface AboutProps {}
 
@@ -27,6 +28,7 @@ export function About(props: AboutProps) {
       <WebLayoutsLandingSectionsTeam />
       <WebLayoutsLandingSectionsTestimonialCarousel />
       <WebLayoutsLandingSectionsCareer />
+      <WebLayoutsLandingSectionsAboutClients />
     </div>
   );
 }
