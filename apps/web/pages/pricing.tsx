@@ -4,6 +4,7 @@ import { IllustrationRed } from '@nuldrive/web-layouts-landing-sections-illustra
 import { WebLayoutsLandingSectionsPricingTable } from 'libs/web/layouts/landing/sections/pricing-table/src';
 import { WebLayoutsLandingSectionsFeaturesTable } from 'libs/web/layouts/landing/sections/features-table/src';
 import { WebLayoutsLandingSectionsPricingCarousel } from 'libs/web/layouts/landing/sections/pricing-carousel/src';
+import { WebLayoutsLandingSectionsFaq } from 'libs/web/layouts/landing/sections/faq/src';
 
 export interface PricingProps {}
 
@@ -19,6 +20,7 @@ export function Pricing(props: PricingProps) {
       <WebLayoutsLandingSectionsPricingTable />
       <WebLayoutsLandingSectionsFeaturesTable />
       <WebLayoutsLandingSectionsPricingCarousel />
+      <WebLayoutsLandingSectionsFaq />
     </main>
   );
 }
