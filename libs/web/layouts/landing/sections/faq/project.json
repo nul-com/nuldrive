@@ -1,0 +1,25 @@
+{
+  "root": "libs/web/layouts/landing/sections/faq",
+  "sourceRoot": "libs/web/layouts/landing/sections/faq/src",
+  "projectType": "library",
+  "tags": [],
+  "targets": {
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "outputs": ["{options.outputFile}"],
+      "options": {
+        "lintFilePatterns": [
+          "libs/web/layouts/landing/sections/faq/**/*.{ts,tsx,js,jsx}"
+        ]
+      }
+    },
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "outputs": ["coverage/libs/web/layouts/landing/sections/faq"],
+      "options": {
+        "jestConfig": "libs/web/layouts/landing/sections/faq/jest.config.js",
+        "passWithNoTests": true
+      }
+    }
+  }
+}

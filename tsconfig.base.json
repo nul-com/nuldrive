@@ -86,6 +86,9 @@
       "@nuldrive/web/layouts/landing/sections/cta-alternative": [
         "libs/web/layouts/landing/sections/cta-alternative/src/index.ts"
       ],
+      "@nuldrive/web/layouts/landing/sections/faq": [
+        "libs/web/layouts/landing/sections/faq/src/index.ts"
+      ],
       "@nuldrive/web/layouts/landing/sections/features-blocks": [
         "libs/web/layouts/landing/sections/features-blocks/src/index.ts"
       ],
