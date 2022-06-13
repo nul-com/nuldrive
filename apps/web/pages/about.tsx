@@ -11,6 +11,7 @@ import { WebLayoutsLandingSectionsCareer } from 'libs/web/layouts/landing/sectio
 import { WebLayoutsLandingSectionsAboutClients } from 'libs/web/layouts/landing/sections/about-clients/src';
 import { WebLayoutsLandingSectionsNewsletter } from '@nuldrive/web/layouts/landing/sections//newsletter';
 import { WebLayoutsLandingSectionsProcess } from '@nuldrive/web/layouts/landing/sections/process';
+import { WebLayoutsLandingSectionsCtaAlternative } from 'libs/web/layouts/landing/sections/cta-alternative/src';
 
 export interface AboutProps {}
 
@@ -31,6 +32,7 @@ export function About(props: AboutProps) {
       <WebLayoutsLandingSectionsTestimonialCarousel />
       <WebLayoutsLandingSectionsCareer />
       <WebLayoutsLandingSectionsProcess />
+      <WebLayoutsLandingSectionsCtaAlternative />
       <WebLayoutsLandingSectionsAboutClients />
       <WebLayoutsLandingSectionsNewsletter />
     </div>
