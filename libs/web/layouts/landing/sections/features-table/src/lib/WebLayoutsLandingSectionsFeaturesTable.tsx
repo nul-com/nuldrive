@@ -49,6 +49,13 @@ export function WebLayoutsLandingSectionsFeaturesTable(
                     <div className="text-gray-400">
                       Lorem ipsum dolor sit amet, consectetur adipiscing elit
                     </div>
+                    {/* Tooltip */}
+                    <Tooltip>
+                      <div className="text-xs text-slate-100">
+                        Keep team shipping simple and take control of your
+                        company.
+                      </div>
+                    </Tooltip>
                   </td>
                   <td className="text-sm px-2 py-4 text-center font-medium">
                     <svg
