@@ -23,7 +23,7 @@ export function WebUtilAccordion(props: WebUtilAccordionProps) {
   }, [accordion]);
 
   return (
-    <Component>
+    <Component data-aos="fade-up">
       <div className="border-t border-gray-700">
         <button
           className="flex items-center w-full text-lg font-medium text-left py-5 border-t border-gray-700"
