@@ -1,3 +1,5 @@
+import { WebUtilTooltip } from 'libs/web/util/tooltip/src';
+
 import styles from './WebLayoutsLandingSectionsFeaturesTable.module.css';
 
 /* eslint-disable-next-line */
@@ -43,19 +45,18 @@ export function WebLayoutsLandingSectionsFeaturesTable(
                   className="border-t border-gray-600 hover:bg-gray-750 transition-all duration-300"
                 >
                   <td className="text-sm sm:text-base px-2 py-4">
-                    <div className="font-medium underline">
-                      Unlimited viewers
+                    <div className="flex items-center gap-2 font-medium underline">
+                      <p className="">Unlimited viewers</p>
+                      <WebUtilTooltip position="right">
+                        <div className="text-xs text-slate-100">
+                          Keep team shipping simple and take control of your
+                          company.
+                        </div>
+                      </WebUtilTooltip>
                     </div>
                     <div className="text-gray-400">
                       Lorem ipsum dolor sit amet, consectetur adipiscing elit
                     </div>
-                    {/* Tooltip */}
-                    <Tooltip>
-                      <div className="text-xs text-slate-100">
-                        Keep team shipping simple and take control of your
-                        company.
-                      </div>
-                    </Tooltip>
                   </td>
                   <td className="text-sm px-2 py-4 text-center font-medium">
                     <svg
@@ -92,7 +93,15 @@ export function WebLayoutsLandingSectionsFeaturesTable(
                   className="border-t border-gray-600 hover:bg-gray-750 transition-all duration-300"
                 >
                   <td className="text-sm sm:text-base px-2 py-4">
-                    <div className="font-medium underline">Team members</div>
+                    <div className="flex items-center gap-2 font-medium underline">
+                      <p className="">Team members</p>
+                      <WebUtilTooltip position="right">
+                        <div className="text-xs text-slate-100">
+                          Keep team shipping simple and take control of your
+                          company.
+                        </div>
+                      </WebUtilTooltip>
+                    </div>
                     <div className="text-gray-400">
                       Excepteur sint occaecat cupidatat non proident
                     </div>
@@ -114,7 +123,15 @@ export function WebLayoutsLandingSectionsFeaturesTable(
                   className="border-t border-gray-600 hover:bg-gray-750 transition-all duration-300"
                 >
                   <td className="text-sm sm:text-base px-2 py-4">
-                    <div className="font-medium underline">Projects</div>
+                  <div className="flex items-center gap-2 font-medium underline">
+                      <p className="">Projects</p>
+                      <WebUtilTooltip position="right">
+                        <div className="text-xs text-slate-100">
+                          Keep team shipping simple and take control of your
+                          company.
+                        </div>
+                      </WebUtilTooltip>
+                    </div>
                     <div className="text-gray-400">
                       Culpa qui officia deserunt mollit anim
                     </div>
@@ -136,8 +153,14 @@ export function WebLayoutsLandingSectionsFeaturesTable(
                   className="border-t border-gray-600 hover:bg-gray-750 transition-all duration-300"
                 >
                   <td className="text-sm sm:text-base px-2 py-4">
-                    <div className="font-medium underline">
-                      Dedicated support
+                  <div className="flex items-center gap-2 font-medium underline">
+                      <p className="">Dedicated Support</p>
+                      <WebUtilTooltip position="right">
+                        <div className="text-xs text-slate-100">
+                          Keep team shipping simple and take control of your
+                          company.
+                        </div>
+                      </WebUtilTooltip>
                     </div>
                     <div className="text-gray-400">
                       Excepteur sint occaecat cupidatat non proident
@@ -178,8 +201,14 @@ export function WebLayoutsLandingSectionsFeaturesTable(
                   className="border-t border-gray-600 hover:bg-gray-750 transition-all duration-300"
                 >
                   <td className="text-sm sm:text-base px-2 py-4">
-                    <div className="font-medium underline">
-                      Private projects
+                  <div className="flex items-center gap-2 font-medium underline">
+                      <p className="">Private projects</p>
+                      <WebUtilTooltip position="right">
+                        <div className="text-xs text-slate-100">
+                          Keep team shipping simple and take control of your
+                          company.
+                        </div>
+                      </WebUtilTooltip>
                     </div>
                     <div className="text-gray-400">
                       Lorem ipsum dolor sit amet, consectetur adipiscing elit
@@ -220,8 +249,14 @@ export function WebLayoutsLandingSectionsFeaturesTable(
                   className="border-t border-gray-600 hover:bg-gray-750 transition-all duration-300"
                 >
                   <td className="text-sm sm:text-base px-2 py-4">
-                    <div className="font-medium underline">
-                      Public repositories
+                  <div className="flex items-center gap-2 font-medium underline">
+                      <p className="">Public repositories</p>
+                      <WebUtilTooltip position="right">
+                        <div className="text-xs text-slate-100">
+                          Keep team shipping simple and take control of your
+                          company.
+                        </div>
+                      </WebUtilTooltip>
                     </div>
                     <div className="text-gray-400">
                       Ut enim ad minim veniam quis nostrud exercitation ullamco
@@ -262,7 +297,15 @@ export function WebLayoutsLandingSectionsFeaturesTable(
                   className="border-t border-gray-600 hover:bg-gray-750 transition-all duration-300"
                 >
                   <td className="text-sm sm:text-base px-2 py-4">
-                    <div className="font-medium underline">Account manager</div>
+                  <div className="flex items-center gap-2 font-medium underline">
+                      <p className="">Account manager</p>
+                      <WebUtilTooltip position="right">
+                        <div className="text-xs text-slate-100">
+                          Keep team shipping simple and take control of your
+                          company.
+                        </div>
+                      </WebUtilTooltip>
+                    </div>
                     <div className="text-gray-400">
                       Condimentum id venenatis a condimentum vitae
                     </div>
