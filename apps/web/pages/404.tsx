@@ -19,7 +19,7 @@ export function Error(props: ErrorProps) {
     }
   }, [sceneEl]);
   return (
-    <div>
+    <div className="error_container">
       <div className="about">
         <div className="bg_links social portfolio">
           <Link href="/">
