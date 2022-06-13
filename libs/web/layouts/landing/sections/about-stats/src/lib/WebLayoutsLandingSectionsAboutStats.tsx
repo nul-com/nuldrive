@@ -12,8 +12,14 @@ export function WebLayoutsLandingSectionsAboutStats(
         <div className="py-12 md:py-20 border-t border-gray-700">
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
-            <h1 className="h2 mb-4">Developing a global mindset</h1>
-            <p className="text-xl text-gray-400">
+            <h1 data-aos="fade-up" className="h2 mb-4">
+              Developing a global mindset
+            </h1>
+            <p
+              data-aos="fade-up"
+              data-aos-delay="200"
+              className="text-xl text-gray-400"
+            >
               Duis aute irure dolor in reprehenderit in voluptate velit esse
               cillum dolore eu fugiat nulla pariatur excepteur sint occaecat
               cupidatat.
@@ -268,6 +274,8 @@ export function WebLayoutsLandingSectionsAboutStats(
                 width="287"
                 height="86"
                 alt="Planet avatar 03"
+                data-aos="fade-right"
+                data-aos-delay="400"
                 style={{ width: '71.75%', top: '-4%', left: '-23.5%' }}
               />
               <img
@@ -276,6 +284,8 @@ export function WebLayoutsLandingSectionsAboutStats(
                 width="256"
                 height="126"
                 alt="Planet avatar 04"
+                data-aos="fade-left"
+                data-aos-delay="400"
                 style={{ width: '64%', bottom: '2%', right: '-18%' }}
               />
               <img
@@ -283,6 +293,8 @@ export function WebLayoutsLandingSectionsAboutStats(
                 src="https://r2.eriascdn.com/planet-avatar-05.png"
                 width="296"
                 height="78"
+                data-aos="fade-left"
+                data-aos-delay="400"
                 alt="Planet avatar 05"
                 style={{ width: '74%', top: '-5%', right: '-22%' }}
               />
