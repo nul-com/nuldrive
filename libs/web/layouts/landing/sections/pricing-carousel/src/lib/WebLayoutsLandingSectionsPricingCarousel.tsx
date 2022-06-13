@@ -340,7 +340,7 @@ export function WebLayoutsLandingSectionsPricingCarousel(
               {/* Arrows */}
               <div className="absolute inset-0 flex items-center justify-between">
                 <button
-                  className="relative z-20 w-16 h-16 p-1 flex items-center justify-center bg-white rounded-full border border-gray-200 shadow-md hover:shadow-lg transform -translate-x-2 md:-translate-x-1/2"
+                  className="relative z-20 w-16 h-16 p-1 flex items-center justify-center bg-gray-700 rounded-full border border-gray-200 shadow-md hover:shadow-lg transform -translate-x-2 md:-translate-x-1/2"
                   onClick={() => {
                     setActive(active === 0 ? items.length - 1 : active - 1);
                     stopAutorotate();
@@ -356,7 +356,7 @@ export function WebLayoutsLandingSectionsPricingCarousel(
                   </svg>
                 </button>
                 <button
-                  className="relative z-20 w-16 h-16 p-1 flex items-center justify-center bg-white rounded-full border border-gray-200 shadow-md hover:shadow-lg transform translate-x-2 md:translate-x-1/2"
+                  className="relative z-20 w-16 h-16 p-1 flex items-center justify-center bg-gray-700 rounded-full border border-gray-200 shadow-md hover:shadow-lg transform translate-x-2 md:translate-x-1/2"
                   onClick={() => {
                     setActive(active === items.length - 1 ? 0 : active + 1);
                     stopAutorotate();
