@@ -4,6 +4,7 @@ import { WebLayoutsLandingIllustration } from '@nuldrive/web-layouts-landing-sec
 import { WebLayoutsLandingSectionsHeroFeatures } from '@nuldrive/web/layouts/landing/sections/hero-features';
 import { WebLayoutsLandingSectionsStatsCircle } from '@nuldrive/web/layouts/landing/sections/stats-circle';
 import { WebLayoutsLandingSectionsFeaturesZigzag } from '@nuldrive/web/layouts/landing/sections/features-zigzag';
+import { WebLayoutsLandingSectionsFeaturesBlocks } from '@nuldrive/web/layouts/landing/sections/features-blocks';
 
 export interface FeaturesProps {}
 export function Features(props: FeaturesProps) {
@@ -16,8 +17,9 @@ export function Features(props: FeaturesProps) {
         <WebLayoutsLandingIllustration />
       </div>
       <WebLayoutsLandingSectionsHeroFeatures />
-          <WebLayoutsLandingSectionsStatsCircle />
-          <WebLayoutsLandingSectionsFeaturesZigzag />
+      <WebLayoutsLandingSectionsStatsCircle />
+      <WebLayoutsLandingSectionsFeaturesZigzag />
+      <WebLayoutsLandingSectionsFeaturesBlocks />
     </main>
   );
 }
