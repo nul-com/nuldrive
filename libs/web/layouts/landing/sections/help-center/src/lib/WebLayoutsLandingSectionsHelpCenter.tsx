@@ -22,7 +22,7 @@ export function WebLayoutsLandingSectionsHelpCenter(
                 <h2 className="h2 mb-4">FAQ’s – Frequently Asked Questions</h2>
                 <p className="text-gray-400">
                   Last updated -{' '}
-                  <span className="text-purple-600">June 30, 2020</span>
+                  <span className="text-purple-600">June 14, 2022</span>
                 </p>
               </div>
               <ul className="-my-4">
