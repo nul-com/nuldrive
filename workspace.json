@@ -39,6 +39,7 @@
     "web-layouts-landing-sections-hero-features": "libs/web/layouts/landing/sections/hero-features",
     "web-layouts-landing-sections-illustration": "libs/web/layouts/landing/sections/illustration",
     "web-layouts-landing-sections-news": "libs/web/layouts/landing/sections/news",
+    "web-layouts-landing-sections-post": "libs/web/layouts/landing/sections/post",
     "web-layouts-landing-sections-pricing-carousel": "libs/web/layouts/landing/sections/pricing-carousel",
     "web-layouts-landing-sections-pricing-cta": "libs/web/layouts/landing/sections/pricing-cta",
     "web-layouts-landing-sections-pricing-table": "libs/web/layouts/landing/sections/pricing-table",
