@@ -1,4 +1,6 @@
 import { WebUtilImageLoader } from '@nuldrive/web/util/imageLoader';
+import CountUp from 'react-countup';
+import VisibilitySensor from 'react-visibility-sensor';
 
 import styles from './WebLayoutsLandingSectionsAboutStats.module.css';
 
@@ -390,7 +392,7 @@ export function WebLayoutsLandingSectionsAboutStats(
           {/* Items */}
           <div className="max-w-sm mx-auto grid gap-8 md:gap-16 md:grid-cols-2 lg:grid-cols-3 items-start md:max-w-2xl lg:max-w-5xl pt-8 md:pt-12">
             {/* 1st item */}
-            <div className="text-center">
+            <div className="text-center" data-aos="fade-in">
               <div className="h3 mb-1">2012</div>
               <div className="text-gray-400">
                 Lorem ipsum is placeholder text commonly used tristique senectus
@@ -399,8 +401,22 @@ export function WebLayoutsLandingSectionsAboutStats(
             </div>
 
             {/* 2nd item */}
-            <div className="text-center">
-              <div className="h3 mb-1">$20M</div>
+            <div
+              className="text-center"
+              data-aos="fade-in"
+              data-aos-delay="100"
+            >
+              <div className="h3 mb-1">
+                <span>$</span>
+                <CountUp end={20} redraw={true}>
+                  {({ countUpRef, start }) => (
+                    <VisibilitySensor onChange={start} delayedCall>
+                      <span ref={countUpRef} />
+                    </VisibilitySensor>
+                  )}
+                </CountUp>
+                <span>M</span>
+              </div>
               <div className="text-gray-400">
                 Lorem ipsum is placeholder text commonly used tristique senectus
                 et netus.
@@ -408,8 +424,21 @@ export function WebLayoutsLandingSectionsAboutStats(
             </div>
 
             {/* 3rd item */}
-            <div className="text-center">
-              <div className="h3 mb-1">250M+</div>
+            <div
+              className="text-center"
+              data-aos="fade-in"
+              data-aos-delay="150"
+            >
+              <div className="h3 mb-1">
+                <CountUp end={250} duration={2.75} redraw={true}>
+                  {({ countUpRef, start }) => (
+                    <VisibilitySensor onChange={start} delayedCall>
+                      <span ref={countUpRef} />
+                    </VisibilitySensor>
+                  )}
+                </CountUp>
+                <span>M+</span>
+              </div>
               <div className="text-gray-400">
                 Lorem ipsum is placeholder text commonly used tristique senectus
                 et netus.
@@ -417,8 +446,21 @@ export function WebLayoutsLandingSectionsAboutStats(
             </div>
 
             {/* 4th item */}
-            <div className="text-center">
-              <div className="h3 mb-1">2700+</div>
+            <div
+              className="text-center"
+              data-aos="fade-in"
+              data-aos-delay="200"
+            >
+              <div className="h3 mb-1">
+                <CountUp end={20} redraw={true}>
+                  {({ countUpRef, start }) => (
+                    <VisibilitySensor onChange={start} delayedCall>
+                      <span ref={countUpRef} />
+                    </VisibilitySensor>
+                  )}
+                </CountUp>
+                <span>+</span>
+              </div>
               <div className="text-gray-400">
                 Lorem ipsum is placeholder text commonly used tristique senectus
                 et netus.
@@ -426,8 +468,21 @@ export function WebLayoutsLandingSectionsAboutStats(
             </div>
 
             {/* 5th item */}
-            <div className="text-center">
-              <div className="h3 mb-1">400K</div>
+            <div
+              className="text-center"
+              data-aos="fade-in"
+              data-aos-delay="250"
+            >
+              <div className="h3 mb-1">
+                <CountUp end={400} duration={3} redraw={true}>
+                  {({ countUpRef, start }) => (
+                    <VisibilitySensor onChange={start} delayedCall>
+                      <span ref={countUpRef} />
+                    </VisibilitySensor>
+                  )}
+                </CountUp>
+                <span>K</span>
+              </div>
               <div className="text-gray-400">
                 Lorem ipsum is placeholder text commonly used tristique senectus
                 et netus.
@@ -435,7 +490,11 @@ export function WebLayoutsLandingSectionsAboutStats(
             </div>
 
             {/* 6th item */}
-            <div className="text-center">
+            <div
+              className="text-center"
+              data-aos="fade-in"
+              data-aos-delay="300"
+            >
               <div className="h3 mb-1">Millions</div>
               <div className="text-gray-400">
                 Lorem ipsum is placeholder text commonly used tristique senectus
