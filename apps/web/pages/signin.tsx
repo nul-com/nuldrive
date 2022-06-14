@@ -1,6 +1,7 @@
 import { ReactElement } from 'react';
 import { WebLayoutsLandingUi } from '@nuldrive/web/layouts/landing/ui';
 import { WebLayoutsLandingIllustration } from '@nuldrive/web-layouts-landing-sections-illustration';
+import { WebLayoutsLandingSectionsSignIn } from 'libs/web/layouts/landing/sections/sign-in/src';
 
 export interface SignInProps {}
 export function SignIn(props: SignInProps) {
@@ -12,6 +13,7 @@ export function SignIn(props: SignInProps) {
       >
         <WebLayoutsLandingIllustration />
       </div>
+      <WebLayoutsLandingSectionsSignIn />
     </main>
   );
 }
