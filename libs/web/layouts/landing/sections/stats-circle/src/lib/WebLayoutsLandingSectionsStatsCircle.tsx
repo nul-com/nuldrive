@@ -1,3 +1,6 @@
+import CountUp from 'react-countup';
+import VisibilitySensor from 'react-visibility-sensor';
+
 import styles from './WebLayoutsLandingSectionsStatsCircle.module.css';
 
 /* eslint-disable-next-line */
@@ -28,7 +31,14 @@ export function WebLayoutsLandingSectionsStatsCircle(
                 className="text-4xl font-bold leading-tight tracking-tighter text-purple-600 mb-2"
                 data-aos="fade-up"
               >
-                179K
+                <CountUp end={179} duration={3} redraw={true}>
+                  {({ countUpRef, start }) => (
+                    <VisibilitySensor onChange={start} delayedCall>
+                      <span ref={countUpRef} />
+                    </VisibilitySensor>
+                  )}
+                </CountUp>
+                <span>K</span>
               </div>
               <div
                 className="text-lg text-gray-400"
@@ -44,7 +54,14 @@ export function WebLayoutsLandingSectionsStatsCircle(
                 className="text-4xl font-bold leading-tight tracking-tighter text-purple-600 mb-2"
                 data-aos="fade-up"
               >
-                147%
+                <CountUp end={147} duration={2.5} redraw={true}>
+                  {({ countUpRef, start }) => (
+                    <VisibilitySensor onChange={start} delayedCall>
+                      <span ref={countUpRef} />
+                    </VisibilitySensor>
+                  )}
+                </CountUp>
+                <span>%</span>
               </div>
               <div
                 className="text-lg text-gray-400"
@@ -60,7 +77,15 @@ export function WebLayoutsLandingSectionsStatsCircle(
                 className="text-4xl font-bold leading-tight tracking-tighter text-purple-600 mb-2"
                 data-aos="fade-up"
               >
-                $97K
+                <span>$</span>
+                <CountUp end={97} redraw={true}>
+                  {({ countUpRef, start }) => (
+                    <VisibilitySensor onChange={start} delayedCall>
+                      <span ref={countUpRef} />
+                    </VisibilitySensor>
+                  )}
+                </CountUp>
+                <span>K</span>
               </div>
               <div
                 className="text-lg text-gray-400"
