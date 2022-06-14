@@ -161,6 +161,9 @@
       "@nuldrive/web/layouts/landing/sections/timeline": [
         "libs/web/layouts/landing/sections/timeline/src/index.ts"
       ],
+      "@nuldrive/web/layouts/landing/sections/tutorials-cta": [
+        "libs/web/layouts/landing/sections/tutorials-cta/src/index.ts"
+      ],
       "@nuldrive/web/layouts/landing/sections/tutorials-list": [
         "libs/web/layouts/landing/sections/tutorials-list/src/index.ts"
       ],

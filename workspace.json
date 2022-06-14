@@ -51,6 +51,7 @@
     "web-layouts-landing-sections-team": "libs/web/layouts/landing/sections/team",
     "web-layouts-landing-sections-testimonial-carousel": "libs/web/layouts/landing/sections/testimonial-carousel",
     "web-layouts-landing-sections-timeline": "libs/web/layouts/landing/sections/timeline",
+    "web-layouts-landing-sections-tutorials-cta": "libs/web/layouts/landing/sections/tutorials-cta",
     "web-layouts-landing-sections-tutorials-list": "libs/web/layouts/landing/sections/tutorials-list",
     "web-layouts-landing-ui": "libs/web/layouts/landing/ui",
     "web-util-accordion": "libs/web/util/accordion",
