@@ -14,7 +14,7 @@ export function WebUtilButtonsBucketSelect(
       <div className="flex justify-between h-full pl-[14px] pr-[7px] items-center">
         <div className="flex gap-[9px] justify-center items-center">
           <div className="h-[26px]">
-            <WebUtilAvatar src="https://r2.eriascdn.com/erias.png" width={26} />
+            <WebUtilAvatar src="https://r2.eriascdn.com/erias.png" width={26} height={26} />
           </div>
           <button className="">
             <div className="flex gap-[2px] items-center rounded-[4px] pl-[7px] pr-[2px] py-[3px] transition-all duration-200 hover:bg-[#EDEDED]">
