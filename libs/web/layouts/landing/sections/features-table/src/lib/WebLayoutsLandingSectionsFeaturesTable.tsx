@@ -123,7 +123,7 @@ export function WebLayoutsLandingSectionsFeaturesTable(
                   className="border-t border-gray-600 hover:bg-gray-750 transition-all duration-300"
                 >
                   <td className="text-sm sm:text-base px-2 py-4">
-                  <div className="flex items-center gap-2 font-medium underline">
+                    <div className="flex items-center gap-2 font-medium underline">
                       <p className="">Projects</p>
                       <WebUtilTooltip position="right">
                         <div className="text-xs text-slate-100">
@@ -153,7 +153,7 @@ export function WebLayoutsLandingSectionsFeaturesTable(
                   className="border-t border-gray-600 hover:bg-gray-750 transition-all duration-300"
                 >
                   <td className="text-sm sm:text-base px-2 py-4">
-                  <div className="flex items-center gap-2 font-medium underline">
+                    <div className="flex items-center gap-2 font-medium underline">
                       <p className="">Dedicated Support</p>
                       <WebUtilTooltip position="right">
                         <div className="text-xs text-slate-100">
@@ -201,7 +201,7 @@ export function WebLayoutsLandingSectionsFeaturesTable(
                   className="border-t border-gray-600 hover:bg-gray-750 transition-all duration-300"
                 >
                   <td className="text-sm sm:text-base px-2 py-4">
-                  <div className="flex items-center gap-2 font-medium underline">
+                    <div className="flex items-center gap-2 font-medium underline">
                       <p className="">Private projects</p>
                       <WebUtilTooltip position="right">
                         <div className="text-xs text-slate-100">
@@ -249,7 +249,7 @@ export function WebLayoutsLandingSectionsFeaturesTable(
                   className="border-t border-gray-600 hover:bg-gray-750 transition-all duration-300"
                 >
                   <td className="text-sm sm:text-base px-2 py-4">
-                  <div className="flex items-center gap-2 font-medium underline">
+                    <div className="flex items-center gap-2 font-medium underline">
                       <p className="">Public repositories</p>
                       <WebUtilTooltip position="right">
                         <div className="text-xs text-slate-100">
@@ -297,7 +297,7 @@ export function WebLayoutsLandingSectionsFeaturesTable(
                   className="border-t border-gray-600 hover:bg-gray-750 transition-all duration-300"
                 >
                   <td className="text-sm sm:text-base px-2 py-4">
-                  <div className="flex items-center gap-2 font-medium underline">
+                    <div className="flex items-center gap-2 font-medium underline">
                       <p className="">Account manager</p>
                       <WebUtilTooltip position="right">
                         <div className="text-xs text-slate-100">
