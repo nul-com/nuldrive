@@ -2,6 +2,7 @@ import { ReactElement } from 'react';
 import { WebLayoutsLandingUi } from '@nuldrive/web/layouts/landing/ui';
 import { WebLayoutsLandingIllustration } from '@nuldrive/web-layouts-landing-sections-illustration';
 import { WebLayoutsLandingSectionsTutorialsList } from 'libs/web/layouts/landing/sections/tutorials-list/src';
+import { WebLayoutsLandingSectionsTutorialsCta } from 'libs/web/layouts/landing/sections/tutorials-cta/src';
 
 export interface TutorialsProps {}
 
@@ -15,6 +16,7 @@ export function Tutorials(props: TutorialsProps) {
         <WebLayoutsLandingIllustration />
       </div>
       <WebLayoutsLandingSectionsTutorialsList />
+      <WebLayoutsLandingSectionsTutorialsCta />
     </main>
   );
 }
