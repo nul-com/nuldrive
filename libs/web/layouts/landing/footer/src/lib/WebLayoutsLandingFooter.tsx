@@ -7,7 +7,7 @@ export interface WebLayoutsLandingFooterProps {}
 
 export function WebLayoutsLandingFooter(props: WebLayoutsLandingFooterProps) {
   return (
-    <footer>
+    <footer className="z-20">
       <div className="pt-12 md:pt-16">
         <div className="max-w-6xl mx-auto px-4 sm:px-6">
           {/* Top area: Blocks */}
