@@ -1,7 +1,8 @@
 import { ReactElement } from 'react';
 import { WebLayoutsLandingUi } from '@nuldrive/web/layouts/landing/ui';
-import { WebLayoutsLandingSectionsSupport } from 'libs/web/layouts/landing/sections/support/src';
 import { WebLayoutsLandingIllustration } from '@nuldrive/web-layouts-landing-sections-illustration';
+import { WebLayoutsLandingSectionsSupport } from 'libs/web/layouts/landing/sections/support/src';
+import { WebLayoutsLandingSectionsSupportForm } from 'libs/web/layouts/landing/sections/support-form/src';
 
 export interface ContactProps {}
 
@@ -15,6 +16,7 @@ export function Contact(props: ContactProps) {
         <WebLayoutsLandingIllustration />
       </div>
       <WebLayoutsLandingSectionsSupport />
+      <WebLayoutsLandingSectionsSupportForm />
     </main>
   );
 }
