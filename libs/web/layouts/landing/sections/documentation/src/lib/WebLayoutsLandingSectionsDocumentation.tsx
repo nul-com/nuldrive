@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import Link from 'next/link';
+import { WebLayoutsLandingSectionsDocumentationContent } from '@nuldrive/web/layouts/landing/sections/documentation-content';
 
 import styles from './WebLayoutsLandingSectionsDocumentation.module.css';
 
@@ -17,7 +18,7 @@ export function WebLayoutsLandingSectionsDocumentation(
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
         <div className="pt-32 pb-12 md:pt-40 md:pb-20">
           {/* Main content */}
-          <div className="md:flex md:justify-between" data-sticky-container>
+          <div className="md:flex md:justify-between sticky top-0" data-sticky-container>
             {/* Sidebar */}
             <aside className="relative my-12 md:my-0 md:w-64 md:mr-12 lg:mr-20 md:shrink-0">
               <div
@@ -27,19 +28,21 @@ export function WebLayoutsLandingSectionsDocumentation(
                 data-sticky-wrap
               >
                 {/* Search form */}
-                <form className="mb-4 pb-4 border-b border-gray-200">
+                <form className="mb-4 pb-4 border-b border-gray-700">
                   <div className="flex flex-wrap">
                     <div className="w-full">
                       <label className="block text-sm sr-only" htmlFor="search">
                         Search
                       </label>
                       <div className="relative flex items-center">
-                        <input
-                          id="search"
-                          type="search"
-                          className="form-input w-full text-gray-800 px-3 py-2 pl-10"
-                          placeholder="Search the docs"
-                        />
+                        <div className="border border-gray-700 rounded">
+                          <input
+                            id="search"
+                            type="search"
+                            className="form-input w-full text-gray-300 px-3 py-2 pl-10"
+                            placeholder="Search the docs"
+                          />
+                        </div>
                         <button
                           type="submit"
                           className="absolute inset-0 right-auto"
@@ -105,45 +108,49 @@ export function WebLayoutsLandingSectionsDocumentation(
                         }}
                       >
                         <Link href="#0" aria-expanded={sidebarLinkOpen}>
-                          <div className="flex items-center grow">
+                          <>
+                            <div className="flex items-center grow cursor-pointer">
+                              <svg
+                                className="w-4 h-4 fill-current text-blue-600 mr-3 shrink-0"
+                                viewBox="0 0 16 16"
+                                xmlns="http://www.w3.org/2000/svg"
+                              >
+                                <path d="M7 3.294L1.4 1.035C1.1.847.7.941.4 1.13c-.2.189-.4.471-.4.753v10.353c0 .377.2.753.6.847L7 15.718V3.294zM15.6 1.13c-.3-.189-.6-.189-.9-.095L9 3.295v12.423l6.4-2.542c.4-.188.6-.47.6-.847V1.882c0-.282-.2-.564-.4-.753z" />
+                              </svg>
+                              <span>Introduction</span>
+                            </div>
                             <svg
-                              className="w-4 h-4 fill-current text-blue-600 mr-3 shrink-0"
-                              viewBox="0 0 16 16"
+                              className="w-3 h-3 fill-current text-gray-400 cursor-pointer ml-1 shrink-0"
+                              viewBox="0 0 12 12"
                               xmlns="http://www.w3.org/2000/svg"
                             >
-                              <path d="M7 3.294L1.4 1.035C1.1.847.7.941.4 1.13c-.2.189-.4.471-.4.753v10.353c0 .377.2.753.6.847L7 15.718V3.294zM15.6 1.13c-.3-.189-.6-.189-.9-.095L9 3.295v12.423l6.4-2.542c.4-.188.6-.47.6-.847V1.882c0-.282-.2-.564-.4-.753z" />
+                              <path d="M10.28 4.305L5.989 8.598 1.695 4.305A1 1 0 00.28 5.72l5 5a1 1 0 001.414 0l5-5a1 1 0 10-1.414-1.414z" />
                             </svg>
-                            <span>Introduction</span>
-                          </div>
-                          <svg
-                            className="w-3 h-3 fill-current text-gray-400 cursor-pointer ml-1 shrink-0"
-                            viewBox="0 0 12 12"
-                            xmlns="http://www.w3.org/2000/svg"
-                          >
-                            <path d="M10.28 4.305L5.989 8.598 1.695 4.305A1 1 0 00.28 5.72l5 5a1 1 0 001.414 0l5-5a1 1 0 10-1.414-1.414z" />
-                          </svg>
+                          </>
                         </Link>
                       </div>
                       {/* 2nd level */}
                       <ul
-                        className={`font-normal -mb-1 mt-1 ml-2 pl-5 border-l border-gray-300 ${
+                        className={`font-normal -mb-1 mt-1 ${
                           !sidebarLinkOpen && 'hidden'
                         }`}
                       >
-                        <li className="py-1 text-gray-600 hover:underline">
-                          <Link href="#installation">Installation</Link>
-                        </li>
-                        <li className="py-1 text-gray-600 hover:underline">
-                          <Link href="#quick">Quick start</Link>
-                        </li>
-                        <li className="py-1 text-gray-600 hover:underline">
-                          <Link href="#folder">Folder content</Link>
-                        </li>
+                        <div className="border-l border-gray-700 pl-5 ml-2">
+                          <li className="py-1 text-gray-400 hover:underline">
+                            <Link href="#installation">Installation</Link>
+                          </li>
+                          <li className="py-1 text-gray-400 hover:underline">
+                            <Link href="#quick">Quick start</Link>
+                          </li>
+                          <li className="py-1 text-gray-400 hover:underline">
+                            <Link href="#folder">Folder content</Link>
+                          </li>
+                        </div>
                       </ul>
                     </li>
                     <li className="py-2 flex items-center hover:underline">
                       <Link href="#introduction">
-                        <div className="flex items-center grow">
+                        <div className="flex items-center grow cursor-pointer">
                           <svg
                             className="w-4 h-4 fill-current text-blue-600 mr-3 shrink-0"
                             viewBox="0 0 16 16"
@@ -157,7 +164,7 @@ export function WebLayoutsLandingSectionsDocumentation(
                     </li>
                     <li className="py-2 flex items-center hover:underline">
                       <Link href="#introduction">
-                        <div className="flex items-center grow">
+                        <div className="flex items-center grow cursor-pointer">
                           <svg
                             className="w-4 h-4 fill-current text-blue-600 mr-3 shrink-0"
                             viewBox="0 0 16 16"
@@ -171,7 +178,7 @@ export function WebLayoutsLandingSectionsDocumentation(
                     </li>
                     <li className="py-2 flex items-center hover:underline">
                       <Link href="#introduction">
-                        <div className="flex items-center grow">
+                        <div className="flex items-center grow cursor-pointer">
                           <svg
                             className="w-4 h-4 fill-current text-blue-600 mr-3 shrink-0"
                             viewBox="0 0 16 16"
@@ -185,7 +192,7 @@ export function WebLayoutsLandingSectionsDocumentation(
                     </li>
                     <li className="py-2 flex items-center hover:underline">
                       <Link href="#introduction">
-                        <div className="flex items-center grow">
+                        <div className="flex items-center grow cursor-pointer">
                           <svg
                             className="w-4 h-4 fill-current text-blue-600 mr-3 shrink-0"
                             viewBox="0 0 16 16"
@@ -205,7 +212,7 @@ export function WebLayoutsLandingSectionsDocumentation(
             </aside>
 
             {/* Page container */}
-            <DocumentationContent />
+            <WebLayoutsLandingSectionsDocumentationContent />
           </div>
         </div>
       </div>
