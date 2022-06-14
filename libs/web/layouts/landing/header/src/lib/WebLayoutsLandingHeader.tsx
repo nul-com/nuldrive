@@ -82,15 +82,21 @@ export function WebLayoutsLandingHeader(props: WebLayoutsLandingHeaderProps) {
               <Dropdown title="Support">
                 {/* 2nd level: hover */}
                 <Fragment>
-                  <li className="font-semibold text-sm text-gray-400 hover:text-purple-600 flex py-2 px-4 leading-tight">
-                    <Link href="/contact">Contact us</Link>
-                  </li>
-                  <li className="font-semibold text-sm text-gray-400 hover:text-purple-600 flex py-2 px-4 leading-tight">
-                    <Link href="/help">Help center</Link>
-                  </li>
-                  <li className="font-semibold text-sm text-gray-400 hover:text-purple-600 flex py-2 px-4 leading-tight">
-                    <Link href="/docs">Documentation</Link>
-                  </li>
+                  <Link href="/contact">
+                    <li className="font-semibold text-sm text-gray-400 hover:text-purple-600 flex py-2 px-4 leading-tight cursor-pointer">
+                      Contact us
+                    </li>
+                  </Link>
+                  <Link href="/help">
+                    <li className="font-semibold text-sm text-gray-400 hover:text-purple-600 flex py-2 px-4 leading-tight cursor-pointer">
+                      Help center
+                    </li>
+                  </Link>
+                  <Link href="/docs">
+                    <li className="font-semibold text-sm text-gray-400 hover:text-purple-600 flex py-2 px-4 leading-tight cursor-pointer">
+                      Documentation
+                    </li>
+                  </Link>
                 </Fragment>
               </Dropdown>
             </ul>
