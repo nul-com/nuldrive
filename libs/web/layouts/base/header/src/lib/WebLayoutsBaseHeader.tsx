@@ -47,7 +47,7 @@ export function WebLayoutsBaseHeader(props: WebLayoutsBaseHeaderProps) {
             <WebUtilButtonsInvite />
             <Octagon fill="#6B6B6B" width={18} />
             <Bell fill="#6B6B6B" width={18} />
-            <WebUtilAvatar src="https://r2.eriascdn.com/erias.png" width={22} />
+            <WebUtilAvatar src="https://r2.eriascdn.com/erias.png" width={22} height={22} />
             <WebUtilButtonsUpgrade />
           </div>
         </div>
