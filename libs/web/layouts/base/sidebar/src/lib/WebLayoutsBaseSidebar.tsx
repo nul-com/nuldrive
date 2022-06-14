@@ -70,9 +70,7 @@ export function WebLayoutsBaseSidebar(props: WebLayoutsBaseSidebarProps) {
                 <p className="">Yes</p>
               </ul>
             </div>
-            <div className="relative min-w-[250px]">
-
-            </div>
+            <div className="relative min-w-[250px]"></div>
             <div className="flex flex-col gap-[13px]">
               <div className="flex justify-between">
                 <h4 className="text-[13px] font-semibold">Sharing:</h4>
@@ -87,10 +85,12 @@ export function WebLayoutsBaseSidebar(props: WebLayoutsBaseSidebarProps) {
                     <div className="-space-x-[9px] flex">
                       <WebUtilAvatar
                         width={22}
+                        height={22}
                         src="https://r2.eriascdn.com/erias.png"
                       />
                       <WebUtilAvatar
                         width={22}
+                        height={22}
                         src="https://r2.eriascdn.com/erias.png"
                       />
                     </div>
@@ -106,18 +106,22 @@ export function WebLayoutsBaseSidebar(props: WebLayoutsBaseSidebarProps) {
                     <div className="-space-x-[9px] flex">
                       <WebUtilAvatar
                         width={22}
+                        height={22}
                         src="https://r2.eriascdn.com/erias.png"
                       />
                       <WebUtilAvatar
                         width={22}
+                        height={22}
                         src="https://r2.eriascdn.com/erias.png"
                       />
                       <WebUtilAvatar
                         width={22}
+                        height={22}
                         src="https://r2.eriascdn.com/erias.png"
                       />
                       <WebUtilAvatar
                         width={22}
+                        height={22}
                         src="https://r2.eriascdn.com/erias.png"
                       />
                     </div>
@@ -133,14 +137,16 @@ export function WebLayoutsBaseSidebar(props: WebLayoutsBaseSidebarProps) {
                     <div className="-space-x-[9px] flex">
                       <WebUtilAvatar
                         width={22}
+                        height={22}
                         src="https://r2.eriascdn.com/erias.png"
                       />
                       <WebUtilAvatar
                         width={22}
+                        height={22}
                         src="https://r2.eriascdn.com/erias.png"
                       />
                     </div>
-                    <p className="">Swing Gro fdg gsgrgt ggr  reefup</p>
+                    <p className="">Swing Gro fdg gsgrgt ggr reefup</p>
                   </div>
                   <button className="flex gap-[3px] justify-center bg-[#F7F6F9] w-[94px] h-[27px] rounded-[5px] items-center">
                     <Sort width={15} fill="#0092E4" />
@@ -152,10 +158,12 @@ export function WebLayoutsBaseSidebar(props: WebLayoutsBaseSidebarProps) {
                     <div className="-space-x-[9px] flex">
                       <WebUtilAvatar
                         width={22}
+                        height={22}
                         src="https://r2.eriascdn.com/erias.png"
                       />
                       <WebUtilAvatar
                         width={22}
+                        height={22}
                         src="https://r2.eriascdn.com/erias.png"
                       />
                     </div>
@@ -171,10 +179,12 @@ export function WebLayoutsBaseSidebar(props: WebLayoutsBaseSidebarProps) {
                     <div className="-space-x-[9px] flex">
                       <WebUtilAvatar
                         width={22}
+                        height={22}
                         src="https://r2.eriascdn.com/erias.png"
                       />
                       <WebUtilAvatar
                         width={22}
+                        height={22}
                         src="https://r2.eriascdn.com/erias.png"
                       />
                     </div>
