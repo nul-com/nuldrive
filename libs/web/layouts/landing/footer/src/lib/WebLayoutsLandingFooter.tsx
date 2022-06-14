@@ -139,13 +139,15 @@ export function WebLayoutsLandingFooter(props: WebLayoutsLandingFooterProps) {
                       Email
                     </label>
                     <div className="relative flex items-center max-w-xs">
-                      <input
-                        id="newsletter"
-                        type="email"
-                        className="form-input w-full text-gray-200 px-3 py-2 pr-12 text-sm"
-                        placeholder="Your email"
-                        required
-                      />
+                      <div className="border border-gray-700 rounded-xl">
+                        <input
+                          id="newsletter"
+                          type="email"
+                          className="form-input w-full text-gray-200 px-3 py-2 pr-12 text-sm"
+                          placeholder="Your email"
+                          required
+                        />
+                      </div>
                       <button
                         type="submit"
                         className="absolute inset-0 left-auto"
