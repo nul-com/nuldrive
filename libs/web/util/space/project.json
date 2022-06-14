@@ -1,0 +1,32 @@
+{
+  "root": "libs/web/util/space",
+  "sourceRoot": "libs/web/util/space/src",
+  "targets": {
+    "build": {
+      "executor": "@nrwl/js:tsc",
+      "outputs": ["{options.outputPath}"],
+      "options": {
+        "outputPath": "dist/libs/web/util/space",
+        "main": "libs/web/util/space/src/index.ts",
+        "tsConfig": "libs/web/util/space/tsconfig.lib.json",
+        "assets": ["libs/web/util/space/*.md"]
+      }
+    },
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "outputs": ["{options.outputFile}"],
+      "options": {
+        "lintFilePatterns": ["libs/web/util/space/**/*.ts"]
+      }
+    },
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "outputs": ["coverage/libs/web/util/space"],
+      "options": {
+        "jestConfig": "libs/web/util/space/jest.config.js",
+        "passWithNoTests": true
+      }
+    }
+  },
+  "tags": []
+}
