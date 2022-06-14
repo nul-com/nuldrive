@@ -25,6 +25,7 @@
     "web-layouts-landing-sections-career": "libs/web/layouts/landing/sections/career",
     "web-layouts-landing-sections-case-studies": "libs/web/layouts/landing/sections/case-studies",
     "web-layouts-landing-sections-cta-alternative": "libs/web/layouts/landing/sections/cta-alternative",
+    "web-layouts-landing-sections-documentation": "libs/web/layouts/landing/sections/documentation",
     "web-layouts-landing-sections-faq": "libs/web/layouts/landing/sections/faq",
     "web-layouts-landing-sections-features-blocks": "libs/web/layouts/landing/sections/features-blocks",
     "web-layouts-landing-sections-features-explore": "libs/web/layouts/landing/sections/features-explore",
