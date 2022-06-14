@@ -45,6 +45,7 @@
     "web-layouts-landing-sections-pricing-table": "libs/web/layouts/landing/sections/pricing-table",
     "web-layouts-landing-sections-process": "libs/web/layouts/landing/sections/process",
     "web-layouts-landing-sections-sign-in": "libs/web/layouts/landing/sections/sign-in",
+    "web-layouts-landing-sections-sign-up": "libs/web/layouts/landing/sections/sign-up",
     "web-layouts-landing-sections-stats-circle": "libs/web/layouts/landing/sections/stats-circle",
     "web-layouts-landing-sections-support": "libs/web/layouts/landing/sections/support",
     "web-layouts-landing-sections-support-form": "libs/web/layouts/landing/sections/support-form",
