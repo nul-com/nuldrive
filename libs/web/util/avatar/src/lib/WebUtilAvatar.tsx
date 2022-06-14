@@ -9,10 +9,11 @@ import styles from './WebUtilAvatar.module.css';
 /* eslint-disable-next-line */
 export interface WebUtilAvatarProps extends WebUtilImageLoaderProps {}
 
-export function WebUtilAvatar(props: WebUtilAvatarProps) {
+export function WebUtilAvatar(props: WebUtilAvatarProps, { ...rest }) {
+  const { src, width, height } = props;
   return (
     <div className={`h-[${props.width}px]`}>
-      <WebUtilImageLoader {...props} />
+      <WebUtilImageLoader src={src} width={width} height={height} {...rest} />
     </div>
   );
 }
