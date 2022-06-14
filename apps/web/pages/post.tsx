@@ -2,6 +2,7 @@ import { ReactElement } from 'react';
 import { WebLayoutsLandingUi } from '@nuldrive/web/layouts/landing/ui';
 import { WebLayoutsLandingIllustration } from '@nuldrive/web-layouts-landing-sections-illustration';
 import { WebLayoutsLandingSectionsPost } from 'libs/web/layouts/landing/sections/post/src';
+import { WebLayoutsLandingSectionsNewsletter } from '@nuldrive/web/layouts/landing/sections//newsletter';
 
 export interface PostProps {}
 export function Post(props: PostProps) {
@@ -14,6 +15,7 @@ export function Post(props: PostProps) {
         <WebLayoutsLandingIllustration />
       </div>
       <WebLayoutsLandingSectionsPost />
+      <WebLayoutsLandingSectionsNewsletter />
     </main>
   );
 }
