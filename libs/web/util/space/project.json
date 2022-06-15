@@ -7,7 +7,7 @@
       "outputs": ["{options.outputPath}"],
       "options": {
         "outputPath": "dist/libs/web/util/space",
-        "main": "libs/web/util/space/src/index.ts",
+        "main": "libs/web/util/space/src/WebUtilSpace",
         "tsConfig": "libs/web/util/space/tsconfig.lib.json",
         "assets": ["libs/web/util/space/*.md"]
       }
