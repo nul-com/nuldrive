@@ -15,7 +15,7 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@nuldrive/space": ["libs/web/util/space/src/index.ts"],
+      "@nuldrive/space": ["libs/web/util/space/src/lib/WebUtilSpace"],
       "@nuldrive/web-layouts-landing-sections-hero": [
         "libs/web/layouts/landing/sections/hero/src/index.ts"
       ],
