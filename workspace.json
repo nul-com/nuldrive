@@ -56,6 +56,7 @@
     "web-layouts-landing-sections-timeline": "libs/web/layouts/landing/sections/timeline",
     "web-layouts-landing-sections-tutorials-cta": "libs/web/layouts/landing/sections/tutorials-cta",
     "web-layouts-landing-sections-tutorials-list": "libs/web/layouts/landing/sections/tutorials-list",
+    "web-layouts-landing-sign": "libs/web/layouts/landing/sign",
     "web-layouts-landing-ui": "libs/web/layouts/landing/ui",
     "web-util-accordion": "libs/web/util/accordion",
     "web-util-avatar": "libs/web/util/avatar",
