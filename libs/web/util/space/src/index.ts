@@ -1,1 +1,1 @@
-export * from './lib/WebUtilSpace';
+export * as default from './lib/WebUtilSpace';
