@@ -9,7 +9,7 @@ export function WebLayoutsLandingSectionsSignIn(
   props: WebLayoutsLandingSectionsSignInProps
 ) {
   return (
-    <section className="relative">
+    <section className="relative z-20">
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
         <div className="pt-32 pb-12 md:pt-40 md:pb-20">
           {/* Page header */}
@@ -83,7 +83,7 @@ export function WebLayoutsLandingSectionsSignIn(
                         cy="12"
                         r="10"
                         stroke="currentColor"
-                        stroke-width="4"
+                        strokeWidth="4"
                       ></circle>
                       <path
                         className="opacity-75"
@@ -150,7 +150,7 @@ export function WebLayoutsLandingSectionsSignIn(
                         cy="12"
                         r="10"
                         stroke="currentColor"
-                        stroke-width="4"
+                        strokeWidth="4"
                       ></circle>
                       <path
                         className="opacity-75"
