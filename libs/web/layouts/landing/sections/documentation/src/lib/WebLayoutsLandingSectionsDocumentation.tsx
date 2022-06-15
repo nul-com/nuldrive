@@ -1,15 +1,19 @@
-import { useState } from 'react';
+import { ReactChild, useState } from 'react';
 import Link from 'next/link';
 import { WebLayoutsLandingSectionsDocumentationContent } from '@nuldrive/web/layouts/landing/sections/documentation-content';
 
 import styles from './WebLayoutsLandingSectionsDocumentation.module.css';
 
 /* eslint-disable-next-line */
-export interface WebLayoutsLandingSectionsDocumentationProps {}
+export interface WebLayoutsLandingSectionsDocumentationProps {
+  children: ReactChild;
+}
 
 export function WebLayoutsLandingSectionsDocumentation(
   props: WebLayoutsLandingSectionsDocumentationProps
 ) {
+  const { children } = props;
+
   const [sidebarNavOpen, setSidebarNavOpen] = useState(false);
   const [sidebarLinkOpen, setSidebarLinkOpen] = useState(true);
 
@@ -18,7 +22,10 @@ export function WebLayoutsLandingSectionsDocumentation(
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
         <div className="pt-32 pb-12 md:pt-40 md:pb-20">
           {/* Main content */}
-          <div className="md:flex md:justify-between sticky top-0" data-sticky-container>
+          <div
+            className="md:flex md:justify-between sticky top-0"
+            data-sticky-container
+          >
             {/* Sidebar */}
             <aside className="relative my-12 md:my-0 md:w-64 md:mr-12 lg:mr-20 md:shrink-0">
               <div
@@ -28,14 +35,14 @@ export function WebLayoutsLandingSectionsDocumentation(
                 data-sticky-wrap
               >
                 {/* Search form */}
-                <form className="mb-4 pb-4 border-b border-gray-700">
+                <form className="mb-4 pb-4 border-b border-slate-700">
                   <div className="flex flex-wrap">
                     <div className="w-full">
                       <label className="block text-sm sr-only" htmlFor="search">
                         Search
                       </label>
                       <div className="relative flex items-center">
-                        <div className="border border-gray-700 rounded">
+                        <div className="border border-slate-700 rounded">
                           <input
                             id="search"
                             type="search"
@@ -49,7 +56,7 @@ export function WebLayoutsLandingSectionsDocumentation(
                           aria-label="Search"
                         >
                           <svg
-                            className="w-4 h-4 fill-current text-gray-400 mx-3 shrink-0"
+                            className="w-4 h-4 fill-current text-slate-300 mx-3 shrink-0"
                             viewBox="0 0 16 16"
                             xmlns="http://www.w3.org/2000/svg"
                           >
@@ -62,7 +69,7 @@ export function WebLayoutsLandingSectionsDocumentation(
                 </form>
 
                 <button
-                  className="flex items-center justify-between text-lg font-medium text-gray-900 w-full my-4 md:hidden"
+                  className="flex items-center justify-between text-lg font-medium text-slate-900 w-full my-4 md:hidden"
                   onClick={(e) => {
                     e.preventDefault();
                     setSidebarNavOpen(!sidebarNavOpen);
@@ -120,7 +127,7 @@ export function WebLayoutsLandingSectionsDocumentation(
                               <span>Introduction</span>
                             </div>
                             <svg
-                              className="w-3 h-3 fill-current text-gray-400 cursor-pointer ml-1 shrink-0"
+                              className="w-3 h-3 fill-current text-slate-300 cursor-pointer ml-1 shrink-0"
                               viewBox="0 0 12 12"
                               xmlns="http://www.w3.org/2000/svg"
                             >
@@ -135,14 +142,14 @@ export function WebLayoutsLandingSectionsDocumentation(
                           !sidebarLinkOpen && 'hidden'
                         }`}
                       >
-                        <div className="border-l border-gray-700 pl-5 ml-2">
-                          <li className="py-1 text-gray-400 hover:underline">
+                        <div className="border-l border-slate-700 pl-5 ml-2">
+                          <li className="py-1 text-slate-300 hover:underline">
                             <Link href="#installation">Installation</Link>
                           </li>
-                          <li className="py-1 text-gray-400 hover:underline">
+                          <li className="py-1 text-slate-300 hover:underline">
                             <Link href="#quick">Quick start</Link>
                           </li>
-                          <li className="py-1 text-gray-400 hover:underline">
+                          <li className="py-1 text-slate-300 hover:underline">
                             <Link href="#folder">Folder content</Link>
                           </li>
                         </div>
@@ -212,7 +219,7 @@ export function WebLayoutsLandingSectionsDocumentation(
             </aside>
 
             {/* Page container */}
-            <WebLayoutsLandingSectionsDocumentationContent />
+            {children}
           </div>
         </div>
       </div>

@@ -209,7 +209,7 @@ export function WebLayoutsLandingSectionsPricingCarousel(
               Trusted by over 20,000 companies all over the world
             </h2>
             <p
-              className="text-xl text-gray-400"
+              className="text-xl text-slate-300"
               data-aos="fade-up"
               data-aos-delay="200"
             >
@@ -227,7 +227,7 @@ export function WebLayoutsLandingSectionsPricingCarousel(
               className="flex items-center justify-center py-2 col-span-2 md:col-auto"
             >
               <svg
-                className="max-w-full fill-current text-gray-400"
+                className="max-w-full fill-current text-slate-300"
                 width="124"
                 height="24"
                 viewBox="0 0 124 24"
@@ -244,7 +244,7 @@ export function WebLayoutsLandingSectionsPricingCarousel(
               className="flex items-center justify-center py-2 col-span-2 md:col-auto"
             >
               <svg
-                className="max-w-full fill-current text-gray-400"
+                className="max-w-full fill-current text-slate-300"
                 width="83"
                 height="30"
                 viewBox="0 0 83 30"
@@ -261,7 +261,7 @@ export function WebLayoutsLandingSectionsPricingCarousel(
               className="flex items-center justify-center py-2 col-span-2 md:col-auto"
             >
               <svg
-                className="max-w-full fill-current text-gray-400"
+                className="max-w-full fill-current text-slate-300"
                 width="125"
                 height="39"
                 viewBox="0 0 125 39"
@@ -278,7 +278,7 @@ export function WebLayoutsLandingSectionsPricingCarousel(
               className="flex items-center justify-center py-2 col-span-2 md:col-auto"
             >
               <svg
-                className="max-w-full fill-current text-gray-400"
+                className="max-w-full fill-current text-slate-300"
                 width="113"
                 height="30"
                 viewBox="0 0 113 30"
@@ -295,7 +295,7 @@ export function WebLayoutsLandingSectionsPricingCarousel(
               className="flex items-center justify-center py-2 col-span-2 md:col-auto col-start-2 col-end-4"
             >
               <svg
-                className="max-w-full fill-current text-gray-400"
+                className="max-w-full fill-current text-slate-300"
                 width="109"
                 height="33"
                 viewBox="0 0 109 33"
@@ -312,7 +312,7 @@ export function WebLayoutsLandingSectionsPricingCarousel(
             <div className="relative mt-20" data-aos="zoom-y-out">
               {/* Testimonials */}
               <div
-                className="relative flex items-start border-2 border-gray-700 rounded bg-gray-800 z-10"
+                className="relative flex items-start border-2 border-slate-700 rounded bg-slate-800 z-10"
                 ref={testimonials}
               >
                 {items.map((item: any, index: any) => (
@@ -357,14 +357,14 @@ export function WebLayoutsLandingSectionsPricingCarousel(
                     <cite
                       data-aos="fade-up"
                       data-aos-delay="200"
-                      className="block font-bold text-lg not-italic mb-1 text-gray-400"
+                      className="block font-bold text-lg not-italic mb-1 text-slate-300"
                     >
                       {item.name}
                     </cite>
                     <div
                       data-aos="fade-up"
                       data-aos-delay="200"
-                      className="text-gray-400"
+                      className="text-slate-300"
                     >
                       <span>{item.role}</span>{' '}
                       <span className="text-blue-600 hover:underline">
@@ -378,7 +378,7 @@ export function WebLayoutsLandingSectionsPricingCarousel(
               {/* Arrows */}
               <div className="absolute inset-0 flex items-center justify-between">
                 <button
-                  className="relative z-20 w-16 h-16 p-1 flex items-center justify-center bg-gray-700 rounded-full border border-gray-200 shadow-md hover:shadow-lg transform -translate-x-2 md:-translate-x-1/2"
+                  className="relative z-20 w-16 h-16 p-1 flex items-center justify-center bg-slate-700 rounded-full border border-gray-200 shadow-md hover:shadow-lg transform -translate-x-2 md:-translate-x-1/2"
                   onClick={() => {
                     setActive(active === 0 ? items.length - 1 : active - 1);
                     stopAutorotate();
@@ -386,7 +386,7 @@ export function WebLayoutsLandingSectionsPricingCarousel(
                 >
                   <span className="sr-only">Previous</span>
                   <svg
-                    className="w-4 h-4 fill-current text-gray-400"
+                    className="w-4 h-4 fill-current text-slate-300"
                     viewBox="0 0 16 16"
                     xmlns="http://www.w3.org/2000/svg"
                   >
@@ -394,7 +394,7 @@ export function WebLayoutsLandingSectionsPricingCarousel(
                   </svg>
                 </button>
                 <button
-                  className="relative z-20 w-16 h-16 p-1 flex items-center justify-center bg-gray-700 rounded-full border border-gray-200 shadow-md hover:shadow-lg transform translate-x-2 md:translate-x-1/2"
+                  className="relative z-20 w-16 h-16 p-1 flex items-center justify-center bg-slate-700 rounded-full border border-gray-200 shadow-md hover:shadow-lg transform translate-x-2 md:translate-x-1/2"
                   onClick={() => {
                     setActive(active === items.length - 1 ? 0 : active + 1);
                     stopAutorotate();
@@ -402,7 +402,7 @@ export function WebLayoutsLandingSectionsPricingCarousel(
                 >
                   <span className="sr-only">Next</span>
                   <svg
-                    className="w-4 h-4 fill-current text-gray-400"
+                    className="w-4 h-4 fill-current text-slate-300"
                     viewBox="0 0 16 16"
                     xmlns="http://www.w3.org/2000/svg"
                   >

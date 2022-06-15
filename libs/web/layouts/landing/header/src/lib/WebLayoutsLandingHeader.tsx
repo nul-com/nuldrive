@@ -52,7 +52,7 @@ export function WebLayoutsLandingHeader(props: WebLayoutsLandingHeaderProps) {
   return (
     <header
       className={`fixed w-full z-30 md:bg-opacity-90 transition duration-300 ease-in-out ${
-        !top && 'bg-gray-900 backdrop-blur-sm shadow-lg'
+        !top && 'bg-slate-900 backdrop-blur-sm shadow-lg'
       }`}
     >
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
@@ -83,7 +83,7 @@ export function WebLayoutsLandingHeader(props: WebLayoutsLandingHeaderProps) {
                 {/* 2nd level: hover */}
                 <Fragment>
                   <Link href="/contact">
-                    <li className="font-semibold text-sm text-gray-400 hover:text-purple-600 flex items-center gap-2 py-2 px-4 leading-tight cursor-pointer">
+                    <li className="font-semibold text-sm text-slate-300 hover:text-purple-600 flex items-center gap-2 py-2 px-4 leading-tight cursor-pointer">
                       <svg
                         className="w-4 h-4"
                         xmlns="http://www.w3.org/2000/svg"
@@ -98,7 +98,7 @@ export function WebLayoutsLandingHeader(props: WebLayoutsLandingHeaderProps) {
                     </li>
                   </Link>
                   <Link href="/help">
-                    <li className="font-semibold text-sm text-gray-400 hover:text-purple-600 flex gap-2 items-center py-2 px-4 leading-tight cursor-pointer">
+                    <li className="font-semibold text-sm text-slate-300 hover:text-purple-600 flex gap-2 items-center py-2 px-4 leading-tight cursor-pointer">
                       <svg
                         className="w-4 h-4"
                         xmlns="http://www.w3.org/2000/svg"
@@ -114,7 +114,7 @@ export function WebLayoutsLandingHeader(props: WebLayoutsLandingHeaderProps) {
                     </li>
                   </Link>
                   <Link href="/docs">
-                    <li className="font-semibold text-sm text-gray-400 hover:text-purple-600 flex items-center gap-2 py-2 px-4 leading-tight cursor-pointer">
+                    <li className="font-semibold text-sm text-slate-300 hover:text-purple-600 flex items-center gap-2 py-2 px-4 leading-tight cursor-pointer">
                       <svg
                         className="w-4 h-4"
                         xmlns="http://www.w3.org/2000/svg"
@@ -129,7 +129,7 @@ export function WebLayoutsLandingHeader(props: WebLayoutsLandingHeaderProps) {
                     </li>
                   </Link>
                   <Link href="/tutorials">
-                    <li className="font-semibold text-sm text-gray-400 hover:text-purple-600 flex items-center gap-2 py-2 px-4 leading-tight cursor-pointer">
+                    <li className="font-semibold text-sm text-slate-300 hover:text-purple-600 flex items-center gap-2 py-2 px-4 leading-tight cursor-pointer">
                       <svg
                         className="w-4 h-4"
                         xmlns="http://www.w3.org/2000/svg"
@@ -150,7 +150,7 @@ export function WebLayoutsLandingHeader(props: WebLayoutsLandingHeaderProps) {
             {/* Desktop sign in links */}
             <ul className="flex gap-3 grow justify-end flex-wrap items-center">
               <Link href="/signin">
-                <li className="font-medium text-purple-600 hover:bg-gray-800 hover:backdrop-blur-sm btn-sm rounded-lg hover:text-gray-200 flex items-center transition duration-150 ease-in-out cursor-pointer">
+                <li className="font-medium text-purple-600 hover:bg-slate-700 hover:backdrop-blur-sm btn-sm rounded-lg hover:text-gray-200 flex items-center transition duration-150 ease-in-out cursor-pointer">
                   Sign in
                 </li>
               </Link>
@@ -211,21 +211,21 @@ export function WebLayoutsLandingHeader(props: WebLayoutsLandingHeaderProps) {
                 <li className="flex text-gray-300 hover:text-gray-200 py-2">
                   <Link href="/about">About us</Link>
                 </li>
-                <li className="py-2 my-2 border-t border-b border-gray-700">
+                <li className="py-2 my-2 border-t border-b border-slate-700">
                   <span className="flex text-gray-300 py-2">Support</span>
                   <ul className="pl-4">
                     <Link href="/contact">
-                      <li className="text-sm flex font-medium text-gray-400 hover:text-gray-200 py-2 cursor-pointer">
+                      <li className="text-sm flex font-medium text-slate-300 hover:text-gray-200 py-2 cursor-pointer">
                         Contact us
                       </li>
                     </Link>
                     <Link href="/help">
-                      <li className="text-sm flex font-medium text-gray-400 hover:text-gray-200 py-2 cursor-pointer">
+                      <li className="text-sm flex font-medium text-slate-300 hover:text-gray-200 py-2 cursor-pointer">
                         Help center
                       </li>
                     </Link>
                     <Link href="/tutorials">
-                      <li className="text-sm flex font-medium text-gray-400 hover:text-gray-200 py-2 cursor-pointer">
+                      <li className="text-sm flex font-medium text-slate-300 hover:text-gray-200 py-2 cursor-pointer">
                         Tutorials
                       </li>
                     </Link>

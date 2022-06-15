@@ -11,7 +11,7 @@ export function WebLayoutsLandingFooter(props: WebLayoutsLandingFooterProps) {
       <div className="pt-12 md:pt-16">
         <div className="max-w-6xl mx-auto px-4 sm:px-6">
           {/* Top area: Blocks */}
-          <div className="grid sm:grid-cols-12 gap-8 py-8 md:py-12 border-t border-gray-700">
+          <div className="grid sm:grid-cols-12 gap-8 py-8 md:py-12 border-t border-slate-700">
             {/* 1st block */}
             <div className="sm:col-span-12 lg:col-span-3">
               <div className="mb-2 inline-block">
@@ -46,7 +46,7 @@ export function WebLayoutsLandingFooter(props: WebLayoutsLandingFooterProps) {
                   </svg>
                 </Link>
               </div>
-              <div className="text-sm text-gray-400">
+              <div className="text-sm text-slate-300">
                 <span className="hover:text-gray-100 transition duration-150 ease-in-out">
                   <Link href="#">Terms</Link>
                   {' · '}
@@ -61,19 +61,19 @@ export function WebLayoutsLandingFooter(props: WebLayoutsLandingFooterProps) {
             <div className="sm:col-span-6 md:col-span-3 lg:col-span-2">
               <h6 className="text-gray-200 font-medium mb-2">Products</h6>
               <ul className="text-sm">
-                <li className="mb-2 text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out">
+                <li className="mb-2 text-slate-300 hover:text-gray-100 transition duration-150 ease-in-out">
                   <Link href="#">Web Studio</Link>
                 </li>
-                <li className="mb-2 text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out">
+                <li className="mb-2 text-slate-300 hover:text-gray-100 transition duration-150 ease-in-out">
                   <Link href="#">DynamicBox Flex</Link>
                 </li>
-                <li className="mb-2 text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out">
+                <li className="mb-2 text-slate-300 hover:text-gray-100 transition duration-150 ease-in-out">
                   <Link href="#">Programming Forms</Link>
                 </li>
-                <li className="mb-2 text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out">
+                <li className="mb-2 text-slate-300 hover:text-gray-100 transition duration-150 ease-in-out">
                   <Link href="#">Integrations</Link>
                 </li>
-                <li className="mb-2 text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out">
+                <li className="mb-2 text-slate-300 hover:text-gray-100 transition duration-150 ease-in-out">
                   <Link href="#">Command-line</Link>
                 </li>
               </ul>
@@ -83,19 +83,19 @@ export function WebLayoutsLandingFooter(props: WebLayoutsLandingFooterProps) {
             <div className="sm:col-span-6 md:col-span-3 lg:col-span-2">
               <h6 className="text-gray-200 font-medium mb-2">Resources</h6>
               <ul className="text-sm">
-                <li className="mb-2 text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out">
+                <li className="mb-2 text-slate-300 hover:text-gray-100 transition duration-150 ease-in-out">
                   <Link href="#">Documentation</Link>
                 </li>
-                <li className="mb-2 text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out">
+                <li className="mb-2 text-slate-300 hover:text-gray-100 transition duration-150 ease-in-out">
                   <Link href="#">Tutorials & Guides</Link>
                 </li>
-                <li className="mb-2 text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out">
+                <li className="mb-2 text-slate-300 hover:text-gray-100 transition duration-150 ease-in-out">
                   <Link href="#">Blog</Link>
                 </li>
-                <li className="mb-2 text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out">
+                <li className="mb-2 text-slate-300 hover:text-gray-100 transition duration-150 ease-in-out">
                   <Link href="#">Support Center</Link>
                 </li>
-                <li className="mb-2 text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out">
+                <li className="mb-2 text-slate-300 hover:text-gray-100 transition duration-150 ease-in-out">
                   <Link href="#">Partners</Link>
                 </li>
               </ul>
@@ -105,19 +105,19 @@ export function WebLayoutsLandingFooter(props: WebLayoutsLandingFooterProps) {
             <div className="sm:col-span-6 md:col-span-3 lg:col-span-2">
               <h6 className="text-gray-200 font-medium mb-2">Company</h6>
               <ul className="text-sm">
-                <li className="mb-2 text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out">
+                <li className="mb-2 text-slate-300 hover:text-gray-100 transition duration-150 ease-in-out">
                   <Link href="#">Home</Link>
                 </li>
-                <li className="mb-2 text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out">
+                <li className="mb-2 text-slate-300 hover:text-gray-100 transition duration-150 ease-in-out">
                   <Link href="#">About us</Link>
                 </li>
-                <li className="mb-2 text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out">
+                <li className="mb-2 text-slate-300 hover:text-gray-100 transition duration-150 ease-in-out">
                   <Link href="#">Company values</Link>
                 </li>
-                <li className="mb-2 text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out">
+                <li className="mb-2 text-slate-300 hover:text-gray-100 transition duration-150 ease-in-out">
                   <Link href="#">Pricing</Link>
                 </li>
-                <li className="mb-2 text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out">
+                <li className="mb-2 text-slate-300 hover:text-gray-100 transition duration-150 ease-in-out">
                   <Link href="#">Privacy Policy</Link>
                 </li>
               </ul>
@@ -126,7 +126,7 @@ export function WebLayoutsLandingFooter(props: WebLayoutsLandingFooterProps) {
             {/* 5th block */}
             <div className="sm:col-span-6 md:col-span-3 lg:col-span-3">
               <h6 className="text-gray-200 font-medium mb-2">Subscribe</h6>
-              <p className="text-sm text-gray-400 mb-4">
+              <p className="text-sm text-slate-300 mb-4">
                 Get the latest news and articles to your inbox every month.
               </p>
               <form>
@@ -139,7 +139,7 @@ export function WebLayoutsLandingFooter(props: WebLayoutsLandingFooterProps) {
                       Email
                     </label>
                     <div className="relative flex items-center max-w-xs">
-                      <div className="border border-gray-700 rounded-xl">
+                      <div className="border border-slate-700 rounded-xl">
                         <input
                           id="newsletter"
                           type="email"
@@ -178,10 +178,10 @@ export function WebLayoutsLandingFooter(props: WebLayoutsLandingFooterProps) {
           </div>
 
           {/* Bottom area */}
-          <div className="md:flex md:items-center md:justify-between py-4 md:py-8 border-t border-gray-700">
+          <div className="md:flex md:items-center md:justify-between py-4 md:py-8 border-t border-slate-700">
             {/* Social links */}
             <ul className="flex mb-4 md:order-1 md:ml-4 md:mb-0">
-              <li className="flex justify-center items-center text-purple-600 bg-gray-800 hover:text-gray-100 hover:bg-purple-600 rounded-full shadow transition duration-150 ease-in-out cursor-pointer">
+              <li className="flex justify-center items-center text-purple-600 bg-slate-700 hover:text-gray-100 hover:bg-purple-600 rounded-full shadow transition duration-150 ease-in-out cursor-pointer">
                 <Link href="#" aria-label="Twitter">
                   <svg
                     className="w-8 h-8 fill-current"
@@ -192,7 +192,7 @@ export function WebLayoutsLandingFooter(props: WebLayoutsLandingFooterProps) {
                   </svg>
                 </Link>
               </li>
-              <li className="ml-4 flex justify-center items-center text-purple-600 bg-gray-800 hover:text-gray-100 hover:bg-purple-600 rounded-full shadow transition duration-150 ease-in-out cursor-pointer">
+              <li className="ml-4 flex justify-center items-center text-purple-600 bg-slate-700 hover:text-gray-100 hover:bg-purple-600 rounded-full shadow transition duration-150 ease-in-out cursor-pointer">
                 <Link href="#" aria-label="Twitter">
                   <svg
                     className="w-8 h-8 fill-current"
@@ -203,7 +203,7 @@ export function WebLayoutsLandingFooter(props: WebLayoutsLandingFooterProps) {
                   </svg>
                 </Link>
               </li>
-              <li className="ml-4 flex justify-center items-center text-purple-600 bg-gray-800 hover:text-gray-100 hover:bg-purple-600 rounded-full shadow transition duration-150 ease-in-out cursor-pointer">
+              <li className="ml-4 flex justify-center items-center text-purple-600 bg-slate-700 hover:text-gray-100 hover:bg-purple-600 rounded-full shadow transition duration-150 ease-in-out cursor-pointer">
                 <Link href="#" aria-label="Twitter">
                   <svg
                     className="w-8 h-8 fill-current"
@@ -214,7 +214,7 @@ export function WebLayoutsLandingFooter(props: WebLayoutsLandingFooterProps) {
                   </svg>
                 </Link>
               </li>
-              <li className="ml-4 flex justify-center items-center text-purple-600 bg-gray-800 hover:text-gray-100 hover:bg-purple-600 rounded-full shadow transition duration-150 ease-in-out cursor-pointer">
+              <li className="ml-4 flex justify-center items-center text-purple-600 bg-slate-700 hover:text-gray-100 hover:bg-purple-600 rounded-full shadow transition duration-150 ease-in-out cursor-pointer">
                 <Link href="#" aria-label="Twitter">
                   <svg
                     className="w-8 h-8 fill-current"
@@ -227,7 +227,7 @@ export function WebLayoutsLandingFooter(props: WebLayoutsLandingFooterProps) {
                   </svg>
                 </Link>
               </li>
-              <li className="ml-4 flex justify-center items-center text-purple-600 bg-gray-800 hover:text-gray-100 hover:bg-purple-600 rounded-full shadow transition duration-150 ease-in-out cursor-pointer">
+              <li className="ml-4 flex justify-center items-center text-purple-600 bg-slate-700 hover:text-gray-100 hover:bg-purple-600 rounded-full shadow transition duration-150 ease-in-out cursor-pointer">
                 <Link href="#" aria-label="Twitter">
                   <svg
                     className="w-8 h-8 fill-current"
@@ -241,7 +241,7 @@ export function WebLayoutsLandingFooter(props: WebLayoutsLandingFooterProps) {
             </ul>
 
             {/* Copyrights note */}
-            <div className="text-sm text-gray-400 mr-4">
+            <div className="text-sm text-slate-300 mr-4">
               &copy; 2022 - {new Date().getFullYear()} nuldrive. All rights
               reserved.
             </div>

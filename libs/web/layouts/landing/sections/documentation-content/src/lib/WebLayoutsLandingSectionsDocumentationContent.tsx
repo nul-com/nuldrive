@@ -61,7 +61,7 @@ export function WebLayoutsLandingSectionsDocumentationContent(
           tempor. Duis ut diam quam nulla tellus orci ac auctor augue mauris
           augue.
         </p>
-        <p className="flex items-center text-base px-3 py-4 text-gray-800 bg-gray-700 border border-blue-200 rounded mb-8 cursor-pointer">
+        <p className="flex items-center text-base px-3 py-4 bg-slate-700 border border-blue-200 rounded mb-8 cursor-pointer">
           <svg
             className="w-4 h-4 fill-current text-blue-500 shrink-0 mr-2"
             xmlns="http://www.w3.org/2000/svg"
@@ -109,7 +109,7 @@ export function WebLayoutsLandingSectionsDocumentationContent(
           ultricies tristique nulla aliquet. Morbi tristique senectus et netus
           et, nibh nisl condimentum id venenatis a condimentum vitae sapien.
         </p>
-        <p className="flex items-center text-base px-3 py-4 text-gray-300 bg-gray-700 border border-blue-200 rounded mb-8">
+        <p className="flex items-center text-base px-3 py-4 text-gray-300 bg-slate-700 border border-blue-200 rounded mb-8">
           <svg
             className="w-4 h-4 fill-current text-blue-500 shrink-0 mr-2"
             xmlns="http://www.w3.org/2000/svg"
@@ -162,12 +162,12 @@ export function WebLayoutsLandingSectionsDocumentationContent(
       <div className="mt-8">
         <h3 className="h3 mb-8">Related</h3>
         <Link href="#0">
-          <div className="flex justify-between items-center p-4 rounded border border-gray-600 transition duration-300 ease-in-out bg-gray-700 shadow-md hover:shadow-lg mb-4 cursor-pointer">
+          <div className="flex justify-between items-center p-4 rounded border border-gray-600 transition duration-300 ease-in-out bg-slate-750 hover:bg-slate-700 shadow-md hover:shadow-lg mb-4 cursor-pointer">
             <div>
               <div className="text-normal font-medium mb-1">
                 Folder components
               </div>
-              <div className="text-sm text-gray-400">
+              <div className="text-sm text-slate-300">
                 Learn more about orci ac auctor augue mauris augue neque
                 gravida.
               </div>
@@ -182,10 +182,10 @@ export function WebLayoutsLandingSectionsDocumentationContent(
           </div>
         </Link>
         <Link href="#0">
-          <div className="flex justify-between items-center p-4 rounded border border-gray-600 transition duration-300 ease-in-out bg-gray-700 shadow-md hover:shadow-lg mb-4 cursor-pointer">
+          <div className="flex justify-between items-center p-4 rounded border border-gray-600 transition duration-300 ease-in-out bg-slate-750 hover:bg-slate-700 shadow-md hover:shadow-lg mb-4 cursor-pointer">
             <div>
               <div className="text-normal font-medium mb-1">Deploy hooks</div>
-              <div className="text-sm text-gray-400">
+              <div className="text-sm text-slate-300">
                 Learn more about risus nullam eget felis eget nunc.
               </div>
             </div>
@@ -204,9 +204,11 @@ export function WebLayoutsLandingSectionsDocumentationContent(
       {/* Feedback */}
       <div className="pt-6">
         <div className="flex flex-col text-center sm:text-left sm:flex-row sm:justify-between sm:items-center">
-          <div className="font-medium mb-4 md:mb-0 text-gray-300">Was this page helpful?</div>
+          <div className="font-medium mb-4 md:mb-0 text-gray-300">
+            Was this page helpful?
+          </div>
           <ul className="inline-flex justify-center -m-2">
-            <li className="p-2 cursor-pointer">
+            <li className="p-2 cursor-pointer hover:bg-slate-700 rounded-xl">
               <Link href="#0">
                 <svg
                   className="w-6 h-6"
@@ -228,7 +230,7 @@ export function WebLayoutsLandingSectionsDocumentationContent(
                 </svg>
               </Link>
             </li>
-            <li className="p-2 cursor-pointer">
+            <li className="p-2 cursor-pointer hover:bg-slate-700 rounded-xl">
               <Link href="#0">
                 <svg
                   className="w-6 h-6"
@@ -245,7 +247,7 @@ export function WebLayoutsLandingSectionsDocumentationContent(
                 </svg>
               </Link>
             </li>
-            <li className="p-2 cursor-pointer">
+            <li className="p-2 cursor-pointer hover:bg-slate-700 rounded-xl">
               <Link href="#0">
                 <svg
                   className="w-6 h-6"
@@ -268,7 +270,7 @@ export function WebLayoutsLandingSectionsDocumentationContent(
                 </svg>
               </Link>
             </li>
-            <li className="p-2 cursor-pointer">
+            <li className="p-2 cursor-pointer hover:bg-slate-700 rounded-xl">
               <Link href="#0">
                 <svg
                   className="w-6 h-6"

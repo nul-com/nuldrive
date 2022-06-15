@@ -13,7 +13,7 @@ export function WebLayoutsLandingSectionsAboutStats(
   return (
     <section>
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
-        <div className="py-12 md:py-20 border-t border-gray-700">
+        <div className="py-12 md:py-20 border-t border-slate-700">
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
             <h1 data-aos="fade-up" className="h2 mb-4">
@@ -22,7 +22,7 @@ export function WebLayoutsLandingSectionsAboutStats(
             <p
               data-aos="fade-up"
               data-aos-delay="200"
-              className="text-xl text-gray-400"
+              className="text-xl text-slate-300"
             >
               Duis aute irure dolor in reprehenderit in voluptate velit esse
               cillum dolore eu fugiat nulla pariatur excepteur sint occaecat
@@ -42,13 +42,13 @@ export function WebLayoutsLandingSectionsAboutStats(
                 style={{ maxWidth: '200%' }}
                 xmlns="http://www.w3.org/2000/svg"
               >
-                <g className="fill-current text-gray-800 opacity-75">
+                <g className="fill-current text-slate-700 opacity-75">
                   <circle className="pulse" cx="400" cy="400" r="200" />
                   <circle className="pulse pulse-1" cx="400" cy="400" r="200" />
                   <circle className="pulse pulse-2" cx="400" cy="400" r="200" />
                 </g>
               </svg>
-              {/* White box */}
+              {/* Black box */}
               <svg
                 className="absolute w-32 h-auto rounded-full shadow-xl"
                 viewBox="0 0 128 48"
@@ -56,7 +56,7 @@ export function WebLayoutsLandingSectionsAboutStats(
                 xmlns="http://www.w3.org/2000/svg"
               >
                 <rect
-                  className="fill-current text-gray-700"
+                  className="fill-current text-slate-600"
                   width="128"
                   height="48"
                   rx="24"
@@ -302,7 +302,7 @@ export function WebLayoutsLandingSectionsAboutStats(
                 alt="Planet avatar 05"
                 style={{ width: '74%', top: '-5%', right: '-22%' }}
               />
-              {/* White box */}
+              {/* Black box */}
               <svg
                 className="absolute w-32 h-auto rounded-full shadow-xl"
                 viewBox="0 0 128 48"
@@ -310,13 +310,13 @@ export function WebLayoutsLandingSectionsAboutStats(
                 xmlns="http://www.w3.org/2000/svg"
               >
                 <rect
-                  className="fill-current text-gray-700"
+                  className="fill-current text-slate-600"
                   width="128"
                   height="48"
                   rx="24"
                 />
               </svg>
-              {/* White box */}
+              {/* Black box */}
               <svg
                 className="absolute w-32 h-auto rounded-full shadow-xl"
                 viewBox="0 0 128 48"
@@ -324,7 +324,7 @@ export function WebLayoutsLandingSectionsAboutStats(
                 xmlns="http://www.w3.org/2000/svg"
               >
                 <rect
-                  className="fill-current text-gray-700"
+                  className="fill-current text-slate-600"
                   width="128"
                   height="48"
                   rx="24"
@@ -360,7 +360,7 @@ export function WebLayoutsLandingSectionsAboutStats(
                 xmlns="http://www.w3.org/2000/svg"
               >
                 <circle
-                  className="fill-current text-gray-800"
+                  className="fill-current text-slate-700"
                   cx="32"
                   cy="32"
                   r="32"
@@ -394,7 +394,7 @@ export function WebLayoutsLandingSectionsAboutStats(
             {/* 1st item */}
             <div className="text-center" data-aos="fade-in">
               <div className="h3 mb-1">2012</div>
-              <div className="text-gray-400">
+              <div className="text-slate-300">
                 Lorem ipsum is placeholder text commonly used tristique senectus
                 et netus.
               </div>
@@ -417,7 +417,7 @@ export function WebLayoutsLandingSectionsAboutStats(
                 </CountUp>
                 <span>M</span>
               </div>
-              <div className="text-gray-400">
+              <div className="text-slate-300">
                 Lorem ipsum is placeholder text commonly used tristique senectus
                 et netus.
               </div>
@@ -439,7 +439,7 @@ export function WebLayoutsLandingSectionsAboutStats(
                 </CountUp>
                 <span>M+</span>
               </div>
-              <div className="text-gray-400">
+              <div className="text-slate-300">
                 Lorem ipsum is placeholder text commonly used tristique senectus
                 et netus.
               </div>
@@ -461,7 +461,7 @@ export function WebLayoutsLandingSectionsAboutStats(
                 </CountUp>
                 <span>+</span>
               </div>
-              <div className="text-gray-400">
+              <div className="text-slate-300">
                 Lorem ipsum is placeholder text commonly used tristique senectus
                 et netus.
               </div>
@@ -483,7 +483,7 @@ export function WebLayoutsLandingSectionsAboutStats(
                 </CountUp>
                 <span>K</span>
               </div>
-              <div className="text-gray-400">
+              <div className="text-slate-300">
                 Lorem ipsum is placeholder text commonly used tristique senectus
                 et netus.
               </div>
@@ -496,7 +496,7 @@ export function WebLayoutsLandingSectionsAboutStats(
               data-aos-delay="300"
             >
               <div className="h3 mb-1">Millions</div>
-              <div className="text-gray-400">
+              <div className="text-slate-300">
                 Lorem ipsum is placeholder text commonly used tristique senectus
                 et netus.
               </div>

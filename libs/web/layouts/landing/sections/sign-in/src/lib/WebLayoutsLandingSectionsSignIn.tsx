@@ -45,12 +45,12 @@ export function WebLayoutsLandingSectionsSignIn(
             </form>
             <div className="flex items-center my-6">
               <div
-                className="border-t border-gray-700 border-dotted grow mr-3"
+                className="border-t border-slate-700 border-dotted grow mr-3"
                 aria-hidden="true"
               ></div>
-              <div className="text-gray-400">Or, sign in with your email</div>
+              <div className="text-slate-300">Or, sign in with your email</div>
               <div
-                className="border-t border-gray-700 border-dotted grow ml-3"
+                className="border-t border-slate-700 border-dotted grow ml-3"
                 aria-hidden="true"
               ></div>
             </div>
@@ -63,7 +63,7 @@ export function WebLayoutsLandingSectionsSignIn(
                   >
                     Email
                   </label>
-                  <div className="border border-gray-700 rounded-lg flex justify-between items-center pr-3">
+                  <div className="border border-slate-700 rounded-lg flex justify-between items-center pr-3">
                     <input
                       id="email"
                       type="email"
@@ -102,7 +102,7 @@ export function WebLayoutsLandingSectionsSignIn(
                   >
                     Password
                   </label>
-                  <div className="border border-gray-700 rounded-lg">
+                  <div className="border border-slate-700 rounded-lg">
                     <input
                       id="password"
                       type="password"
@@ -117,13 +117,13 @@ export function WebLayoutsLandingSectionsSignIn(
                 <div className="w-full px-3">
                   <div className="flex justify-between">
                     <label className="flex items-center">
-                      <div className="border relative rounded w-4 h-4 border-gray-700 hover:border-gray-500 transition-all duration-300 cursor-pointer">
+                      <div className="border relative rounded w-4 h-4 border-slate-700 hover:border-gray-500 transition-all duration-300 cursor-pointer">
                         <input
                           type="checkbox"
                           className="form-checkbox -translate-y-[7px] -translate-x-[1px]"
                         />
                       </div>
-                      <span className="text-gray-400 ml-2">
+                      <span className="text-slate-300 ml-2">
                         Keep me signed in
                       </span>
                     </label>
@@ -163,7 +163,7 @@ export function WebLayoutsLandingSectionsSignIn(
                 </div>
               </div>
             </form>
-            <div className="text-gray-400 text-center mt-6">
+            <div className="text-slate-300 text-center mt-6">
               Don’t you have an account?{' '}
               <Link href="/signup">
                 <p className="text-purple-600 hover:text-gray-200 transition duration-150 ease-in-out">

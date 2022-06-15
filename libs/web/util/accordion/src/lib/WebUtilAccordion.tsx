@@ -24,9 +24,9 @@ export function WebUtilAccordion(props: WebUtilAccordionProps) {
 
   return (
     <Component data-aos="fade-up">
-      <div className="border-t border-gray-700">
+      <div className="border-t border-slate-700">
         <button
-          className="flex items-center w-full text-lg font-medium text-left py-5 border-t border-gray-700"
+          className="flex items-center w-full text-lg font-medium text-left py-5 border-t border-slate-700"
           onClick={(e) => {
             e.preventDefault();
             setAccordionOpen(!accordionOpen);
@@ -62,7 +62,7 @@ export function WebUtilAccordion(props: WebUtilAccordionProps) {
       </div>
       <div
         ref={accordion}
-        className="text-gray-400 overflow-hidden transition-all duration-300 ease-in-out"
+        className="text-slate-300 overflow-hidden transition-all duration-300 ease-in-out"
         style={
           accordionOpen
             ? { maxHeight: accordion.current.scrollHeight, opacity: 1 }

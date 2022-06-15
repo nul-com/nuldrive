@@ -20,7 +20,7 @@ export function WebLayoutsLandingSectionsHelpCenter(
             <div className={page !== 1 ? 'hidden' : undefined}>
               <div className="mb-8">
                 <h2 className="h2 mb-4">FAQ’s – Frequently Asked Questions</h2>
-                <p className="text-gray-400">
+                <p className="text-slate-300">
                   Last updated -{' '}
                   <span className="text-purple-600">June 14, 2022</span>
                 </p>
@@ -30,7 +30,7 @@ export function WebLayoutsLandingSectionsHelpCenter(
                   <h4 className="text-xl font-medium mb-2">
                     How can I use Open PRO without registration?
                   </h4>
-                  <p className="text-lg text-gray-400">
+                  <p className="text-lg text-slate-300">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                     do eiusmod tempor incididunt ut labore et dolore magna
                     aliqua. Quis enim lobortis scelerisque fermentum.
@@ -40,7 +40,7 @@ export function WebLayoutsLandingSectionsHelpCenter(
                   <h4 className="text-xl font-medium mb-2">
                     Can I import my sitemap to Open PRO?
                   </h4>
-                  <p className="text-lg text-gray-400">
+                  <p className="text-lg text-slate-300">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                     do eiusmod tempor incididunt ut labore et dolore magna
                     aliqua. Quis enim lobortis scelerisque fermentum.
@@ -51,7 +51,7 @@ export function WebLayoutsLandingSectionsHelpCenter(
                     How can I switch my subscription between essential, and
                     premium plans?
                   </h4>
-                  <p className="text-lg text-gray-400">
+                  <p className="text-lg text-slate-300">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                     do eiusmod tempor incididunt ut labore et dolore magna
                     aliqua. Quis enim lobortis scelerisque fermentum.
@@ -61,7 +61,7 @@ export function WebLayoutsLandingSectionsHelpCenter(
                   <h4 className="text-xl font-medium mb-2">
                     Can I cancel my subscription at any time?
                   </h4>
-                  <p className="text-lg text-gray-400">
+                  <p className="text-lg text-slate-300">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                     do eiusmod tempor incididunt ut labore et dolore magna
                     aliqua. Quis enim lobortis scelerisque fermentum.
@@ -71,7 +71,7 @@ export function WebLayoutsLandingSectionsHelpCenter(
                   <h4 className="text-xl font-medium mb-2">
                     Is there an additional discount when paid annually?
                   </h4>
-                  <p className="text-lg text-gray-400">
+                  <p className="text-lg text-slate-300">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                     do eiusmod tempor incididunt ut labore et dolore magna
                     aliqua. Quis enim lobortis scelerisque fermentum.
@@ -81,7 +81,7 @@ export function WebLayoutsLandingSectionsHelpCenter(
                   <h4 className="text-xl font-medium mb-2">
                     What happens if I don’t renew my license after one year?
                   </h4>
-                  <p className="text-lg text-gray-400">
+                  <p className="text-lg text-slate-300">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                     do eiusmod tempor incididunt ut labore et dolore magna
                     aliqua. Quis enim lobortis scelerisque fermentum.
@@ -91,7 +91,7 @@ export function WebLayoutsLandingSectionsHelpCenter(
                   <h4 className="text-xl font-medium mb-2">
                     What kind of payment methods do you provide?
                   </h4>
-                  <p className="text-lg text-gray-400">
+                  <p className="text-lg text-slate-300">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                     do eiusmod tempor incididunt ut labore et dolore magna
                     aliqua. Quis enim lobortis scelerisque fermentum.
@@ -104,7 +104,7 @@ export function WebLayoutsLandingSectionsHelpCenter(
             <div className={page !== 2 ? 'hidden' : undefined}>
               <div className="mb-8">
                 <h2 className="h2 mb-4">What is Open PRO</h2>
-                <p className="text-gray-400">
+                <p className="text-slate-300">
                   Last updated -{' '}
                   <span className="text-purple-600">June 30, 2020</span>
                 </p>
@@ -114,7 +114,7 @@ export function WebLayoutsLandingSectionsHelpCenter(
                   <h4 className="text-xl font-medium mb-2">
                     How can I use Open PRO without registration?
                   </h4>
-                  <p className="text-lg text-gray-400">
+                  <p className="text-lg text-slate-300">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                     do eiusmod tempor incididunt ut labore et dolore magna
                     aliqua. Quis enim lobortis scelerisque fermentum.
@@ -124,7 +124,7 @@ export function WebLayoutsLandingSectionsHelpCenter(
                   <h4 className="text-xl font-medium mb-2">
                     Can I import my sitemap to Open PRO?
                   </h4>
-                  <p className="text-lg text-gray-400">
+                  <p className="text-lg text-slate-300">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                     do eiusmod tempor incididunt ut labore et dolore magna
                     aliqua. Quis enim lobortis scelerisque fermentum.
@@ -135,7 +135,7 @@ export function WebLayoutsLandingSectionsHelpCenter(
                     How can I switch my subscription between essential, and
                     premium plans?
                   </h4>
-                  <p className="text-lg text-gray-400">
+                  <p className="text-lg text-slate-300">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                     do eiusmod tempor incididunt ut labore et dolore magna
                     aliqua. Quis enim lobortis scelerisque fermentum.
@@ -145,7 +145,7 @@ export function WebLayoutsLandingSectionsHelpCenter(
                   <h4 className="text-xl font-medium mb-2">
                     Can I cancel my subscription at any time?
                   </h4>
-                  <p className="text-lg text-gray-400">
+                  <p className="text-lg text-slate-300">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                     do eiusmod tempor incididunt ut labore et dolore magna
                     aliqua. Quis enim lobortis scelerisque fermentum.
@@ -155,7 +155,7 @@ export function WebLayoutsLandingSectionsHelpCenter(
                   <h4 className="text-xl font-medium mb-2">
                     Is there an additional discount when paid annually?
                   </h4>
-                  <p className="text-lg text-gray-400">
+                  <p className="text-lg text-slate-300">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                     do eiusmod tempor incididunt ut labore et dolore magna
                     aliqua. Quis enim lobortis scelerisque fermentum.
@@ -165,7 +165,7 @@ export function WebLayoutsLandingSectionsHelpCenter(
                   <h4 className="text-xl font-medium mb-2">
                     What happens if I don’t renew my license after one year?
                   </h4>
-                  <p className="text-lg text-gray-400">
+                  <p className="text-lg text-slate-300">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                     do eiusmod tempor incididunt ut labore et dolore magna
                     aliqua. Quis enim lobortis scelerisque fermentum.
@@ -175,7 +175,7 @@ export function WebLayoutsLandingSectionsHelpCenter(
                   <h4 className="text-xl font-medium mb-2">
                     What kind of payment methods do you provide?
                   </h4>
-                  <p className="text-lg text-gray-400">
+                  <p className="text-lg text-slate-300">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                     do eiusmod tempor incididunt ut labore et dolore magna
                     aliqua. Quis enim lobortis scelerisque fermentum.
@@ -188,7 +188,7 @@ export function WebLayoutsLandingSectionsHelpCenter(
             <div className={page !== 3 ? 'hidden' : undefined}>
               <div className="mb-8">
                 <h2 className="h2 mb-4">Open PRO plan’s features</h2>
-                <p className="text-gray-400">
+                <p className="text-slate-300">
                   Last updated -{' '}
                   <span className="text-purple-600">June 30, 2020</span>
                 </p>
@@ -198,7 +198,7 @@ export function WebLayoutsLandingSectionsHelpCenter(
                   <h4 className="text-xl font-medium mb-2">
                     How can I use Open PRO without registration?
                   </h4>
-                  <p className="text-lg text-gray-400">
+                  <p className="text-lg text-slate-300">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                     do eiusmod tempor incididunt ut labore et dolore magna
                     aliqua. Quis enim lobortis scelerisque fermentum.
@@ -208,7 +208,7 @@ export function WebLayoutsLandingSectionsHelpCenter(
                   <h4 className="text-xl font-medium mb-2">
                     Can I import my sitemap to Open PRO?
                   </h4>
-                  <p className="text-lg text-gray-400">
+                  <p className="text-lg text-slate-300">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                     do eiusmod tempor incididunt ut labore et dolore magna
                     aliqua. Quis enim lobortis scelerisque fermentum.
@@ -219,7 +219,7 @@ export function WebLayoutsLandingSectionsHelpCenter(
                     How can I switch my subscription between essential, and
                     premium plans?
                   </h4>
-                  <p className="text-lg text-gray-400">
+                  <p className="text-lg text-slate-300">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                     do eiusmod tempor incididunt ut labore et dolore magna
                     aliqua. scelerisque fermentum.
@@ -229,7 +229,7 @@ export function WebLayoutsLandingSectionsHelpCenter(
                   <h4 className="text-xl font-medium mb-2">
                     Can I cancel my subscription at any time?
                   </h4>
-                  <p className="text-lg text-gray-400">
+                  <p className="text-lg text-slate-300">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                     do eiusmod tempor incididunt ut labore et dolore magna
                     aliqua. Quis enim lobortis scelerisque fermentum.
@@ -239,7 +239,7 @@ export function WebLayoutsLandingSectionsHelpCenter(
                   <h4 className="text-xl font-medium mb-2">
                     Is there an additional discount when paid annually?
                   </h4>
-                  <p className="text-lg text-gray-400">
+                  <p className="text-lg text-slate-300">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                     do eiusmod tempor incididunt ut labore et dolore magna
                     aliqua. Quis enim lobortis scelerisque fermentum.
@@ -249,7 +249,7 @@ export function WebLayoutsLandingSectionsHelpCenter(
                   <h4 className="text-xl font-medium mb-2">
                     What happens if I don’t renew my license after one year?
                   </h4>
-                  <p className="text-lg text-gray-400">
+                  <p className="text-lg text-slate-300">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                     do eiusmod tempor incididunt ut labore et dolore magna
                     aliqua. Quis enim lobortis scelerisque fermentum.
@@ -259,7 +259,7 @@ export function WebLayoutsLandingSectionsHelpCenter(
                   <h4 className="text-xl font-medium mb-2">
                     What kind of payment methods do you provide?
                   </h4>
-                  <p className="text-lg text-gray-400">
+                  <p className="text-lg text-slate-300">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                     do eiusmod tempor incididunt ut labore et dolore magna
                     aliqua. Quis enim lobortis scelerisque fermentum.
@@ -272,7 +272,7 @@ export function WebLayoutsLandingSectionsHelpCenter(
             <div className={page !== 4 ? 'hidden' : undefined}>
               <div className="mb-8">
                 <h2 className="h2 mb-4">Get started</h2>
-                <p className="text-gray-400">
+                <p className="text-slate-300">
                   Last updated -{' '}
                   <span className="text-purple-600">June 30, 2020</span>
                 </p>
@@ -282,7 +282,7 @@ export function WebLayoutsLandingSectionsHelpCenter(
                   <h4 className="text-xl font-medium mb-2">
                     How can I use Open PRO without registration?
                   </h4>
-                  <p className="text-lg text-gray-400">
+                  <p className="text-lg text-slate-300">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                     do eiusmod tempor incididunt ut labore et dolore magna
                     aliqua. Quis enim lobortis scelerisque fermentum.
@@ -292,7 +292,7 @@ export function WebLayoutsLandingSectionsHelpCenter(
                   <h4 className="text-xl font-medium mb-2">
                     Can I import my sitemap to Open PRO?
                   </h4>
-                  <p className="text-lg text-gray-400">
+                  <p className="text-lg text-slate-300">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                     do eiusmod tempor incididunt ut labore et dolore magna
                     aliqua. Quis enim lobortis scelerisque fermentum.
@@ -303,7 +303,7 @@ export function WebLayoutsLandingSectionsHelpCenter(
                     How can I switch my subscription between essential, and
                     premium plans?
                   </h4>
-                  <p className="text-lg text-gray-400">
+                  <p className="text-lg text-slate-300">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                     do eiusmod tempor incididunt ut labore et dolore magna
                     aliqua. Quis enim lobortis scelerisque fermentum.
@@ -313,7 +313,7 @@ export function WebLayoutsLandingSectionsHelpCenter(
                   <h4 className="text-xl font-medium mb-2">
                     Can I cancel my subscription at any time?
                   </h4>
-                  <p className="text-lg text-gray-400">
+                  <p className="text-lg text-slate-300">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                     do eiusmod tempor incididunt ut labore et dolore magna
                     aliqua. Quis enim lobortis scelerisque fermentum.
@@ -323,7 +323,7 @@ export function WebLayoutsLandingSectionsHelpCenter(
                   <h4 className="text-xl font-medium mb-2">
                     Is there an additional discount when paid annually?
                   </h4>
-                  <p className="text-lg text-gray-400">
+                  <p className="text-lg text-slate-300">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                     do eiusmod tempor incididunt ut labore et dolore magna
                     aliqua. Quis enim lobortis scelerisque fermentum.
@@ -333,7 +333,7 @@ export function WebLayoutsLandingSectionsHelpCenter(
                   <h4 className="text-xl font-medium mb-2">
                     What happens if I don’t renew my license after one year?
                   </h4>
-                  <p className="text-lg text-gray-400">
+                  <p className="text-lg text-slate-300">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                     do eiusmod tempor incididunt ut labore et dolore magna
                     aliqua. Quis enim lobortis scelerisque fermentum.
@@ -343,7 +343,7 @@ export function WebLayoutsLandingSectionsHelpCenter(
                   <h4 className="text-xl font-medium mb-2">
                     What kind of payment methods do you provide?
                   </h4>
-                  <p className="text-lg text-gray-400">
+                  <p className="text-lg text-slate-300">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                     do eiusmod tempor incididunt ut labore et dolore magna
                     aliqua. Quis enim lobortis scelerisque fermentum.
@@ -356,7 +356,7 @@ export function WebLayoutsLandingSectionsHelpCenter(
             <div className={page !== 5 ? 'hidden' : undefined}>
               <div className="mb-8">
                 <h2 className="h2 mb-4">Payments FAQ’s</h2>
-                <p className="text-gray-400">
+                <p className="text-slate-300">
                   Last updated -{' '}
                   <span className="text-purple-600">June 30, 2020</span>
                 </p>
@@ -366,7 +366,7 @@ export function WebLayoutsLandingSectionsHelpCenter(
                   <h4 className="text-xl font-medium mb-2">
                     How can I use Open PRO without registration?
                   </h4>
-                  <p className="text-lg text-gray-400">
+                  <p className="text-lg text-slate-300">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                     do eiusmod tempor incididunt ut labore et dolore magna
                     aliqua. Quis enim lobortis scelerisque fermentum.
@@ -376,7 +376,7 @@ export function WebLayoutsLandingSectionsHelpCenter(
                   <h4 className="text-xl font-medium mb-2">
                     Can I import my sitemap to Open PRO?
                   </h4>
-                  <p className="text-lg text-gray-400">
+                  <p className="text-lg text-slate-300">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                     do eiusmod tempor incididunt ut labore et dolore magna
                     aliqua. Quis enim lobortis scelerisque fermentum.
@@ -387,7 +387,7 @@ export function WebLayoutsLandingSectionsHelpCenter(
                     How can I switch my subscription between essential, and
                     premium plans?
                   </h4>
-                  <p className="text-lg text-gray-400">
+                  <p className="text-lg text-slate-300">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                     do eiusmod tempor incididunt ut labore et dolore magna
                     aliqua. Quis enim lobortis scelerisque fermentum.
@@ -397,7 +397,7 @@ export function WebLayoutsLandingSectionsHelpCenter(
                   <h4 className="text-xl font-medium mb-2">
                     Can I cancel my subscription at any time?
                   </h4>
-                  <p className="text-lg text-gray-400">
+                  <p className="text-lg text-slate-300">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                     do eiusmod tempor incididunt ut labore et dolore magna
                     aliqua. Quis enim lobortis scelerisque fermentum.
@@ -407,7 +407,7 @@ export function WebLayoutsLandingSectionsHelpCenter(
                   <h4 className="text-xl font-medium mb-2">
                     Is there an additional discount when paid annually?
                   </h4>
-                  <p className="text-lg text-gray-400">
+                  <p className="text-lg text-slate-300">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                     do eiusmod tempor incididunt ut labore et dolore magna
                     aliqua. Quis enim lobortis scelerisque fermentum.
@@ -417,7 +417,7 @@ export function WebLayoutsLandingSectionsHelpCenter(
                   <h4 className="text-xl font-medium mb-2">
                     What happens if I don’t renew my license after one year?
                   </h4>
-                  <p className="text-lg text-gray-400">
+                  <p className="text-lg text-slate-300">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                     do eiusmod tempor incididunt ut labore et dolore magna
                     aliqua. Quis enim lobortis scelerisque fermentum.
@@ -427,7 +427,7 @@ export function WebLayoutsLandingSectionsHelpCenter(
                   <h4 className="text-xl font-medium mb-2">
                     What kind of payment methods do you provide?
                   </h4>
-                  <p className="text-lg text-gray-400">
+                  <p className="text-lg text-slate-300">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                     do eiusmod tempor incididunt ut labore et dolore magna
                     aliqua. Quis enim lobortis scelerisque fermentum.
@@ -443,14 +443,14 @@ export function WebLayoutsLandingSectionsHelpCenter(
             data-aos="fade-up"
             data-aos-delay="200"
           >
-            <h4 className="text-lg font-medium px-3 pb-3 border-b border-gray-800">
+            <h4 className="text-lg font-medium px-3 pb-3 border-b border-slate-700">
               Choose a category
             </h4>
             <nav>
               <ul>
-                <li className="py-2 border-b border-gray-800">
+                <li className="py-2 border-b border-slate-700">
                   <a
-                    className={`flex items-center px-3 group text-gray-400 hover:text-purple-600 transition duration-150 ease-in-out ${
+                    className={`flex items-center px-3 group text-slate-300 hover:text-purple-600 transition duration-150 ease-in-out ${
                       page === 1 && 'text-purple-600'
                     }`}
                     href="#0"
@@ -469,9 +469,9 @@ export function WebLayoutsLandingSectionsHelpCenter(
                     </svg>
                   </a>
                 </li>
-                <li className="py-2 border-b border-gray-800">
+                <li className="py-2 border-b border-slate-700">
                   <a
-                    className={`flex items-center px-3 group text-gray-400 hover:text-purple-600 transition duration-150 ease-in-out ${
+                    className={`flex items-center px-3 group text-slate-300 hover:text-purple-600 transition duration-150 ease-in-out ${
                       page === 2 && 'text-purple-600'
                     }`}
                     href="#0"
@@ -490,9 +490,9 @@ export function WebLayoutsLandingSectionsHelpCenter(
                     </svg>
                   </a>
                 </li>
-                <li className="py-2 border-b border-gray-800">
+                <li className="py-2 border-b border-slate-700">
                   <a
-                    className={`flex items-center px-3 group text-gray-400 hover:text-purple-600 transition duration-150 ease-in-out ${
+                    className={`flex items-center px-3 group text-slate-300 hover:text-purple-600 transition duration-150 ease-in-out ${
                       page === 3 && 'text-purple-600'
                     }`}
                     href="#0"
@@ -511,9 +511,9 @@ export function WebLayoutsLandingSectionsHelpCenter(
                     </svg>
                   </a>
                 </li>
-                <li className="py-2 border-b border-gray-800">
+                <li className="py-2 border-b border-slate-700">
                   <a
-                    className={`flex items-center px-3 group text-gray-400 hover:text-purple-600 transition duration-150 ease-in-out ${
+                    className={`flex items-center px-3 group text-slate-300 hover:text-purple-600 transition duration-150 ease-in-out ${
                       page === 4 && 'text-purple-600'
                     }`}
                     href="#0"
@@ -532,9 +532,9 @@ export function WebLayoutsLandingSectionsHelpCenter(
                     </svg>
                   </a>
                 </li>
-                <li className="py-2 border-b border-gray-800">
+                <li className="py-2 border-b border-slate-700">
                   <a
-                    className={`flex items-center px-3 group text-gray-400 hover:text-purple-600 transition duration-150 ease-in-out ${
+                    className={`flex items-center px-3 group text-slate-300 hover:text-purple-600 transition duration-150 ease-in-out ${
                       page === 5 && 'text-purple-600'
                     }`}
                     href="#0"

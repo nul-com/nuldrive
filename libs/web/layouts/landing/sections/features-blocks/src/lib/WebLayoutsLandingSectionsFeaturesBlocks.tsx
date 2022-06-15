@@ -9,13 +9,13 @@ export function WebLayoutsLandingSectionsFeaturesBlocks(
   return (
     <section>
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
-        <div className="py-12 md:py-20 border-t border-gray-800">
+        <div className="py-12 md:py-20 border-t border-slate-700">
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
             <h2 className="h2 mb-4">
               The majority our customers do not understand their workflows.
             </h2>
-            <p className="text-xl text-gray-400">
+            <p className="text-xl text-slate-300">
               Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
               officia deserunt mollit anim id est laborum.
             </p>
@@ -59,7 +59,7 @@ export function WebLayoutsLandingSectionsFeaturesBlocks(
                 />
               </svg>
               <h4 className="h4 mb-2">Instant Features</h4>
-              <p className="text-lg text-gray-400 text-center">
+              <p className="text-lg text-slate-300 text-center">
                 Duis aute irure dolor in reprehenderit in voluptate velit esse
                 cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
                 cupidatat.
@@ -100,7 +100,7 @@ export function WebLayoutsLandingSectionsFeaturesBlocks(
                 />
               </svg>
               <h4 className="h4 mb-2">Instant Features</h4>
-              <p className="text-lg text-gray-400 text-center">
+              <p className="text-lg text-slate-300 text-center">
                 Duis aute irure dolor in reprehenderit in voluptate velit esse
                 cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
                 cupidatat.
@@ -152,7 +152,7 @@ export function WebLayoutsLandingSectionsFeaturesBlocks(
                 </g>
               </svg>
               <h4 className="h4 mb-2">Instant Features</h4>
-              <p className="text-lg text-gray-400 text-center">
+              <p className="text-lg text-slate-300 text-center">
                 Duis aute irure dolor in reprehenderit in voluptate velit esse
                 cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
                 cupidatat.
@@ -197,7 +197,7 @@ export function WebLayoutsLandingSectionsFeaturesBlocks(
                 </g>
               </svg>
               <h4 className="h4 mb-2">Instant Features</h4>
-              <p className="text-lg text-gray-400 text-center">
+              <p className="text-lg text-slate-300 text-center">
                 Duis aute irure dolor in reprehenderit in voluptate velit esse
                 cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
                 cupidatat.
@@ -239,7 +239,7 @@ export function WebLayoutsLandingSectionsFeaturesBlocks(
                 </g>
               </svg>
               <h4 className="h4 mb-2">Instant Features</h4>
-              <p className="text-lg text-gray-400 text-center">
+              <p className="text-lg text-slate-300 text-center">
                 Duis aute irure dolor in reprehenderit in voluptate velit esse
                 cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
                 cupidatat.
@@ -288,7 +288,7 @@ export function WebLayoutsLandingSectionsFeaturesBlocks(
                 </g>
               </svg>
               <h4 className="h4 mb-2">Instant Features</h4>
-              <p className="text-lg text-gray-400 text-center">
+              <p className="text-lg text-slate-300 text-center">
                 Duis aute irure dolor in reprehenderit in voluptate velit esse
                 cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
                 cupidatat.

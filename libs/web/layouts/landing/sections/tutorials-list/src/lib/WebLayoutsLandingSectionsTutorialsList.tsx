@@ -24,31 +24,53 @@ export function WebLayoutsLandingSectionsTutorialsList(
           </div>
 
           {/* Section tags */}
-          <div className="border-b border-gray-700 pb-4 mb-12" data-aos="fade-in" data-aos-delay="50">
+          <div
+            className="border-b border-slate-700 pb-4 mb-12"
+            data-aos="fade-in"
+            data-aos-delay="50"
+          >
             <ul className="flex flex-wrap justify-center md:justify-start font-medium -mx-5 -my-1">
               <li className="mx-5 my-1 cursor-pointer" data-aos="fade">
                 <Link href="#0">
                   <p className="text-blue-600">All</p>
                 </Link>
               </li>
-              <li className="mx-5 my-1 cursor-pointer" data-aos="fade" data-aos-delay="50">
+              <li
+                className="mx-5 my-1 cursor-pointer"
+                data-aos="fade"
+                data-aos-delay="50"
+              >
                 <Link href="#0">
-                  <p className="text-gray-400 hover:underline">Tutorials</p>
+                  <p className="text-slate-300 hover:underline">Tutorials</p>
                 </Link>
               </li>
-              <li className="mx-5 my-1 cursor-pointer" data-aos="fade" data-aos-delay="100">
+              <li
+                className="mx-5 my-1 cursor-pointer"
+                data-aos="fade"
+                data-aos-delay="100"
+              >
                 <Link href="#0">
-                  <p className="text-gray-400 hover:underline">Tips & Tricks</p>
+                  <p className="text-slate-300 hover:underline">
+                    Tips & Tricks
+                  </p>
                 </Link>
               </li>
-              <li className="mx-5 my-1 cursor-pointer" data-aos="fade" data-aos-delay="150">
+              <li
+                className="mx-5 my-1 cursor-pointer"
+                data-aos="fade"
+                data-aos-delay="150"
+              >
                 <Link href="#0">
-                  <p className="text-gray-400 hover:underline">Free ebooks</p>
+                  <p className="text-slate-300 hover:underline">Free ebooks</p>
                 </Link>
               </li>
-              <li className="mx-5 my-1 cursor-pointer" data-aos="fade" data-aos-delay="200">
+              <li
+                className="mx-5 my-1 cursor-pointer"
+                data-aos="fade"
+                data-aos-delay="200"
+              >
                 <Link href="#0">
-                  <p className="text-gray-400 hover:underline">Guides</p>
+                  <p className="text-slate-300 hover:underline">Guides</p>
                 </Link>
               </li>
             </ul>
@@ -89,13 +111,13 @@ export function WebLayoutsLandingSectionsTutorialsList(
                       </li>
                       <li className="m-1 cursor-pointer">
                         <Link href="#0">
-                          <p className="inline-flex text-center text-gray-800 py-1 px-3 rounded-full bg-blue-100 hover:bg-blue-200 transition duration-150 ease-in-out">
+                          <p className="inline-flex text-center text-slate-100 py-1 px-3 rounded-full bg-slate-500 hover:bg-blue-200 transition duration-150 ease-in-out">
                             Intermediate
                           </p>
                         </Link>
                       </li>
                       <li className="m-1 cursor-pointer">
-                        <span className="inline-flex text-center text-gray-800 py-1 px-3 rounded-full bg-white shadow-sm">
+                        <span className="inline-flex text-center text-slate-700 py-1 px-3 rounded-full bg-slate-300 shadow-sm">
                           4 min read
                         </span>
                       </li>
@@ -109,7 +131,7 @@ export function WebLayoutsLandingSectionsTutorialsList(
                     </Link>
                   </h3>
                 </header>
-                <p className="text-gray-400 grow">
+                <p className="text-slate-300 grow">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor incididunt ut labore.
                 </p>
@@ -145,7 +167,7 @@ export function WebLayoutsLandingSectionsTutorialsList(
                     </Link>
                   </div>
                   <div className="text-gray-300">
-                    <span className="text-gray-600">By </span>
+                    <span className="text-slate-400">By </span>
                     <Link href="#0">
                       <span className="font-medium hover:underline text-gray-300 cursor-pointer">
                         Lisa Allison
@@ -192,13 +214,13 @@ export function WebLayoutsLandingSectionsTutorialsList(
                       </li>
                       <li className="m-1 cursor-pointer">
                         <Link href="#0">
-                          <p className="inline-flex text-center text-gray-800 py-1 px-3 rounded-full bg-blue-100 hover:bg-blue-200 transition duration-150 ease-in-out">
+                          <p className="inline-flex text-center text-slate-100 py-1 px-3 rounded-full bg-slate-500 hover:bg-blue-200 transition duration-150 ease-in-out">
                             Intermediate
                           </p>
                         </Link>
                       </li>
                       <li className="m-1 cursor-pointer">
-                        <span className="inline-flex text-center text-gray-800 py-1 px-3 rounded-full bg-white shadow-sm">
+                        <span className="inline-flex text-center text-slate-700 py-1 px-3 rounded-full bg-slate-300 shadow-sm">
                           4 min read
                         </span>
                       </li>
@@ -212,7 +234,7 @@ export function WebLayoutsLandingSectionsTutorialsList(
                     </Link>
                   </h3>
                 </header>
-                <p className="text-gray-400 grow">
+                <p className="text-slate-300 grow">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor incididunt ut labore.
                 </p>
@@ -248,7 +270,7 @@ export function WebLayoutsLandingSectionsTutorialsList(
                     </Link>
                   </div>
                   <div className="text-gray-300">
-                    <span className="text-gray-600">By </span>
+                    <span className="text-slate-400">By </span>
                     <Link href="#0">
                       <span className="font-medium hover:underline text-gray-300 cursor-pointer">
                         Lisa Allison
@@ -295,13 +317,13 @@ export function WebLayoutsLandingSectionsTutorialsList(
                       </li>
                       <li className="m-1 cursor-pointer">
                         <Link href="#0">
-                          <p className="inline-flex text-center text-gray-800 py-1 px-3 rounded-full bg-blue-100 hover:bg-blue-200 transition duration-150 ease-in-out">
+                          <p className="inline-flex text-center text-slate-100 py-1 px-3 rounded-full bg-slate-500 hover:bg-blue-200 transition duration-150 ease-in-out">
                             Intermediate
                           </p>
                         </Link>
                       </li>
                       <li className="m-1 cursor-pointer">
-                        <span className="inline-flex text-center text-gray-800 py-1 px-3 rounded-full bg-white shadow-sm">
+                        <span className="inline-flex text-center text-slate-700 py-1 px-3 rounded-full bg-slate-300 shadow-sm">
                           4 min read
                         </span>
                       </li>
@@ -315,7 +337,7 @@ export function WebLayoutsLandingSectionsTutorialsList(
                     </Link>
                   </h3>
                 </header>
-                <p className="text-gray-400 grow">
+                <p className="text-slate-300 grow">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor incididunt ut labore.
                 </p>
@@ -351,7 +373,7 @@ export function WebLayoutsLandingSectionsTutorialsList(
                     </Link>
                   </div>
                   <div className="text-gray-300">
-                    <span className="text-gray-600">By </span>
+                    <span className="text-slate-400">By </span>
                     <Link href="#0">
                       <span className="font-medium hover:underline text-gray-300 cursor-pointer">
                         Lisa Allison
@@ -398,13 +420,13 @@ export function WebLayoutsLandingSectionsTutorialsList(
                       </li>
                       <li className="m-1 cursor-pointer">
                         <Link href="#0">
-                          <p className="inline-flex text-center text-gray-800 py-1 px-3 rounded-full bg-blue-100 hover:bg-blue-200 transition duration-150 ease-in-out">
+                          <p className="inline-flex text-center text-slate-100 py-1 px-3 rounded-full bg-slate-500 hover:bg-blue-200 transition duration-150 ease-in-out">
                             Intermediate
                           </p>
                         </Link>
                       </li>
                       <li className="m-1 cursor-pointer">
-                        <span className="inline-flex text-center text-gray-800 py-1 px-3 rounded-full bg-white shadow-sm">
+                        <span className="inline-flex text-center text-slate-700 py-1 px-3 rounded-full bg-slate-300 shadow-sm">
                           4 min read
                         </span>
                       </li>
@@ -418,7 +440,7 @@ export function WebLayoutsLandingSectionsTutorialsList(
                     </Link>
                   </h3>
                 </header>
-                <p className="text-gray-400 grow">
+                <p className="text-slate-300 grow">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor incididunt ut labore.
                 </p>
@@ -454,7 +476,7 @@ export function WebLayoutsLandingSectionsTutorialsList(
                     </Link>
                   </div>
                   <div className="text-gray-300">
-                    <span className="text-gray-600">By </span>
+                    <span className="text-slate-400">By </span>
                     <Link href="#0">
                       <span className="font-medium hover:underline text-gray-300 cursor-pointer">
                         Lisa Allison
@@ -501,13 +523,13 @@ export function WebLayoutsLandingSectionsTutorialsList(
                       </li>
                       <li className="m-1 cursor-pointer">
                         <Link href="#0">
-                          <p className="inline-flex text-center text-gray-800 py-1 px-3 rounded-full bg-blue-100 hover:bg-blue-200 transition duration-150 ease-in-out">
+                          <p className="inline-flex text-center text-slate-100 py-1 px-3 rounded-full bg-slate-500 hover:bg-blue-200 transition duration-150 ease-in-out">
                             Intermediate
                           </p>
                         </Link>
                       </li>
                       <li className="m-1 cursor-pointer">
-                        <span className="inline-flex text-center text-gray-800 py-1 px-3 rounded-full bg-white shadow-sm">
+                        <span className="inline-flex text-center text-slate-700 py-1 px-3 rounded-full bg-slate-300 shadow-sm">
                           4 min read
                         </span>
                       </li>
@@ -521,7 +543,7 @@ export function WebLayoutsLandingSectionsTutorialsList(
                     </Link>
                   </h3>
                 </header>
-                <p className="text-gray-400 grow">
+                <p className="text-slate-300 grow">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor incididunt ut labore.
                 </p>
@@ -557,7 +579,7 @@ export function WebLayoutsLandingSectionsTutorialsList(
                     </Link>
                   </div>
                   <div className="text-gray-300">
-                    <span className="text-gray-600">By </span>
+                    <span className="text-slate-400">By </span>
                     <Link href="#0">
                       <span className="font-medium hover:underline text-gray-300 cursor-pointer">
                         Lisa Allison
@@ -604,13 +626,13 @@ export function WebLayoutsLandingSectionsTutorialsList(
                       </li>
                       <li className="m-1 cursor-pointer">
                         <Link href="#0">
-                          <p className="inline-flex text-center text-gray-800 py-1 px-3 rounded-full bg-blue-100 hover:bg-blue-200 transition duration-150 ease-in-out">
+                          <p className="inline-flex text-center text-slate-100 py-1 px-3 rounded-full bg-slate-500 hover:bg-blue-200 transition duration-150 ease-in-out">
                             Intermediate
                           </p>
                         </Link>
                       </li>
                       <li className="m-1 cursor-pointer">
-                        <span className="inline-flex text-center text-gray-800 py-1 px-3 rounded-full bg-white shadow-sm">
+                        <span className="inline-flex text-center text-slate-700 py-1 px-3 rounded-full bg-slate-300 shadow-sm">
                           4 min read
                         </span>
                       </li>
@@ -624,7 +646,7 @@ export function WebLayoutsLandingSectionsTutorialsList(
                     </Link>
                   </h3>
                 </header>
-                <p className="text-gray-400 grow">
+                <p className="text-slate-300 grow">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor incididunt ut labore.
                 </p>
@@ -660,7 +682,7 @@ export function WebLayoutsLandingSectionsTutorialsList(
                     </Link>
                   </div>
                   <div className="text-gray-300">
-                    <span className="text-gray-600">By </span>
+                    <span className="text-slate-400">By </span>
                     <Link href="#0">
                       <span className="font-medium hover:underline text-gray-300 cursor-pointer">
                         Lisa Allison
@@ -707,13 +729,13 @@ export function WebLayoutsLandingSectionsTutorialsList(
                       </li>
                       <li className="m-1 cursor-pointer">
                         <Link href="#0">
-                          <p className="inline-flex text-center text-gray-800 py-1 px-3 rounded-full bg-blue-100 hover:bg-blue-200 transition duration-150 ease-in-out">
+                          <p className="inline-flex text-center text-slate-100 py-1 px-3 rounded-full bg-slate-500 hover:bg-blue-200 transition duration-150 ease-in-out">
                             Intermediate
                           </p>
                         </Link>
                       </li>
                       <li className="m-1 cursor-pointer">
-                        <span className="inline-flex text-center text-gray-800 py-1 px-3 rounded-full bg-white shadow-sm">
+                        <span className="inline-flex text-center text-slate-700 py-1 px-3 rounded-full bg-slate-300 shadow-sm">
                           4 min read
                         </span>
                       </li>
@@ -727,7 +749,7 @@ export function WebLayoutsLandingSectionsTutorialsList(
                     </Link>
                   </h3>
                 </header>
-                <p className="text-gray-400 grow">
+                <p className="text-slate-300 grow">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor incididunt ut labore.
                 </p>
@@ -763,7 +785,7 @@ export function WebLayoutsLandingSectionsTutorialsList(
                     </Link>
                   </div>
                   <div className="text-gray-300">
-                    <span className="text-gray-600">By </span>
+                    <span className="text-slate-400">By </span>
                     <Link href="#0">
                       <span className="font-medium hover:underline text-gray-300 cursor-pointer">
                         Lisa Allison
@@ -810,13 +832,13 @@ export function WebLayoutsLandingSectionsTutorialsList(
                       </li>
                       <li className="m-1 cursor-pointer">
                         <Link href="#0">
-                          <p className="inline-flex text-center text-gray-800 py-1 px-3 rounded-full bg-blue-100 hover:bg-blue-200 transition duration-150 ease-in-out">
+                          <p className="inline-flex text-center text-slate-100 py-1 px-3 rounded-full bg-slate-500 hover:bg-blue-200 transition duration-150 ease-in-out">
                             Intermediate
                           </p>
                         </Link>
                       </li>
                       <li className="m-1 cursor-pointer">
-                        <span className="inline-flex text-center text-gray-800 py-1 px-3 rounded-full bg-white shadow-sm">
+                        <span className="inline-flex text-center text-slate-700 py-1 px-3 rounded-full bg-slate-300 shadow-sm">
                           4 min read
                         </span>
                       </li>
@@ -830,7 +852,7 @@ export function WebLayoutsLandingSectionsTutorialsList(
                     </Link>
                   </h3>
                 </header>
-                <p className="text-gray-400 grow">
+                <p className="text-slate-300 grow">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor incididunt ut labore.
                 </p>
@@ -866,7 +888,7 @@ export function WebLayoutsLandingSectionsTutorialsList(
                     </Link>
                   </div>
                   <div className="text-gray-300">
-                    <span className="text-gray-600">By </span>
+                    <span className="text-slate-400">By </span>
                     <Link href="#0">
                       <span className="font-medium hover:underline text-gray-300 cursor-pointer">
                         Lisa Allison
@@ -913,13 +935,13 @@ export function WebLayoutsLandingSectionsTutorialsList(
                       </li>
                       <li className="m-1 cursor-pointer">
                         <Link href="#0">
-                          <p className="inline-flex text-center text-gray-800 py-1 px-3 rounded-full bg-blue-100 hover:bg-blue-200 transition duration-150 ease-in-out">
+                          <p className="inline-flex text-center text-slate-100 py-1 px-3 rounded-full bg-slate-500 hover:bg-blue-200 transition duration-150 ease-in-out">
                             Intermediate
                           </p>
                         </Link>
                       </li>
                       <li className="m-1 cursor-pointer">
-                        <span className="inline-flex text-center text-gray-800 py-1 px-3 rounded-full bg-white shadow-sm">
+                        <span className="inline-flex text-center text-slate-700 py-1 px-3 rounded-full bg-slate-300 shadow-sm">
                           4 min read
                         </span>
                       </li>
@@ -933,7 +955,7 @@ export function WebLayoutsLandingSectionsTutorialsList(
                     </Link>
                   </h3>
                 </header>
-                <p className="text-gray-400 grow">
+                <p className="text-slate-300 grow">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor incididunt ut labore.
                 </p>
@@ -969,7 +991,7 @@ export function WebLayoutsLandingSectionsTutorialsList(
                     </Link>
                   </div>
                   <div className="text-gray-300">
-                    <span className="text-gray-600">By </span>
+                    <span className="text-slate-400">By </span>
                     <Link href="#0">
                       <span className="font-medium hover:underline text-gray-300 cursor-pointer">
                         Lisa Allison
@@ -1016,13 +1038,13 @@ export function WebLayoutsLandingSectionsTutorialsList(
                       </li>
                       <li className="m-1 cursor-pointer">
                         <Link href="#0">
-                          <p className="inline-flex text-center text-gray-800 py-1 px-3 rounded-full bg-blue-100 hover:bg-blue-200 transition duration-150 ease-in-out">
+                          <p className="inline-flex text-center text-slate-100 py-1 px-3 rounded-full bg-slate-500 hover:bg-blue-200 transition duration-150 ease-in-out">
                             Intermediate
                           </p>
                         </Link>
                       </li>
                       <li className="m-1 cursor-pointer">
-                        <span className="inline-flex text-center text-gray-800 py-1 px-3 rounded-full bg-white shadow-sm">
+                        <span className="inline-flex text-center text-slate-700 py-1 px-3 rounded-full bg-slate-300 shadow-sm">
                           4 min read
                         </span>
                       </li>
@@ -1036,7 +1058,7 @@ export function WebLayoutsLandingSectionsTutorialsList(
                     </Link>
                   </h3>
                 </header>
-                <p className="text-gray-400 grow">
+                <p className="text-slate-300 grow">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor incididunt ut labore.
                 </p>
@@ -1072,7 +1094,7 @@ export function WebLayoutsLandingSectionsTutorialsList(
                     </Link>
                   </div>
                   <div className="text-gray-300">
-                    <span className="text-gray-600">By </span>
+                    <span className="text-slate-400">By </span>
                     <Link href="#0">
                       <span className="font-medium hover:underline text-gray-300 cursor-pointer">
                         Lisa Allison
@@ -1119,13 +1141,13 @@ export function WebLayoutsLandingSectionsTutorialsList(
                       </li>
                       <li className="m-1 cursor-pointer">
                         <Link href="#0">
-                          <p className="inline-flex text-center text-gray-800 py-1 px-3 rounded-full bg-blue-100 hover:bg-blue-200 transition duration-150 ease-in-out">
+                          <p className="inline-flex text-center text-slate-100 py-1 px-3 rounded-full bg-slate-500 hover:bg-blue-200 transition duration-150 ease-in-out">
                             Intermediate
                           </p>
                         </Link>
                       </li>
                       <li className="m-1 cursor-pointer">
-                        <span className="inline-flex text-center text-gray-800 py-1 px-3 rounded-full bg-white shadow-sm">
+                        <span className="inline-flex text-center text-slate-700 py-1 px-3 rounded-full bg-slate-300 shadow-sm">
                           4 min read
                         </span>
                       </li>
@@ -1139,7 +1161,7 @@ export function WebLayoutsLandingSectionsTutorialsList(
                     </Link>
                   </h3>
                 </header>
-                <p className="text-gray-400 grow">
+                <p className="text-slate-300 grow">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor incididunt ut labore.
                 </p>
@@ -1175,7 +1197,7 @@ export function WebLayoutsLandingSectionsTutorialsList(
                     </Link>
                   </div>
                   <div className="text-gray-300">
-                    <span className="text-gray-600">By </span>
+                    <span className="text-slate-400">By </span>
                     <Link href="#0">
                       <span className="font-medium hover:underline text-gray-300 cursor-pointer">
                         Lisa Allison
@@ -1222,13 +1244,13 @@ export function WebLayoutsLandingSectionsTutorialsList(
                       </li>
                       <li className="m-1 cursor-pointer">
                         <Link href="#0">
-                          <p className="inline-flex text-center text-gray-800 py-1 px-3 rounded-full bg-blue-100 hover:bg-blue-200 transition duration-150 ease-in-out">
+                          <p className="inline-flex text-center text-slate-100 py-1 px-3 rounded-full bg-slate-500 hover:bg-blue-200 transition duration-150 ease-in-out">
                             Intermediate
                           </p>
                         </Link>
                       </li>
                       <li className="m-1 cursor-pointer">
-                        <span className="inline-flex text-center text-gray-800 py-1 px-3 rounded-full bg-white shadow-sm">
+                        <span className="inline-flex text-center text-slate-700 py-1 px-3 rounded-full bg-slate-300 shadow-sm">
                           4 min read
                         </span>
                       </li>
@@ -1242,7 +1264,7 @@ export function WebLayoutsLandingSectionsTutorialsList(
                     </Link>
                   </h3>
                 </header>
-                <p className="text-gray-400 grow">
+                <p className="text-slate-300 grow">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor incididunt ut labore.
                 </p>
@@ -1278,7 +1300,7 @@ export function WebLayoutsLandingSectionsTutorialsList(
                     </Link>
                   </div>
                   <div className="text-gray-300">
-                    <span className="text-gray-600">By </span>
+                    <span className="text-slate-400">By </span>
                     <Link href="#0">
                       <span className="font-medium hover:underline text-gray-300 cursor-pointer">
                         Lisa Allison

@@ -22,18 +22,32 @@ export function WebLayoutsLandingSectionsFeaturesTable(
           {/* Table */}
           <div className="overflow-x-auto">
             <table
-              className="table-auto w-full border-b border-gray-600"
+              className="table-auto w-full border-b border-slate-600"
               data-aos="fade-up"
             >
               {/* Table header */}
-              <thead data-aos="fade" data-aos-delay="200" data-aos-once="true">
-                <tr className="text-base sm:text-lg border-t border-gray-600">
+              <thead
+                data-aos="fade"
+                data-aos-delay="200"
+                data-aos-once="true"
+                className=""
+              >
+                <tr className="text-base sm:text-lg border-t border-slate-600 hover:bg-slate-750 transition-all duration-500">
                   <th className="text-bold text-left px-2 py-4 min-w-48">
                     Breakdown of features
                   </th>
-                  <th className="text-bold text-center px-2 py-4">Starter</th>
-                  <th className="text-bold text-center px-2 py-4">Premium</th>
-                  <th className="text-bold text-center px-2 py-4">Agency</th>
+                  <th className="text-bold text-center px-2 py-4">
+                    <p className="">Starter</p>
+                    <p className="text-sm">$49</p>
+                  </th>
+                  <th className="text-bold text-center px-2 py-4">
+                    {' '}
+                    <p className="">Premium</p> <p className="text-sm">$79</p>
+                  </th>
+                  <th className="text-bold text-center px-2 py-4">
+                    {' '}
+                    <p className="">Agency</p> <p className="text-sm">$129</p>
+                  </th>
                 </tr>
               </thead>
               {/* Table body */}
@@ -42,7 +56,7 @@ export function WebLayoutsLandingSectionsFeaturesTable(
                 <tr
                   data-aos="fade"
                   data-aos-once="true"
-                  className="border-t border-gray-600 hover:bg-gray-750 transition-all duration-300"
+                  className="border-t border-slate-600 hover:bg-slate-750 transition-all duration-500"
                 >
                   <td className="text-sm sm:text-base px-2 py-4">
                     <div className="flex items-center gap-2 font-medium underline">
@@ -54,7 +68,7 @@ export function WebLayoutsLandingSectionsFeaturesTable(
                         </div>
                       </WebUtilTooltip>
                     </div>
-                    <div className="text-gray-400">
+                    <div className="text-slate-300">
                       Lorem ipsum dolor sit amet, consectetur adipiscing elit
                     </div>
                   </td>
@@ -90,7 +104,7 @@ export function WebLayoutsLandingSectionsFeaturesTable(
                 <tr
                   data-aos="fade"
                   data-aos-once="true"
-                  className="border-t border-gray-600 hover:bg-gray-750 transition-all duration-300"
+                  className="border-t border-slate-600 bg-slate-900 hover:bg-slate-750 transition-all duration-300"
                 >
                   <td className="text-sm sm:text-base px-2 py-4">
                     <div className="flex items-center gap-2 font-medium underline">
@@ -102,7 +116,7 @@ export function WebLayoutsLandingSectionsFeaturesTable(
                         </div>
                       </WebUtilTooltip>
                     </div>
-                    <div className="text-gray-400">
+                    <div className="text-slate-300">
                       Excepteur sint occaecat cupidatat non proident
                     </div>
                   </td>
@@ -120,7 +134,7 @@ export function WebLayoutsLandingSectionsFeaturesTable(
                 <tr
                   data-aos="fade"
                   data-aos-once="true"
-                  className="border-t border-gray-600 hover:bg-gray-750 transition-all duration-300"
+                  className="border-t border-slate-600 bg-slate-900 hover:bg-slate-750 transition-all duration-300"
                 >
                   <td className="text-sm sm:text-base px-2 py-4">
                     <div className="flex items-center gap-2 font-medium underline">
@@ -132,7 +146,7 @@ export function WebLayoutsLandingSectionsFeaturesTable(
                         </div>
                       </WebUtilTooltip>
                     </div>
-                    <div className="text-gray-400">
+                    <div className="text-slate-300">
                       Culpa qui officia deserunt mollit anim
                     </div>
                   </td>
@@ -150,7 +164,7 @@ export function WebLayoutsLandingSectionsFeaturesTable(
                 <tr
                   data-aos="fade"
                   data-aos-once="true"
-                  className="border-t border-gray-600 hover:bg-gray-750 transition-all duration-300"
+                  className="border-t border-slate-600 bg-slate-900 hover:bg-slate-750 transition-all duration-300"
                 >
                   <td className="text-sm sm:text-base px-2 py-4">
                     <div className="flex items-center gap-2 font-medium underline">
@@ -162,7 +176,7 @@ export function WebLayoutsLandingSectionsFeaturesTable(
                         </div>
                       </WebUtilTooltip>
                     </div>
-                    <div className="text-gray-400">
+                    <div className="text-slate-300">
                       Excepteur sint occaecat cupidatat non proident
                     </div>
                   </td>
@@ -198,7 +212,7 @@ export function WebLayoutsLandingSectionsFeaturesTable(
                 <tr
                   data-aos="fade"
                   data-aos-once="true"
-                  className="border-t border-gray-600 hover:bg-gray-750 transition-all duration-300"
+                  className="border-t border-slate-600 bg-slate-900 hover:bg-slate-750 transition-all duration-300"
                 >
                   <td className="text-sm sm:text-base px-2 py-4">
                     <div className="flex items-center gap-2 font-medium underline">
@@ -210,13 +224,13 @@ export function WebLayoutsLandingSectionsFeaturesTable(
                         </div>
                       </WebUtilTooltip>
                     </div>
-                    <div className="text-gray-400">
+                    <div className="text-slate-300">
                       Lorem ipsum dolor sit amet, consectetur adipiscing elit
                     </div>
                   </td>
                   <td className="text-sm px-2 py-4 text-center font-medium">
                     <svg
-                      className="w-3 h-3 fill-current text-gray-400 opacity-75 inline-flex"
+                      className="w-3 h-3 fill-current text-slate-300 opacity-75 inline-flex"
                       viewBox="0 0 12 12"
                       xmlns="http://www.w3.org/2000/svg"
                     >
@@ -246,7 +260,7 @@ export function WebLayoutsLandingSectionsFeaturesTable(
                 <tr
                   data-aos="fade"
                   data-aos-once="true"
-                  className="border-t border-gray-600 hover:bg-gray-750 transition-all duration-300"
+                  className="border-t border-slate-600 bg-slate-900 hover:bg-slate-750 transition-all duration-300"
                 >
                   <td className="text-sm sm:text-base px-2 py-4">
                     <div className="flex items-center gap-2 font-medium underline">
@@ -258,13 +272,13 @@ export function WebLayoutsLandingSectionsFeaturesTable(
                         </div>
                       </WebUtilTooltip>
                     </div>
-                    <div className="text-gray-400">
+                    <div className="text-slate-300">
                       Ut enim ad minim veniam quis nostrud exercitation ullamco
                     </div>
                   </td>
                   <td className="text-sm px-2 py-4 text-center font-medium">
                     <svg
-                      className="w-3 h-3 fill-current text-gray-400 opacity-75 inline-flex"
+                      className="w-3 h-3 fill-current text-slate-300 opacity-75 inline-flex"
                       viewBox="0 0 12 12"
                       xmlns="http://www.w3.org/2000/svg"
                     >
@@ -273,7 +287,7 @@ export function WebLayoutsLandingSectionsFeaturesTable(
                   </td>
                   <td className="text-sm px-2 py-4 text-center font-medium">
                     <svg
-                      className="w-3 h-3 fill-current text-gray-400 opacity-75 inline-flex"
+                      className="w-3 h-3 fill-current text-slate-300 opacity-75 inline-flex"
                       viewBox="0 0 12 12"
                       xmlns="http://www.w3.org/2000/svg"
                     >
@@ -294,7 +308,7 @@ export function WebLayoutsLandingSectionsFeaturesTable(
                 <tr
                   data-aos="fade"
                   data-aos-once="true"
-                  className="border-t border-gray-600 hover:bg-gray-750 transition-all duration-300"
+                  className="border-t border-slate-600 bg-slate-900 hover:bg-slate-750 transition-all duration-300"
                 >
                   <td className="text-sm sm:text-base px-2 py-4">
                     <div className="flex items-center gap-2 font-medium underline">
@@ -306,13 +320,13 @@ export function WebLayoutsLandingSectionsFeaturesTable(
                         </div>
                       </WebUtilTooltip>
                     </div>
-                    <div className="text-gray-400">
+                    <div className="text-slate-300">
                       Condimentum id venenatis a condimentum vitae
                     </div>
                   </td>
                   <td className="text-sm px-2 py-4 text-center font-medium">
                     <svg
-                      className="w-3 h-3 fill-current text-gray-400 opacity-75 inline-flex"
+                      className="w-3 h-3 fill-current text-slate-300 opacity-75 inline-flex"
                       viewBox="0 0 12 12"
                       xmlns="http://www.w3.org/2000/svg"
                     >
@@ -321,7 +335,7 @@ export function WebLayoutsLandingSectionsFeaturesTable(
                   </td>
                   <td className="text-sm px-2 py-4 text-center font-medium">
                     <svg
-                      className="w-3 h-3 fill-current text-gray-400 opacity-75 inline-flex"
+                      className="w-3 h-3 fill-current text-slate-300 opacity-75 inline-flex"
                       viewBox="0 0 12 12"
                       xmlns="http://www.w3.org/2000/svg"
                     >
@@ -330,7 +344,7 @@ export function WebLayoutsLandingSectionsFeaturesTable(
                   </td>
                   <td className="text-sm px-2 py-4 text-center font-medium">
                     <svg
-                      className="w-3 h-3 fill-current text-gray-400 opacity-75 inline-flex"
+                      className="w-3 h-3 fill-current text-slate-300 opacity-75 inline-flex"
                       viewBox="0 0 12 12"
                       xmlns="http://www.w3.org/2000/svg"
                     >

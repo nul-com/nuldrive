@@ -11,7 +11,7 @@ export function WebLayoutsLandingSectionsTarget(
   return (
     <section>
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
-        <div className="py-12 md:py-20 border-t border-gray-800">
+        <div className="py-12 md:py-20 border-t border-slate-700">
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
             <h2 className="h2" data-aos="fade-up">
@@ -58,7 +58,7 @@ export function WebLayoutsLandingSectionsTarget(
                     <h4 className="h4 mb-2">
                       <span className="text-purple-600">.</span> For developers
                     </h4>
-                    <p className="text-lg text-gray-400">
+                    <p className="text-lg text-slate-300">
                       Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                       sed do eiusmod tempor incididunt ut labore et dolore magna
                       aliqua.
@@ -73,7 +73,7 @@ export function WebLayoutsLandingSectionsTarget(
                     <h4 className="h4 mb-2">
                       <span className="text-teal-500">.</span> For designers
                     </h4>
-                    <p className="text-lg text-gray-400">
+                    <p className="text-lg text-slate-300">
                       Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                       sed do eiusmod tempor incididunt ut labore et dolore magna
                       aliqua.
@@ -88,7 +88,7 @@ export function WebLayoutsLandingSectionsTarget(
                     <h4 className="h4 mb-2">
                       <span className="text-pink-500">.</span> For teams
                     </h4>
-                    <p className="text-lg text-gray-400">
+                    <p className="text-lg text-slate-300">
                       Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                       sed do eiusmod tempor incididunt ut labore et dolore magna
                       aliqua.

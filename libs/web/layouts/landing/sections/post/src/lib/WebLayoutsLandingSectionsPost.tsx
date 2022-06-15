@@ -21,7 +21,7 @@ export function WebLayoutsLandingSectionsPost(
                     Designing a functional workflow at home.
                   </h1>
                   <p
-                    className="text-xl text-gray-400"
+                    className="text-xl text-slate-300"
                     data-aos="fade-up"
                     data-aos-delay="200"
                   >
@@ -99,7 +99,7 @@ export function WebLayoutsLandingSectionsPost(
               </figure>
 
               {/* Article content */}
-              <div className="text-lg text-gray-400">
+              <div className="text-lg text-slate-300">
                 <p className="mb-8">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -230,17 +230,16 @@ export function WebLayoutsLandingSectionsPost(
               {/* Article footer */}
               <footer>
                 <div className="md:flex md:items-center md:justify-between text-center md:text-left">
-                  <div className="text-lg text-gray-400 italic">
+                  <div className="text-lg text-slate-300 italic">
                     Originally published at{' '}
                     <Link href="https://cruip.com/">
                       <p className="text-gray-200 underline cursor-pointer">
                         https://eliascerne.com/
                       </p>
                     </Link>
-                    
                   </div>
                   <ul className="inline-flex mt-4 md:ml-4 md:mb-0">
-                    <li className='cursor-pointer'>
+                    <li className="cursor-pointer">
                       <Link href="#">
                         <div className="flex justify-center items-center text-purple-600 bg-gray-800 hover:text-gray-100 hover:bg-purple-600 rounded-full transition duration-150 ease-in-out cursor-pointer">
                           <svg
@@ -289,7 +288,7 @@ export function WebLayoutsLandingSectionsPost(
           <aside className="mt-20">
             <div className="max-w-sm mx-auto md:max-w-none">
               {/* Section title */}
-              <h4 className="h4 py-6 mb-10 border-t border-b border-gray-700">
+              <h4 className="h4 py-6 mb-10 border-t border-b border-slate-700">
                 More from Open PRO
               </h4>
 
@@ -337,7 +336,7 @@ export function WebLayoutsLandingSectionsPost(
                       </Link>
                     </h3>
                   </header>
-                  <p className="text-lg text-gray-400 grow">
+                  <p className="text-lg text-slate-300 grow">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                     do eiusmod tempor incididunt ut labore et dolore magna
                     aliqua.
@@ -403,7 +402,7 @@ export function WebLayoutsLandingSectionsPost(
                       </Link>
                     </h3>
                   </header>
-                  <p className="text-lg text-gray-400 grow">
+                  <p className="text-lg text-slate-300 grow">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                     do eiusmod tempor incididunt ut labore et dolore magna
                     aliqua.
@@ -476,7 +475,7 @@ export function WebLayoutsLandingSectionsPost(
                       </Link>
                     </h3>
                   </header>
-                  <p className="text-lg text-gray-400 grow">
+                  <p className="text-lg text-slate-300 grow">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                     do eiusmod tempor incididunt ut labore et dolore magna
                     aliqua.

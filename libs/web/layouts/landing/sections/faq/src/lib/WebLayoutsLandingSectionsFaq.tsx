@@ -11,10 +11,12 @@ export function WebLayoutsLandingSectionsFaq(
   return (
     <section>
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
-        <div className="py-12 md:py-20 border-t border-gray-700">
+        <div className="py-12 md:py-20 border-t border-slate-700">
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-20">
-            <h2 data-aos="fade-up" className="h2">Questions & Answers</h2>
+            <h2 data-aos="fade-up" className="h2">
+              Questions & Answers
+            </h2>
           </div>
 
           {/* Faqs */}
@@ -53,7 +55,7 @@ export function WebLayoutsLandingSectionsFaq(
               nisi ut aliquip ex ea commodo consequat.
             </WebUtilAccordion>
             <span
-              className="block border-t border-gray-700"
+              className="block border-t border-slate-700"
               aria-hidden="true"
             ></span>
           </ul>

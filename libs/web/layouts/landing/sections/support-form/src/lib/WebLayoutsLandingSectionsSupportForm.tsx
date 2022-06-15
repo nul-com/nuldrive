@@ -18,7 +18,7 @@ export function WebLayoutsLandingSectionsSupportForm(
               How can we help you?
             </h1>
             <p
-              className="text-xl text-gray-400"
+              className="text-xl text-slate-300"
               data-aos="fade-up"
               data-aos-delay="200"
             >
@@ -37,7 +37,7 @@ export function WebLayoutsLandingSectionsSupportForm(
                 >
                   First Name <span className="text-red-600">*</span>
                 </label>
-                <div className="border border-gray-700 rounded-xl hover:border-gray-500 transition-all duration-300">
+                <div className="border border-slate-700 rounded-xl hover:border-slate-500 transition-all duration-300">
                   <input
                     id="first-name"
                     type="text"
@@ -57,7 +57,7 @@ export function WebLayoutsLandingSectionsSupportForm(
                 >
                   Last Name <span className="text-red-600">*</span>
                 </label>
-                <div className="border border-gray-700 rounded-xl hover:border-gray-500 transition-all duration-300">
+                <div className="border border-slate-700 rounded-xl hover:border-slate-500 transition-all duration-300">
                   <input
                     id="last-name"
                     type="text"
@@ -76,7 +76,7 @@ export function WebLayoutsLandingSectionsSupportForm(
                 >
                   Email <span className="text-red-600">*</span>
                 </label>
-                <div className="border border-gray-700 rounded-xl hover:border-gray-500 transition-all duration-300">
+                <div className="border border-slate-700 rounded-xl hover:border-slate-500 transition-all duration-300">
                   <input
                     id="email"
                     type="email"
@@ -95,7 +95,7 @@ export function WebLayoutsLandingSectionsSupportForm(
                 >
                   Subject <span className="text-red-600">*</span>
                 </label>
-                <div className="border border-gray-700 rounded-xl hover:border-gray-500 transition-all duration-300">
+                <div className="border border-slate-700 rounded-xl hover:border-slate-500 transition-all duration-300">
                   <input
                     id="subject"
                     type="text"
@@ -116,7 +116,7 @@ export function WebLayoutsLandingSectionsSupportForm(
                 </label>
                 <select
                   id="country"
-                  className="form-select w-full text-gray-300 rounded-xl hover:border-gray-500 transition-all duration-300"
+                  className="form-select w-full text-gray-300 rounded-xl hover:border-slate-500 transition-all duration-300"
                 >
                   <option>United States</option>
                   <option>United Kingdom</option>
@@ -135,21 +135,21 @@ export function WebLayoutsLandingSectionsSupportForm(
                 <textarea
                   id="message"
                   rows={6}
-                  className="form-textarea w-full text-gray-300 rounded-xl hover:border-gray-500 transition-all duration-300"
+                  className="form-textarea w-full text-gray-300 rounded-xl hover:border-slate-500 transition-all duration-300"
                   placeholder="Write your message"
                 ></textarea>
               </div>
             </div>
             <div className="flex flex-wrap -mx-3 mb-4">
               <div className="w-full px-3">
-                <label className="flex items-center">
-                  <div className="border relative rounded w-4 h-4 border-gray-700 hover:border-gray-500 transition-all duration-300 cursor-pointer">
+                <label className="flex items-center cursor-pointer">
+                  <div className="border relative rounded w-4 h-4 border-slate-500 hover:border-slate-400 transition-all duration-300">
                     <input
                       type="checkbox"
-                      className="form-checkbox -translate-y-[7px] -translate-x-[1px]"
+                      className="form-checkbox -translate-y-[7px] -translate-x-[1px] cursor-pointer"
                     />
                   </div>
-                  <span className="text-gray-400 ml-2">
+                  <span className="text-slate-300 ml-2">
                     I agree to the privacy policy
                   </span>
                 </label>
@@ -162,7 +162,7 @@ export function WebLayoutsLandingSectionsSupportForm(
                 </button>
               </div>
             </div>
-            <div className="text-gray-400 mt-4">
+            <div className="text-slate-300 mt-4">
               By clicking "send" you consent to allow Simple to store and
               process the personal information submitted above and agree to our{' '}
               <Link href="#0">

@@ -13,7 +13,7 @@ export function WebLayoutsLandingSectionsTimeline(
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
             <h2 className="h2 mb-4">Bringing the world's ideas to life</h2>
-            <p className="text-xl text-gray-400">
+            <p className="text-xl text-slate-300">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua.
             </p>
@@ -43,12 +43,14 @@ export function WebLayoutsLandingSectionsTimeline(
                     aria-hidden="true"
                   ></div>
                   <div
-                    className="absolute left-0 w-2 h-2 bg-purple-600 border-4 box-content border-gray-900 rounded-full ml-20 transform -translate-x-1/2"
+                    className="absolute left-0 w-2 h-2 bg-purple-600 border-4 box-content border-slate-900 rounded-full ml-20 transform -translate-x-1/2"
                     aria-hidden="true"
                   ></div>
-                  <h4 className="h4">Open PRO was founded in Vienna, Austria</h4>
+                  <h4 className="h4">
+                    Open PRO was founded in Vienna, Austria
+                  </h4>
                 </div>
-                <p className="text-lg text-gray-400">
+                <p className="text-lg text-slate-300">
                   Pretium lectus quam id leo. Urna et pharetra pharetra massa
                   massa. Adipiscing enim eu neque aliquam vestibulum morbi
                   blandit cursus risus.
@@ -76,14 +78,14 @@ export function WebLayoutsLandingSectionsTimeline(
                     aria-hidden="true"
                   ></div>
                   <div
-                    className="absolute left-0 w-2 h-2 bg-purple-600 border-4 box-content border-gray-900 rounded-full ml-20 transform -translate-x-1/2"
+                    className="absolute left-0 w-2 h-2 bg-purple-600 border-4 box-content border-slate-900 rounded-full ml-20 transform -translate-x-1/2"
                     aria-hidden="true"
                   ></div>
                   <h4 className="h4">
                     Launched the first Open PRO Advanced plan
                   </h4>
                 </div>
-                <p className="text-lg text-gray-400">
+                <p className="text-lg text-slate-300">
                   Pretium lectus quam id leo. Urna et pharetra pharetra massa
                   massa. Adipiscing enim eu neque aliquam vestibulum morbi
                   blandit cursus risus.
@@ -111,12 +113,12 @@ export function WebLayoutsLandingSectionsTimeline(
                     aria-hidden="true"
                   ></div>
                   <div
-                    className="absolute left-0 w-2 h-2 bg-purple-600 border-4 box-content border-gray-900 rounded-full ml-20 transform -translate-x-1/2"
+                    className="absolute left-0 w-2 h-2 bg-purple-600 border-4 box-content border-slate-900 rounded-full ml-20 transform -translate-x-1/2"
                     aria-hidden="true"
                   ></div>
                   <h4 className="h4">Transitioned to a SaaS business model</h4>
                 </div>
-                <p className="text-lg text-gray-400">
+                <p className="text-lg text-slate-300">
                   Pretium lectus quam id leo. Urna et pharetra pharetra massa
                   massa. Adipiscing enim eu neque aliquam vestibulum morbi
                   blandit cursus risus.
@@ -140,12 +142,12 @@ export function WebLayoutsLandingSectionsTimeline(
                     2019
                   </div>
                   <div
-                    className="absolute left-0 w-2 h-2 bg-purple-600 border-4 box-content border-gray-900 rounded-full ml-20 transform -translate-x-1/2"
+                    className="absolute left-0 w-2 h-2 bg-purple-600 border-4 box-content border-slate-900 rounded-full ml-20 transform -translate-x-1/2"
                     aria-hidden="true"
                   ></div>
                   <h4 className="h4">1 million happy customers</h4>
                 </div>
-                <p className="text-lg text-gray-400">
+                <p className="text-lg text-slate-300">
                   Pretium lectus quam id leo. Urna et pharetra pharetra massa
                   massa. Adipiscing enim eu neque aliquam vestibulum morbi
                   blandit cursus risus.

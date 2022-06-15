@@ -31,7 +31,7 @@ export function WebLayoutsLandingSectionsBlogList(
                 <Link href="/blog-post">
                   <>
                     <div
-                      className="absolute inset-0 bg-gray-800 hidden md:block transform md:translate-y-2 md:translate-x-4 xl:translate-y-4 xl:translate-x-8 group-hover:translate-x-0 group-hover:translate-y-0 transition duration-700 ease-out pointer-events-none"
+                      className="absolute inset-0 bg-slate-750 hidden md:block transform md:translate-y-2 md:translate-x-4 xl:translate-y-4 xl:translate-x-8 group-hover:translate-x-0 group-hover:translate-y-0 transition duration-700 ease-out pointer-events-none"
                       aria-hidden="true"
                     ></div>
                     <figure className="relative h-0 pb-9/16 md:pb-3/4 lg:pb-9/16 overflow-hidden transform md:-translate-y-2 xl:-translate-y-4 group-hover:translate-x-0 group-hover:translate-y-0 transition duration-700 ease-out">
@@ -64,7 +64,7 @@ export function WebLayoutsLandingSectionsBlogList(
                     </Link>
                   </h3>
                 </header>
-                <p className="text-lg text-gray-400 grow">
+                <p className="text-lg text-slate-300 grow">
                   Duis aute irure dolor in reprehenderit in voluptate velit esse
                   cillum dolore eu fugiat nulla pariatur. Excepteur sint
                   occaecat cupidatat.
@@ -97,12 +97,12 @@ export function WebLayoutsLandingSectionsBlogList(
           <div className="max-w-sm mx-auto md:max-w-none">
             {/*  Section title */}
             <h4
-              className="h4 border-b border-gray-700 w-full"
+              className="h4 border-b border-slate-700 w-full"
               data-aos="fade-up"
             >
               Latest articles
             </h4>
-            <div className="pb-6 mb-10 border-b border-gray-700 w-full"></div>
+            <div className="pb-6 mb-10 border-b border-slate-700 w-full"></div>
 
             {/*  Articles container */}
             <div className="grid gap-12 md:grid-cols-3 md:gap-x-6 md:gap-y-8 items-start">
@@ -138,15 +138,15 @@ export function WebLayoutsLandingSectionsBlogList(
                     </Link>
                   </h3>
                 </header>
-                <p className="text-lg text-gray-400 grow">
+                <p className="text-lg text-slate-300 grow">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                 </p>
-                <footer className="flex items-center mt-4">
+                <footer className="flex items-center gap-4 mt-4">
                   <Link href="#">
-                    <div className="">
+                    <div className="flex items-center">
                       <WebUtilImageLoader
-                        className="rounded-full shrink-0 mr-4"
+                        className="rounded-full shrink-0"
                         src="https://r2.eriascdn.com/news-author-01.jpg"
                         width="40"
                         height="40"
@@ -154,7 +154,7 @@ export function WebLayoutsLandingSectionsBlogList(
                       />
                     </div>
                   </Link>
-                  <div className="font-medium ml-4">
+                  <div className="font-medium">
                     <span className="text-gray-200 hover:text-gray-100 transition duration-150 ease-in-out">
                       <Link href="#">Anastasia Dan</Link>
                     </span>
@@ -165,11 +165,7 @@ export function WebLayoutsLandingSectionsBlogList(
               </article>
 
               {/*  2nd article */}
-              <article
-                className="flex flex-col h-full"
-                data-aos="fade-up"
-                data-aos-delay="100"
-              >
+              <article className="flex flex-col h-full" data-aos="fade-up">
                 <header>
                   <div className="block mb-6">
                     <Link href="/blog-post">
@@ -200,15 +196,15 @@ export function WebLayoutsLandingSectionsBlogList(
                     </Link>
                   </h3>
                 </header>
-                <p className="text-lg text-gray-400 grow">
+                <p className="text-lg text-slate-300 grow">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                 </p>
-                <footer className="flex items-center mt-4">
+                <footer className="flex items-center gap-4 mt-4">
                   <Link href="#">
-                    <div className="">
+                    <div className="flex items-center">
                       <WebUtilImageLoader
-                        className="rounded-full shrink-0 mr-4"
+                        className="rounded-full shrink-0"
                         src="https://r2.eriascdn.com/news-author-01.jpg"
                         width="40"
                         height="40"
@@ -216,7 +212,7 @@ export function WebLayoutsLandingSectionsBlogList(
                       />
                     </div>
                   </Link>
-                  <div className="font-medium ml-4">
+                  <div className="font-medium">
                     <span className="text-gray-200 hover:text-gray-100 transition duration-150 ease-in-out">
                       <Link href="#">Anastasia Dan</Link>
                     </span>
@@ -227,11 +223,7 @@ export function WebLayoutsLandingSectionsBlogList(
               </article>
 
               {/*  3rd article */}
-              <article
-                className="flex flex-col h-full"
-                data-aos="fade-up"
-                data-aos-delay="200"
-              >
+              <article className="flex flex-col h-full" data-aos="fade-up">
                 <header>
                   <div className="block mb-6">
                     <Link href="/blog-post">
@@ -262,15 +254,15 @@ export function WebLayoutsLandingSectionsBlogList(
                     </Link>
                   </h3>
                 </header>
-                <p className="text-lg text-gray-400 grow">
+                <p className="text-lg text-slate-300 grow">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                 </p>
-                <footer className="flex items-center mt-4">
+                <footer className="flex items-center gap-4 mt-4">
                   <Link href="#">
-                    <div className="">
+                    <div className="flex items-center">
                       <WebUtilImageLoader
-                        className="rounded-full shrink-0 mr-4"
+                        className="rounded-full shrink-0"
                         src="https://r2.eriascdn.com/news-author-01.jpg"
                         width="40"
                         height="40"
@@ -278,7 +270,7 @@ export function WebLayoutsLandingSectionsBlogList(
                       />
                     </div>
                   </Link>
-                  <div className="font-medium ml-4">
+                  <div className="font-medium">
                     <span className="text-gray-200 hover:text-gray-100 transition duration-150 ease-in-out">
                       <Link href="#">Anastasia Dan</Link>
                     </span>
@@ -289,11 +281,7 @@ export function WebLayoutsLandingSectionsBlogList(
               </article>
 
               {/*  4st article */}
-              <article
-                className="flex flex-col h-full"
-                data-aos="fade-up"
-                data-aos-delay="300"
-              >
+              <article className="flex flex-col h-full" data-aos="fade-up">
                 <header>
                   <div className="block mb-6">
                     <Link href="/blog-post">
@@ -324,15 +312,15 @@ export function WebLayoutsLandingSectionsBlogList(
                     </Link>
                   </h3>
                 </header>
-                <p className="text-lg text-gray-400 grow">
+                <p className="text-lg text-slate-300 grow">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                 </p>
-                <footer className="flex items-center mt-4">
+                <footer className="flex items-center gap-4 mt-4">
                   <Link href="#">
-                    <div className="">
+                    <div className="flex items-center">
                       <WebUtilImageLoader
-                        className="rounded-full shrink-0 mr-4"
+                        className="rounded-full shrink-0"
                         src="https://r2.eriascdn.com/news-author-01.jpg"
                         width="40"
                         height="40"
@@ -340,7 +328,7 @@ export function WebLayoutsLandingSectionsBlogList(
                       />
                     </div>
                   </Link>
-                  <div className="font-medium ml-4">
+                  <div className="font-medium">
                     <span className="text-gray-200 hover:text-gray-100 transition duration-150 ease-in-out">
                       <Link href="#">Anastasia Dan</Link>
                     </span>
@@ -351,11 +339,7 @@ export function WebLayoutsLandingSectionsBlogList(
               </article>
 
               {/*  5st article */}
-              <article
-                className="flex flex-col h-full"
-                data-aos="fade-up"
-                data-aos-delay="400"
-              >
+              <article className="flex flex-col h-full" data-aos="fade-up">
                 <header>
                   <div className="block mb-6">
                     <Link href="/blog-post">
@@ -386,15 +370,15 @@ export function WebLayoutsLandingSectionsBlogList(
                     </Link>
                   </h3>
                 </header>
-                <p className="text-lg text-gray-400 grow">
+                <p className="text-lg text-slate-300 grow">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                 </p>
-                <footer className="flex items-center mt-4">
+                <footer className="flex items-center gap-4 mt-4">
                   <Link href="#">
-                    <div className="">
+                    <div className="flex items-center">
                       <WebUtilImageLoader
-                        className="rounded-full shrink-0 mr-4"
+                        className="rounded-full shrink-0"
                         src="https://r2.eriascdn.com/news-author-01.jpg"
                         width="40"
                         height="40"
@@ -402,7 +386,7 @@ export function WebLayoutsLandingSectionsBlogList(
                       />
                     </div>
                   </Link>
-                  <div className="font-medium ml-4">
+                  <div className="font-medium">
                     <span className="text-gray-200 hover:text-gray-100 transition duration-150 ease-in-out">
                       <Link href="#">Anastasia Dan</Link>
                     </span>
@@ -413,11 +397,7 @@ export function WebLayoutsLandingSectionsBlogList(
               </article>
 
               {/*  6st article */}
-              <article
-                className="flex flex-col h-full"
-                data-aos="fade-up"
-                data-aos-delay="500"
-              >
+              <article className="flex flex-col h-full" data-aos="fade-up">
                 <header>
                   <div className="block mb-6">
                     <Link href="/blog-post">
@@ -448,15 +428,15 @@ export function WebLayoutsLandingSectionsBlogList(
                     </Link>
                   </h3>
                 </header>
-                <p className="text-lg text-gray-400 grow">
+                <p className="text-lg text-slate-300 grow">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                 </p>
-                <footer className="flex items-center mt-4">
+                <footer className="flex items-center gap-4 mt-4">
                   <Link href="#">
-                    <div className="">
+                    <div className="flex items-center">
                       <WebUtilImageLoader
-                        className="rounded-full shrink-0 mr-4"
+                        className="rounded-full shrink-0"
                         src="https://r2.eriascdn.com/news-author-01.jpg"
                         width="40"
                         height="40"
@@ -464,7 +444,7 @@ export function WebLayoutsLandingSectionsBlogList(
                       />
                     </div>
                   </Link>
-                  <div className="font-medium ml-4">
+                  <div className="font-medium">
                     <span className="text-gray-200 hover:text-gray-100 transition duration-150 ease-in-out">
                       <Link href="#">Anastasia Dan</Link>
                     </span>
@@ -475,11 +455,7 @@ export function WebLayoutsLandingSectionsBlogList(
               </article>
 
               {/*  7st article */}
-              <article
-                className="flex flex-col h-full"
-                data-aos="fade-up"
-                data-aos-delay="600"
-              >
+              <article className="flex flex-col h-full" data-aos="fade-up">
                 <header>
                   <div className="block mb-6">
                     <Link href="/blog-post">
@@ -510,15 +486,15 @@ export function WebLayoutsLandingSectionsBlogList(
                     </Link>
                   </h3>
                 </header>
-                <p className="text-lg text-gray-400 grow">
+                <p className="text-lg text-slate-300 grow">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                 </p>
-                <footer className="flex items-center mt-4">
+                <footer className="flex items-center gap-4 mt-4">
                   <Link href="#">
-                    <div className="">
+                    <div className="flex items-center">
                       <WebUtilImageLoader
-                        className="rounded-full shrink-0 mr-4"
+                        className="rounded-full shrink-0"
                         src="https://r2.eriascdn.com/news-author-01.jpg"
                         width="40"
                         height="40"
@@ -526,7 +502,7 @@ export function WebLayoutsLandingSectionsBlogList(
                       />
                     </div>
                   </Link>
-                  <div className="font-medium ml-4">
+                  <div className="font-medium">
                     <span className="text-gray-200 hover:text-gray-100 transition duration-150 ease-in-out">
                       <Link href="#">Anastasia Dan</Link>
                     </span>
@@ -537,11 +513,7 @@ export function WebLayoutsLandingSectionsBlogList(
               </article>
 
               {/*  8st article */}
-              <article
-                className="flex flex-col h-full"
-                data-aos="fade-up"
-                data-aos-delay="800"
-              >
+              <article className="flex flex-col h-full" data-aos="fade-up">
                 <header>
                   <div className="block mb-6">
                     <Link href="/blog-post">
@@ -572,15 +544,15 @@ export function WebLayoutsLandingSectionsBlogList(
                     </Link>
                   </h3>
                 </header>
-                <p className="text-lg text-gray-400 grow">
+                <p className="text-lg text-slate-300 grow">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                 </p>
-                <footer className="flex items-center mt-4">
+                <footer className="flex items-center gap-4 mt-4">
                   <Link href="#">
-                    <div className="">
+                    <div className="flex items-center">
                       <WebUtilImageLoader
-                        className="rounded-full shrink-0 mr-4"
+                        className="rounded-full shrink-0"
                         src="https://r2.eriascdn.com/news-author-01.jpg"
                         width="40"
                         height="40"
@@ -588,7 +560,7 @@ export function WebLayoutsLandingSectionsBlogList(
                       />
                     </div>
                   </Link>
-                  <div className="font-medium ml-4">
+                  <div className="font-medium">
                     <span className="text-gray-200 hover:text-gray-100 transition duration-150 ease-in-out">
                       <Link href="#">Anastasia Dan</Link>
                     </span>
@@ -599,11 +571,7 @@ export function WebLayoutsLandingSectionsBlogList(
               </article>
 
               {/*  9st article */}
-              <article
-                className="flex flex-col h-full"
-                data-aos="fade-up"
-                data-aos-delay="900"
-              >
+              <article className="flex flex-col h-full" data-aos="fade-up">
                 <header>
                   <div className="block mb-6">
                     <Link href="/blog-post">
@@ -634,15 +602,15 @@ export function WebLayoutsLandingSectionsBlogList(
                     </Link>
                   </h3>
                 </header>
-                <p className="text-lg text-gray-400 grow">
+                <p className="text-lg text-slate-300 grow">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                 </p>
-                <footer className="flex items-center mt-4">
+                <footer className="flex items-center gap-4 mt-4">
                   <Link href="#">
-                    <div className="">
+                    <div className="flex items-center">
                       <WebUtilImageLoader
-                        className="rounded-full shrink-0 mr-4"
+                        className="rounded-full shrink-0"
                         src="https://r2.eriascdn.com/news-author-01.jpg"
                         width="40"
                         height="40"
@@ -650,7 +618,7 @@ export function WebLayoutsLandingSectionsBlogList(
                       />
                     </div>
                   </Link>
-                  <div className="font-medium ml-4">
+                  <div className="font-medium">
                     <span className="text-gray-200 hover:text-gray-100 transition duration-150 ease-in-out">
                       <Link href="#">Anastasia Dan</Link>
                     </span>
@@ -670,28 +638,28 @@ export function WebLayoutsLandingSectionsBlogList(
           >
             <ul className="inline-flex flex-wrap font-medium text-sm -m-1">
               <li className="m-1">
-                <span className="inline-flex h-10 min-w-10 justify-center items-center bg-gray-800 px-4 rounded-full text-gray-500">
+                <span className="inline-flex h-10 min-w-10 justify-center items-center bg-slate-750 px-4 rounded-full text-gray-500">
                   Prev
                 </span>
               </li>
-              <li className="m-1 inline-flex h-10 min-w-10 justify-center items-center bg-gray-800 px-2 rounded-full text-gray-300 hover:bg-purple-600 transition-colors duration-150 ease-in-out">
+              <li className="m-1 inline-flex h-10 min-w-10 justify-center items-center bg-slate-750 px-2 rounded-full text-gray-300 hover:bg-purple-600 transition-colors duration-150 ease-in-out">
                 <Link href="#">1</Link>
               </li>
-              <li className="m-1 inline-flex h-10 min-w-10 justify-center items-center bg-gray-800 px-2 rounded-full text-gray-300 hover:bg-purple-600 transition-colors duration-150 ease-in-out">
+              <li className="m-1 inline-flex h-10 min-w-10 justify-center items-center bg-slate-750 px-2 rounded-full text-gray-300 hover:bg-purple-600 transition-colors duration-150 ease-in-out">
                 <Link href="#">2</Link>
               </li>
-              <li className="m-1 inline-flex h-10 min-w-10 justify-center items-center bg-gray-800 px-2 rounded-full text-gray-300 hover:bg-purple-600 transition-colors duration-150 ease-in-out">
+              <li className="m-1 inline-flex h-10 min-w-10 justify-center items-center bg-slate-750 px-2 rounded-full text-gray-300 hover:bg-purple-600 transition-colors duration-150 ease-in-out">
                 <Link href="#">3</Link>
               </li>
               <li className="m-1">
-                <span className="inline-flex h-10 min-w-10 justify-center items-center bg-gray-800 px-2 rounded-full text-gray-500">
+                <span className="inline-flex h-10 min-w-10 justify-center items-center bg-slate-750 px-2 rounded-full text-gray-500">
                   ...
                 </span>
               </li>
-              <li className="m-1 inline-flex h-10 min-w-10 justify-center items-center bg-gray-800 px-2 rounded-full text-gray-300 hover:bg-purple-600 transition-colors duration-150 ease-in-out">
+              <li className="m-1 inline-flex h-10 min-w-10 justify-center items-center bg-slate-750 px-2 rounded-full text-gray-300 hover:bg-purple-600 transition-colors duration-150 ease-in-out">
                 <Link href="#">12</Link>
               </li>
-              <li className="m-1 inline-flex h-10 min-w-10 justify-center items-center bg-gray-800 px-4 rounded-full text-gray-300 hover:bg-purple-600 transition-colors duration-150 ease-in-out">
+              <li className="m-1 inline-flex h-10 min-w-10 justify-center items-center bg-slate-750 px-4 rounded-full text-gray-300 hover:bg-purple-600 transition-colors duration-150 ease-in-out">
                 <Link href="#">Next</Link>
               </li>
             </ul>

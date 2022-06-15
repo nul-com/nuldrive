@@ -18,13 +18,13 @@ export function WebLayoutsLandingSectionsStatsCircle(
             <h1 className="h2 mb-4">
               Integrated workflow designed for product teams
             </h1>
-            <p className="text-xl text-gray-400">
+            <p className="text-xl text-slate-300">
               Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
               officia deserunt mollit laborum — semper quis lectus nulla.
             </p>
           </div>
 
-          <div className="grid md:grid-cols-3 bg-gray-800 divide-y md:divide-y-0 md:divide-x divide-gray-700 px-6 md:px-0 md:py-8 text-center">
+          <div className="grid md:grid-cols-3 bg-slate-750 divide-y md:divide-y-0 md:divide-x divide-gray-700 px-6 md:px-0 md:py-8 text-center">
             {/* 1st item */}
             <div className="py-6 md:py-0 md:px-8">
               <div
@@ -41,7 +41,7 @@ export function WebLayoutsLandingSectionsStatsCircle(
                 <span>K</span>
               </div>
               <div
-                className="text-lg text-gray-400"
+                className="text-lg text-slate-300"
                 data-aos="fade-up"
                 data-aos-delay="200"
               >
@@ -64,7 +64,7 @@ export function WebLayoutsLandingSectionsStatsCircle(
                 <span>%</span>
               </div>
               <div
-                className="text-lg text-gray-400"
+                className="text-lg text-slate-300"
                 data-aos="fade-up"
                 data-aos-delay="200"
               >
@@ -88,7 +88,7 @@ export function WebLayoutsLandingSectionsStatsCircle(
                 <span>K</span>
               </div>
               <div
-                className="text-lg text-gray-400"
+                className="text-lg text-slate-300"
                 data-aos="fade-up"
                 data-aos-delay="200"
               >

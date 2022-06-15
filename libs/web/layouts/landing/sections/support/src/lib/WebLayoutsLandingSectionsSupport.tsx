@@ -16,7 +16,7 @@ export function WebLayoutsLandingSectionsSupport(
               Get in touch with our team
             </h1>
             <p
-              className="text-xl text-gray-400"
+              className="text-xl text-slate-300"
               data-aos="fade-up"
               data-aos-delay="200"
             >
@@ -32,7 +32,7 @@ export function WebLayoutsLandingSectionsSupport(
           >
             {/* 1st item */}
             <div
-              className="relative flex flex-col p-6 bg-gray-700 rounded-2xl shadow-xl"
+              className="relative flex flex-col p-6 bg-slate-750 rounded-2xl shadow-xl"
               data-aos="zoom-y-out"
               data-aos-anchor="[data-aos-id-blocks]"
             >
@@ -73,14 +73,14 @@ export function WebLayoutsLandingSectionsSupport(
               <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">
                 Tech Support
               </h4>
-              <p className="text-gray-400">
+              <p className="text-slate-300">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
               </p>
             </div>
 
             {/* 2nd item */}
             <div
-              className="relative flex flex-col p-6 bg-gray-700 rounded-2xl shadow-xl"
+              className="relative flex flex-col p-6 bg-slate-750 rounded-2xl shadow-xl"
               data-aos="zoom-y-out"
               data-aos-delay="200"
               data-aos-anchor="[data-aos-id-blocks]"
@@ -117,14 +117,14 @@ export function WebLayoutsLandingSectionsSupport(
               <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">
                 Website Issue
               </h4>
-              <p className="text-gray-400">
+              <p className="text-slate-300">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
               </p>
             </div>
 
             {/* 3rd item */}
             <div
-              className="relative flex flex-col p-6 bg-gray-700 rounded-2xl shadow-xl"
+              className="relative flex flex-col p-6 bg-slate-750 rounded-2xl shadow-xl"
               data-aos="zoom-y-out"
               data-aos-delay="400"
               data-aos-anchor="[data-aos-id-blocks]"
@@ -156,14 +156,14 @@ export function WebLayoutsLandingSectionsSupport(
               <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">
                 Contact Sales
               </h4>
-              <p className="text-gray-400">
+              <p className="text-slate-300">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
               </p>
             </div>
 
             {/* 4th item */}
             <div
-              className="relative flex flex-col p-6 bg-gray-700 rounded-2xl shadow-xl"
+              className="relative flex flex-col p-6 bg-slate-750 rounded-2xl shadow-xl"
               data-aos="zoom-y-out"
               data-aos-delay="600"
               data-aos-anchor="[data-aos-id-blocks]"
@@ -195,14 +195,14 @@ export function WebLayoutsLandingSectionsSupport(
               <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">
                 Live Chat
               </h4>
-              <p className="text-gray-400">
+              <p className="text-slate-300">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
               </p>
             </div>
 
             {/* 5th item */}
             <div
-              className="relative flex flex-col p-6 bg-gray-700 rounded-2xl shadow-xl"
+              className="relative flex flex-col p-6 bg-slate-750 rounded-2xl shadow-xl"
               data-aos="zoom-y-out"
               data-aos-delay="800"
               data-aos-anchor="[data-aos-id-blocks]"
@@ -238,14 +238,14 @@ export function WebLayoutsLandingSectionsSupport(
               <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">
                 Affiliate Program
               </h4>
-              <p className="text-gray-400">
+              <p className="text-slate-300">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
               </p>
             </div>
 
             {/* 6th item */}
             <div
-              className="relative flex flex-col p-6 bg-gray-700 rounded-2xl shadow-xl"
+              className="relative flex flex-col p-6 bg-slate-750 rounded-2xl shadow-xl"
               data-aos="zoom-y-out"
               data-aos-delay="1000"
               data-aos-anchor="[data-aos-id-blocks]"
@@ -277,7 +277,7 @@ export function WebLayoutsLandingSectionsSupport(
               <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">
                 Billing & Account
               </h4>
-              <p className="text-gray-400">
+              <p className="text-slate-300">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
               </p>
             </div>

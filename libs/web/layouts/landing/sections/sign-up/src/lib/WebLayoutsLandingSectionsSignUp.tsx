@@ -98,7 +98,7 @@ export function WebLayoutsLandingSectionsSignUp(
                     >
                       Work Email <span className="text-red-600">*</span>
                     </label>
-                    <div className="border border-gray-700 rounded-lg">
+                    <div className="border border-slate-700 rounded-lg">
                       <input
                         id="email"
                         type="email"
@@ -117,7 +117,7 @@ export function WebLayoutsLandingSectionsSignUp(
                     >
                       Password <span className="text-red-600">*</span>
                     </label>
-                    <div className="border border-gray-700 rounded-lg">
+                    <div className="border border-slate-700 rounded-lg">
                       <input
                         id="password"
                         type="password"
@@ -132,7 +132,7 @@ export function WebLayoutsLandingSectionsSignUp(
                   I agree to be contacted by nuldrive about this offer as per
                   the nuldrive{' '}
                   <Link href="#">
-                    <span className="underline text-gray-400 hover:text-gray-200 hover:no-underline transition duration-150 ease-in-out cursor-pointer">
+                    <span className="underline text-slate-300 hover:text-gray-200 hover:no-underline transition duration-150 ease-in-out cursor-pointer">
                       Privacy Policy
                     </span>
                   </Link>
@@ -146,7 +146,7 @@ export function WebLayoutsLandingSectionsSignUp(
                   </div>
                 </div>
               </form>
-              <div className="text-gray-400 text-center mt-6">
+              <div className="text-slate-300 text-center mt-6">
                 Already using nuldrive?{' '}
                 <Link href="signin">
                   <span className="text-purple-600 hover:text-gray-200 transition duration-150 ease-in-out cursor-pointer">

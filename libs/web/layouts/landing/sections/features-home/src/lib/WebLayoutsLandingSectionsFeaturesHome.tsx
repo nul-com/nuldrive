@@ -11,7 +11,7 @@ export function WebLayoutsLandingSectionsFeaturesHome(
   return (
     <section>
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
-        <div className="py-12 md:py-20 border-t border-gray-800">
+        <div className="py-12 md:py-20 border-t border-slate-700">
           {/* Items */}
           <div className="grid gap-20" data-aos-id-features-home>
             {/* Item */}
@@ -72,12 +72,12 @@ export function WebLayoutsLandingSectionsFeaturesHome(
                     Lighting fast workflow
                   </div>
                   <h3 className="h3 mb-3">Say hello to research data</h3>
-                  <p className="text-xl text-gray-400 mb-4">
+                  <p className="text-xl text-slate-300 mb-4">
                     Duis aute irure dolor in reprehenderit in voluptate velit
                     esse cillum dolore pariatur. Excepteur sint occaecat
                     cupidatat non proident, sunt in culpa.
                   </p>
-                  <ul className="flex flex-wrap text-lg text-gray-400 -mx-2 -my-1">
+                  <ul className="flex flex-wrap text-lg text-slate-300 -mx-2 -my-1">
                     <li className="flex items-center mx-2 my-1">
                       <svg
                         className="w-3 h-3 fill-current text-green-500 mr-2 shrink-0"
@@ -138,7 +138,7 @@ export function WebLayoutsLandingSectionsFeaturesHome(
                       alt="Features avatar"
                     />
                     <div>
-                      <blockquote className="text-gray-400 italic mb-3">
+                      <blockquote className="text-slate-300 italic mb-3">
                         "Lorem ipsum is placeholder text commonly used in the
                         graphic, print, and publishing".
                       </blockquote>

@@ -9,7 +9,7 @@ export function WebLayoutsLandingSectionsAwesomeCta(
   return (
     <section>
       <div className="max-w-6xl mx-auto px-4 sm:px-6 relative">
-        <div className="pt-12 md:pt-20 border-t border-gray-800">
+        <div className="pt-12 md:pt-20 border-t border-slate-700">
           <div
             className="max-w-3xl mx-auto text-center pb-12 md:pb-16"
             data-aos-id-cta
@@ -23,7 +23,7 @@ export function WebLayoutsLandingSectionsAwesomeCta(
               Ready to create better products?
             </h1>
             <p
-              className="text-xl text-gray-400 mb-8"
+              className="text-xl text-slate-300 mb-8"
               data-aos="fade-up"
               data-aos-delay="200"
               data-aos-anchor="[data-aos-id-cta]"
@@ -48,7 +48,7 @@ export function WebLayoutsLandingSectionsAwesomeCta(
             </div>
 
             {/* Check list */}
-            <ul className="flex flex-wrap justify-center text-lg text-gray-400 -mx-2 -my-1">
+            <ul className="flex flex-wrap justify-center text-lg text-slate-300 -mx-2 -my-1">
               <li
                 className="flex items-center mx-3 my-1"
                 data-aos="fade-up"

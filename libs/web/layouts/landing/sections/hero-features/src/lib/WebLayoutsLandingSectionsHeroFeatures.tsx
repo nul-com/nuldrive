@@ -56,7 +56,7 @@ export function WebLayoutsLandingSectionsHeroFeatures(
               Keep track of every important detail
             </h1>
             <p
-              className="text-xl text-gray-400"
+              className="text-xl text-slate-300"
               data-aos="fade-up"
               data-aos-delay="200"
             >

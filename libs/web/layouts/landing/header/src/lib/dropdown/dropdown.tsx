@@ -41,7 +41,7 @@ export function Dropdown(props: DropdownProps) {
       <WebUtilTransition
         show={dropdownOpen}
         tag="ul"
-        className="origin-top-right absolute top-full right-0 w-40 bg-gray-900 py-2 ml-4 rounded-lg backdrop-blur-sm bg-opacity-90"
+        className="origin-top-right absolute top-full right-0 w-40 bg-slate-900 py-2 ml-4 rounded-lg backdrop-blur-sm bg-opacity-90"
         enter="transition ease-out duration-200 transform"
         enterStart="opacity-0 -translate-y-2"
         enterEnd="opacity-100 translate-y-0"

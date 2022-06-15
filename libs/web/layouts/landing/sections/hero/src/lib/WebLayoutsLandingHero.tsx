@@ -92,7 +92,7 @@ export function WebLayoutsLandingHero(props: WebLayoutsLandingHeroProps) {
             </h1>
             <div className="max-w-3xl mx-auto">
               <p
-                className="text-xl text-gray-400 mb-8"
+                className="text-xl text-slate-300 mb-8"
                 data-aos="fade-up"
                 data-aos-delay="200"
               >

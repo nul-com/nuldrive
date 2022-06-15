@@ -14,7 +14,7 @@ export function WebLayoutsLandingSectionsTutorialsCta(
         <div className="pb-12 md:pb-20">
           {/* CTA box */}
           <div
-            className="relative bg-gray-900 rounded-2xl py-10 px-8 md:py-16 md:px-12 shadow-2xl overflow-hidden"
+            className="relative bg-slate-800 rounded-2xl py-10 px-8 md:py-16 md:px-12 shadow-2xl overflow-hidden"
             data-aos="zoom-y-out"
           >
             {/* Background illustration */}
@@ -117,19 +117,19 @@ export function WebLayoutsLandingSectionsTutorialsCta(
                   <div className="flex flex-col sm:flex-row justify-center max-w-xs mx-auto sm:max-w-md lg:mx-0">
                     <input
                       type="email"
-                      className="form-input w-full appearance-none bg-gray-800 border border-gray-700 focus:border-gray-600 rounded-lg px-4 py-3 mb-2 sm:mb-0 sm:mr-2 text-white placeholder-gray-500"
+                      className="form-input w-full appearance-none bg-slate-700 border border-slate-700 focus:border-gray-600 rounded-lg px-4 py-3 mb-2 sm:mb-0 sm:mr-2 text-slate-200 placeholder-gray-500"
                       placeholder="Your email…"
                       aria-label="Your email…"
                     />
                     <Link href="#0">
-                      <p className="btn text-white bg-blue-600 hover:bg-blue-700 shadow rounded-lg">
+                      <button className="btn text-white bg-blue-600 hover:bg-blue-700 shadow rounded-lg">
                         Subscribe
-                      </p>
+                      </button>
                     </Link>
                   </div>
                   {/* Success message */}
-                  {/* <p className="text-sm text-gray-400 mt-3">Thanks for subscribing!</p> */}
-                  <p className="text-sm text-gray-400 mt-3">
+                  {/* <p className="text-sm text-slate-300 mt-3">Thanks for subscribing!</p> */}
+                  <p className="text-sm text-slate-300 mt-3">
                     No spam. You can unsubscribe at any time.
                   </p>
                 </form>

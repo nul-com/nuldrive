@@ -16,7 +16,7 @@ export function WebLayoutsLandingSectionsProcess(
               Built exclusively for you
             </h2>
             <p
-              className="text-xl text-gray-400"
+              className="text-xl text-slate-300"
               data-aos="fade-up"
               data-aos-delay="200"
             >
@@ -34,7 +34,7 @@ export function WebLayoutsLandingSectionsProcess(
             >
               <div
                 aria-hidden="true"
-                className="absolute h-1 border-t border-dashed border-gray-700 hidden md:block"
+                className="absolute h-1 border-t border-dashed border-slate-700 hidden md:block"
                 style={{
                   width: 'calc(100% - 32px)',
                   left: 'calc(50% + 48px)',
@@ -70,9 +70,9 @@ export function WebLayoutsLandingSectionsProcess(
                 />
               </svg>
               <h4 className="h4 mb-2">
-                <span className="text-gray-400">1</span>. Acquisition
+                <span className="text-slate-300">1</span>. Acquisition
               </h4>
-              <p className="text-lg text-gray-400 text-center">
+              <p className="text-lg text-slate-300 text-center">
                 Duis aute irure dolor in reprehenderit in voluptate velit esse
                 cillum dolore eu fugiat nulla pariatur.
               </p>
@@ -86,7 +86,7 @@ export function WebLayoutsLandingSectionsProcess(
             >
               <div
                 aria-hidden="true"
-                className="absolute h-1 border-t border-dashed border-gray-700 hidden md:block"
+                className="absolute h-1 border-t border-dashed border-slate-700 hidden md:block"
                 style={{
                   width: 'calc(100% - 32px)',
                   left: 'calc(50% + 48px)',
@@ -122,9 +122,9 @@ export function WebLayoutsLandingSectionsProcess(
                 </g>
               </svg>
               <h4 className="h4 mb-2">
-                <span className="text-gray-400">2</span>. Activation
+                <span className="text-slate-300">2</span>. Activation
               </h4>
-              <p className="text-lg text-gray-400 text-center">
+              <p className="text-lg text-slate-300 text-center">
                 Duis aute irure dolor in reprehenderit in voluptate velit esse
                 cillum dolore eu fugiat nulla pariatur.
               </p>
@@ -163,9 +163,9 @@ export function WebLayoutsLandingSectionsProcess(
                 />
               </svg>
               <h4 className="h4 mb-2">
-                <span className="text-gray-400">3</span>. Retention
+                <span className="text-slate-300">3</span>. Retention
               </h4>
-              <p className="text-lg text-gray-400 text-center">
+              <p className="text-lg text-slate-300 text-center">
                 Duis aute irure dolor in reprehenderit in voluptate velit esse
                 cillum dolore eu fugiat nulla pariatur.
               </p>

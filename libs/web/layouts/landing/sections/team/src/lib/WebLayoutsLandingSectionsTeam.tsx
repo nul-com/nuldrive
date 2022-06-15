@@ -11,7 +11,7 @@ export function WebLayoutsLandingSectionsTeam(
   return (
     <section>
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
-        <div className="py-12 md:py-20 border-t border-gray-800">
+        <div className="py-12 md:py-20 border-t border-slate-700">
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
             <h2 data-aos="fade-up" className="h2 mb-4">
@@ -20,7 +20,7 @@ export function WebLayoutsLandingSectionsTeam(
             <p
               data-aos="fade-up"
               data-aos-delay="200"
-              className="text-xl text-gray-400"
+              className="text-xl text-slate-300"
             >
               Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
               officia deserunt mollit anim id est laborum consequat.
@@ -46,24 +46,24 @@ export function WebLayoutsLandingSectionsTeam(
                   height="120"
                   alt="Team member 01"
                 />
-                <h4 className="text-xl font-bold mb-1">Mark Lamprecht</h4>
+                <h4 className="text-xl font-bold mb-1 mt-4">Mark Lamprecht</h4>
                 <div className="text-blue-600 font-medium mb-2">
                   CEO & Co-founder
                 </div>
-                <p className="text-gray-400 text-center mb-3">
+                <p className="text-slate-300 text-center mb-3">
                   Duis aute irure dolor in reprehenderit in voluptate velit esse
                   cillum sint occaecat cupidatat.
                 </p>
-                <div className="text-sm text-gray-400 font-medium">
-                  <a className="text-gray-400 hover:underline" href="#0">
+                <div className="text-sm text-slate-300 font-medium">
+                  <a className="text-slate-300 hover:underline" href="#0">
                     Twitter
                   </a>{' '}
                   ·{' '}
-                  <a className="text-gray-400 hover:underline" href="#0">
+                  <a className="text-slate-300 hover:underline" href="#0">
                     GitHub
                   </a>{' '}
                   ·{' '}
-                  <a className="text-gray-400 hover:underline" href="#0">
+                  <a className="text-slate-300 hover:underline" href="#0">
                     LinkedIn
                   </a>
                 </div>
@@ -85,24 +85,26 @@ export function WebLayoutsLandingSectionsTeam(
                   height="120"
                   alt="Team member 02"
                 />
-                <h4 className="text-xl font-bold mb-1">Jessie Pietrasiak</h4>
+                <h4 className="text-xl font-bold mb-1 mt-4">
+                  Jessie Pietrasiak
+                </h4>
                 <div className="text-blue-600 font-medium mb-2">
                   CTO & Co-founder
                 </div>
-                <p className="text-gray-400 text-center mb-3">
+                <p className="text-slate-300 text-center mb-3">
                   Duis aute irure dolor in reprehenderit in voluptate velit esse
                   cillum sint occaecat cupidatat.
                 </p>
-                <div className="text-sm text-gray-400 font-medium">
-                  <a className="text-gray-400 hover:underline" href="#0">
+                <div className="text-sm text-slate-300 font-medium">
+                  <a className="text-slate-300 hover:underline" href="#0">
                     Twitter
                   </a>{' '}
                   ·{' '}
-                  <a className="text-gray-400 hover:underline" href="#0">
+                  <a className="text-slate-300 hover:underline" href="#0">
                     GitHub
                   </a>{' '}
                   ·{' '}
-                  <a className="text-gray-400 hover:underline" href="#0">
+                  <a className="text-slate-300 hover:underline" href="#0">
                     LinkedIn
                   </a>
                 </div>
@@ -124,24 +126,24 @@ export function WebLayoutsLandingSectionsTeam(
                   height="120"
                   alt="Team member 03"
                 />
-                <h4 className="text-xl font-bold mb-1">Marina Hoffman</h4>
+                <h4 className="text-xl font-bold mb-1 mt-4">Marina Hoffman</h4>
                 <div className="text-blue-600 font-medium mb-2">
                   Community Manager
                 </div>
-                <p className="text-gray-400 text-center mb-3">
+                <p className="text-slate-300 text-center mb-3">
                   Duis aute irure dolor in reprehenderit in voluptate velit esse
                   cillum sint occaecat cupidatat.
                 </p>
-                <div className="text-sm text-gray-400 font-medium">
-                  <a className="text-gray-400 hover:underline" href="#0">
+                <div className="text-sm text-slate-300 font-medium">
+                  <a className="text-slate-300 hover:underline" href="#0">
                     Twitter
                   </a>{' '}
                   ·{' '}
-                  <a className="text-gray-400 hover:underline" href="#0">
+                  <a className="text-slate-300 hover:underline" href="#0">
                     GitHub
                   </a>{' '}
                   ·{' '}
-                  <a className="text-gray-400 hover:underline" href="#0">
+                  <a className="text-slate-300 hover:underline" href="#0">
                     LinkedIn
                   </a>
                 </div>
@@ -163,24 +165,26 @@ export function WebLayoutsLandingSectionsTeam(
                   height="120"
                   alt="Team member 04"
                 />
-                <h4 className="text-xl font-bold mb-1">Anthony McGargle</h4>
+                <h4 className="text-xl font-bold mb-1 mt-4">
+                  Anthony McGargle
+                </h4>
                 <div className="text-blue-600 font-medium mb-2">
                   Lead Front-end Engineer
                 </div>
-                <p className="text-gray-400 text-center mb-3">
+                <p className="text-slate-300 text-center mb-3">
                   Duis aute irure dolor in reprehenderit in voluptate velit esse
                   cillum sint occaecat cupidatat.
                 </p>
-                <div className="text-sm text-gray-400 font-medium">
-                  <a className="text-gray-400 hover:underline" href="#0">
+                <div className="text-sm text-slate-300 font-medium">
+                  <a className="text-slate-300 hover:underline" href="#0">
                     Twitter
                   </a>{' '}
                   ·{' '}
-                  <a className="text-gray-400 hover:underline" href="#0">
+                  <a className="text-slate-300 hover:underline" href="#0">
                     GitHub
                   </a>{' '}
                   ·{' '}
-                  <a className="text-gray-400 hover:underline" href="#0">
+                  <a className="text-slate-300 hover:underline" href="#0">
                     LinkedIn
                   </a>
                 </div>
@@ -202,24 +206,26 @@ export function WebLayoutsLandingSectionsTeam(
                   height="120"
                   alt="Team member 05"
                 />
-                <h4 className="text-xl font-bold mb-1">Jessie Pietrasiak</h4>
+                <h4 className="text-xl font-bold mb-1 mt-4">
+                  Jessie Pietrasiak
+                </h4>
                 <div className="text-blue-600 font-medium mb-2">
                   Head of Design
                 </div>
-                <p className="text-gray-400 text-center mb-3">
+                <p className="text-slate-300 text-center mb-3">
                   Duis aute irure dolor in reprehenderit in voluptate velit esse
                   cillum sint occaecat cupidatat.
                 </p>
-                <div className="text-sm text-gray-400 font-medium">
-                  <a className="text-gray-400 hover:underline" href="#0">
+                <div className="text-sm text-slate-300 font-medium">
+                  <a className="text-slate-300 hover:underline" href="#0">
                     Twitter
                   </a>{' '}
                   ·{' '}
-                  <a className="text-gray-400 hover:underline" href="#0">
+                  <a className="text-slate-300 hover:underline" href="#0">
                     GitHub
                   </a>{' '}
                   ·{' '}
-                  <a className="text-gray-400 hover:underline" href="#0">
+                  <a className="text-slate-300 hover:underline" href="#0">
                     LinkedIn
                   </a>
                 </div>
@@ -241,24 +247,24 @@ export function WebLayoutsLandingSectionsTeam(
                   height="120"
                   alt="Team member 06"
                 />
-                <h4 className="text-xl font-bold mb-1">Marina Hoffman</h4>
+                <h4 className="text-xl font-bold mb-1 mt-4">Marina Hoffman</h4>
                 <div className="text-blue-600 font-medium mb-2">
                   Front-end Engineer
                 </div>
-                <p className="text-gray-400 text-center mb-3">
+                <p className="text-slate-300 text-center mb-3">
                   Duis aute irure dolor in reprehenderit in voluptate velit esse
                   cillum sint occaecat cupidatat.
                 </p>
-                <div className="text-sm text-gray-400 font-medium">
-                  <a className="text-gray-400 hover:underline" href="#0">
+                <div className="text-sm text-slate-300 font-medium">
+                  <a className="text-slate-300 hover:underline" href="#0">
                     Twitter
                   </a>{' '}
                   ·{' '}
-                  <a className="text-gray-400 hover:underline" href="#0">
+                  <a className="text-slate-300 hover:underline" href="#0">
                     GitHub
                   </a>{' '}
                   ·{' '}
-                  <a className="text-gray-400 hover:underline" href="#0">
+                  <a className="text-slate-300 hover:underline" href="#0">
                     LinkedIn
                   </a>
                 </div>
@@ -280,24 +286,24 @@ export function WebLayoutsLandingSectionsTeam(
                   height="120"
                   alt="Team member 07"
                 />
-                <h4 className="text-xl font-bold mb-1">Tamara Hastings</h4>
+                <h4 className="text-xl font-bold mb-1 mt-4">Tamara Hastings</h4>
                 <div className="text-blue-600 font-medium mb-2">
                   Product Developer
                 </div>
-                <p className="text-gray-400 text-center mb-3">
+                <p className="text-slate-300 text-center mb-3">
                   Duis aute irure dolor in reprehenderit in voluptate velit esse
                   cillum sint occaecat cupidatat.
                 </p>
-                <div className="text-sm text-gray-400 font-medium">
-                  <a className="text-gray-400 hover:underline" href="#0">
+                <div className="text-sm text-slate-300 font-medium">
+                  <a className="text-slate-300 hover:underline" href="#0">
                     Twitter
                   </a>{' '}
                   ·{' '}
-                  <a className="text-gray-400 hover:underline" href="#0">
+                  <a className="text-slate-300 hover:underline" href="#0">
                     GitHub
                   </a>{' '}
                   ·{' '}
-                  <a className="text-gray-400 hover:underline" href="#0">
+                  <a className="text-slate-300 hover:underline" href="#0">
                     LinkedIn
                   </a>
                 </div>
@@ -319,24 +325,24 @@ export function WebLayoutsLandingSectionsTeam(
                   height="120"
                   alt="Team member 08"
                 />
-                <h4 className="text-xl font-bold mb-1">Rachel Vervack</h4>
+                <h4 className="text-xl font-bold mb-1 mt-4">Rachel Vervack</h4>
                 <div className="text-blue-600 font-medium mb-2">
                   Senior Data Scientist
                 </div>
-                <p className="text-gray-400 text-center mb-3">
+                <p className="text-slate-300 text-center mb-3">
                   Duis aute irure dolor in reprehenderit in voluptate velit esse
                   cillum sint occaecat cupidatat.
                 </p>
-                <div className="text-sm text-gray-400 font-medium">
-                  <a className="text-gray-400 hover:underline" href="#0">
+                <div className="text-sm text-slate-300 font-medium">
+                  <a className="text-slate-300 hover:underline" href="#0">
                     Twitter
                   </a>{' '}
                   ·{' '}
-                  <a className="text-gray-400 hover:underline" href="#0">
+                  <a className="text-slate-300 hover:underline" href="#0">
                     GitHub
                   </a>{' '}
                   ·{' '}
-                  <a className="text-gray-400 hover:underline" href="#0">
+                  <a className="text-slate-300 hover:underline" href="#0">
                     LinkedIn
                   </a>
                 </div>
@@ -358,24 +364,26 @@ export function WebLayoutsLandingSectionsTeam(
                   height="120"
                   alt="Team member 09"
                 />
-                <h4 className="text-xl font-bold mb-1">Andrew Laurencio</h4>
+                <h4 className="text-xl font-bold mb-1 mt-4">
+                  Andrew Laurencio
+                </h4>
                 <div className="text-blue-600 font-medium mb-2">
                   Front-end Engineer
                 </div>
-                <p className="text-gray-400 text-center mb-3">
+                <p className="text-slate-300 text-center mb-3">
                   Duis aute irure dolor in reprehenderit in voluptate velit esse
                   cillum sint occaecat cupidatat.
                 </p>
-                <div className="text-sm text-gray-400 font-medium">
-                  <a className="text-gray-400 hover:underline" href="#0">
+                <div className="text-sm text-slate-300 font-medium">
+                  <a className="text-slate-300 hover:underline" href="#0">
                     Twitter
                   </a>{' '}
                   ·{' '}
-                  <a className="text-gray-400 hover:underline" href="#0">
+                  <a className="text-slate-300 hover:underline" href="#0">
                     GitHub
                   </a>{' '}
                   ·{' '}
-                  <a className="text-gray-400 hover:underline" href="#0">
+                  <a className="text-slate-300 hover:underline" href="#0">
                     LinkedIn
                   </a>
                 </div>

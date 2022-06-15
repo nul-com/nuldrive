@@ -9,11 +9,11 @@ export function WebLayoutsLandingSectionsAboutClients(
   return (
     <section>
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
-        <div className="py-12 md:py-20 border-t border-gray-800">
+        <div className="py-12 md:py-20 border-t border-slate-700">
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
             <h1 className="h2 mb-4">Our customers span the globe</h1>
-            <p className="text-xl text-gray-400">
+            <p className="text-xl text-slate-300">
               Duis aute irure dolor in reprehenderit in voluptate velit esse
               cillum dolore eu fugiat nulla pariatur.
             </p>
@@ -26,12 +26,12 @@ export function WebLayoutsLandingSectionsAboutClients(
           >
             {/* Item */}
             <div
-              className="flex items-center justify-center h-24 border border-gray-700 p-2"
+              className="flex items-center justify-center h-24 border border-slate-700 rounded-lg p-2"
               data-aos="fade-up"
               data-aos-anchor="[data-aos-id-clients]"
             >
               <svg
-                className="max-w-full fill-current text-gray-500"
+                className="max-w-full fill-current text-slate-400"
                 width="124"
                 height="24"
                 viewBox="0 0 124 24"
@@ -43,13 +43,13 @@ export function WebLayoutsLandingSectionsAboutClients(
 
             {/* Item */}
             <div
-              className="flex items-center justify-center h-24 border border-gray-700 p-2"
+              className="flex items-center justify-center h-24 border border-slate-700 rounded-lg p-2"
               data-aos="fade-up"
               data-aos-delay="100"
               data-aos-anchor="[data-aos-id-clients]"
             >
               <svg
-                className="max-w-full fill-current text-gray-500"
+                className="max-w-full fill-current text-slate-400"
                 width="83"
                 height="30"
                 viewBox="0 0 83 30"
@@ -61,13 +61,13 @@ export function WebLayoutsLandingSectionsAboutClients(
 
             {/* Item */}
             <div
-              className="flex items-center justify-center h-24 border border-gray-700 p-2"
+              className="flex items-center justify-center h-24 border border-slate-700 rounded-lg p-2"
               data-aos="fade-up"
               data-aos-delay="200"
               data-aos-anchor="[data-aos-id-clients]"
             >
               <svg
-                className="max-w-full fill-current text-gray-500"
+                className="max-w-full fill-current text-slate-400"
                 width="125"
                 height="39"
                 viewBox="0 0 125 39"
@@ -79,13 +79,13 @@ export function WebLayoutsLandingSectionsAboutClients(
 
             {/* Item */}
             <div
-              className="flex items-center justify-center h-24 border border-gray-700 p-2"
+              className="flex items-center justify-center h-24 border border-slate-700 rounded-lg p-2"
               data-aos="fade-up"
               data-aos-delay="300"
               data-aos-anchor="[data-aos-id-clients]"
             >
               <svg
-                className="max-w-full fill-current text-gray-500"
+                className="max-w-full fill-current text-slate-400"
                 width="113"
                 height="30"
                 viewBox="0 0 113 30"
@@ -97,13 +97,13 @@ export function WebLayoutsLandingSectionsAboutClients(
 
             {/* Item */}
             <div
-              className="flex items-center justify-center h-24 border border-gray-700 p-2"
+              className="flex items-center justify-center h-24 border border-slate-700 rounded-lg p-2"
               data-aos="fade-up"
               data-aos-delay="400"
               data-aos-anchor="[data-aos-id-clients]"
             >
               <svg
-                className="max-w-full fill-current text-gray-500"
+                className="max-w-full fill-current text-slate-400"
                 width="109"
                 height="36"
                 viewBox="0 0 109 36"
@@ -115,13 +115,13 @@ export function WebLayoutsLandingSectionsAboutClients(
 
             {/* Item */}
             <div
-              className="flex items-center justify-center h-24 border border-gray-700 p-2"
+              className="flex items-center justify-center h-24 border border-slate-700 rounded-lg p-2"
               data-aos="fade-up"
               data-aos-delay="500"
               data-aos-anchor="[data-aos-id-clients]"
             >
               <svg
-                className="max-w-full fill-current text-gray-500"
+                className="max-w-full fill-current text-slate-400"
                 width="150"
                 height="30"
                 viewBox="0 0 150 30"
@@ -133,13 +133,13 @@ export function WebLayoutsLandingSectionsAboutClients(
 
             {/* Item */}
             <div
-              className="flex items-center justify-center h-24 border border-gray-700 p-2"
+              className="flex items-center justify-center h-24 border border-slate-700 rounded-lg p-2"
               data-aos="fade-up"
               data-aos-delay="600"
               data-aos-anchor="[data-aos-id-clients]"
             >
               <svg
-                className="max-w-full fill-current text-gray-500"
+                className="max-w-full fill-current text-slate-400"
                 width="109"
                 height="33"
                 viewBox="0 0 109 33"
@@ -151,13 +151,13 @@ export function WebLayoutsLandingSectionsAboutClients(
 
             {/* Item */}
             <div
-              className="flex items-center justify-center h-24 border border-gray-700 p-2"
+              className="flex items-center justify-center h-24 border border-slate-700 rounded-lg p-2"
               data-aos="fade-up"
               data-aos-delay="700"
               data-aos-anchor="[data-aos-id-clients]"
             >
               <svg
-                className="max-w-full fill-current text-gray-500"
+                className="max-w-full fill-current text-slate-400"
                 width="126"
                 height="36"
                 viewBox="0 0 126 36"

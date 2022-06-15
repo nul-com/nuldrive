@@ -12,7 +12,7 @@ export function WebLayoutsLandingSectionsAboutStory(
         <div className="pb-12 md:pb-20">
           <div className="max-w-3xl mx-auto">
             <h3 className="h3 mb-3">Our story</h3>
-            <p className="text-lg text-gray-400 mb-8">
+            <p className="text-lg text-slate-300 mb-8">
               Aenean sed adipiscing diam donec adipiscing tristique risus nec
               feugiat auctor urna nunc id cursus metus aliquam eleifend, arcu
               dictum varius duis at consectetur lorem donec massa sapien, sed
@@ -20,7 +20,7 @@ export function WebLayoutsLandingSectionsAboutStory(
               et netus et, nibh nisl condimentum id venenatis a condimentum
               vitae sapien.
             </p>
-            <p className="text-lg text-gray-400 mb-8">
+            <p className="text-lg text-slate-300 mb-8">
               Quam pellentesque nec nam aliquam sem et tortor consequat,
               pellentesque adipiscing commodo elit at imperdiet. Semper auctor
               neque vitae tempus quam pellentesque nec. Amet dictum sit amet
@@ -30,7 +30,10 @@ export function WebLayoutsLandingSectionsAboutStory(
           </div>
 
           <div className="sm:flex">
-            <figure data-aos="fade-right" className="flex shrink-0 max-w-none sm:max-w-xs lg:max-w-none mb-8 sm:mb-0">
+            <figure
+              data-aos="fade-right"
+              className="flex shrink-0 max-w-none sm:max-w-xs lg:max-w-none mb-8 sm:mb-0"
+            >
               <img
                 className="grow self-start rounded"
                 src="https://r2.eriascdn.com/hero-image-02.png"
@@ -40,8 +43,10 @@ export function WebLayoutsLandingSectionsAboutStory(
               />
             </figure>
             <div className="sm:ml-8 lg:ml-16">
-              <h4 data-aos="fade-left" className="h4 mb-2">2017 - 2020</h4>
-              <p data-aos="fade-left" className="text-lg text-gray-400 mb-8">
+              <h4 data-aos="fade-left" className="h4 mb-2">
+                2017 - 2020
+              </h4>
+              <p data-aos="fade-left" className="text-lg text-slate-300 mb-8">
                 Quam pellentesque nec nam aliquam sem et tortor consequat,
                 pellentesque adipiscing commodo elit at imperdiet. Semper auctor
                 neque vitae tempus quam pellentesque nec. Amet dictum sit amet
@@ -57,13 +62,13 @@ export function WebLayoutsLandingSectionsAboutStory(
                   alt="Logo"
                 />
                 <div>
-                  <blockquote className="text-gray-400 italic">
+                  <blockquote className="text-slate-300 italic">
                     “ I love this product and would recommend it to anyone.
                     Could be not easier to use, and our multiple websites are
                     wonderful. We get nice comments all the time. “
                   </blockquote>
                   <div className="text-sm font-medium text-gray-600 mt-2">
-                    <cite className="text-gray-900 not-italic">
+                    <cite className="text-slate-300 not-italic">
                       Micheal Osman
                     </cite>{' '}
                     ·{' '}
@@ -77,7 +82,7 @@ export function WebLayoutsLandingSectionsAboutStory(
           </div>
 
           <div data-aos="fade-up" className="max-w-3xl mx-auto">
-            <p className="text-lg text-gray-400">
+            <p className="text-lg text-slate-300">
               Aenean sed adipiscing diam donec adipiscing tristique risus nec
               feugiat auctor urna nunc id cursus metus aliquam eleifend, arcu
               dictum varius duis at consectetur lorem donec massa sapien, sed

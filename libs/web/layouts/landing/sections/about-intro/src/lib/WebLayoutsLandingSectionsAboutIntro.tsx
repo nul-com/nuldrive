@@ -20,7 +20,7 @@ export function WebLayoutsLandingSectionsAboutIntro(
             <p
               data-aos="fade-up"
               data-aos-delay="200"
-              className="text-xl text-gray-400"
+              className="text-xl text-slate-300"
             >
               We have transformed product development, making it faster,
               simpler... better! That's why in just three years we now help more

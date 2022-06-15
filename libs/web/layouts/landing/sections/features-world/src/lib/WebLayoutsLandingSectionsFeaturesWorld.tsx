@@ -18,7 +18,7 @@ export function WebLayoutsLandingSectionsFeaturesWorld(
             <h1 className="h2 mb-4">
               Simple can help you scale internationally
             </h1>
-            <p className="text-xl text-gray-400">
+            <p className="text-xl text-slate-300">
               Duis aute irure dolor in reprehenderit in voluptate velit esse
               cillum dolore eu fugiat nulla pariatur excepteur sint occaecat
               cupidatat.
@@ -37,7 +37,7 @@ export function WebLayoutsLandingSectionsFeaturesWorld(
                 style={{ maxWidth: '200%' }}
                 xmlns="http://www.w3.org/2000/svg"
               >
-                <g className="fill-current text-gray-800 opacity-75">
+                <g className="fill-current text-slate-700 opacity-75">
                   <circle className="pulse" cx="400" cy="400" r="200" />
                   <circle className="pulse pulse-1" cx="400" cy="400" r="200" />
                   <circle className="pulse pulse-2" cx="400" cy="400" r="200" />
@@ -277,7 +277,7 @@ export function WebLayoutsLandingSectionsFeaturesWorld(
                 xmlns="http://www.w3.org/2000/svg"
               >
                 <circle
-                  className="fill-current text-gray-800"
+                  className="fill-current text-slate-800"
                   cx="40"
                   cy="40"
                   r="40"

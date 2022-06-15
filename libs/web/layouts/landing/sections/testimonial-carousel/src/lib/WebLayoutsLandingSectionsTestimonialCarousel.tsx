@@ -70,7 +70,7 @@ export function WebLayoutsLandingSectionsTestimonialCarousel(
   return (
     <section>
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
-        <div className="py-12 md:py-20 border-t border-gray-800">
+        <div className="py-12 md:py-20 border-t border-slate-700">
           {/* Section header */}
           <div
             className="max-w-3xl mx-auto text-center pb-12 md:pb-16"
@@ -84,7 +84,7 @@ export function WebLayoutsLandingSectionsTestimonialCarousel(
               Join the Open PRO team
             </h2>
             <p
-              className="text-xl text-gray-400"
+              className="text-xl text-slate-300"
               data-aos="fade-up"
               data-aos-delay="200"
               data-aos-anchor="[data-aos-id-testimonialcar]"
@@ -97,7 +97,7 @@ export function WebLayoutsLandingSectionsTestimonialCarousel(
 
           {/* Check list */}
           <div className="max-w-3xl mx-auto pb-16">
-            <ul className="flex flex-col sm:flex-row flex-wrap justify-center items-center text-lg text-gray-400 -mx-3 -my-2">
+            <ul className="flex flex-col sm:flex-row flex-wrap justify-center items-center text-lg text-slate-300 -mx-3 -my-2">
               <li
                 className="flex items-center mx-3 my-2"
                 data-aos="fade-up"
@@ -358,7 +358,7 @@ export function WebLayoutsLandingSectionsTestimonialCarousel(
                         <path d="M0 13.517c0-2.346.611-4.774 1.833-7.283C3.056 3.726 4.733 1.648 6.865 0L11 2.696C9.726 4.393 8.777 6.109 8.152 7.844c-.624 1.735-.936 3.589-.936 5.56v4.644H0v-4.531zm13 0c0-2.346.611-4.774 1.833-7.283 1.223-2.508 2.9-4.586 5.032-6.234L24 2.696c-1.274 1.697-2.223 3.413-2.848 5.148-.624 1.735-.936 3.589-.936 5.56v4.644H13v-4.531z" />
                       </svg>
                     </div>
-                    <blockquote className="text-lg text-gray-400">
+                    <blockquote className="text-lg text-slate-300">
                       {item.quote}
                     </blockquote>
                     <div className="text-gray-700 font-medium mt-3">

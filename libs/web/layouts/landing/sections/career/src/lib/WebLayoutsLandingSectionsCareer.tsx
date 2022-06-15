@@ -21,7 +21,7 @@ export function WebLayoutsLandingSectionsCareer(
               data-aos="fade-up"
               data-aos-anchor="[data-aos-id-career]"
             >
-              <div className="pb-6 border-b border-gray-800">
+              <div className="pb-6 border-b border-slate-700">
                 <div className="mb-2">
                   <a
                     className="flex justify-between items-center text-xl font-bold text-purple-600 hover:text-gray-200 transition duration-150 ease-in-out"
@@ -41,12 +41,12 @@ export function WebLayoutsLandingSectionsCareer(
                     </svg>
                   </a>
                 </div>
-                <div className="text-lg text-gray-400 mb-3">
+                <div className="text-lg text-slate-300 mb-3">
                   You'll be joing the Experience Design Team as a Lead Product
                   Designer. You'll interface daily with developers - encouraging
                   and advancing best practices in software.
                 </div>
-                <div className="text-gray-400 flex flex-wrap items-center mb-6">
+                <div className="text-slate-300 flex flex-wrap items-center mb-6">
                   <div className="inline-flex items-center">
                     <svg
                       className="mr-2 shrink-0"
@@ -89,7 +89,7 @@ export function WebLayoutsLandingSectionsCareer(
               data-aos-delay="200"
               data-aos-anchor="[data-aos-id-career]"
             >
-              <div className="pb-6 border-b border-gray-800">
+              <div className="pb-6 border-b border-slate-700">
                 <div className="mb-2">
                   <a
                     className="flex justify-between items-center text-xl font-bold text-purple-600 hover:text-gray-200 transition duration-150 ease-in-out"
@@ -109,12 +109,12 @@ export function WebLayoutsLandingSectionsCareer(
                     </svg>
                   </a>
                 </div>
-                <div className="text-lg text-gray-400 mb-3">
+                <div className="text-lg text-slate-300 mb-3">
                   You'll be joing the Experience Design Team as a Lead Product
                   Designer. You'll interface daily with developers - encouraging
                   and advancing best practices in software.
                 </div>
-                <div className="text-gray-400 flex flex-wrap items-center mb-6">
+                <div className="text-slate-300 flex flex-wrap items-center mb-6">
                   <div className="inline-flex items-center">
                     <svg
                       className="mr-2 shrink-0"
@@ -157,7 +157,7 @@ export function WebLayoutsLandingSectionsCareer(
               data-aos-delay="400"
               data-aos-anchor="[data-aos-id-career]"
             >
-              <div className="pb-6 border-b border-gray-800">
+              <div className="pb-6 border-b border-slate-700">
                 <div className="mb-2">
                   <a
                     className="flex justify-between items-center text-xl font-bold text-purple-600 hover:text-gray-200 transition duration-150 ease-in-out"
@@ -177,12 +177,12 @@ export function WebLayoutsLandingSectionsCareer(
                     </svg>
                   </a>
                 </div>
-                <div className="text-lg text-gray-400 mb-3">
+                <div className="text-lg text-slate-300 mb-3">
                   You'll be joing the Experience Design Team as a Lead Product
                   Designer. You'll interface daily with developers - encouraging
                   and advancing best practices in software.
                 </div>
-                <div className="text-gray-400 flex flex-wrap items-center mb-6">
+                <div className="text-slate-300 flex flex-wrap items-center mb-6">
                   <div className="inline-flex items-center">
                     <svg
                       className="mr-2 shrink-0"
