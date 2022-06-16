@@ -115,7 +115,7 @@ export function WebLayoutsLandingHero(props: WebLayoutsLandingHeroProps) {
                 </div>
                 <div data-aos="fade-up" data-aos-delay="600">
                   <a
-                    className="btn text-white bg-gray-700 hover:bg-gray-800 rounded-lg w-full sm:w-auto sm:ml-4"
+                    className="btn text-white bg-slate-700 hover:bg-slate-750 rounded-lg w-full sm:w-auto sm:ml-4"
                     href="#0"
                   >
                     Learn more
@@ -215,7 +215,7 @@ export function WebLayoutsLandingHero(props: WebLayoutsLandingHeroProps) {
                 </svg>
               </div>
               <button
-                className="absolute top-full flex items-center text-gray-700 transform -translate-y-1/2 bg-white rounded-full font-medium group p-4 shadow-lg"
+                className="absolute top-full flex items-center text-slate-700 transform -translate-y-1/2 bg-white rounded-full font-medium group p-4 shadow-lg"
                 onClick={(e: any) => {
                   e.preventDefault();
                   e.stopPropagation();
