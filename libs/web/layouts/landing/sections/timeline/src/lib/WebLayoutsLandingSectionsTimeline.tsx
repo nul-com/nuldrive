@@ -39,7 +39,7 @@ export function WebLayoutsLandingSectionsTimeline(
                     2016
                   </div>
                   <div
-                    className="absolute left-0 h-full px-px bg-gray-800 ml-20 self-start transform -translate-x-1/2 translate-y-3"
+                    className="absolute left-0 h-full px-px bg-slate-700 ml-20 self-start transform -translate-x-1/2 translate-y-3"
                     aria-hidden="true"
                   ></div>
                   <div
@@ -74,7 +74,7 @@ export function WebLayoutsLandingSectionsTimeline(
                     2017
                   </div>
                   <div
-                    className="absolute left-0 h-full px-px bg-gray-800 ml-20 self-start transform -translate-x-1/2 translate-y-3"
+                    className="absolute left-0 h-full px-px bg-slate-700 ml-20 self-start transform -translate-x-1/2 translate-y-3"
                     aria-hidden="true"
                   ></div>
                   <div
@@ -109,7 +109,7 @@ export function WebLayoutsLandingSectionsTimeline(
                     2018
                   </div>
                   <div
-                    className="absolute left-0 h-full px-px bg-gray-800 ml-20 self-start transform -translate-x-1/2 translate-y-3"
+                    className="absolute left-0 h-full px-px bg-slate-700 ml-20 self-start transform -translate-x-1/2 translate-y-3"
                     aria-hidden="true"
                   ></div>
                   <div
