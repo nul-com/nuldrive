@@ -150,7 +150,7 @@ export function WebLayoutsLandingHeader(props: WebLayoutsLandingHeaderProps) {
             {/* Desktop sign in links */}
             <ul className="flex gap-3 grow justify-end flex-wrap items-center">
               <Link href="/signin">
-                <li className="font-medium text-purple-600 hover:bg-slate-700 hover:backdrop-blur-sm btn-sm rounded-lg hover:text-gray-200 flex items-center transition duration-150 ease-in-out cursor-pointer">
+                <li className="font-medium text-purple-600 hover:bg-slate-700 hover:backdrop-blur-sm btn-sm rounded-lg hover:text-gray-200 flex items-center backdrop-blur-sm opacity-70 transition duration-150 ease-in-out cursor-pointer">
                   Sign in
                 </li>
               </Link>
@@ -198,7 +198,7 @@ export function WebLayoutsLandingHeader(props: WebLayoutsLandingHeaderProps) {
                   : { maxHeight: 0, opacity: 0.8 }
               }
             >
-              <ul className="bg-gray-800 px-4 py-2">
+              <ul className="bg-slate-800 px-4 py-2">
                 <li className="flex text-gray-300 hover:text-gray-200 py-2">
                   <Link href="/features">Features</Link>
                 </li>
