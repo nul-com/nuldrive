@@ -154,7 +154,7 @@ export function WebLayoutsLandingFooter(props: WebLayoutsLandingFooterProps) {
                         aria-label="Subscribe"
                       >
                         <span
-                          className="absolute inset-0 right-auto w-px -ml-px my-2 bg-gray-700"
+                          className="absolute inset-0 right-auto w-px -ml-px my-2 bg-slate-600"
                           aria-hidden="true"
                         ></span>
                         <svg
