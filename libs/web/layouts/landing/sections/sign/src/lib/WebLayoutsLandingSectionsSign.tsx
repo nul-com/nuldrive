@@ -14,9 +14,8 @@ export function WebLayoutsLandingSectionsSign(
 ) {
   let { space } = props;
   const [section, setSection] = useState<number>(0);
+  const [showEmail, setShowEmail] = useState<boolean>(true);
   const [showPassword, setShowPassword] = useState<boolean>(false);
-
-  let clicked: boolean;
 
   return (
     <section className="relative z-20 h-full">
@@ -37,6 +36,7 @@ export function WebLayoutsLandingSectionsSign(
                 </Typing>
               </p>
 
+              {/* Third party Buttons */}
               {section >= 1 && (
                 <div className="mt-2 flex justify-between">
                   <ul className="flex gap-2">
@@ -91,6 +91,8 @@ export function WebLayoutsLandingSectionsSign(
                   </ul>
                 </div>
               )}
+
+              {/* Email input */}
               {section >= 1 && (
                 <div className="mt-5">
                   <label
@@ -112,32 +114,64 @@ export function WebLayoutsLandingSectionsSign(
                         />
                       </svg>
                       <input
-                        id="email"
-                        type="email"
+                        id="password"
+                        type={showEmail ? 'text' : 'password'}
                         className="form-input pl-0 pt-0 pb-0 font-mono font-medium w-full text-slate-100"
                         placeholder=""
                         required
+                        onInput={() => setSection(2)}
                       />
                     </div>
-                    <span
-                      className="group border border-[#637597] rounded-md px-3 py-1 cursor-pointer"
-                      onMouseOver={() => section <= 1 && (space.throttle = 1)}
-                      onMouseLeave={() => (space.throttle = 0)}
-                      onClick={() => {
-                        space.throttle = 0;
-                        clicked = true;
-                        console.log(clicked);
-                        section <= 1 && setSection(2);
-                      }}
-                    >
-                      <button className="text-gray-300 text-sm">
-                        Continue
-                      </button>
-                    </span>
+                    <div className="flex gap-3 items-center">
+                      <div
+                        className="cursor-pointer"
+                        onClick={() => setShowEmail(!showEmail)}
+                      >
+                        {showEmail ? (
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            data-name="Layer 1"
+                            viewBox="0 0 24 24"
+                            className="w-5 h-5 text-gray-700"
+                          >
+                            <path
+                              fill="currentColor"
+                              d="M10.94,6.08A6.93,6.93,0,0,1,12,6c3.18,0,6.17,2.29,7.91,6a15.23,15.23,0,0,1-.9,1.64,1,1,0,0,0-.16.55,1,1,0,0,0,1.86.5,15.77,15.77,0,0,0,1.21-2.3,1,1,0,0,0,0-.79C19.9,6.91,16.1,4,12,4a7.77,7.77,0,0,0-1.4.12,1,1,0,1,0,.34,2ZM3.71,2.29A1,1,0,0,0,2.29,3.71L5.39,6.8a14.62,14.62,0,0,0-3.31,4.8,1,1,0,0,0,0,.8C4.1,17.09,7.9,20,12,20a9.26,9.26,0,0,0,5.05-1.54l3.24,3.25a1,1,0,0,0,1.42,0,1,1,0,0,0,0-1.42Zm6.36,9.19,2.45,2.45A1.81,1.81,0,0,1,12,14a2,2,0,0,1-2-2A1.81,1.81,0,0,1,10.07,11.48ZM12,18c-3.18,0-6.17-2.29-7.9-6A12.09,12.09,0,0,1,6.8,8.21L8.57,10A4,4,0,0,0,14,15.43L15.59,17A7.24,7.24,0,0,1,12,18Z"
+                            />
+                          </svg>
+                        ) : (
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 24 24"
+                            className="w-5 h-5 text-gray-700"
+                          >
+                            <path
+                              fill="currentColor"
+                              d="M21.92,11.6C19.9,6.91,16.1,4,12,4S4.1,6.91,2.08,11.6a1,1,0,0,0,0,.8C4.1,17.09,7.9,20,12,20s7.9-2.91,9.92-7.6A1,1,0,0,0,21.92,11.6ZM12,18c-3.17,0-6.17-2.29-7.9-6C5.83,8.29,8.83,6,12,6s6.17,2.29,7.9,6C18.17,15.71,15.17,18,12,18ZM12,8a4,4,0,1,0,4,4A4,4,0,0,0,12,8Zm0,6a2,2,0,1,1,2-2A2,2,0,0,1,12,14Z"
+                            />
+                          </svg>
+                        )}
+                      </div>
+                      <span
+                        className="group border border-[#637597] rounded-md px-3 py-1 cursor-pointer"
+                        onMouseOver={() => section == 2 && (space.throttle = 1)}
+                        onMouseLeave={() => (space.throttle = 0)}
+                        onClick={() => {
+                          space.throttle = 0;
+                          section <= 2 && setSection(3);
+                        }}
+                      >
+                        <button className="text-gray-300 text-sm">
+                          Continue
+                        </button>
+                      </span>
+                    </div>
                   </div>
                 </div>
               )}
-              {section >= 2 && (
+
+              {/* Password input */}
+              {section >= 3 && (
                 <div className="mt-5">
                   <label
                     htmlFor=""
@@ -160,12 +194,12 @@ export function WebLayoutsLandingSectionsSign(
                         </svg>
                       </button>
                       <input
-                        id="email"
+                        id="password"
                         type={showPassword ? 'text' : 'password'}
                         className="form-input pl-0 pt-0 pb-0 font-mono font-medium w-full text-slate-100"
                         placeholder=""
                         required
-                        onInput={() => setSection(3)}
+                        onInput={() => setSection(4)}
                       />
                     </div>
                     <div className="flex gap-3 items-center">
@@ -200,11 +234,11 @@ export function WebLayoutsLandingSectionsSign(
                       </div>
                       <span
                         className="group border border-[#637597] rounded-md px-3 py-1"
-                        onMouseOver={() => section <= 3 && (space.throttle = 1)}
+                        onMouseOver={() => section == 4 && (space.throttle = 1)}
                         onMouseLeave={() => (space.throttle = 0)}
                         onClick={() => {
                           space.throttle = 0;
-                          setSection(4);
+                          setSection(5);
                         }}
                       >
                         <button className="text-gray-300 text-sm">
@@ -217,7 +251,7 @@ export function WebLayoutsLandingSectionsSign(
               )}
             </div>
 
-            {section >= 3 && (
+            {section >= 4 && (
               <div className="max-w-[606px] mx-auto px-6 mt-10">
                 <div className="w-full flex gap-3">
                   <div className="bg-[#627597] w-12 h-1 rounded-md bg-[#ed4e50]"></div>
