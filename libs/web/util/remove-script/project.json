@@ -1,0 +1,32 @@
+{
+  "root": "libs/web/util/remove-script",
+  "sourceRoot": "libs/web/util/remove-script/src",
+  "targets": {
+    "build": {
+      "executor": "@nrwl/js:tsc",
+      "outputs": ["{options.outputPath}"],
+      "options": {
+        "outputPath": "dist/libs/web/util/remove-script",
+        "main": "libs/web/util/remove-script/src/index.ts",
+        "tsConfig": "libs/web/util/remove-script/tsconfig.lib.json",
+        "assets": ["libs/web/util/remove-script/*.md"]
+      }
+    },
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "outputs": ["{options.outputFile}"],
+      "options": {
+        "lintFilePatterns": ["libs/web/util/remove-script/**/*.ts"]
+      }
+    },
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "outputs": ["coverage/libs/web/util/remove-script"],
+      "options": {
+        "jestConfig": "libs/web/util/remove-script/jest.config.js",
+        "passWithNoTests": true
+      }
+    }
+  },
+  "tags": []
+}

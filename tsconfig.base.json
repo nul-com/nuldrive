@@ -213,6 +213,9 @@
       "@nuldrive/web/util/imageLoader": [
         "libs/web/util/imageLoader/src/index.ts"
       ],
+      "@nuldrive/web/util/remove-script": [
+        "libs/web/util/remove-script/src/index.ts"
+      ],
       "@nuldrive/web/util/resize": ["libs/web/util/resize/src/index.ts"],
       "@nuldrive/web/util/tabs": ["libs/web/util/tabs/src/index.ts"],
       "@nuldrive/web/util/tooltip": ["libs/web/util/tooltip/src/index.ts"],
