@@ -361,7 +361,7 @@ export function WebLayoutsLandingSectionsTestimonialCarousel(
                     <blockquote className="text-lg text-slate-300">
                       {item.quote}
                     </blockquote>
-                    <div className="text-gray-700 font-medium mt-3">
+                    <div className="text-slate-500 font-medium mt-3">
                       <cite className="text-gray-200 not-italic">
                         {item.name}
                       </cite>{' '}
