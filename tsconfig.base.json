@@ -144,12 +144,6 @@
       "@nuldrive/web/layouts/landing/sections/sign": [
         "libs/web/layouts/landing/sections/sign/src/index.ts"
       ],
-      "@nuldrive/web/layouts/landing/sections/sign-in": [
-        "libs/web/layouts/landing/sections/sign-in/src/index.ts"
-      ],
-      "@nuldrive/web/layouts/landing/sections/sign-up": [
-        "libs/web/layouts/landing/sections/sign-up/src/index.ts"
-      ],
       "@nuldrive/web/layouts/landing/sections/stats-circle": [
         "libs/web/layouts/landing/sections/stats-circle/src/index.ts"
       ],
