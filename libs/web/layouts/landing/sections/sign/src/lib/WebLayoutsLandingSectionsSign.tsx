@@ -32,7 +32,7 @@ export function WebLayoutsLandingSectionsSign(
       <div className="max-w-6xl mx-auto px-4 sm:px-6 h-full">
         <div className="pt-32 md:pt-40 h-full flex justify-between flex-col">
           <div className="">
-            <div className="bg-gray-800 max-w-[606px] border border-gray-650 rounded-lg overflow-hidden p-6 mx-auto">
+            <div className="bg-gray-800 max-w-[606px] border border-gray-650 rounded-lg overflow-hidden p-4 md:p-6 mx-auto">
               <p className="text-gray-700 font-mono font-medium">
                 <Typing
                   keyDelay={30}
@@ -49,7 +49,7 @@ export function WebLayoutsLandingSectionsSign(
               {/* Third party Buttons */}
               {section >= 1 && (
                 <div className="mt-2 flex justify-between">
-                  <ul className="flex gap-2">
+                  <ul className="flex gap-2 items-center">
                     <li className="bg-slate-700 p-2 w-min rounded-lg cursor-pointer">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
@@ -130,7 +130,7 @@ export function WebLayoutsLandingSectionsSign(
                       </svg>
                       <input
                         id="password"
-                        type={showEmail ? 'text' : 'password'}
+                        type={showEmail ? 'email' : 'password'}
                         className="form-input pl-0 pt-0 pb-0 font-mono font-medium w-full text-slate-100"
                         placeholder=""
                         required
@@ -173,7 +173,7 @@ export function WebLayoutsLandingSectionsSign(
                         onMouseLeave={() => (space.throttle = 0)}
                         onClick={() => {
                           space.throttle = 0;
-                          section <= 2 && setSection(3);
+                          section == 2 && setSection(3);
                         }}
                       >
                         <button className="text-gray-300 text-sm">
