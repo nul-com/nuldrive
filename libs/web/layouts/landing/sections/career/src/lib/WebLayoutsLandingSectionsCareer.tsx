@@ -62,7 +62,7 @@ export function WebLayoutsLandingSectionsCareer(
                     </svg>
                     <span>Anywhere (EU timezone)</span>
                   </div>
-                  <span className="text-gray-700 mx-3"> - </span>
+                  <span className="text-slate-600 mx-3"> - </span>
                   <div className="inline-flex items-center">
                     <svg
                       className="mr-2 shrink-0"
@@ -130,7 +130,7 @@ export function WebLayoutsLandingSectionsCareer(
                     </svg>
                     <span>Anywhere (EU timezone)</span>
                   </div>
-                  <span className="text-gray-700 mx-3"> - </span>
+                  <span className="text-slate-600 mx-3"> - </span>
                   <div className="inline-flex items-center">
                     <svg
                       className="mr-2 shrink-0"
@@ -198,7 +198,7 @@ export function WebLayoutsLandingSectionsCareer(
                     </svg>
                     <span>Anywhere (EU timezone)</span>
                   </div>
-                  <span className="text-gray-700 mx-3"> - </span>
+                  <span className="text-slate-600 mx-3"> - </span>
                   <div className="inline-flex items-center">
                     <svg
                       className="mr-2 shrink-0"
