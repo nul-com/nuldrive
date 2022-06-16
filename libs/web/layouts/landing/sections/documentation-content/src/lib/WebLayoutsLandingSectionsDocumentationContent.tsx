@@ -198,7 +198,7 @@ export function WebLayoutsLandingSectionsDocumentationContent(
             </svg>
           </div>
         </Link>
-        <hr className="w-full h-px pt-px bg-gray-700 border-0 mt-8" />
+        <hr className="w-full h-px pt-px bg-slate-700 border-0 mt-8" />
       </div>
 
       {/* Feedback */}
@@ -298,7 +298,7 @@ export function WebLayoutsLandingSectionsDocumentationContent(
             </li>
           </ul>
         </div>
-        <hr className="w-full h-px pt-px bg-gray-700 border-0 mt-6" />
+        <hr className="w-full h-px pt-px bg-slate-700 border-0 mt-6" />
       </div>
     </div>
   );
