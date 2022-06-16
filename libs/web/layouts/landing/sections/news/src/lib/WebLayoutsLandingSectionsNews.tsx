@@ -172,13 +172,15 @@ export function WebLayoutsLandingSectionsNews(
                 </p>
                 <footer className="flex items-center mt-4 gap-2">
                   <Link href="#0">
-                    <WebUtilImageLoader
-                      className="rounded-full shrink-0 mr-4"
-                      src="https://r2.eriascdn.com/news-author-02.jpg"
-                      width="40"
-                      height="40"
-                      alt="Author 02"
-                    />
+                    <div className="">
+                      <WebUtilImageLoader
+                        className="rounded-full shrink-0 mr-4"
+                        src="https://r2.eriascdn.com/news-author-02.jpg"
+                        width="40"
+                        height="40"
+                        alt="Author 02"
+                      />
+                    </div>
                   </Link>
                   <div className="font-medium">
                     <a
@@ -247,13 +249,15 @@ export function WebLayoutsLandingSectionsNews(
                 </p>
                 <footer className="flex items-center mt-4 gap-2">
                   <Link href="#0">
-                    <WebUtilImageLoader
-                      className="rounded-full shrink-0 mr-4"
-                      src="https://r2.eriascdn.com/news-author-02.jpg"
-                      width="40"
-                      height="40"
-                      alt="Author 02"
-                    />
+                    <div className="">
+                      <WebUtilImageLoader
+                        className="rounded-full shrink-0 mr-4"
+                        src="https://r2.eriascdn.com/news-author-02.jpg"
+                        width="40"
+                        height="40"
+                        alt="Author 02"
+                      />
+                    </div>
                   </Link>
                   <div className="font-medium">
                     <a
@@ -322,13 +326,15 @@ export function WebLayoutsLandingSectionsNews(
                 </p>
                 <footer className="flex items-center mt-4 gap-2">
                   <Link href="#0">
-                    <WebUtilImageLoader
-                      className="rounded-full shrink-0 mr-4"
-                      src="https://r2.eriascdn.com/news-author-02.jpg"
-                      width="40"
-                      height="40"
-                      alt="Author 02"
-                    />
+                    <div className="">
+                      <WebUtilImageLoader
+                        className="rounded-full shrink-0 mr-4"
+                        src="https://r2.eriascdn.com/news-author-02.jpg"
+                        width="40"
+                        height="40"
+                        alt="Author 02"
+                      />
+                    </div>
                   </Link>
                   <div className="font-medium">
                     <a
