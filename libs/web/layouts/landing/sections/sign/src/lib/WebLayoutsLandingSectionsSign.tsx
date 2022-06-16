@@ -17,6 +17,15 @@ export function WebLayoutsLandingSectionsSign(
   const [showEmail, setShowEmail] = useState<boolean>(true);
   const [showPassword, setShowPassword] = useState<boolean>(false);
 
+  /*
+   * Section 0: Trigger: Page Load / Show Typing into
+   * Section 1: Trigger: Typing effect end / Show third-party buttons and email form
+   * Section 2: Trigger: Input in email form / Continue button in email form triggers space travel animation
+   * Section 3: Trigger: Continue button at email pressed / Show password form
+   * Section 4: Trigger: Input in password form / Continue button in password form triggers space travel animation
+   * Section 5: Trigger: Continue button at password pressed / Register user
+   */
+
   return (
     <section className="relative z-20 h-full">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 h-full">
