@@ -28,15 +28,17 @@ export function WebLayoutsLandingSectionsAboutIntro(
             </p>
           </div>
 
-          <figure className="flex justify-center items-start">
+          <figure
+            className="flex justify-center items-start"
+            data-aos="fade-up"
+            data-aos-delay="400"
+          >
             <WebUtilImageLoader
               className="rounded-xl shadow-2xl z-20"
               src="https://r2.eriascdn.com/hero-image-02.png"
               width="768"
               height="432"
               alt="About us"
-              data-aos="fade-up"
-              data-aos-delay="400"
             />
           </figure>
         </div>
