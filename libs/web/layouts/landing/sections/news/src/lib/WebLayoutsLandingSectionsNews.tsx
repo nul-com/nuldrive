@@ -187,7 +187,7 @@ export function WebLayoutsLandingSectionsNews(
                     >
                       Markus Barker
                     </a>
-                    <span className="text-gray-700"> - </span>
+                    <span className="text-slate-600"> - </span>
                     <span className="text-gray-500">Jan 12, 2020</span>
                   </div>
                 </footer>
@@ -262,7 +262,7 @@ export function WebLayoutsLandingSectionsNews(
                     >
                       Markus Barker
                     </a>
-                    <span className="text-gray-700"> - </span>
+                    <span className="text-slate-600"> - </span>
                     <span className="text-gray-500">Jan 12, 2020</span>
                   </div>
                 </footer>
@@ -337,7 +337,7 @@ export function WebLayoutsLandingSectionsNews(
                     >
                       Markus Barker
                     </a>
-                    <span className="text-gray-700"> - </span>
+                    <span className="text-slate-600"> - </span>
                     <span className="text-gray-500">Jan 12, 2020</span>
                   </div>
                 </footer>
