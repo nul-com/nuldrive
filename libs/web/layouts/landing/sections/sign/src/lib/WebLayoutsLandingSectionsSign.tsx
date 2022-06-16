@@ -16,6 +16,7 @@ export function WebLayoutsLandingSectionsSign(
   const [section, setSection] = useState<number>(0);
   const [showEmail, setShowEmail] = useState<boolean>(true);
   const [showPassword, setShowPassword] = useState<boolean>(false);
+  const [signWithEmail, setSignWithEmail] = useState<boolean>(false);
 
   /*
    * Section 0: Trigger: Page Load / Show Typing into
@@ -91,10 +92,15 @@ export function WebLayoutsLandingSectionsSign(
                   </ul>
                   <ul className="">
                     <li className="h-full">
-                      <div className="flex items-center border border-[#637597] border-green-400 rounded-md px-3 h-full">
-                        <button className=" text-sm text-green-400">
-                          Sign up with Email
-                        </button>
+                      <div
+                        className={`flex items-center border rounded-md px-3 h-full cursor-pointer ${
+                          signWithEmail
+                            ? 'border-green-400 text-green-400'
+                            : 'border-[#637597] text-gray-300'
+                        }`}
+                        onClick={() => setSignWithEmail(!signWithEmail)}
+                      >
+                        <button className=" text-sm">Sign up with Email</button>
                       </div>
                     </li>
                   </ul>
@@ -176,11 +182,28 @@ export function WebLayoutsLandingSectionsSign(
                       </span>
                     </div>
                   </div>
+                  {section == 3 && signWithEmail && (
+                    <div className="flex items-center gap-2 text-green-500 text-sm mt-2 ml-3">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 24 24"
+                        className="w-4 h-4"
+                      >
+                        <path
+                          fill="currentColor"
+                          d="M14.72,8.79l-4.29,4.3L8.78,11.44a1,1,0,1,0-1.41,1.41l2.35,2.36a1,1,0,0,0,.71.29,1,1,0,0,0,.7-.29l5-5a1,1,0,0,0,0-1.42A1,1,0,0,0,14.72,8.79ZM12,2A10,10,0,1,0,22,12,10,10,0,0,0,12,2Zm0,18a8,8,0,1,1,8-8A8,8,0,0,1,12,20Z"
+                        />
+                      </svg>
+                      <p className="">
+                        Please check your e-mail inbox for an activation link
+                      </p>
+                    </div>
+                  )}
                 </div>
               )}
 
               {/* Password input */}
-              {section >= 3 && (
+              {section >= 3 && !signWithEmail && (
                 <div className="mt-5">
                   <label
                     htmlFor=""
