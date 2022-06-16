@@ -1,55 +1,19 @@
-import { ReactElement, useRef, useEffect } from 'react';
-import { WebLayoutsLandingUi } from '@nuldrive/web/layouts/landing/ui';
+import { ReactElement, useRef, useEffect, useState } from 'react';
+import { WebLayoutsLandingSign } from '@nuldrive/web/layouts/landing/sign';
 import { WebLayoutsLandingIllustration } from '@nuldrive/web-layouts-landing-sections-illustration';
-import { WebLayoutsLandingSectionsSignUp } from 'libs/web/layouts/landing/sections/sign-up/src';
-import SpaceTravel from 'space-travel';
+import { WebLayoutsLandingSectionsSignUp } from '@nuldrive/web/layouts/landing/sections/sign-up';
+import WebUtilSpace from '@nuldrive/space';
 
 export interface SignUpProps {}
 export function SignUp(props: SignUpProps) {
-  const canvasRef = useRef<any>();
-  let paused = false;
-  let throttle = 0;
-
-  let space: any;
-
-  const handleHover = () => {
-    space.throttle = 1.2;
-    // var secs = 10;
-    // const upInterval = setInterval(() => {
-    //   throttle += 0.1;
-    //   space.throttle = throttle;
-    //   console.log(throttle);
-
-    //   if (throttle > 1) {
-    //     console.log('reaced');
-    //     clearInterval(upInterval);
-    //   }
-    // }, secs);
-  };
-  const unHandleHover = () => {
-    space.throttle = 0.001;
-  };
+  const canvasRef = useRef<HTMLCanvasElement>();
+  const [space, setSpace] = useState<any>();
 
   useEffect(() => {
-    space = new SpaceTravel({ canvas: canvasRef.current, throttle });
+    const space = new WebUtilSpace({ canvas: canvasRef.current });
     space.start();
-
-    document.addEventListener('visibilitychange', () => {
-      if (paused) {
-        return;
-      }
-
-      if (document.hidden) {
-        space.pause();
-      } else {
-        space.resume();
-      }
-    });
-
-    window.addEventListener('resize', () => {
-      space.resize();
-    });
-  });
+    setSpace(space);
+  }, []);
 
   return (
     <main className="grow">
@@ -59,7 +23,7 @@ export function SignUp(props: SignUpProps) {
       >
         <WebLayoutsLandingIllustration />
       </div>
-      <WebLayoutsLandingSectionsSignUp />
+      <WebLayoutsLandingSectionsSignUp space={space} />
       <canvas
         id="space-travel"
         className="fixed bottom-0 w-full h-full"
@@ -70,7 +34,7 @@ export function SignUp(props: SignUpProps) {
 }
 
 SignUp.getLayout = function getLayout(page: ReactElement) {
-  return <WebLayoutsLandingUi>{page}</WebLayoutsLandingUi>;
+  return <WebLayoutsLandingSign>{page}</WebLayoutsLandingSign>;
 };
 
 export default SignUp;
