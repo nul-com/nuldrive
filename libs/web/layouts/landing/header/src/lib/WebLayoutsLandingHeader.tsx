@@ -199,45 +199,72 @@ export function WebLayoutsLandingHeader(props: WebLayoutsLandingHeaderProps) {
               }
             >
               <ul className="bg-slate-800 px-4 py-2">
-                <li className="flex text-gray-300 hover:text-gray-200 py-2">
+                <li
+                  className="flex text-gray-300 hover:text-gray-200 py-2"
+                  onClick={() => setMobileNavOpen(false)}
+                >
                   <Link href="/features">Features</Link>
                 </li>
-                <li className="flex text-gray-300 hover:text-gray-200 py-2">
+                <li
+                  className="flex text-gray-300 hover:text-gray-200 py-2"
+                  onClick={() => setMobileNavOpen(false)}
+                >
                   <Link href="/pricing">Pricing</Link>
                 </li>
-                <li className="flex text-gray-300 hover:text-gray-200 py-2">
+                <li
+                  className="flex text-gray-300 hover:text-gray-200 py-2"
+                  onClick={() => setMobileNavOpen(false)}
+                >
                   <Link href="/blog">Blog</Link>
                 </li>
-                <li className="flex text-gray-300 hover:text-gray-200 py-2">
+                <li
+                  className="flex text-gray-300 hover:text-gray-200 py-2"
+                  onClick={() => setMobileNavOpen(false)}
+                >
                   <Link href="/about">About us</Link>
                 </li>
                 <li className="py-2 my-2 border-t border-b border-slate-700">
                   <span className="flex text-gray-300 py-2">Support</span>
                   <ul className="pl-4">
                     <Link href="/contact">
-                      <li className="text-sm flex font-medium text-slate-300 hover:text-gray-200 py-2 cursor-pointer">
+                      <li
+                        className="text-sm flex font-medium text-slate-300 hover:text-gray-200 py-2 cursor-pointer"
+                        onClick={() => setMobileNavOpen(false)}
+                      >
                         Contact us
                       </li>
                     </Link>
                     <Link href="/help">
-                      <li className="text-sm flex font-medium text-slate-300 hover:text-gray-200 py-2 cursor-pointer">
+                      <li
+                        className="text-sm flex font-medium text-slate-300 hover:text-gray-200 py-2 cursor-pointer"
+                        onClick={() => setMobileNavOpen(false)}
+                      >
                         Help center
                       </li>
                     </Link>
                     <Link href="/tutorials">
-                      <li className="text-sm flex font-medium text-slate-300 hover:text-gray-200 py-2 cursor-pointer">
+                      <li
+                        className="text-sm flex font-medium text-slate-300 hover:text-gray-200 py-2 cursor-pointer"
+                        onClick={() => setMobileNavOpen(false)}
+                      >
                         Tutorials
                       </li>
                     </Link>
                   </ul>
                 </li>
                 <Link href="/signin">
-                  <li className="flex font-medium w-full text-purple-600 hover:text-gray-200 py-2 justify-center cursor-pointer">
+                  <li
+                    className="flex font-medium w-full text-purple-600 hover:text-gray-200 py-2 justify-center cursor-pointer"
+                    onClick={() => setMobileNavOpen(false)}
+                  >
                     Sign in
                   </li>
                 </Link>
                 <Link href="/signup">
-                  <li className="font-medium w-full inline-flex items-center justify-center border border-transparent px-4 py-2 my-2 rounded-sm text-white bg-purple-600 hover:bg-purple-700 transition duration-150 ease-in-out cursor-pointer">
+                  <li
+                    className="font-medium w-full inline-flex items-center justify-center border border-transparent px-4 py-2 my-2 rounded-sm text-white bg-purple-600 hover:bg-purple-700 transition duration-150 ease-in-out cursor-pointer"
+                    onClick={() => setMobileNavOpen(false)}
+                  >
                     Sign up
                   </li>
                 </Link>
