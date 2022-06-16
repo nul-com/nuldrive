@@ -10,7 +10,7 @@ export function WebLayoutsLandingSectionsFeaturesWorld(
 ) {
   return (
     <section>
-      <div className="absolute left-0 right-0 m-auto w-px p-px h-20 bg-gray-700 transform -translate-y-1/2"></div>
+      <div className="absolute left-0 right-0 m-auto w-px p-px h-20 bg-slate-700 transform -translate-y-1/2"></div>
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
         <div className="py-12 md:py-20">
           {/* Section header */}
@@ -331,7 +331,7 @@ export function WebLayoutsLandingSectionsFeaturesWorld(
                   r="32"
                 />
                 <path
-                  className="fill-current text-gray-700"
+                  className="fill-current text-slate-700"
                   d="M37.11 32.44l-1.69 4.646-8.458-3.078.676-1.859-4.773 1.42 2.744 4.156.677-1.858 9.396 3.42a.994.994 0 001.278-.587l2.03-5.576-1.88-.684zM27.037 30.878l1.691-4.646 8.457 3.078-.676 1.858 4.773-1.42-2.744-4.155-.676 1.858-9.397-3.42a.994.994 0 00-1.278.587l-2.03 5.576 1.88.684z"
                 />
               </svg>
