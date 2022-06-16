@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import Link from 'next/link';
+import NProgress from 'nprogress';
 
 import styles from './WebLayoutsLandingSectionsSignIn.module.css';
 
@@ -13,7 +14,7 @@ export function WebLayoutsLandingSectionsSignIn(
 ) {
   let { space } = props;
 
-  const [section, setSection] = useState<number>(0);
+  const [section, setSection] = useState<number>(1);
   const [showEmail, setShowEmail] = useState<boolean>(true);
   const [showPassword, setShowPassword] = useState<boolean>(false);
   const [signWithEmail, setSignWithEmail] = useState<boolean>(false);
@@ -33,19 +34,6 @@ export function WebLayoutsLandingSectionsSignIn(
         <div className="pt-32 md:pt-40 h-full flex justify-between flex-col">
           <div className="">
             <div className="bg-gray-800 max-w-[606px] border border-gray-650 rounded-lg overflow-hidden p-4 md:p-6 mx-auto">
-              <p className="text-gray-700 font-mono font-medium">
-                {/* <Typing
-                  keyDelay={30}
-                  delay={1000}
-                  onDone={(event: any) => {
-                    setSection(1);
-                  }}
-                >
-                  Welcome to nuldrive!
-                  <br /> Let's begin the adventure
-                </Typing> */}
-              </p>
-
               {/* Third party Buttons */}
               {section >= 1 && (
                 <div className="mt-2 flex justify-between">
@@ -92,15 +80,11 @@ export function WebLayoutsLandingSectionsSignIn(
                   </ul>
                   <ul className="">
                     <li className="h-full">
-                      <div
-                        className={`flex items-center border rounded-md px-3 h-full cursor-pointer ${
-                          signWithEmail
-                            ? 'border-green-400 text-green-400'
-                            : 'border-[#637597] text-gray-300'
-                        }`}
-                        onClick={() => setSignWithEmail(!signWithEmail)}
-                      >
-                        <button className=" text-sm">Sign up with Email</button>
+                      <div className="flex items-center rounded-md px-3 h-full">
+                        {/* <div id="nprogress" className="spinner">
+                          <div className="spinner-icon"></div>
+                        </div> */}
+                        <button className="text-sm text-green-400">Sign in with Password</button>
                       </div>
                     </li>
                   </ul>
