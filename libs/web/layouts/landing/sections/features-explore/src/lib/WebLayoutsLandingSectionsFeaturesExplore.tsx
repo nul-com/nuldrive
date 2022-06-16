@@ -33,7 +33,7 @@ export function WebLayoutsLandingSectionsFeaturesExplore(
         className="absolute inset-0 bg-slate-900 pointer-events-none mb-16"
         aria-hidden="true"
       ></div>
-      <div className="absolute left-0 right-0 m-auto w-px p-px h-20 bg-gray-700 transform -translate-y-1/2"></div>
+      <div className="absolute left-0 right-0 m-auto w-px p-px h-20 bg-slate-700 transform -translate-y-1/2"></div>
 
       <div className="relative max-w-6xl mx-auto px-4 sm:px-6">
         <div className="pt-12 md:pt-20">
@@ -103,7 +103,7 @@ export function WebLayoutsLandingSectionsFeaturesExplore(
                         administrative features built for teams.
                       </div>
                     </div>
-                    <div className="flex justify-center items-center w-8 h-8 bg-gray-700 text-purple-600 rounded-full shadow shrink-0 ml-3">
+                    <div className="flex justify-center items-center w-8 h-8 bg-slate-700 text-purple-600 rounded-full shadow shrink-0 ml-3">
                       <svg
                         className="w-3 h-3 fill-current"
                         viewBox="0 0 12 12"
@@ -141,7 +141,7 @@ export function WebLayoutsLandingSectionsFeaturesExplore(
                         administrative features built for teams.
                       </div>
                     </div>
-                    <div className="flex justify-center items-center w-8 h-8 bg-gray-700 text-purple-600 rounded-full shadow shrink-0 ml-3">
+                    <div className="flex justify-center items-center w-8 h-8 bg-slate-700 text-purple-600 rounded-full shadow shrink-0 ml-3">
                       <svg
                         className="w-3 h-3 fill-current"
                         viewBox="0 0 12 12"
@@ -182,7 +182,7 @@ export function WebLayoutsLandingSectionsFeaturesExplore(
                         administrative features built for teams.
                       </div>
                     </div>
-                    <div className="flex justify-center items-center w-8 h-8 bg-gray-700 text-purple-600 rounded-full shadow shrink-0 ml-3">
+                    <div className="flex justify-center items-center w-8 h-8 bg-slate-700 text-purple-600 rounded-full shadow shrink-0 ml-3">
                       <svg
                         className="w-3 h-3 fill-current"
                         viewBox="0 0 12 12"
