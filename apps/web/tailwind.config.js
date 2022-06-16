@@ -133,6 +133,10 @@ module.exports = {
           '50%': { transform: 'translateY(-5%)' },
         },
       },
+      screens: {
+        navIcon: '833px',
+        // => @media (min-width: 640px) { ... }
+      },
     },
   },
   plugins: [require('@tailwindcss/forms')],

@@ -1,4 +1,4 @@
-import Image from 'next/image';
+import NextImage from 'next/image';
 
 import styles from './WebUtilImageloader.module.css';
 
@@ -28,7 +28,7 @@ const imageLoader = (props: IimageLoader) => {
 export function WebUtilImageLoader(props: WebUtilImageLoaderProps) {
   const { src, width, height, quality, alt, className, style, layout } = props;
   return (
-    <Image
+    <NextImage
       loader={imageLoader}
       src={src}
       className={className}

@@ -2,6 +2,7 @@ import { useState } from 'react';
 import { Modal } from '@nuldrive/web-layouts-landing-sections-hero';
 import Typical from 'react-typical';
 import { WebUtilImageLoader } from '@nuldrive/web/util/imageLoader';
+import Link from 'next/link';
 
 import styles from './WebLayoutsLandingHero.module.css';
 
@@ -105,21 +106,19 @@ export function WebLayoutsLandingHero(props: WebLayoutsLandingHeroProps) {
                 data-aos="zoom-y-out"
                 data-aos-delay="300"
               >
-                <div data-aos="fade-up" data-aos-delay="400">
-                  <a
-                    className="btn text-white bg-purple-600 hover:bg-blue-700 rounded-lg w-full mb-4 sm:w-auto sm:mb-0"
-                    href="#0"
-                  >
-                    Start free trial
-                  </a>
+                <div
+                  className="btn text-white bg-purple-600 hover:bg-blue-700 rounded-lg w-full mb-4 sm:w-auto sm:mb-0"
+                  data-aos="fade-up"
+                  data-aos-delay="400"
+                >
+                  <Link href="#0">Start free trial</Link>
                 </div>
-                <div data-aos="fade-up" data-aos-delay="600">
-                  <a
-                    className="btn text-white bg-slate-700 hover:bg-slate-750 rounded-lg w-full sm:w-auto sm:ml-4"
-                    href="#0"
-                  >
-                    Learn more
-                  </a>
+                <div
+                  className="btn text-white bg-slate-700 hover:bg-slate-750 rounded-lg w-full sm:w-auto sm:ml-4"
+                  data-aos="fade-up"
+                  data-aos-delay="600"
+                >
+                  <Link href="#0">Learn more</Link>
                 </div>
               </div>
             </div>

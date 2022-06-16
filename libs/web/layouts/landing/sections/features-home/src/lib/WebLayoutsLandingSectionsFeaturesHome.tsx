@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import { WebUtilImageLoader } from '@nuldrive/web/util/imageLoader';
 
 import styles from './WebLayoutsLandingSectionsFeaturesHome.module.css';
@@ -147,12 +148,9 @@ export function WebLayoutsLandingSectionsFeaturesHome(
                           — Anastasia Dan
                         </cite>{' '}
                         -{' '}
-                        <a
-                          className="text-purple-600 hover:text-gray-200 transition duration-150 ease-in-out"
-                          href="#0"
-                        >
-                          UX Board
-                        </a>
+                        <span className="text-purple-600 hover:text-gray-200 transition duration-150 ease-in-out">
+                          <Link href="#0">UX Board</Link>
+                        </span>
                       </div>
                     </div>
                   </div>

@@ -10,6 +10,7 @@ const nextConfig = {
     // See: https://github.com/gregberge/svgr
     svgr: false,
   },
+  images: { disableStaticImages: true, loader: 'custom' },
 };
 
 module.exports = withNx(nextConfig);
