@@ -187,6 +187,9 @@
         "libs/web/layouts/landing/ui/src/index.ts"
       ],
       "@nuldrive/web/util/accordion": ["libs/web/util/accordion/src/index.ts"],
+      "@nuldrive/web/util/add-script": [
+        "libs/web/util/add-script/src/index.ts"
+      ],
       "@nuldrive/web/util/avatar": ["libs/web/util/avatar/src/index.ts"],
       "@nuldrive/web/util/buttons/bucketSelect": [
         "libs/web/util/buttons/bucketSelect/src/index.ts"

@@ -60,6 +60,7 @@
     "web-layouts-landing-sign": "libs/web/layouts/landing/sign",
     "web-layouts-landing-ui": "libs/web/layouts/landing/ui",
     "web-util-accordion": "libs/web/util/accordion",
+    "web-util-add-script": "libs/web/util/add-script",
     "web-util-avatar": "libs/web/util/avatar",
     "web-util-buttons-bucketSelect": "libs/web/util/buttons/bucketSelect",
     "web-util-buttons-invite": "libs/web/util/buttons/invite",
