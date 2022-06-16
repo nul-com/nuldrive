@@ -4,7 +4,7 @@ export function MyDocument<Document>() {
   return (
     <Html>
       <Head />
-      <body>
+      <body className="bg-slate-900">
         <Main />
         <NextScript />
       </body>
