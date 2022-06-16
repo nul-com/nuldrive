@@ -7,7 +7,11 @@ import {
 import styles from './WebUtilAvatar.module.css';
 
 /* eslint-disable-next-line */
-export interface WebUtilAvatarProps extends WebUtilImageLoaderProps {}
+export interface WebUtilAvatarProps {
+  src: any;
+  width: any;
+  height: any;
+}
 
 export function WebUtilAvatar(props: WebUtilAvatarProps, { ...rest }) {
   const { src, width, height } = props;
