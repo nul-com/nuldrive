@@ -14,6 +14,7 @@ module.exports = {
         sans: ['Proppins, sans-serif', ...defaultTheme.fontFamily.sans],
         inter: ['Inter', 'sans-serif'],
         'architects-daughter': ['"Architects Daughter"', 'sans-serif'],
+        mono: ['Roboto Mono', 'monospace'],
       },
       spacing: {
         header: '47px',
@@ -69,10 +70,10 @@ module.exports = {
           400: '#9BA9B4',
           500: '#707D86',
           600: '#55595F',
-          700: '#33363A',
-          750: '#1f2124',
-          800: '#25282C',
-          900: '#090f23',
+          650: '#202637', // border-Color for sign
+          700: '#627597', // text-Color for sign
+          800: '#0c162d', // modal-Color for sign
+          900: '#040d21', // background-Color for sign
         },
         purple: {
           100: '#F4F4FF',
