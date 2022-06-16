@@ -1,5 +1,6 @@
 import { ReactElement, useEffect, useRef, useState } from 'react';
 import { WebLayoutsLandingSign } from '@nuldrive/web/layouts/landing/sign';
+import { WebLayoutsLandingIllustration } from '@nuldrive/web-layouts-landing-sections-illustration';
 import { WebLayoutsLandingSectionsSignIn } from '@nuldrive/web/layouts/landing/sections/sign-in';
 import WebUtilSpace from '@nuldrive/space';
 import { WebLayoutsLandingSectionsSign } from '@nuldrive/web/layouts/landing/sections/sign';
@@ -17,6 +18,12 @@ export function SignIn(props: SignInProps) {
 
   return (
     <main className="grow">
+      <div
+        className="relative max-w-6xl mx-auto h-0 pointer-events-none"
+        aria-hidden="true"
+      >
+        <WebLayoutsLandingIllustration />
+      </div>
       <WebLayoutsLandingSectionsSign space={space} />
       <canvas className="fixed top-0 w-full h-full" ref={canvasRef}></canvas>
     </main>
