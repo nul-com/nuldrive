@@ -24,7 +24,7 @@ export function WebLayoutsLandingSectionsStatsCircle(
             </p>
           </div>
 
-          <div className="grid md:grid-cols-3 bg-slate-750 divide-y md:divide-y-0 md:divide-x divide-gray-700 px-6 md:px-0 md:py-8 text-center">
+          <div className="grid md:grid-cols-3 bg-slate-750 divide-y md:divide-y-0 md:divide-x divide-slate-600 px-6 md:px-0 md:py-8 text-center">
             {/* 1st item */}
             <div className="py-6 md:py-0 md:px-8">
               <div
