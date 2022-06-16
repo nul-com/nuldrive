@@ -11,7 +11,7 @@ export interface WebLayoutsLandingSignProps {
 export function WebLayoutsLandingSign(props: WebLayoutsLandingSignProps) {
   const { children } = props;
   return (
-    <div className="overflow-hidden flex flex-col min-h-screen font-inter antialiased bg-slate-900 text-gray-200 tracking-tight">
+    <div className="overflow-hidden flex flex-col min-h-screen h-screen font-inter antialiased bg-slate-900 text-gray-200 tracking-tight">
       <WebLayoutsLandingHeader />
       {children}
     </div>
