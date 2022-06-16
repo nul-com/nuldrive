@@ -53,7 +53,7 @@ export function WebLayoutsLandingSectionsPost(
                           Chris Solerieu
                         </p>
                       </Link>
-                      <span className="text-gray-700"> - </span>
+                      <span className="text-slate-600"> - </span>
                       <span className="text-gray-500">Jan 19, 2020</span>
                     </div>
                   </div>
@@ -241,7 +241,7 @@ export function WebLayoutsLandingSectionsPost(
                   <ul className="inline-flex mt-4 md:ml-4 md:mb-0">
                     <li className="cursor-pointer">
                       <Link href="#">
-                        <div className="flex justify-center items-center text-purple-600 bg-gray-800 hover:text-gray-100 hover:bg-purple-600 rounded-full transition duration-150 ease-in-out cursor-pointer">
+                        <div className="flex justify-center items-center text-purple-600 bg-slate-700 hover:text-gray-100 hover:bg-purple-600 rounded-full transition duration-150 ease-in-out cursor-pointer">
                           <svg
                             className="w-8 h-8 fill-current"
                             viewBox="0 0 32 32"
@@ -254,7 +254,7 @@ export function WebLayoutsLandingSectionsPost(
                     </li>
                     <li className="ml-4 cursor-pointer">
                       <Link href="#">
-                        <div className="flex justify-center items-center text-purple-600 bg-gray-800 hover:text-gray-100 hover:bg-purple-600 rounded-full transition duration-150 ease-in-out cursor-pointer">
+                        <div className="flex justify-center items-center text-purple-600 bg-slate-700 hover:text-gray-100 hover:bg-purple-600 rounded-full transition duration-150 ease-in-out cursor-pointer">
                           <svg
                             className="w-8 h-8 fill-current"
                             viewBox="0 0 32 32"
@@ -267,7 +267,7 @@ export function WebLayoutsLandingSectionsPost(
                     </li>
                     <li className="ml-4 cursor-pointer">
                       <Link href="#">
-                        <div className="flex justify-center items-center text-purple-600 bg-gray-800 hover:text-gray-100 hover:bg-purple-600 rounded-full transition duration-150 ease-in-out cursor-pointer">
+                        <div className="flex justify-center items-center text-purple-600 bg-slate-700 hover:text-gray-100 hover:bg-purple-600 rounded-full transition duration-150 ease-in-out cursor-pointer">
                           <svg
                             className="w-8 h-8 fill-current"
                             viewBox="0 0 32 32"
@@ -357,7 +357,7 @@ export function WebLayoutsLandingSectionsPost(
                           Alexandra Smith
                         </p>
                       </Link>
-                      <span className="text-gray-700"> - </span>
+                      <span className="text-slate-600"> - </span>
                       <span className="text-gray-500">Jan 7, 2020</span>
                     </div>
                   </footer>
@@ -423,7 +423,7 @@ export function WebLayoutsLandingSectionsPost(
                           Lisa Crockett
                         </p>
                       </Link>
-                      <span className="text-gray-700"> - </span>
+                      <span className="text-slate-600"> - </span>
                       <span className="text-gray-500">Jan 4, 2020</span>
                     </div>
                   </footer>
@@ -496,7 +496,7 @@ export function WebLayoutsLandingSectionsPost(
                           Anton Sebastian
                         </p>
                       </Link>
-                      <span className="text-gray-700"> - </span>
+                      <span className="text-slate-600"> - </span>
                       <span className="text-gray-500">Jan 2, 2020</span>
                     </div>
                   </footer>
