@@ -1,6 +1,6 @@
 {
-  "root": "libs/web/util/buttons/bucketselect",
-  "sourceRoot": "libs/web/util/buttons/bucketselect/src",
+  "root": "libs/web/util/buttons/bucketSelect",
+  "sourceRoot": "libs/web/util/buttons/bucketSelect/src",
   "projectType": "library",
   "tags": [],
   "targets": {
@@ -9,15 +9,15 @@
       "outputs": ["{options.outputFile}"],
       "options": {
         "lintFilePatterns": [
-          "libs/web/util/buttons/bucketselect/**/*.{ts,tsx,js,jsx}"
+          "libs/web/util/buttons/bucketSelect/**/*.{ts,tsx,js,jsx}"
         ]
       }
     },
     "test": {
       "executor": "@nrwl/jest:jest",
-      "outputs": ["coverage/libs/web/util/buttons/bucketselect"],
+      "outputs": ["coverage/libs/web/util/buttons/bucketSelect"],
       "options": {
-        "jestConfig": "libs/web/util/buttons/bucketselect/jest.config.js",
+        "jestConfig": "libs/web/util/buttons/bucketSelect/jest.config.js",
         "passWithNoTests": true
       }
     }
