@@ -1,9 +1,9 @@
 import { ReactElement, useEffect, useRef, useState } from 'react';
 import { WebLayoutsLandingSign } from '@nuldrive/web/layouts/landing/sign';
 import { WebLayoutsLandingIllustration } from '@nuldrive/web-layouts-landing-sections-illustration';
-import { WebLayoutsLandingSectionsSignIn } from '@nuldrive/web/layouts/landing/sections/sign-in';
 import WebUtilSpace from '@nuldrive/space';
 import { WebLayoutsLandingSectionsSign } from '@nuldrive/web/layouts/landing/sections/sign';
+import { WebLayoutsLandingSectionsSignIn } from '@nuldrive/web/layouts/landing/sections/sign-in';
 
 export interface SignInProps {}
 export function SignIn(props: SignInProps) {
@@ -24,7 +24,7 @@ export function SignIn(props: SignInProps) {
       >
         <WebLayoutsLandingIllustration />
       </div>
-      <WebLayoutsLandingSectionsSign space={space} />
+      <WebLayoutsLandingSectionsSignIn space={space} />
       <canvas className="fixed top-0 w-full h-full" ref={canvasRef}></canvas>
     </main>
   );
