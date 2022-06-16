@@ -162,7 +162,7 @@ export function WebLayoutsLandingSectionsDocumentationContent(
       <div className="mt-8">
         <h3 className="h3 mb-8">Related</h3>
         <Link href="#0">
-          <div className="flex justify-between items-center p-4 rounded border border-gray-600 transition duration-300 ease-in-out bg-slate-750 hover:bg-slate-700 shadow-md hover:shadow-lg mb-4 cursor-pointer">
+          <div className="flex justify-between items-center p-4 rounded border border-slate-600 transition duration-300 ease-in-out bg-slate-750 hover:bg-slate-700 shadow-md hover:shadow-lg mb-4 cursor-pointer">
             <div>
               <div className="text-normal font-medium mb-1">
                 Folder components
@@ -182,7 +182,7 @@ export function WebLayoutsLandingSectionsDocumentationContent(
           </div>
         </Link>
         <Link href="#0">
-          <div className="flex justify-between items-center p-4 rounded border border-gray-600 transition duration-300 ease-in-out bg-slate-750 hover:bg-slate-700 shadow-md hover:shadow-lg mb-4 cursor-pointer">
+          <div className="flex justify-between items-center p-4 rounded border border-slate-600 transition duration-300 ease-in-out bg-slate-750 hover:bg-slate-700 shadow-md hover:shadow-lg mb-4 cursor-pointer">
             <div>
               <div className="text-normal font-medium mb-1">Deploy hooks</div>
               <div className="text-sm text-slate-300">
