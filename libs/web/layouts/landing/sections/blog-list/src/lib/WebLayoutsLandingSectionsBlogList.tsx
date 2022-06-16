@@ -85,7 +85,7 @@ export function WebLayoutsLandingSectionsBlogList(
                     <span className="font-medium text-gray-200 hover:text-gray-100 transition ml-4 duration-150 ease-in-out">
                       <Link href="#">Chris Solerieu</Link>
                     </span>
-                    <span className="text-gray-700"> - </span>
+                    <span className="text-slate-600"> - </span>
                     <span className="text-gray-500">Jan 19, 2020</span>
                   </div>
                 </footer>
@@ -158,7 +158,7 @@ export function WebLayoutsLandingSectionsBlogList(
                     <span className="text-gray-200 hover:text-gray-100 transition duration-150 ease-in-out">
                       <Link href="#">Anastasia Dan</Link>
                     </span>
-                    <span className="text-gray-700"> - </span>
+                    <span className="text-slate-600"> - </span>
                     <span className="text-gray-500">Jan 17, 2020</span>
                   </div>
                 </footer>
@@ -216,7 +216,7 @@ export function WebLayoutsLandingSectionsBlogList(
                     <span className="text-gray-200 hover:text-gray-100 transition duration-150 ease-in-out">
                       <Link href="#">Anastasia Dan</Link>
                     </span>
-                    <span className="text-gray-700"> - </span>
+                    <span className="text-slate-600"> - </span>
                     <span className="text-gray-500">Jan 17, 2020</span>
                   </div>
                 </footer>
@@ -274,7 +274,7 @@ export function WebLayoutsLandingSectionsBlogList(
                     <span className="text-gray-200 hover:text-gray-100 transition duration-150 ease-in-out">
                       <Link href="#">Anastasia Dan</Link>
                     </span>
-                    <span className="text-gray-700"> - </span>
+                    <span className="text-slate-600"> - </span>
                     <span className="text-gray-500">Jan 17, 2020</span>
                   </div>
                 </footer>
@@ -332,7 +332,7 @@ export function WebLayoutsLandingSectionsBlogList(
                     <span className="text-gray-200 hover:text-gray-100 transition duration-150 ease-in-out">
                       <Link href="#">Anastasia Dan</Link>
                     </span>
-                    <span className="text-gray-700"> - </span>
+                    <span className="text-slate-600"> - </span>
                     <span className="text-gray-500">Jan 17, 2020</span>
                   </div>
                 </footer>
@@ -390,7 +390,7 @@ export function WebLayoutsLandingSectionsBlogList(
                     <span className="text-gray-200 hover:text-gray-100 transition duration-150 ease-in-out">
                       <Link href="#">Anastasia Dan</Link>
                     </span>
-                    <span className="text-gray-700"> - </span>
+                    <span className="text-slate-600"> - </span>
                     <span className="text-gray-500">Jan 17, 2020</span>
                   </div>
                 </footer>
@@ -448,7 +448,7 @@ export function WebLayoutsLandingSectionsBlogList(
                     <span className="text-gray-200 hover:text-gray-100 transition duration-150 ease-in-out">
                       <Link href="#">Anastasia Dan</Link>
                     </span>
-                    <span className="text-gray-700"> - </span>
+                    <span className="text-slate-600"> - </span>
                     <span className="text-gray-500">Jan 17, 2020</span>
                   </div>
                 </footer>
@@ -506,7 +506,7 @@ export function WebLayoutsLandingSectionsBlogList(
                     <span className="text-gray-200 hover:text-gray-100 transition duration-150 ease-in-out">
                       <Link href="#">Anastasia Dan</Link>
                     </span>
-                    <span className="text-gray-700"> - </span>
+                    <span className="text-slate-600"> - </span>
                     <span className="text-gray-500">Jan 17, 2020</span>
                   </div>
                 </footer>
@@ -564,7 +564,7 @@ export function WebLayoutsLandingSectionsBlogList(
                     <span className="text-gray-200 hover:text-gray-100 transition duration-150 ease-in-out">
                       <Link href="#">Anastasia Dan</Link>
                     </span>
-                    <span className="text-gray-700"> - </span>
+                    <span className="text-slate-600"> - </span>
                     <span className="text-gray-500">Jan 17, 2020</span>
                   </div>
                 </footer>
@@ -622,7 +622,7 @@ export function WebLayoutsLandingSectionsBlogList(
                     <span className="text-gray-200 hover:text-gray-100 transition duration-150 ease-in-out">
                       <Link href="#">Anastasia Dan</Link>
                     </span>
-                    <span className="text-gray-700"> - </span>
+                    <span className="text-slate-600"> - </span>
                     <span className="text-gray-500">Jan 17, 2020</span>
                   </div>
                 </footer>
