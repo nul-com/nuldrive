@@ -23,7 +23,7 @@ export function ListHover(props: MenuHoverProps) {
       initial={false}
       transition={spring}
       layoutId="hover"
-      className="absolute left-0 right-0 rounded-md bg-slate-700 bg-opacity-40 z-10 backdrop-blur-sm"
+      className="absolute left-0 right-0 rounded-md bg-slate-700 bg-opacity-60 z-10 backdrop-blur-sm"
       style={{
         top: -7,
         bottom: -7,
