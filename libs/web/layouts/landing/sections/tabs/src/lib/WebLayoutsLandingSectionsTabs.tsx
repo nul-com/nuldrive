@@ -173,7 +173,7 @@ export function WebLayoutsLandingSectionsTabs(
                       width={516}
                       height={387}
                       alt="Tabs 01"
-                      layout="fill"
+                      // layout="fill"
                     />
                   </figure>
                   <div className="relative bg-slate-700 rounded-2xl md:rounded-l-2xl md:rounded-r-none py-8 md:py-16 px-6 md:pr-16 md:max-w-lg lg:max-w-xl">
@@ -226,7 +226,7 @@ export function WebLayoutsLandingSectionsTabs(
                       width={516}
                       height={387}
                       alt="Tabs 02"
-                      layout="fill"
+                      // layout="fill"
                     />
                   </figure>
                   <div className="relative bg-slate-700 rounded-2xl md:rounded-r-2xl md:rounded-l-none py-8 md:py-16 px-6 md:pl-16 md:max-w-lg lg:max-w-xl md:ml-auto">
@@ -278,7 +278,7 @@ export function WebLayoutsLandingSectionsTabs(
                       width="516"
                       height="387"
                       alt="Tabs 01"
-                      layout="fill"
+                      // layout="fill"
                     />
                   </figure>
                   <div className="relative bg-slate-700 rounded-2xl md:rounded-l-2xl md:rounded-r-none py-8 md:py-16 px-6 md:pr-16 md:max-w-lg lg:max-w-xl">
@@ -330,7 +330,7 @@ export function WebLayoutsLandingSectionsTabs(
                       width="516"
                       height="387"
                       alt="Tabs 02"
-                      layout="fill"
+                      // layout="fill"
                     />
                   </figure>
                   <div className="relative bg-slate-700 py-8 rounded-2xl md:rounded-r-2xl md:rounded-l-none md:py-16 px-6 md:pl-16 md:max-w-lg lg:max-w-xl md:ml-auto">
@@ -382,7 +382,7 @@ export function WebLayoutsLandingSectionsTabs(
                       width="516"
                       height="387"
                       alt="Tabs 01"
-                      layout="fill"
+                      // layout="fill"
                     />
                   </figure>
                   <div className="relative bg-slate-700 rounded-2xl md:rounded-l-2xl md:rounded-r-none py-8 md:py-16 px-6 md:pr-16 md:max-w-lg lg:max-w-xl">
