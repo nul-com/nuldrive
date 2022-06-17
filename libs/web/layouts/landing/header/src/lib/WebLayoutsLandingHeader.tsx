@@ -82,7 +82,11 @@ export function WebLayoutsLandingHeader(props: WebLayoutsLandingHeaderProps) {
         !top && 'bg-slate-900 backdrop-blur-sm shadow-lg'
       }`}
     >
-      <Script id="show-banner" type="text/javascript" strategy="afterInteractive">
+      <Script
+        id="show-banner"
+        type="text/javascript"
+        strategy="afterInteractive"
+      >
         {`var ps = new ParticleSlider({ ptlGap: 0, ptlSize: 1, width: 200, height: 500, mouseForce: 100 }); ps.restless = false; ps.init(true);`}
       </Script>
       <Script
