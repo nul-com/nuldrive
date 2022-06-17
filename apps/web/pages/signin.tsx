@@ -7,7 +7,7 @@ import { WebLayoutsLandingSectionsSignIn } from '@nuldrive/web/layouts/landing/s
 
 export interface SignInProps {}
 export function SignIn(props: SignInProps) {
-  // const canvasRef = useRef<any>();
+  const canvasRef = useRef<any>();
   const [space, setSpace] = useState<any>();
 
   useEffect(() => {
