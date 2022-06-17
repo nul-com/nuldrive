@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { Modal } from '@nuldrive/web-layouts-landing-sections-hero';
-// import Typical from 'react-typical';
+import TypeAnimation from 'react-type-animation';
 import { WebUtilImageLoader } from '@nuldrive/web/util/imageLoader';
 import Link from 'next/link';
 
@@ -62,8 +62,12 @@ export function WebLayoutsLandingHero(props: WebLayoutsLandingHeroProps) {
               The Storage for
               <br />{' '}
               <span className="bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-teal-400">
-                {/* <Typical
-                  steps={[
+                <TypeAnimation
+                  cursor={true}
+                  className="type"
+                  loop={Infinity}
+                  wrapper="span"
+                  sequence={[
                     300,
                     'developers',
                     4000,
@@ -86,9 +90,7 @@ export function WebLayoutsLandingHero(props: WebLayoutsLandingHeroProps) {
                     'planners',
                     4000,
                   ]}
-                  loop={Infinity}
-                  wrapper="span"
-                /> */}
+                />
               </span>
             </h1>
             <div className="max-w-3xl mx-auto">
@@ -139,7 +141,7 @@ export function WebLayoutsLandingHero(props: WebLayoutsLandingHeroProps) {
                   setVideoModalOpen(true);
                 }}
               >
-                <img
+                <WebUtilImageLoader
                   className="mx-auto rounded-xl"
                   src="https://r2.eriascdn.com/hero-image-01.png"
                   width={768}
