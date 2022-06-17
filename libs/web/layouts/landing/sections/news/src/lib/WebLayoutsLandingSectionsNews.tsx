@@ -128,7 +128,7 @@ export function WebLayoutsLandingSectionsNews(
                   <div className="block mb-6">
                     <Link href="/blog-post">
                       <figure className="relative h-0 pb-9/16 overflow-hidden rounded-sm">
-                        <WebUtilImageLoader
+                        <img
                           className="absolute inset-0 w-full h-full object-cover transform hover:scale-105 transition duration-700 ease-out"
                           src="https://r2.eriascdn.com/news-02.jpg"
                           width="352"
@@ -173,7 +173,7 @@ export function WebLayoutsLandingSectionsNews(
                 <footer className="flex items-center mt-4 gap-2">
                   <Link href="#0">
                     <div className="">
-                      <WebUtilImageLoader
+                      <img
                         className="rounded-full shrink-0 mr-4"
                         src="https://r2.eriascdn.com/news-author-02.jpg"
                         width="40"
@@ -205,7 +205,7 @@ export function WebLayoutsLandingSectionsNews(
                   <div className="block mb-6">
                     <Link href="/blog-post">
                       <figure className="relative h-0 pb-9/16 overflow-hidden rounded-sm">
-                        <WebUtilImageLoader
+                        <img
                           className="absolute inset-0 w-full h-full object-cover transform hover:scale-105 transition duration-700 ease-out"
                           src="https://r2.eriascdn.com/news-02.jpg"
                           width="352"
@@ -250,7 +250,7 @@ export function WebLayoutsLandingSectionsNews(
                 <footer className="flex items-center mt-4 gap-2">
                   <Link href="#0">
                     <div className="">
-                      <WebUtilImageLoader
+                      <img
                         className="rounded-full shrink-0 mr-4"
                         src="https://r2.eriascdn.com/news-author-02.jpg"
                         width="40"
@@ -282,7 +282,7 @@ export function WebLayoutsLandingSectionsNews(
                   <div className="block mb-6">
                     <Link href="/blog-post">
                       <figure className="relative h-0 pb-9/16 overflow-hidden rounded-sm">
-                        <WebUtilImageLoader
+                        <img
                           className="absolute inset-0 w-full h-full object-cover transform hover:scale-105 transition duration-700 ease-out"
                           src="https://r2.eriascdn.com/news-02.jpg"
                           width="352"
@@ -327,7 +327,7 @@ export function WebLayoutsLandingSectionsNews(
                 <footer className="flex items-center mt-4 gap-2">
                   <Link href="#0">
                     <div className="">
-                      <WebUtilImageLoader
+                      <img
                         className="rounded-full shrink-0 mr-4"
                         src="https://r2.eriascdn.com/news-author-02.jpg"
                         width="40"

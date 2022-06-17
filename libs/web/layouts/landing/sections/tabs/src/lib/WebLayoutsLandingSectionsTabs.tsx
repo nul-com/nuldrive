@@ -167,7 +167,7 @@ export function WebLayoutsLandingSectionsTabs(
               >
                 <article className="relative max-w-md mx-auto md:max-w-none">
                   <figure className="hidden md:block md:absolute md:inset-y-0 md:right-0 md:w-1/2">
-                    <WebUtilImageLoader
+                    <img
                       className="w-full h-full object-cover rounded-t-2xl md:rounded-r-2xl"
                       src="https://r2.eriascdn.com/tabs-image-01.jpg"
                       width={516}
@@ -220,7 +220,7 @@ export function WebLayoutsLandingSectionsTabs(
               >
                 <article className="relative max-w-md mx-auto md:max-w-none">
                   <figure className="hidden md:block md:absolute md:inset-y-0 md:left-0 md:w-1/2 md:translate-x-3">
-                    <WebUtilImageLoader
+                    <img
                       className="w-full h-full object-cover rounded-t-2xl md:rounded-tr-none md:rounded-l-2xl"
                       src="https://r2.eriascdn.com/tabs-image-01.jpg"
                       width={516}
@@ -272,7 +272,7 @@ export function WebLayoutsLandingSectionsTabs(
               >
                 <article className="relative max-w-md mx-auto md:max-w-none">
                   <figure className="hidden md:block md:absolute md:inset-y-0 md:right-0 md:w-1/2">
-                    <WebUtilImageLoader
+                    <img
                       className="w-full h-full object-cover rounded-t-2xl md:rounded-r-2xl"
                       src="https://r2.eriascdn.com/tabs-image-01.jpg"
                       width="516"
@@ -324,7 +324,7 @@ export function WebLayoutsLandingSectionsTabs(
               >
                 <article className="relative max-w-md mx-auto md:max-w-none">
                   <figure className="hidden md:block md:absolute md:inset-y-0 md:left-0 md:w-1/2 right-0 md:translate-x-3">
-                    <WebUtilImageLoader
+                    <img
                       className="w-full h-full object-cover rounded-t-2xl md:rounded-tr-none md:rounded-l-2xl"
                       src="https://r2.eriascdn.com/hero-image-01.jpg"
                       width="516"
@@ -376,7 +376,7 @@ export function WebLayoutsLandingSectionsTabs(
               >
                 <article className="relative max-w-md mx-auto md:max-w-none">
                   <figure className="hidden md:block md:absolute md:inset-y-0 md:right-0 md:w-1/2">
-                    <WebUtilImageLoader
+                    <img
                       className="w-full h-full object-cover rounded-t-2xl md:rounded-r-2xl"
                       src="https://r2.eriascdn.com/tabs-image-01.jpg"
                       width="516"
