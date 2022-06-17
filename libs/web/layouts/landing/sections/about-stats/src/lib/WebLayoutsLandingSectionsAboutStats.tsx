@@ -409,7 +409,7 @@ export function WebLayoutsLandingSectionsAboutStats(
               <div className="h3 mb-1">
                 <span>$</span>
                 <CountUp end={20} redraw={true}>
-                  {({ countUpRef, start }) => (
+                  {({ countUpRef, start }: { countUpRef: any; start: any }) => (
                     <VisibilitySensor onChange={start} delayedCall>
                       <span ref={countUpRef} />
                     </VisibilitySensor>
@@ -431,7 +431,7 @@ export function WebLayoutsLandingSectionsAboutStats(
             >
               <div className="h3 mb-1">
                 <CountUp end={250} duration={2.75} redraw={true}>
-                  {({ countUpRef, start }) => (
+                  {({ countUpRef, start } : { countUpRef: any; start: any }) => (
                     <VisibilitySensor onChange={start} delayedCall>
                       <span ref={countUpRef} />
                     </VisibilitySensor>
@@ -453,7 +453,7 @@ export function WebLayoutsLandingSectionsAboutStats(
             >
               <div className="h3 mb-1">
                 <CountUp end={20} redraw={true}>
-                  {({ countUpRef, start }) => (
+                  {({ countUpRef, start } : { countUpRef: any; start: any }) => (
                     <VisibilitySensor onChange={start} delayedCall>
                       <span ref={countUpRef} />
                     </VisibilitySensor>
@@ -475,7 +475,7 @@ export function WebLayoutsLandingSectionsAboutStats(
             >
               <div className="h3 mb-1">
                 <CountUp end={400} duration={3} redraw={true}>
-                  {({ countUpRef, start }) => (
+                  {({ countUpRef, start } : { countUpRef: any; start: any }) => (
                     <VisibilitySensor onChange={start} delayedCall>
                       <span ref={countUpRef} />
                     </VisibilitySensor>

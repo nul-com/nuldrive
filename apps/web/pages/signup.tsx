@@ -6,7 +6,7 @@ import WebUtilSpace from '@nuldrive/space';
 
 export interface SignUpProps {}
 export function SignUp(props: SignUpProps) {
-  const canvasRef = useRef<HTMLCanvasElement>();
+  const canvasRef = useRef<any>();
   const [space, setSpace] = useState<any>();
 
   useEffect(() => {

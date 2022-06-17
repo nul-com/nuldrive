@@ -32,7 +32,7 @@ export function WebLayoutsLandingSectionsStatsCircle(
                 data-aos="fade-up"
               >
                 <CountUp end={179} duration={3} redraw={true}>
-                  {({ countUpRef, start }) => (
+                  {({ countUpRef, start } : { countUpRef: any; start: any }) => (
                     <VisibilitySensor onChange={start} delayedCall>
                       <span ref={countUpRef} />
                     </VisibilitySensor>
@@ -55,7 +55,7 @@ export function WebLayoutsLandingSectionsStatsCircle(
                 data-aos="fade-up"
               >
                 <CountUp end={147} duration={2.5} redraw={true}>
-                  {({ countUpRef, start }) => (
+                  {({ countUpRef, start } : { countUpRef: any; start: any }) => (
                     <VisibilitySensor onChange={start} delayedCall>
                       <span ref={countUpRef} />
                     </VisibilitySensor>
@@ -79,7 +79,7 @@ export function WebLayoutsLandingSectionsStatsCircle(
               >
                 <span>$</span>
                 <CountUp end={97} redraw={true}>
-                  {({ countUpRef, start }) => (
+                  {({ countUpRef, start } : { countUpRef: any; start: any }) => (
                     <VisibilitySensor onChange={start} delayedCall>
                       <span ref={countUpRef} />
                     </VisibilitySensor>
