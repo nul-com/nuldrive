@@ -6,14 +6,14 @@ import WebUtilSpace from '@nuldrive/space';
 
 export interface SignUpProps {}
 export function SignUp(props: SignUpProps) {
-  const canvasRef = useRef<any>();
-  const [space, setSpace] = useState<any>();
+  // const canvasRef = useRef<any>();
+  // const [space, setSpace] = useState<any>();
 
-  useEffect(() => {
-    const space = new WebUtilSpace({ canvas: canvasRef.current });
-    space.start();
-    setSpace(space);
-  }, []);
+  // useEffect(() => {
+  //   const space = new WebUtilSpace({ canvas: canvasRef.current });
+  //   space.start();
+  //   setSpace(space);
+  // }, []);
 
   return (
     <main className="grow">
@@ -23,12 +23,12 @@ export function SignUp(props: SignUpProps) {
       >
         <WebLayoutsLandingIllustration />
       </div>
-      <WebLayoutsLandingSectionsSignUp space={space} />
+      {/* <WebLayoutsLandingSectionsSignUp space={space} />
       <canvas
         id="space-travel"
         className="fixed bottom-0 w-full h-full"
         ref={canvasRef}
-      ></canvas>
+      ></canvas> */}
     </main>
   );
 }
