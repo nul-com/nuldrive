@@ -8,13 +8,13 @@ import { WebLayoutsLandingSectionsSignIn } from '@nuldrive/web/layouts/landing/s
 export interface SignInProps {}
 export function SignIn(props: SignInProps) {
   // const canvasRef = useRef<any>();
-  // const [space, setSpace] = useState<any>();
+  const [space, setSpace] = useState<any>();
 
-  // useEffect(() => {
-  //   const space = new WebUtilSpace({ canvas: canvasRef.current });
-  //   space.start();
-  //   setSpace(space);
-  // }, []);
+  useEffect(() => {
+    const space = new WebUtilSpace({ canvas: canvasRef.current });
+    space.start();
+    setSpace(space);
+  }, []);
 
   return (
     <main className="grow">
@@ -24,8 +24,8 @@ export function SignIn(props: SignInProps) {
       >
         <WebLayoutsLandingIllustration />
       </div>
-      {/* <WebLayoutsLandingSectionsSignIn space={space} />
-      <canvas className="fixed top-0 w-full h-full" ref={canvasRef}></canvas> */}
+      <WebLayoutsLandingSectionsSignIn space={space} />
+      <canvas className="fixed top-0 w-full h-full" ref={canvasRef}></canvas>
     </main>
   );
 }
