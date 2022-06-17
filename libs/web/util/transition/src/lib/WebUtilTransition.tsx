@@ -1,4 +1,4 @@
-import React, { useRef, useEffect, useContext } from 'react';
+import { useRef, useEffect, useContext, createContext } from 'react';
 import { CssTransition } from '@nuldrive/web/util/transition';
 
 import styles from './transition.module.css';
@@ -10,7 +10,7 @@ export interface WebUtilTransitionProps {
   className?: any;
 }
 
-const TransitionContext = React.createContext({
+const TransitionContext = createContext({
   parent: {},
 });
 
