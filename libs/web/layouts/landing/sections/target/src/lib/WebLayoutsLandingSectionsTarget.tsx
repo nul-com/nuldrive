@@ -30,7 +30,7 @@ export function WebLayoutsLandingSectionsTarget(
                 data-aos-delay="200"
                 data-aos-anchor="[data-aos-id-target]"
               >
-                <WebUtilImageLoader
+                <img
                   className="mx-auto md:max-w-none"
                   src="https://r2.eriascdn.com/features-02-image.png"
                   width="540"

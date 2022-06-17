@@ -24,14 +24,14 @@ export function WebLayoutsLandingSectionsFeaturesHome(
                 data-aos-anchor="[data-aos-id-features-home]"
               >
                 <div className="relative">
-                  <WebUtilImageLoader
+                  <img
                     className="md:max-w-none"
                     src="https://r2.eriascdn.com/features-illustration.png"
                     width={540}
                     height={520}
                     alt="Features illustration"
                   />
-                  <svg
+                  {/* <svg
                     className="absolute inset-0 max-w-full mx-auto md:max-w-none h-auto md:inset-auto md:-top-16 md:-left-16 lg:inset-0"
                     width="540"
                     height="520"
@@ -59,7 +59,7 @@ export function WebLayoutsLandingSectionsFeaturesHome(
                         r="64"
                       />
                     </g>
-                  </svg>
+                  </svg> */}
                 </div>
               </div>
               {/* Content */}

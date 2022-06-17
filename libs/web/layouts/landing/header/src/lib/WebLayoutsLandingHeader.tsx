@@ -82,7 +82,7 @@ export function WebLayoutsLandingHeader(props: WebLayoutsLandingHeaderProps) {
         !top && 'bg-slate-900 backdrop-blur-sm shadow-lg'
       }`}
     >
-      <Script
+      {/* <Script
         id="show-banner"
         type="text/javascript"
         strategy="afterInteractive"
@@ -92,13 +92,13 @@ export function WebLayoutsLandingHeader(props: WebLayoutsLandingHeaderProps) {
       <Script
         src="https://r2.eriascdn.com/ps-0.9.js"
         strategy="beforeInteractive"
-      ></Script>
+      ></Script> */}
       <div className="max-w-6xl mx-auto pr-4 sm:pr-6">
         <div className="flex items-center justify-between h-20">
           {/* Site branding */}
           <div className="">
             {/* Logo */}
-            <div className="block w-[150px] h-full relative md:w-[85px] navIcon:w-[150px]">
+            {/* <div className="block w-[150px] h-full relative md:w-[85px] navIcon:w-[150px]">
               <Link href="/" aria-label="Cruip">
                 <div className="w-full h-full" id="particle-slider">
                   <div className="slides">
@@ -111,7 +111,7 @@ export function WebLayoutsLandingHeader(props: WebLayoutsLandingHeaderProps) {
                   <canvas className="draw"></canvas>
                 </div>
               </Link>
-            </div>
+            </div> */}
           </div>
 
           {/* Desktop navigation */}

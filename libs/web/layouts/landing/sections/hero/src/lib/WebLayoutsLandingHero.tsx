@@ -139,7 +139,7 @@ export function WebLayoutsLandingHero(props: WebLayoutsLandingHeroProps) {
                   setVideoModalOpen(true);
                 }}
               >
-                <WebUtilImageLoader
+                <img
                   className="mx-auto rounded-xl"
                   src="https://r2.eriascdn.com/hero-image-01.png"
                   width={768}
