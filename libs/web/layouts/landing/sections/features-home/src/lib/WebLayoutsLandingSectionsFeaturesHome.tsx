@@ -24,7 +24,7 @@ export function WebLayoutsLandingSectionsFeaturesHome(
                 data-aos-anchor="[data-aos-id-features-home]"
               >
                 <div className="relative">
-                  <img
+                  <WebUtilImageLoader
                     className="md:max-w-none"
                     src="https://r2.eriascdn.com/features-illustration.png"
                     width={540}
@@ -131,7 +131,7 @@ export function WebLayoutsLandingSectionsFeaturesHome(
                     </li>
                   </ul>
                   <div className="flex items-start mt-8">
-                    <img
+                    <WebUtilImageLoader
                       className="rounded-full shrink-0 mr-4"
                       src="https://r2.eriascdn.com/features-avatar.jpg"
                       width="40"

@@ -3,7 +3,7 @@
   "compilerOptions": {
     "outDir": "../../../../../../dist/out-tsc",
     "types": ["node"],
-    "typeRoots": ["./react-typical.d.ts"]
+    "typeRoots": ["react-type-animation.d.ts"]
   },
   "files": [
     "../../../../../../node_modules/@nrwl/react/typings/cssmodule.d.ts",

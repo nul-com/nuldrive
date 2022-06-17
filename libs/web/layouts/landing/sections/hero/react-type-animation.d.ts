@@ -1,7 +1,9 @@
-declare module 'react-typical' {
+declare module 'react-type-animation' {
   interface TypicalProps {
-    steps: (string | number)[];
+    sequence: (string | number)[];
+    cursor: boolean;
     loop?: number;
+    className?: string;
     wrapper?: string;
   }
 

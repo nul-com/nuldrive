@@ -1,3 +1,5 @@
+import { WebUtilImageLoader } from '@nuldrive/web/util/imageLoader';
+
 import Link from 'next/link';
 
 import styles from './WebLayoutsLandingSectionsPost.module.css';
@@ -39,8 +41,8 @@ export function WebLayoutsLandingSectionsPost(
                     data-aos-delay="400"
                   >
                     <Link href="#">
-                      <img
-                        className="rounded-full shrink-0 mr-4"
+                      <WebUtilImageLoader
+                        className="rounded-full shrink-0"
                         src="https://r2.eriascdn.com/news-author-04.jpg"
                         width="40"
                         height="40"
@@ -49,9 +51,9 @@ export function WebLayoutsLandingSectionsPost(
                     </Link>
                     <div>
                       <Link href="#">
-                        <p className="font-medium text-gray-200 hover:text-gray-100 transition duration-150 ease-in-out">
+                        <span className="font-medium text-gray-200 hover:text-gray-100 ml-4 transition duration-150 ease-in-out">
                           Chris Solerieu
-                        </p>
+                        </span>
                       </Link>
                       <span className="text-slate-600"> - </span>
                       <span className="text-gray-500">Jan 19, 2020</span>
@@ -89,7 +91,7 @@ export function WebLayoutsLandingSectionsPost(
                 data-aos="fade-up"
                 data-aos-delay="600"
               >
-                <img
+                <WebUtilImageLoader
                   className="w-full"
                   src="https://r2.eriascdn.com/news-single.jpg"
                   width="1024"
@@ -132,13 +134,15 @@ export function WebLayoutsLandingSectionsPost(
                   viewers. New York Times projected that the e-commerce industry
                   would generate $905 million in revenue in 2020.
                 </blockquote>
-                <p className="mb-8 no-underline">
-                  Pretium lectus quam id leo. Urna et pharetra pharetra massa
-                  massa. Eget sit amet tellus cras adipiscing enim eu. Neque
-                  aliquam vestibulum morbi blandit cursus risus.
-                </p>
+                <div className="mb-8 no-underline">
+                  <p className="">
+                    Pretium lectus quam id leo. Urna et pharetra pharetra massa
+                    massa. Eget sit amet tellus cras adipiscing enim eu. Neque
+                    aliquam vestibulum morbi blandit cursus risus.
+                  </p>
+                </div>
                 <figure className="mb-8">
-                  <img
+                  <WebUtilImageLoader
                     className="w-full"
                     src="https://r2.eriascdn.com/news-inner-image.jpg"
                     width="768"
@@ -300,7 +304,7 @@ export function WebLayoutsLandingSectionsPost(
                     <Link href="/blog-post">
                       <div className="block mb-6 cursor-pointer">
                         <figure className="relative h-0 pb-9/16 overflow-hidden rounded-sm">
-                          <img
+                          <WebUtilImageLoader
                             className="absolute inset-0 w-full h-full object-cover transform hover:scale-105 transition duration-700 ease-out"
                             src="https://r2.eriascdn.com/news-04.jpg"
                             width="352"
@@ -343,8 +347,8 @@ export function WebLayoutsLandingSectionsPost(
                   </p>
                   <footer className="flex items-center mt-4">
                     <Link href="#">
-                      <img
-                        className="rounded-full shrink-0 mr-4 cursor-pointer"
+                      <WebUtilImageLoader
+                        className="rounded-full shrink-0 cursor-pointer"
                         src="https://r2.eriascdn.com/news-author-05.jpg"
                         width="40"
                         height="40"
@@ -353,9 +357,9 @@ export function WebLayoutsLandingSectionsPost(
                     </Link>
                     <div className="font-medium">
                       <Link href="#">
-                        <p className="text-gray-200 hover:text-gray-100 transition duration-150 ease-in-out cursor-pointer">
+                        <span className="text-gray-200 hover:text-gray-100 transition ml-4 duration-150 ease-in-out cursor-pointer">
                           Alexandra Smith
-                        </p>
+                        </span>
                       </Link>
                       <span className="text-slate-600"> - </span>
                       <span className="text-gray-500">Jan 7, 2020</span>
@@ -373,7 +377,7 @@ export function WebLayoutsLandingSectionsPost(
                     <Link href="/blog-post">
                       <div className="block mb-6 cursor-pointer">
                         <figure className="relative h-0 pb-9/16 overflow-hidden rounded-sm">
-                          <img
+                          <WebUtilImageLoader
                             className="absolute inset-0 w-full h-full object-cover transform hover:scale-105 transition duration-700 ease-out"
                             src="https://r2.eriascdn.com/news-05.jpg"
                             width="352"
@@ -409,8 +413,8 @@ export function WebLayoutsLandingSectionsPost(
                   </p>
                   <footer className="flex items-center mt-4">
                     <Link href="#">
-                      <img
-                        className="rounded-full shrink-0 mr-4 cursor-pointer"
+                      <WebUtilImageLoader
+                        className="rounded-full shrink-0 cursor-pointer"
                         src="https://r2.eriascdn.com/news-author-03.jpg"
                         width="40"
                         height="40"
@@ -419,9 +423,9 @@ export function WebLayoutsLandingSectionsPost(
                     </Link>
                     <div className="font-medium">
                       <Link href="#">
-                        <p className="text-gray-200 hover:text-gray-100 transition duration-150 ease-in-out cursor-pointer">
+                        <span className="text-gray-200 hover:text-gray-100 ml-4 transition duration-150 ease-in-out cursor-pointer">
                           Lisa Crockett
-                        </p>
+                        </span>
                       </Link>
                       <span className="text-slate-600"> - </span>
                       <span className="text-gray-500">Jan 4, 2020</span>
@@ -439,7 +443,7 @@ export function WebLayoutsLandingSectionsPost(
                     <Link href="/blog-post">
                       <div className="block mb-6 cursor-pointer">
                         <figure className="relative h-0 pb-9/16 overflow-hidden rounded-sm">
-                          <img
+                          <WebUtilImageLoader
                             className="absolute inset-0 w-full h-full object-cover transform hover:scale-105 transition duration-700 ease-out"
                             src="https://r2.eriascdn.com/news-06.jpg"
                             width="352"
@@ -482,8 +486,8 @@ export function WebLayoutsLandingSectionsPost(
                   </p>
                   <footer className="flex items-center mt-4">
                     <Link href="#">
-                      <img
-                        className="rounded-full shrink-0 mr-4 cursor-pointer"
+                      <WebUtilImageLoader
+                        className="rounded-full shrink-0 cursor-pointer"
                         src="https://r2.eriascdn.com/news-author-06.jpg"
                         width="40"
                         height="40"
@@ -492,9 +496,9 @@ export function WebLayoutsLandingSectionsPost(
                     </Link>
                     <div className="font-medium">
                       <Link href="#">
-                        <p className="text-gray-200 hover:text-gray-100 transition duration-150 ease-in-out cursor-pointer">
+                        <span className="text-gray-200 hover:text-gray-100 ml-4 transition duration-150 ease-in-out cursor-pointer">
                           Anton Sebastian
-                        </p>
+                        </span>
                       </Link>
                       <span className="text-slate-600"> - </span>
                       <span className="text-gray-500">Jan 2, 2020</span>

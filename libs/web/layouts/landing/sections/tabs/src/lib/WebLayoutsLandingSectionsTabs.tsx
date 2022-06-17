@@ -167,13 +167,13 @@ export function WebLayoutsLandingSectionsTabs(
               >
                 <article className="relative max-w-md mx-auto md:max-w-none">
                   <figure className="hidden md:block md:absolute md:inset-y-0 md:right-0 md:w-1/2">
-                    <img
+                    <WebUtilImageLoader
                       className="w-full h-full object-cover rounded-t-2xl md:rounded-r-2xl"
                       src="https://r2.eriascdn.com/tabs-image-01.jpg"
                       width={516}
                       height={387}
                       alt="Tabs 01"
-                      // layout="fill"
+                      layout="fill"
                     />
                   </figure>
                   <div className="relative bg-slate-700 rounded-2xl md:rounded-l-2xl md:rounded-r-none py-8 md:py-16 px-6 md:pr-16 md:max-w-lg lg:max-w-xl">
@@ -220,13 +220,13 @@ export function WebLayoutsLandingSectionsTabs(
               >
                 <article className="relative max-w-md mx-auto md:max-w-none">
                   <figure className="hidden md:block md:absolute md:inset-y-0 md:left-0 md:w-1/2 md:translate-x-3">
-                    <img
+                    <WebUtilImageLoader
                       className="w-full h-full object-cover rounded-t-2xl md:rounded-tr-none md:rounded-l-2xl"
                       src="https://r2.eriascdn.com/tabs-image-01.jpg"
                       width={516}
                       height={387}
                       alt="Tabs 02"
-                      // layout="fill"
+                      layout="fill"
                     />
                   </figure>
                   <div className="relative bg-slate-700 rounded-2xl md:rounded-r-2xl md:rounded-l-none py-8 md:py-16 px-6 md:pl-16 md:max-w-lg lg:max-w-xl md:ml-auto">
@@ -272,13 +272,13 @@ export function WebLayoutsLandingSectionsTabs(
               >
                 <article className="relative max-w-md mx-auto md:max-w-none">
                   <figure className="hidden md:block md:absolute md:inset-y-0 md:right-0 md:w-1/2">
-                    <img
+                    <WebUtilImageLoader
                       className="w-full h-full object-cover rounded-t-2xl md:rounded-r-2xl"
                       src="https://r2.eriascdn.com/tabs-image-01.jpg"
                       width="516"
                       height="387"
                       alt="Tabs 01"
-                      // layout="fill"
+                      layout="fill"
                     />
                   </figure>
                   <div className="relative bg-slate-700 rounded-2xl md:rounded-l-2xl md:rounded-r-none py-8 md:py-16 px-6 md:pr-16 md:max-w-lg lg:max-w-xl">
@@ -324,13 +324,13 @@ export function WebLayoutsLandingSectionsTabs(
               >
                 <article className="relative max-w-md mx-auto md:max-w-none">
                   <figure className="hidden md:block md:absolute md:inset-y-0 md:left-0 md:w-1/2 right-0 md:translate-x-3">
-                    <img
+                    <WebUtilImageLoader
                       className="w-full h-full object-cover rounded-t-2xl md:rounded-tr-none md:rounded-l-2xl"
                       src="https://r2.eriascdn.com/hero-image-01.jpg"
                       width="516"
                       height="387"
                       alt="Tabs 02"
-                      // layout="fill"
+                      layout="fill"
                     />
                   </figure>
                   <div className="relative bg-slate-700 py-8 rounded-2xl md:rounded-r-2xl md:rounded-l-none md:py-16 px-6 md:pl-16 md:max-w-lg lg:max-w-xl md:ml-auto">
@@ -376,13 +376,13 @@ export function WebLayoutsLandingSectionsTabs(
               >
                 <article className="relative max-w-md mx-auto md:max-w-none">
                   <figure className="hidden md:block md:absolute md:inset-y-0 md:right-0 md:w-1/2">
-                    <img
+                    <WebUtilImageLoader
                       className="w-full h-full object-cover rounded-t-2xl md:rounded-r-2xl"
                       src="https://r2.eriascdn.com/tabs-image-01.jpg"
                       width="516"
                       height="387"
                       alt="Tabs 01"
-                      // layout="fill"
+                      layout="fill"
                     />
                   </figure>
                   <div className="relative bg-slate-700 rounded-2xl md:rounded-l-2xl md:rounded-r-none py-8 md:py-16 px-6 md:pr-16 md:max-w-lg lg:max-w-xl">

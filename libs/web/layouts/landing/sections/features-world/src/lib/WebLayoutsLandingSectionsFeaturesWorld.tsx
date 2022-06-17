@@ -29,7 +29,7 @@ export function WebLayoutsLandingSectionsFeaturesWorld(
           <div className="flex flex-col items-center pt-12 md:pt-16">
             <div className="relative">
               {/* Halo effect */}
-              {/* <svg
+              <svg
                 className="absolute inset-0 left-1/2 top-1/2 transform -translate-x-1/2 -translate-y-1/2 pointer-events-none"
                 width="800"
                 height="800"
@@ -42,9 +42,9 @@ export function WebLayoutsLandingSectionsFeaturesWorld(
                   <circle className="pulse pulse-1" cx="400" cy="400" r="200" />
                   <circle className="pulse pulse-2" cx="400" cy="400" r="200" />
                 </g>
-              </svg> */}
+              </svg>
               {/* Globe image */}
-              <img
+              <WebUtilImageLoader
                 className="relative rounded-full shadow-xl"
                 src="https://r2.eriascdn.com/planet.png"
                 width={400}

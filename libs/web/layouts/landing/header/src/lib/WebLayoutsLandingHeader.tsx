@@ -2,8 +2,6 @@ import React, { useState, useRef, useEffect, Fragment } from 'react';
 import Link from 'next/link';
 import { WebLayoutsLandingList } from '@nuldrive/web-util-list';
 import { Dropdown } from '@nuldrive/web/layouts/landing/header';
-import { webUtilAddScript } from '@nuldrive/web/util/add-script';
-import { webUtilRemoveScript } from '@nuldrive/web/util/remove-script';
 // const ParticleSlider = require('../../ps-0.9.js');
 import Script from 'next/script';
 
@@ -53,29 +51,6 @@ export function WebLayoutsLandingHeader(props: WebLayoutsLandingHeaderProps) {
     return () => window.removeEventListener('scroll', scrollHandler);
   }, [top]);
 
-  // useEffect(() => {
-  //   const script = webUtilAddScript({
-  //     src: 'https://r2.eriascdn.com/ps-0.9.js',
-  //     id: 'particle-slider',
-  //     onLoad: () => {
-  //       console.log('Particle Slider script loaded!');
-  //     },
-  //   });
-
-  //   //@ts-ignore
-  //   var ps = new ParticleSlider({
-  //     ptlGap: 0,
-  //     ptlSize: 1,
-  //     width: 1e9,
-  //     height: 1e9,
-  //   });
-  //   ps.restless = false;
-
-  //   return () => webUtilRemoveScript({ id: script.id });
-  // });
-  // new ParticleSlider({ ptlGap: 0, ptlSize: 1, width: 1e9, height: 1e9 });
-  // ps.restless = false;
-
   return (
     <header
       className={`fixed w-full z-30 md:bg-opacity-90 transition duration-300 ease-in-out ${
@@ -93,12 +68,222 @@ export function WebLayoutsLandingHeader(props: WebLayoutsLandingHeaderProps) {
         src="https://r2.eriascdn.com/ps-0.9.js"
         strategy="beforeInteractive"
       ></Script> */}
-      <div className="max-w-6xl mx-auto pr-4 sm:pr-6">
+      <div className="max-w-6xl mx-auto px-4 sm:px-6">
         <div className="flex items-center justify-between h-20">
           {/* Site branding */}
-          <div className="">
+          <div className="shrink-0 mr-4 block">
             {/* Logo */}
-            {/* <div className="block w-[150px] h-full relative md:w-[85px] navIcon:w-[150px]">
+            <Link href="/" aria-label="nuldrive">
+              <svg
+                width="102"
+                height="80"
+                viewBox="0 0 102 80"
+                fill="none"
+                className="w-10 h-10 cursor-pointer"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M7.28571 2.08163L1.73469 0L3.12245 7.63266L8.5 8.2612L7.28571 2.08163Z"
+                  fill="white"
+                />
+                <path
+                  d="M29.8367 10.7551L7.28571 2.08163L8.5 8.2612L29.8367 10.7551Z"
+                  fill="#DC7602"
+                />
+                <path
+                  d="M3.12245 7.63266L7.63265 31.2245L21.8571 25.6665L29.8367 10.7551L8.5 8.2612L3.12245 7.63266Z"
+                  fill="#F7AD37"
+                />
+                <path
+                  d="M7.63265 31.2245L12.6633 42.847L21.8571 25.6665L7.63265 31.2245Z"
+                  fill="#F8842E"
+                />
+                <path
+                  d="M7.63265 31.2245L0 43.3674L12.6633 42.847L7.63265 31.2245Z"
+                  fill="#BB4B1F"
+                />
+                <path
+                  d="M0 43.3674L12.1429 60.8878L12.6633 42.847L0 43.3674Z"
+                  fill="#760011"
+                />
+                <path
+                  d="M12.6633 42.847L19.7755 53.949L27.9286 32.7857L12.6633 42.847Z"
+                  fill="#DB7501"
+                />
+                <path
+                  d="M41.6327 23.4184L29.8367 10.7551L21.8571 25.6665L12.6633 42.847L27.9286 32.7857L41.6327 23.4184Z"
+                  fill="#BD491E"
+                />
+                <path
+                  d="M40.0714 5.37755L29.8367 10.7551L41.6327 23.4184L40.4184 5.24203L40.0714 5.37755Z"
+                  fill="#F8852C"
+                />
+                <path
+                  d="M51 33.4796L41.6327 23.4184L27.9286 32.7857L19.7755 53.949L30.0102 49.6123L33.4796 41.8062L40.5918 43.8878L51 33.4796Z"
+                  fill="#F7832D"
+                />
+                <path
+                  d="M40.4184 5.24203L41.6327 23.4184L51 33.4796L45.7092 19.3608L40.4184 5.24203Z"
+                  fill="#BB4920"
+                />
+                <path
+                  d="M12.6633 42.847L12.1429 60.8878L26.0204 64.146L19.7755 53.949L12.6633 42.847Z"
+                  fill="#BA481D"
+                />
+                <path
+                  d="M32.0918 65.5715L30.0102 49.6123L19.7755 53.949L32.0918 65.5715Z"
+                  fill="#D97501"
+                />
+                <path
+                  d="M32.0918 65.5715L19.7755 53.949L26.0204 64.146L32.0918 65.5715Z"
+                  fill="#750010"
+                />
+                <path
+                  d="M44.2347 50.8266L40.5918 43.8878L33.4796 41.8062L35.5612 48.5715L44.2347 50.8266Z"
+                  fill="#080A15"
+                />
+                <path
+                  d="M66.4388 48.5715L69.0408 41.9796L61.2347 43.5408L57.7653 50.8266L66.4388 48.5715Z"
+                  fill="#080A15"
+                />
+                <path
+                  d="M51 58.2858L44.5816 62.6225L51 68.347L57.4184 62.6225L51 58.2858Z"
+                  fill="#080A15"
+                />
+                <path
+                  d="M35.5612 48.5715L33.4796 41.8062L30.0102 49.6123L32.0918 65.5715L35.5612 48.5715Z"
+                  fill="#BA491B"
+                />
+                <path
+                  d="M32.0918 65.5715L39.551 56.3776L44.2347 50.8266L35.5612 48.5715L32.0918 65.5715Z"
+                  fill="#770013"
+                />
+                <path
+                  d="M32.0918 65.5715L44.5816 76.6735L39.0306 64.0775L32.0918 65.5715Z"
+                  fill="#BB4A1C"
+                />
+                <path
+                  d="M44.5816 76.6735V68.1735V62.6225L39.0306 64.0775L44.5816 76.6735Z"
+                  fill="#F7832F"
+                />
+                <path
+                  d="M32.0918 65.5715L39.0306 64.0775L44.5816 62.6225L39.551 56.3776L32.0918 65.5715Z"
+                  fill="#D97503"
+                />
+                <path
+                  d="M60.299 23.4184L61.5816 5.20409L51 33.4796L60.299 23.4184Z"
+                  fill="#BB4920"
+                />
+                <path
+                  d="M72.1633 10.5816L61.5816 5.20409L60.299 23.4184L72.1633 10.5816Z"
+                  fill="#F8852C"
+                />
+                <path
+                  d="M72.1633 10.5816L60.299 23.4184L74.9388 33.3061L89.1633 43.0204L80.1579 25.6735L72.1633 10.5816Z"
+                  fill="#B8491D"
+                />
+                <path
+                  d="M94.7143 31.2245L98.8776 8.84694V7.28572L93.5 7.94918L72.1633 10.5816L80.1579 25.6735L94.7143 31.2245Z"
+                  fill="#F7AD37"
+                />
+                <path
+                  d="M98.8776 7.28572L99.9184 0.346939L95.2347 2.07404L93.5 7.94918L98.8776 7.28572Z"
+                  fill="white"
+                />
+                <path
+                  d="M95.2347 2.07404L72.1633 10.5816L93.5 7.94918L95.2347 2.07404Z"
+                  fill="#DC7602"
+                />
+                <path
+                  d="M89.1633 43.0204L94.7143 31.2245L80.1579 25.6735L89.1633 43.0204Z"
+                  fill="#F8842E"
+                />
+                <path
+                  d="M102 43.3674L94.7143 31.2245L89.1633 43.0204L102 43.3674Z"
+                  fill="#BB4B1F"
+                />
+                <path
+                  d="M90.0306 60.8878L102 43.3674L89.1633 43.0204L90.0306 60.8878Z"
+                  fill="#760011"
+                />
+                <path
+                  d="M90.0306 60.8878L89.1633 43.0204L82.398 54.1181L76.3265 64.0775L90.0306 60.8878Z"
+                  fill="#BA481D"
+                />
+                <path
+                  d="M82.398 54.1181L89.1633 43.0204L74.9388 33.3061L82.398 54.1181Z"
+                  fill="#DB7501"
+                />
+                <path
+                  d="M69.9082 65.5715L76.3265 64.0775L82.398 54.1181L76.1531 59.8448L69.9082 65.5715Z"
+                  fill="#750010"
+                />
+                <path
+                  d="M69.9082 65.5715L76.1531 59.8448L82.398 54.1181L71.9898 49.4388L69.9082 65.5715Z"
+                  fill="#D97501"
+                />
+                <path
+                  d="M69.0408 41.9796L71.9898 49.4388L82.398 54.1181L74.9388 33.3061L60.299 23.4184L51 33.4796L61.2347 43.5408L69.0408 41.9796Z"
+                  fill="#F7832D"
+                />
+                <path
+                  d="M69.9082 65.5715L71.9898 49.4388L69.0408 41.9796L66.4388 48.5715L69.9082 65.5715Z"
+                  fill="#B94A1E"
+                />
+                <path
+                  d="M69.9082 65.5715L66.4388 48.5715L57.7653 50.8266L62.3367 56.3776L69.9082 65.5715Z"
+                  fill="#BA491B"
+                />
+                <path
+                  d="M57.7653 50.8266L61.2347 43.5408L51 33.4796L57.7653 50.8266Z"
+                  fill="#9D7575"
+                />
+                <path
+                  d="M51 58.2858L57.4184 62.6225L62.3367 56.3776L57.7653 50.8266L51 58.2858Z"
+                  fill="#F6842D"
+                />
+                <path
+                  d="M62.9694 64.0775L69.9082 65.5715L62.3367 56.3776L57.4184 62.6225L62.9694 64.0775Z"
+                  fill="#D97503"
+                />
+                <path
+                  d="M57.4184 76.5001L69.9082 65.5715L62.9694 64.0775L57.4184 76.5001Z"
+                  fill="#BB4A1C"
+                />
+                <path
+                  d="M57.4184 76.5001L62.9694 64.0775L57.4184 62.6225V68.1735V76.5001Z"
+                  fill="#F7832F"
+                />
+                <path
+                  d="M44.5816 76.6735L51 79.6225H51.3469L57.4184 76.5001V68.1735L51 72.5103L44.5816 68.1735V76.6735Z"
+                  fill="#BB491E"
+                />
+                <path
+                  d="M57.4184 62.6225L51 68.347L44.5816 62.6225V68.1735L51 72.5103L57.4184 68.1735V62.6225Z"
+                  fill="#730210"
+                />
+                <path
+                  d="M44.5816 62.6225L51 58.2858L44.2347 50.8266L39.551 56.3776L44.5816 62.6225Z"
+                  fill="#F6842D"
+                />
+                <path
+                  d="M44.2347 50.8266L51 33.4796L40.5918 43.8878L44.2347 50.8266Z"
+                  fill="#780011"
+                />
+                <path
+                  d="M61.5816 5.20409L51.1735 1.04082L40.4184 5.24203L45.7092 19.3608L51 33.4796L61.5816 5.20409Z"
+                  fill="#750111"
+                />
+                <path
+                  d="M44.2347 50.8266L51 58.2858L57.7653 50.8266L51 33.4796L44.2347 50.8266Z"
+                  fill="white"
+                />
+              </svg>
+            </Link>
+          </div>
+          {/* Site branding */}
+          {/* <div className="">
+            <div className="block w-[150px] h-full relative md:w-[85px] navIcon:w-[150px]">
               <Link href="/" aria-label="Cruip">
                 <div className="w-full h-full" id="particle-slider">
                   <div className="slides">
@@ -111,8 +296,8 @@ export function WebLayoutsLandingHeader(props: WebLayoutsLandingHeaderProps) {
                   <canvas className="draw"></canvas>
                 </div>
               </Link>
-            </div> */}
-          </div>
+            </div>
+          </div> */}
 
           {/* Desktop navigation */}
           <nav className="hidden md:flex md:grow">

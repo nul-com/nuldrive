@@ -51,7 +51,7 @@ export function WebLayoutsLandingSectionsFeaturesExplore(
 
           {/* Top image */}
           <div className="pb-12 md:pb-16 opacity-80">
-            <img
+            <WebUtilImageLoader
               src="https://r2.eriascdn.com/features-top-image.png"
               width={1104}
               height={325}
@@ -219,7 +219,7 @@ export function WebLayoutsLandingSectionsFeaturesExplore(
                   leaveEnd="opacity-0 -translate-y-16"
                 >
                   <div className="relative inline-flex flex-col">
-                    <img
+                    <WebUtilImageLoader
                       className="md:max-w-none mx-auto rounded"
                       src="https://r2.eriascdn.com/features-home-bg-01.png"
                       width={500}
@@ -265,7 +265,7 @@ export function WebLayoutsLandingSectionsFeaturesExplore(
                   leaveEnd="opacity-0 -translate-y-16"
                 >
                   <div className="relative inline-flex flex-col">
-                    <img
+                    <WebUtilImageLoader
                       className="md:max-w-none mx-auto rounded"
                       src="https://r2.eriascdn.com/features-home-bg-01.png"
                       width={500}
@@ -311,7 +311,7 @@ export function WebLayoutsLandingSectionsFeaturesExplore(
                   leaveEnd="opacity-0 -translate-y-16"
                 >
                  <div className="relative inline-flex flex-col">
-                    <img
+                    <WebUtilImageLoader
                       className="md:max-w-none mx-auto rounded"
                       src="https://r2.eriascdn.com/features-home-bg-01.png"
                       width={500}
