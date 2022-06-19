@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { WebUtilButtonsRangeSlider } from 'libs/web/util/buttons/range-slider/src';
 
 import styles from './WebLayoutsLandingSectionsPricingTable.module.css';
 
@@ -48,7 +49,7 @@ export function WebLayoutsLandingSectionsPricingTable(
           <div>
             {/* Pricing toggle */}
             <div
-              className="flex justify-center mb-16"
+              className="flex justify-center mb-16 gap-16"
               data-aos="fade-up"
               data-aos-delay="400"
             >
@@ -74,6 +75,10 @@ export function WebLayoutsLandingSectionsPricingTable(
                   Billed Annually
                 </div>
               </div>
+              {/* Pricing Slider */}
+              <div className="flex justify-center translate-y-4">
+                <WebUtilButtonsRangeSlider />
+              </div>
             </div>
 
             <div className="max-w-sm mx-auto grid gap-8 lg:grid-cols-3 lg:gap-6 items-start lg:max-w-none">
@@ -84,7 +89,7 @@ export function WebLayoutsLandingSectionsPricingTable(
                 data-aos-delay="700"
               >
                 <div className="mb-4 pb-4 border-b border-slate-700">
-                  <div className="h4 text-purple-600 mb-1">Essential</div>
+                  <div className="h4 text-purple-600 mb-1">🦍 Free</div>
                   <div className="inline-flex items-baseline mb-2">
                     <span className="text-2xl md:text-3xl font-medium text-slate-300">
                       {priceOutput.plan1[value][0]}
@@ -164,7 +169,7 @@ export function WebLayoutsLandingSectionsPricingTable(
                   </div>
                 </div>
                 <div className="mb-4 pb-4 border-b border-slate-700">
-                  <div className="h4 text-purple-600 mb-1">Premium</div>
+                  <div className="h4 text-purple-600 mb-1">✨ Alter</div>
                   <div className="inline-flex items-baseline mb-2">
                     <span className="text-2xl md:text-3xl font-medium text-slate-300">
                       {priceOutput.plan2[value][0]}
@@ -251,7 +256,7 @@ export function WebLayoutsLandingSectionsPricingTable(
                 data-aos-delay="800"
               >
                 <div className="mb-4 pb-4 border-b border-slate-700">
-                  <div className="h4 text-purple-600 mb-1">Advanced</div>
+                  <div className="h4 text-purple-600 mb-1">🚀 Fleet</div>
                   <div className="inline-flex items-baseline mb-2">
                     <span className="text-2xl md:text-3xl font-medium text-slate-300">
                       {priceOutput.plan3[value][0]}
