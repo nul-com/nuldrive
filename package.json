@@ -9,7 +9,10 @@
   },
   "private": true,
   "dependencies": {
+    "@emotion/react": "^11.9.3",
+    "@emotion/styled": "^11.9.3",
     "@headlessui/react": "^1.6.4",
+    "@mui/material": "^5.8.4",
     "@nrwl/next": "13.9.5",
     "@types/aos": "^3.0.4",
     "@types/react-transition-group": "^4.4.4",
