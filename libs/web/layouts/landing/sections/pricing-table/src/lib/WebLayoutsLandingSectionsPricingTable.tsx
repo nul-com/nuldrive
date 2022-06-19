@@ -49,7 +49,7 @@ export function WebLayoutsLandingSectionsPricingTable(
           <div>
             {/* Pricing toggle */}
             <div
-              className="flex justify-center mb-16 gap-16"
+              className=" grid md:flex justify-center mb-16 gap-16"
               data-aos="fade-up"
               data-aos-delay="400"
             >
@@ -86,7 +86,8 @@ export function WebLayoutsLandingSectionsPricingTable(
               <div
                 className="relative flex flex-col h-full p-6 bg-slate-750 rounded-2xl"
                 data-aos="fade-up"
-                data-aos-delay="700"
+                data-aos-delay="100"
+                data-aos-once="true"
               >
                 <div className="mb-4 pb-4 border-b border-slate-700">
                   <div className="h4 text-purple-600 mb-1">🦍 Free</div>
@@ -161,7 +162,8 @@ export function WebLayoutsLandingSectionsPricingTable(
               <div
                 className="relative flex flex-col h-full p-6 bg-slate-750 rounded-2xl"
                 data-aos="fade-up"
-                data-aos-delay="600"
+                data-aos-delay="200"
+                data-aos-once="true"
               >
                 <div className="absolute top-0 right-0 mr-6 -mt-4">
                   <div className="inline-flex text-sm font-semibold py-1 px-3 mt-px text-green-600 bg-green-200 rounded-full">
@@ -253,7 +255,8 @@ export function WebLayoutsLandingSectionsPricingTable(
               <div
                 className="relative flex flex-col h-full p-6 bg-slate-750 rounded-2xl"
                 data-aos="fade-up"
-                data-aos-delay="800"
+                data-aos-delay="300"
+                data-aos-once="true"
               >
                 <div className="mb-4 pb-4 border-b border-slate-700">
                   <div className="h4 text-purple-600 mb-1">🚀 Fleet</div>
