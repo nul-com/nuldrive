@@ -64,6 +64,7 @@
     "web-util-avatar": "libs/web/util/avatar",
     "web-util-buttons-bucketSelect": "libs/web/util/buttons/bucketSelect",
     "web-util-buttons-invite": "libs/web/util/buttons/invite",
+    "web-util-buttons-range-slider": "libs/web/util/buttons/range-slider",
     "web-util-buttons-search": "libs/web/util/buttons/search",
     "web-util-buttons-sync": "libs/web/util/buttons/sync",
     "web-util-buttons-upgrade": "libs/web/util/buttons/upgrade",

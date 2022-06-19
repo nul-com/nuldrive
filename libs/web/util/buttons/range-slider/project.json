@@ -1,0 +1,25 @@
+{
+  "root": "libs/web/util/buttons/range-slider",
+  "sourceRoot": "libs/web/util/buttons/range-slider/src",
+  "projectType": "library",
+  "tags": [],
+  "targets": {
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "outputs": ["{options.outputFile}"],
+      "options": {
+        "lintFilePatterns": [
+          "libs/web/util/buttons/range-slider/**/*.{ts,tsx,js,jsx}"
+        ]
+      }
+    },
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "outputs": ["coverage/libs/web/util/buttons/range-slider"],
+      "options": {
+        "jestConfig": "libs/web/util/buttons/range-slider/jest.config.js",
+        "passWithNoTests": true
+      }
+    }
+  }
+}
