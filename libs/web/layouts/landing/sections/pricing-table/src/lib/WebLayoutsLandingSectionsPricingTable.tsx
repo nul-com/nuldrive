@@ -4,6 +4,7 @@ import {
   calculateValue,
 } from 'libs/web/util/buttons/range-slider/src';
 import { WebUtilImageLoader } from '@nuldrive/web/util/imageLoader';
+import useSound from 'use-sound';
 
 import styles from './WebLayoutsLandingSectionsPricingTable.module.css';
 
@@ -15,6 +16,11 @@ export function WebLayoutsLandingSectionsPricingTable(
 ) {
   const [pricingValue, setPricingValue] = useState<number>(10);
   const [toggleAnnual, setToggleAnnual] = useState<any>(false);
+  const [wiggleMoney, setWiggleMoney] = useState<number>();
+
+  const [play] = useSound<any>(
+    'https://r2.eriascdn.com/my-money-dont-jiggle-jiggle.mp3'
+  );
 
   const plan2: any = {
     64: 0.99,
@@ -59,9 +65,14 @@ export function WebLayoutsLandingSectionsPricingTable(
       true: [
         '$',
         `${((calculateValue(pricingValue) / 1000) * 0.03 * 12).toFixed(2)}`,
-        '/mo',
+        '/annual',
       ],
     },
+  };
+
+  const handleClick: any = (id: number) => {
+    setWiggleMoney(id);
+    play();
   };
 
   return (
@@ -92,7 +103,7 @@ export function WebLayoutsLandingSectionsPricingTable(
               data-aos-delay="400"
             >
               <div className="inline-flex items-center">
-                <div className="text-gray-500 font-medium mr-3">
+                <div className="text-slate-300 font-medium mr-3">
                   Billed Monthly
                 </div>
                 <div className="form-switch">
@@ -105,12 +116,12 @@ export function WebLayoutsLandingSectionsPricingTable(
                     onChange={() => setToggleAnnual(!toggleAnnual)}
                     onClick={() => console.log(pricingValue)}
                   />
-                  <label className="bg-gray-600" htmlFor="pricing-toggle">
+                  <label className="bg-slate-600" htmlFor="pricing-toggle">
                     <span className="bg-gray-200" aria-hidden="true"></span>
                     <span className="sr-only">Enable to see yearly prices</span>
                   </label>
                 </div>
-                <div className="text-gray-500 font-medium ml-3">
+                <div className="text-slate-300 font-medium ml-3">
                   Billed Annually
                 </div>
               </div>
@@ -153,7 +164,9 @@ export function WebLayoutsLandingSectionsPricingTable(
                   <p className="text-slate-300">
                     <span className="">Start with free</span>{' '}
                     <span className=" font-bold">2GB</span>{' '}
-                    <span className="">to find your way of scaling with us. 🦍🚀🌕</span>
+                    <span className="">
+                      to find your way of scaling with us. 🦍🚀🌕
+                    </span>
                   </p>
                 </div>
                 <div className="font-medium mb-3">Features include:</div>
@@ -199,12 +212,46 @@ export function WebLayoutsLandingSectionsPricingTable(
                     <span>Officia deserunt mollit anim</span>
                   </li>
                 </ul>
-                <div className="border border-slate-700 p-3 mt-6">
+                <div
+                  className="border border-slate-700 p-3 mt-6"
+                  onClick={() => handleClick(0)}
+                >
                   <a
-                    className="btn-sm text-white bg-purple-600 hover:bg-purple-700 w-full"
+                    className="btn-sm flex justify-center text-white bg-purple-600 hover:bg-purple-700 w-full h-10"
                     href="#0"
                   >
-                    Start free trial
+                    <div
+                      className="money_container absolute"
+                      data-wigglin={wiggleMoney == 0}
+                    >
+                      <div className="money">
+                        <div className="money__slide money__slide--negative">
+                          <div className="money__slide money__slide--positive">
+                            <div className="money__half">
+                              <div className="money__quarter">
+                                <div className="money__segment money__segment--front money__segment--one"></div>
+                                <div className="money__segment money__segment--back money__segment--four"></div>
+                              </div>
+                              <div className="money__quarter">
+                                <div className="money__segment money__segment--front money__segment--two"></div>
+                                <div className="money__segment money__segment--back money__segment--three"></div>
+                              </div>
+                            </div>
+                            <div className="money__half">
+                              <div className="money__quarter">
+                                <div className="money__segment money__segment--front money__segment--three"></div>
+                                <div className="money__segment money__segment--back money__segment--two"></div>
+                              </div>
+                              <div className="money__quarter">
+                                <div className="money__segment money__segment--front money__segment--four"></div>
+                                <div className="money__segment money__segment--back money__segment--one"></div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    {wiggleMoney != 0 && <p className="">Start free trial</p>}
                   </a>
                 </div>
               </div>
@@ -303,12 +350,46 @@ export function WebLayoutsLandingSectionsPricingTable(
                     <span>Placeholder text commonly used</span>
                   </li>
                 </ul>
-                <div className="border border-slate-700 p-3 mt-6">
+                <div
+                  className="border border-slate-700 p-3 mt-6"
+                  onClick={() => handleClick(1)}
+                >
                   <a
-                    className="btn-sm text-white bg-purple-600 hover:bg-purple-700 w-full"
+                    className="btn-sm flex justify-center text-white bg-purple-600 hover:bg-purple-700 w-full h-10"
                     href="#0"
                   >
-                    Start free trial
+                    <div
+                      className="money_container absolute"
+                      data-wigglin={wiggleMoney == 1}
+                    >
+                      <div className="money">
+                        <div className="money__slide money__slide--negative">
+                          <div className="money__slide money__slide--positive">
+                            <div className="money__half">
+                              <div className="money__quarter">
+                                <div className="money__segment money__segment--front money__segment--one"></div>
+                                <div className="money__segment money__segment--back money__segment--four"></div>
+                              </div>
+                              <div className="money__quarter">
+                                <div className="money__segment money__segment--front money__segment--two"></div>
+                                <div className="money__segment money__segment--back money__segment--three"></div>
+                              </div>
+                            </div>
+                            <div className="money__half">
+                              <div className="money__quarter">
+                                <div className="money__segment money__segment--front money__segment--three"></div>
+                                <div className="money__segment money__segment--back money__segment--two"></div>
+                              </div>
+                              <div className="money__quarter">
+                                <div className="money__segment money__segment--front money__segment--four"></div>
+                                <div className="money__segment money__segment--back money__segment--one"></div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    {wiggleMoney != 1 && <p className="">Start free trial</p>}
                   </a>
                 </div>
               </div>
@@ -334,7 +415,8 @@ export function WebLayoutsLandingSectionsPricingTable(
                     </span>
                   </div>
                   <div className="text-slate-300">
-                    Pay. Exactly. What. You. Store. 🎉 <br /> As easy as clicking the button below. 
+                    Pay. Exactly. What. You. Store. 🎉 <br /> As easy as
+                    clicking the button below.
                   </div>
                 </div>
                 <div className="font-medium mb-3">
@@ -402,12 +484,46 @@ export function WebLayoutsLandingSectionsPricingTable(
                     <span>Placeholder text commonly used</span>
                   </li>
                 </ul>
-                <div className="border border-slate-700 p-3 mt-6">
+                <div
+                  className="border border-slate-700 p-3 mt-6"
+                  onClick={() => handleClick(2)}
+                >
                   <a
-                    className="btn-sm text-white bg-purple-600 hover:bg-purple-700 w-full"
+                    className="btn-sm flex justify-center text-white bg-purple-600 hover:bg-purple-700 w-full h-10"
                     href="#0"
                   >
-                    Start free trial
+                    <div
+                      className="money_container absolute"
+                      data-wigglin={wiggleMoney == 2}
+                    >
+                      <div className="money">
+                        <div className="money__slide money__slide--negative">
+                          <div className="money__slide money__slide--positive">
+                            <div className="money__half">
+                              <div className="money__quarter">
+                                <div className="money__segment money__segment--front money__segment--one"></div>
+                                <div className="money__segment money__segment--back money__segment--four"></div>
+                              </div>
+                              <div className="money__quarter">
+                                <div className="money__segment money__segment--front money__segment--two"></div>
+                                <div className="money__segment money__segment--back money__segment--three"></div>
+                              </div>
+                            </div>
+                            <div className="money__half">
+                              <div className="money__quarter">
+                                <div className="money__segment money__segment--front money__segment--three"></div>
+                                <div className="money__segment money__segment--back money__segment--two"></div>
+                              </div>
+                              <div className="money__quarter">
+                                <div className="money__segment money__segment--front money__segment--four"></div>
+                                <div className="money__segment money__segment--back money__segment--one"></div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    {wiggleMoney != 2 && <p className="">Start free trial</p>}
                   </a>
                 </div>
               </div>
