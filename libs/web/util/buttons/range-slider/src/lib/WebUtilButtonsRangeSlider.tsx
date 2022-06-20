@@ -6,7 +6,9 @@ import Slider from '@mui/material/Slider';
 import styles from './WebUtilButtonsRangeSlider.module.css';
 
 /* eslint-disable-next-line */
-export interface WebUtilButtonsRangeSliderProps {}
+export interface WebUtilButtonsRangeSliderProps {
+  setPricingValue: any;
+}
 
 function valueLabelFormat(value: number) {
   const units = ['MB', 'GB', 'TB'];
@@ -22,18 +24,21 @@ function valueLabelFormat(value: number) {
   return `${scaledValue} ${units[unitIndex]}`;
 }
 
-function calculateValue(value: number) {
+export function calculateValue(value: number) {
   return 2 ** value;
 }
 
 export function WebUtilButtonsRangeSlider(
   props: WebUtilButtonsRangeSliderProps
 ) {
+  const { setPricingValue } = props;
+
   const [value, setValue] = useState<number>(10);
 
   const handleChange = (event: Event, newValue: number | number[]) => {
     if (typeof newValue === 'number') {
       setValue(newValue);
+      setPricingValue(newValue);
     }
   };
 
@@ -51,7 +56,12 @@ export function WebUtilButtonsRangeSlider(
         valueLabelDisplay="auto"
         aria-labelledby="non-linear-slider"
       />
-      <Typography className="text-base" id="non-linear-slider" gutterBottom align='right'>
+      <Typography
+        className="text-base"
+        id="non-linear-slider"
+        gutterBottom
+        align="right"
+      >
         Storage: {valueLabelFormat(calculateValue(value))}
       </Typography>
     </Box>
