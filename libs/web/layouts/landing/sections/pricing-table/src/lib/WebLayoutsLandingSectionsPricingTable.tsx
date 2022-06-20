@@ -1,5 +1,9 @@
 import { useState } from 'react';
-import { WebUtilButtonsRangeSlider } from 'libs/web/util/buttons/range-slider/src';
+import {
+  WebUtilButtonsRangeSlider,
+  calculateValue,
+} from 'libs/web/util/buttons/range-slider/src';
+import { WebUtilImageLoader } from '@nuldrive/web/util/imageLoader';
 
 import styles from './WebLayoutsLandingSectionsPricingTable.module.css';
 
@@ -9,22 +13,56 @@ export interface WebLayoutsLandingSectionsPricingTableProps {}
 export function WebLayoutsLandingSectionsPricingTable(
   props: WebLayoutsLandingSectionsPricingTableProps
 ) {
-  const [value, setValue] = useState<any>(true);
+  const [pricingValue, setPricingValue] = useState<number>(10);
+  const [toggleAnnual, setToggleAnnual] = useState<any>(false);
 
-  const [priceOutput] = useState<any>({
+  const plan2: any = {
+    64: 0.99,
+    128: 1.99,
+    256: 3.99,
+    512: 9.99,
+    1024: 19.99,
+    2048: 29.99,
+  };
+
+  const plan2Cost = () => {
+    const storage: any = 2 ** pricingValue / 1024;
+    const price = plan2[storage];
+
+    if (storage < Object.keys(plan2)[0]) return plan2[Object.keys(plan2)[0]];
+
+    if (storage > Object.keys(plan2)[Object.keys(plan2).length - 1])
+      return 'N/A';
+
+    return price;
+  };
+
+  const priceOutput: any = {
     plan1: {
-      false: ['$', '55', '/mo'],
-      true: ['$', '49', '/mo'],
+      false: ['$', 'Free', ''],
+      true: ['$', 'Free', ''],
     },
     plan2: {
-      false: ['$', '85', '/mo'],
-      true: ['$', '79', '/mo'],
+      false: ['$', `${plan2Cost()}`, '/mo'],
+      true: [
+        '$',
+        `${plan2Cost() == 'N/A' ? 'N/A' : (plan2Cost() * 12).toFixed(2)}`,
+        '/annual',
+      ],
     },
     plan3: {
-      false: ['$', '135', '/mo'],
-      true: ['$', '129', '/mo'],
+      false: [
+        '$',
+        `${((calculateValue(pricingValue) / 1000) * 0.03).toFixed(2)}`,
+        '/mo',
+      ],
+      true: [
+        '$',
+        `${((calculateValue(pricingValue) / 1000) * 0.03 * 12).toFixed(2)}`,
+        '/mo',
+      ],
     },
-  });
+  };
 
   return (
     <section className="relative z-20">
@@ -63,8 +101,9 @@ export function WebLayoutsLandingSectionsPricingTable(
                     name="pricing-toggle"
                     id="pricing-toggle"
                     className="sr-only"
-                    checked={value}
-                    onChange={() => setValue(!value)}
+                    checked={toggleAnnual}
+                    onChange={() => setToggleAnnual(!toggleAnnual)}
+                    onClick={() => console.log(pricingValue)}
                   />
                   <label className="bg-gray-600" htmlFor="pricing-toggle">
                     <span className="bg-gray-200" aria-hidden="true"></span>
@@ -77,7 +116,7 @@ export function WebLayoutsLandingSectionsPricingTable(
               </div>
               {/* Pricing Slider */}
               <div className="flex justify-center translate-y-4">
-                <WebUtilButtonsRangeSlider />
+                <WebUtilButtonsRangeSlider setPricingValue={setPricingValue} />
               </div>
             </div>
 
@@ -89,21 +128,33 @@ export function WebLayoutsLandingSectionsPricingTable(
                 data-aos-delay="100"
                 data-aos-once="true"
               >
+                {pricingValue > 11 && (
+                  <div className="absolute right-0 -top-8 w-40 h-40">
+                    <WebUtilImageLoader
+                      src="https://r2.eriascdn.com/hCwD5kgN.png"
+                      width={160}
+                      height={160}
+                    />
+                  </div>
+                )}
                 <div className="mb-4 pb-4 border-b border-slate-700">
-                  <div className="h4 text-purple-600 mb-1">🦍 Free</div>
+                  <div className="h4 text-purple-600 mb-1">🦍 Starter</div>
                   <div className="inline-flex items-baseline mb-2">
-                    <span className="text-2xl md:text-3xl font-medium text-slate-300">
-                      {priceOutput.plan1[value][0]}
+                    <span className="text-2xl md:text-3xl font-medium text-slate-300 pr-1">
+                      {priceOutput.plan1[toggleAnnual][0]}
                     </span>
-                    <span className="h2">{priceOutput.plan1[value][1]}</span>
+                    <span className="h2">
+                      {priceOutput.plan1[toggleAnnual][1]}
+                    </span>
                     <span className="font-medium text-slate-300">
-                      {priceOutput.plan1[value][2]}
+                      {priceOutput.plan1[toggleAnnual][2]}
                     </span>
                   </div>
-                  <div className="text-slate-300">
-                    Better insights for growing businesses that want more
-                    customers.
-                  </div>
+                  <p className="text-slate-300">
+                    <span className="">Start with free</span>{' '}
+                    <span className=" font-bold">2GB</span>{' '}
+                    <span className="">to find your way of scaling with us. 🦍🚀🌕</span>
+                  </p>
                 </div>
                 <div className="font-medium mb-3">Features include:</div>
                 <ul className="text-slate-300 -mb-3 grow">
@@ -166,24 +217,35 @@ export function WebLayoutsLandingSectionsPricingTable(
                 data-aos-once="true"
               >
                 <div className="absolute top-0 right-0 mr-6 -mt-4">
-                  <div className="inline-flex text-sm font-semibold py-1 px-3 mt-px text-green-600 bg-green-200 rounded-full">
-                    Most Popular
-                  </div>
+                  {pricingValue > 21 ? (
+                    <div className="absolute right-0 -top-8 w-40 h-40">
+                      <WebUtilImageLoader
+                        src="https://r2.eriascdn.com/hCwD5kgN.png"
+                        width={160}
+                        height={160}
+                      />
+                    </div>
+                  ) : (
+                    <div className="inline-flex text-sm font-semibold py-1 px-3 mt-px text-green-600 bg-green-200 rounded-full">
+                      Most Popular
+                    </div>
+                  )}
                 </div>
                 <div className="mb-4 pb-4 border-b border-slate-700">
                   <div className="h4 text-purple-600 mb-1">✨ Alter</div>
                   <div className="inline-flex items-baseline mb-2">
                     <span className="text-2xl md:text-3xl font-medium text-slate-300">
-                      {priceOutput.plan2[value][0]}
+                      {priceOutput.plan2[toggleAnnual][0]}
                     </span>
-                    <span className="h2">{priceOutput.plan2[value][1]}</span>
+                    <span className="h2">
+                      {priceOutput.plan2[toggleAnnual][1]}
+                    </span>
                     <span className="font-medium text-slate-300">
-                      {priceOutput.plan2[value][2]}
+                      {priceOutput.plan2[toggleAnnual][2]}
                     </span>
                   </div>
                   <div className="text-slate-300">
-                    Better insights for growing businesses that want more
-                    customers.
+                    Get space in our heart um... storage drives to scale up. ⚡️
                   </div>
                 </div>
                 <div className="font-medium mb-3">
@@ -262,16 +324,17 @@ export function WebLayoutsLandingSectionsPricingTable(
                   <div className="h4 text-purple-600 mb-1">🚀 Fleet</div>
                   <div className="inline-flex items-baseline mb-2">
                     <span className="text-2xl md:text-3xl font-medium text-slate-300">
-                      {priceOutput.plan3[value][0]}
+                      {priceOutput.plan3[toggleAnnual][0]}
                     </span>
-                    <span className="h2">{priceOutput.plan3[value][1]}</span>
+                    <span className="h2">
+                      {priceOutput.plan3[toggleAnnual][1]}
+                    </span>
                     <span className="font-medium text-slate-300">
-                      {priceOutput.plan3[value][2]}
+                      {priceOutput.plan3[toggleAnnual][2]}
                     </span>
                   </div>
                   <div className="text-slate-300">
-                    Better insights for growing businesses that want more
-                    customers.
+                    Pay. Exactly. What. You. Store. 🎉 <br /> As easy as clicking the button below. 
                   </div>
                 </div>
                 <div className="font-medium mb-3">
