@@ -492,7 +492,6 @@ export function WebLayoutsLandingSectionsPricingTable(
                     className="btn-sm flex justify-center text-white bg-purple-600 hover:bg-purple-700 w-full h-10"
                     href="#0"
                   >
-                    
                     <div
                       className="money_container absolute"
                       data-wigglin={wiggleMoney == 2}
