@@ -36,7 +36,8 @@
     "sticky-js": "^1.3.0",
     "tailwindcss": "^3.0.24",
     "three": "^0.141.0",
-    "tslib": "^2.0.0"
+    "tslib": "^2.0.0",
+    "use-sound": "^4.0.1"
   },
   "devDependencies": {
     "@nrwl/cli": "13.9.5",
