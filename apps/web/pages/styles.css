@@ -822,17 +822,17 @@ nav .menu .menu_icon:hover .icon:after {
 }
 :root {
   --size: 20vmin;
-  --show: 1;
-  --hide: 0.1;
+  --show: 0.7;
+  --hide: 0.01;
   --folded: 0;
   --jiggle-delay: 0.01;
   --jiggle-speed: 0.6;
   --jiggle-elevation: 10%;
   --jiggle-rotation: 20deg;
-  --fold-delay: 2;
+  --fold-delay: 1.7;
   --fold-speed: 0.2;
   --wiggle-speed: 0.75;
-  --wiggle-delay: 3.35;
+  --wiggle-delay: 3;
   --wiggle-elevation: 0%;
   --wiggle-translation: 1%;
   --wiggle-rotation: 5deg;
