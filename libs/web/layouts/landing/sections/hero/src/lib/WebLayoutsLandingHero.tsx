@@ -58,6 +58,7 @@ export function WebLayoutsLandingHero(props: WebLayoutsLandingHeroProps) {
             <h1
               className="text-5xl md:text-6xl font-extrabold leading-tighter tracking-tighter mb-4 leading-tight"
               data-aos="fade-up"
+              data-aos-delay="100"
             >
               The Storage for
               <br />{' '}
