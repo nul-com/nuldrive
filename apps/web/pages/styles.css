@@ -817,9 +817,11 @@ nav .menu .menu_icon:hover .icon:after {
 
 /* ========================================== Wiggle Wiggle Money ========================================== */
 * {
-  box-sizing: border-box;
-  transform-style: preserve-3d;
+  box-sizing: auto;
+  transform-style: auto;
+  -webkit-transform-style: auto;
 }
+
 :root {
   --size: 20vmin;
   --show: 0.7;
@@ -837,6 +839,18 @@ nav .menu .menu_icon:hover .icon:after {
   --wiggle-translation: 1%;
   --wiggle-rotation: 5deg;
 }
+
+.no_transform_style {
+  transform-style: flat !important;
+  -webkit-transform-style: flat !important;
+}
+
+.transform_style {
+  box-sizing: border-box;
+  transform-style: preserve-3d !important;
+  -webkit-transform-style: preserve-3d !important;
+}
+
 .money_container {
   display: grid;
   place-items: center;

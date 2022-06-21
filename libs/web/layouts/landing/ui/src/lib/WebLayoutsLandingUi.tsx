@@ -26,7 +26,7 @@ export function WebLayoutsLandingUi(props: WebLayoutsLandingUiProps) {
   const { children } = props;
 
   return (
-    <div className="overflow-hidden flex flex-col min-h-screen font-inter antialiased bg-slate-900 text-gray-200 tracking-tight">
+    <div className="overflow-hidden no_transform_style flex flex-col min-h-screen font-inter antialiased bg-slate-900 text-gray-200 tracking-tight">
       <WebLayoutsLandingHeader />
       {children}
       <WebLayoutsLandingFooter />

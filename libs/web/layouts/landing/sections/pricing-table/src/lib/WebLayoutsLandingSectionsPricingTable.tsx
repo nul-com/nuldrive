@@ -221,30 +221,30 @@ export function WebLayoutsLandingSectionsPricingTable(
                     href="#0"
                   >
                     <div
-                      className="money_container absolute"
+                      className="money_container absolute transform_style"
                       data-wigglin={wiggleMoney == 0}
                     >
-                      <div className="money">
-                        <div className="money__slide money__slide--negative">
-                          <div className="money__slide money__slide--positive">
-                            <div className="money__half">
-                              <div className="money__quarter">
-                                <div className="money__segment money__segment--front money__segment--one"></div>
-                                <div className="money__segment money__segment--back money__segment--four"></div>
+                      <div className="money transform_style">
+                        <div className="money__slide money__slide--negative transform_style">
+                          <div className="money__slide money__slide--positive transform_style">
+                            <div className="money__half transform_style">
+                              <div className="money__quarter transform_style">
+                                <div className="money__segment money__segment--front money__segment--one transform_style"></div>
+                                <div className="money__segment money__segment--back money__segment--four transform_style"></div>
                               </div>
-                              <div className="money__quarter">
-                                <div className="money__segment money__segment--front money__segment--two"></div>
-                                <div className="money__segment money__segment--back money__segment--three"></div>
+                              <div className="money__quarter transform_style">
+                                <div className="money__segment money__segment--front money__segment--two transform_style"></div>
+                                <div className="money__segment money__segment--back money__segment--three transform_style"></div>
                               </div>
                             </div>
-                            <div className="money__half">
-                              <div className="money__quarter">
-                                <div className="money__segment money__segment--front money__segment--three"></div>
-                                <div className="money__segment money__segment--back money__segment--two"></div>
+                            <div className="money__half transform_style">
+                              <div className="money__quarter transform_style">
+                                <div className="money__segment money__segment--front money__segment--three transform_style"></div>
+                                <div className="money__segment money__segment--back money__segment--two transform_style"></div>
                               </div>
-                              <div className="money__quarter">
-                                <div className="money__segment money__segment--front money__segment--four"></div>
-                                <div className="money__segment money__segment--back money__segment--one"></div>
+                              <div className="money__quarter transform_style">
+                                <div className="money__segment money__segment--front money__segment--four transform_style"></div>
+                                <div className="money__segment money__segment--back money__segment--one transform_style"></div>
                               </div>
                             </div>
                           </div>
@@ -359,30 +359,30 @@ export function WebLayoutsLandingSectionsPricingTable(
                     href="#0"
                   >
                     <div
-                      className="money_container absolute"
+                      className="money_container absolute transform_style"
                       data-wigglin={wiggleMoney == 1}
                     >
-                      <div className="money">
-                        <div className="money__slide money__slide--negative">
-                          <div className="money__slide money__slide--positive">
-                            <div className="money__half">
-                              <div className="money__quarter">
-                                <div className="money__segment money__segment--front money__segment--one"></div>
-                                <div className="money__segment money__segment--back money__segment--four"></div>
+                      <div className="money transform_style">
+                        <div className="money__slide money__slide--negative transform_style">
+                          <div className="money__slide money__slide--positive transform_style">
+                            <div className="money__half transform_style">
+                              <div className="money__quarter transform_style">
+                                <div className="money__segment money__segment--front money__segment--one transform_style"></div>
+                                <div className="money__segment money__segment--back money__segment--four transform_style"></div>
                               </div>
-                              <div className="money__quarter">
-                                <div className="money__segment money__segment--front money__segment--two"></div>
-                                <div className="money__segment money__segment--back money__segment--three"></div>
+                              <div className="money__quarter transform_style">
+                                <div className="money__segment money__segment--front money__segment--two transform_style"></div>
+                                <div className="money__segment money__segment--back money__segment--three transform_style"></div>
                               </div>
                             </div>
-                            <div className="money__half">
-                              <div className="money__quarter">
-                                <div className="money__segment money__segment--front money__segment--three"></div>
-                                <div className="money__segment money__segment--back money__segment--two"></div>
+                            <div className="money__half transform_style">
+                              <div className="money__quarter transform_style">
+                                <div className="money__segment money__segment--front money__segment--three transform_style"></div>
+                                <div className="money__segment money__segment--back money__segment--two transform_style"></div>
                               </div>
-                              <div className="money__quarter">
-                                <div className="money__segment money__segment--front money__segment--four"></div>
-                                <div className="money__segment money__segment--back money__segment--one"></div>
+                              <div className="money__quarter transform_style">
+                                <div className="money__segment money__segment--front money__segment--four transform_style"></div>
+                                <div className="money__segment money__segment--back money__segment--one transform_style"></div>
                               </div>
                             </div>
                           </div>
@@ -493,30 +493,30 @@ export function WebLayoutsLandingSectionsPricingTable(
                     href="#0"
                   >
                     <div
-                      className="money_container absolute"
+                      className="money_container absolute transform_style"
                       data-wigglin={wiggleMoney == 2}
                     >
-                      <div className="money">
-                        <div className="money__slide money__slide--negative">
-                          <div className="money__slide money__slide--positive">
-                            <div className="money__half">
-                              <div className="money__quarter">
-                                <div className="money__segment money__segment--front money__segment--one"></div>
-                                <div className="money__segment money__segment--back money__segment--four"></div>
+                      <div className="money transform_style">
+                        <div className="money__slide money__slide--negative transform_style">
+                          <div className="money__slide money__slide--positive transform_style">
+                            <div className="money__half transform_style">
+                              <div className="money__quarter transform_style">
+                                <div className="money__segment money__segment--front money__segment--one transform_style"></div>
+                                <div className="money__segment money__segment--back money__segment--four transform_style"></div>
                               </div>
-                              <div className="money__quarter">
-                                <div className="money__segment money__segment--front money__segment--two"></div>
-                                <div className="money__segment money__segment--back money__segment--three"></div>
+                              <div className="money__quarter transform_style">
+                                <div className="money__segment money__segment--front money__segment--two transform_style"></div>
+                                <div className="money__segment money__segment--back money__segment--three transform_style"></div>
                               </div>
                             </div>
-                            <div className="money__half">
-                              <div className="money__quarter">
-                                <div className="money__segment money__segment--front money__segment--three"></div>
-                                <div className="money__segment money__segment--back money__segment--two"></div>
+                            <div className="money__half transform_style">
+                              <div className="money__quarter transform_style">
+                                <div className="money__segment money__segment--front money__segment--three transform_style"></div>
+                                <div className="money__segment money__segment--back money__segment--two transform_style"></div>
                               </div>
-                              <div className="money__quarter">
-                                <div className="money__segment money__segment--front money__segment--four"></div>
-                                <div className="money__segment money__segment--back money__segment--one"></div>
+                              <div className="money__quarter transform_style">
+                                <div className="money__segment money__segment--front money__segment--four transform_style"></div>
+                                <div className="money__segment money__segment--back money__segment--one transform_style"></div>
                               </div>
                             </div>
                           </div>
