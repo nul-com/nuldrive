@@ -20,7 +20,7 @@ export function WebLayoutsBaseUi(props: WebLayoutsBaseUiProps) {
     setPanelSizes(JSON.parse(localPanelSizes));
   }, []);
   return (
-    <main className="flex flex-col h-screen w-screen overflow-hidden">
+    <main className="flex flex-col h-screen w-screen overflow-hidden bg-white">
       <WebLayoutsBaseHeader />
       <WebLayoutsBaseMenu />
       <WebLayoutsBasePanels children={children} />
