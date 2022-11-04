@@ -1,0 +1,25 @@
+{
+  "root": "libs/web/layouts/landing/sections/pricing-cta",
+  "sourceRoot": "libs/web/layouts/landing/sections/pricing-cta/src",
+  "projectType": "library",
+  "tags": [],
+  "targets": {
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "outputs": ["{options.outputFile}"],
+      "options": {
+        "lintFilePatterns": [
+          "libs/web/layouts/landing/sections/pricing-cta/**/*.{ts,tsx,js,jsx}"
+        ]
+      }
+    },
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "outputs": ["coverage/libs/web/layouts/landing/sections/pricing-cta"],
+      "options": {
+        "jestConfig": "libs/web/layouts/landing/sections/pricing-cta/jest.config.js",
+        "passWithNoTests": true
+      }
+    }
+  }
+}

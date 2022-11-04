@@ -1,0 +1,25 @@
+{
+  "root": "libs/web/layouts/landing/sections/tabs",
+  "sourceRoot": "libs/web/layouts/landing/sections/tabs/src",
+  "projectType": "library",
+  "tags": [],
+  "targets": {
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "outputs": ["{options.outputFile}"],
+      "options": {
+        "lintFilePatterns": [
+          "libs/web/layouts/landing/sections/tabs/**/*.{ts,tsx,js,jsx}"
+        ]
+      }
+    },
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "outputs": ["coverage/libs/web/layouts/landing/sections/tabs"],
+      "options": {
+        "jestConfig": "libs/web/layouts/landing/sections/tabs/jest.config.js",
+        "passWithNoTests": true
+      }
+    }
+  }
+}

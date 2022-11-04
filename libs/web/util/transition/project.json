@@ -1,0 +1,23 @@
+{
+  "root": "libs/web/util/transition",
+  "sourceRoot": "libs/web/util/transition/src",
+  "projectType": "library",
+  "tags": [],
+  "targets": {
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "outputs": ["{options.outputFile}"],
+      "options": {
+        "lintFilePatterns": ["libs/web/util/transition/**/*.{ts,tsx,js,jsx}"]
+      }
+    },
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "outputs": ["coverage/libs/web/util/transition"],
+      "options": {
+        "jestConfig": "libs/web/util/transition/jest.config.js",
+        "passWithNoTests": true
+      }
+    }
+  }
+}

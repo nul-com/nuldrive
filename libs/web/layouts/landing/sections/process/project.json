@@ -1,0 +1,25 @@
+{
+  "root": "libs/web/layouts/landing/sections/process",
+  "sourceRoot": "libs/web/layouts/landing/sections/process/src",
+  "projectType": "library",
+  "tags": [],
+  "targets": {
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "outputs": ["{options.outputFile}"],
+      "options": {
+        "lintFilePatterns": [
+          "libs/web/layouts/landing/sections/process/**/*.{ts,tsx,js,jsx}"
+        ]
+      }
+    },
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "outputs": ["coverage/libs/web/layouts/landing/sections/process"],
+      "options": {
+        "jestConfig": "libs/web/layouts/landing/sections/process/jest.config.js",
+        "passWithNoTests": true
+      }
+    }
+  }
+}

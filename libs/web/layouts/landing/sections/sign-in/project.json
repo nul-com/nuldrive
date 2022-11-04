@@ -1,0 +1,25 @@
+{
+  "root": "libs/web/layouts/landing/sections/sign-in",
+  "sourceRoot": "libs/web/layouts/landing/sections/sign-in/src",
+  "projectType": "library",
+  "tags": [],
+  "targets": {
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "outputs": ["{options.outputFile}"],
+      "options": {
+        "lintFilePatterns": [
+          "libs/web/layouts/landing/sections/sign-in/**/*.{ts,tsx,js,jsx}"
+        ]
+      }
+    },
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "outputs": ["coverage/libs/web/layouts/landing/sections/sign-in"],
+      "options": {
+        "jestConfig": "libs/web/layouts/landing/sections/sign-in/jest.config.js",
+        "passWithNoTests": true
+      }
+    }
+  }
+}

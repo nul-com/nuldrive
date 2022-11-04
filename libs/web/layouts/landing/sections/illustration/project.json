@@ -1,0 +1,25 @@
+{
+  "root": "libs/web/layouts/landing/sections/illustration",
+  "sourceRoot": "libs/web/layouts/landing/sections/illustration/src",
+  "projectType": "library",
+  "tags": [],
+  "targets": {
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "outputs": ["{options.outputFile}"],
+      "options": {
+        "lintFilePatterns": [
+          "libs/web/layouts/landing/sections/illustration/**/*.{ts,tsx,js,jsx}"
+        ]
+      }
+    },
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "outputs": ["coverage/libs/web/layouts/landing/sections/illustration"],
+      "options": {
+        "jestConfig": "libs/web/layouts/landing/sections/illustration/jest.config.js",
+        "passWithNoTests": true
+      }
+    }
+  }
+}

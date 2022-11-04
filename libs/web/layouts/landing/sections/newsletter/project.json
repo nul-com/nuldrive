@@ -1,0 +1,25 @@
+{
+  "root": "libs/web/layouts/landing/sections/newsletter",
+  "sourceRoot": "libs/web/layouts/landing/sections/newsletter/src",
+  "projectType": "library",
+  "tags": [],
+  "targets": {
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "outputs": ["{options.outputFile}"],
+      "options": {
+        "lintFilePatterns": [
+          "libs/web/layouts/landing/sections/newsletter/**/*.{ts,tsx,js,jsx}"
+        ]
+      }
+    },
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "outputs": ["coverage/libs/web/layouts/landing/sections/newsletter"],
+      "options": {
+        "jestConfig": "libs/web/layouts/landing/sections/newsletter/jest.config.js",
+        "passWithNoTests": true
+      }
+    }
+  }
+}

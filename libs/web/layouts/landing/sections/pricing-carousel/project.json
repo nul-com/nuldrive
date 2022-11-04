@@ -1,0 +1,27 @@
+{
+  "root": "libs/web/layouts/landing/sections/pricing-carousel",
+  "sourceRoot": "libs/web/layouts/landing/sections/pricing-carousel/src",
+  "projectType": "library",
+  "tags": [],
+  "targets": {
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "outputs": ["{options.outputFile}"],
+      "options": {
+        "lintFilePatterns": [
+          "libs/web/layouts/landing/sections/pricing-carousel/**/*.{ts,tsx,js,jsx}"
+        ]
+      }
+    },
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "outputs": [
+        "coverage/libs/web/layouts/landing/sections/pricing-carousel"
+      ],
+      "options": {
+        "jestConfig": "libs/web/layouts/landing/sections/pricing-carousel/jest.config.js",
+        "passWithNoTests": true
+      }
+    }
+  }
+}

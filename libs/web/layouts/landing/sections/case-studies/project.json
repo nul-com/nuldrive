@@ -1,0 +1,25 @@
+{
+  "root": "libs/web/layouts/landing/sections/case-studies",
+  "sourceRoot": "libs/web/layouts/landing/sections/case-studies/src",
+  "projectType": "library",
+  "tags": [],
+  "targets": {
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "outputs": ["{options.outputFile}"],
+      "options": {
+        "lintFilePatterns": [
+          "libs/web/layouts/landing/sections/case-studies/**/*.{ts,tsx,js,jsx}"
+        ]
+      }
+    },
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "outputs": ["coverage/libs/web/layouts/landing/sections/case-studies"],
+      "options": {
+        "jestConfig": "libs/web/layouts/landing/sections/case-studies/jest.config.js",
+        "passWithNoTests": true
+      }
+    }
+  }
+}
