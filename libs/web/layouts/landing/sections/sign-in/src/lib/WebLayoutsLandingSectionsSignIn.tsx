@@ -123,7 +123,7 @@ export function WebLayoutsLandingSectionsSignIn(
                     </div>
                     <div className="flex gap-3 items-center">
                       <div
-                        className="cursor-pointer"
+                        className="cursor-pointer text-slate-400"
                         onClick={() => setShowEmail(!showEmail)}
                       >
                         {showEmail ? (
@@ -131,7 +131,7 @@ export function WebLayoutsLandingSectionsSignIn(
                             xmlns="http://www.w3.org/2000/svg"
                             data-name="Layer 1"
                             viewBox="0 0 24 24"
-                            className="w-5 h-5 text-gray-700"
+                            className="w-5 h-5"
                           >
                             <path
                               fill="currentColor"
@@ -142,7 +142,7 @@ export function WebLayoutsLandingSectionsSignIn(
                           <svg
                             xmlns="http://www.w3.org/2000/svg"
                             viewBox="0 0 24 24"
-                            className="w-5 h-5 text-gray-700"
+                            className="w-5 h-5"
                           >
                             <path
                               fill="currentColor"
@@ -218,7 +218,7 @@ export function WebLayoutsLandingSectionsSignIn(
                         onInput={() => setSection(4)}
                       />
                     </div>
-                    <div className="flex gap-3 items-center">
+                    <div className="flex gap-3 items-center text-slate-300">
                       <div
                         className="cursor-pointer"
                         onClick={() => setShowPassword(!showPassword)}
@@ -228,7 +228,7 @@ export function WebLayoutsLandingSectionsSignIn(
                             xmlns="http://www.w3.org/2000/svg"
                             data-name="Layer 1"
                             viewBox="0 0 24 24"
-                            className="w-5 h-5 text-gray-700"
+                            className="w-5 h-5"
                           >
                             <path
                               fill="currentColor"
@@ -239,7 +239,7 @@ export function WebLayoutsLandingSectionsSignIn(
                           <svg
                             xmlns="http://www.w3.org/2000/svg"
                             viewBox="0 0 24 24"
-                            className="w-5 h-5 text-gray-700"
+                            className="w-5 h-5"
                           >
                             <path
                               fill="currentColor"
@@ -250,7 +250,7 @@ export function WebLayoutsLandingSectionsSignIn(
                       </div>
                       <span
                         className="group border border-[#637597] rounded-md px-3 py-1"
-                        onMouseOver={() => section == 4 && (space.throttle = 1)}
+                        onMouseOver={() => section == 3 && (space.throttle = 1)}
                         onMouseLeave={() => (space.throttle = 0)}
                         onClick={() => {
                           space.throttle = 0;
