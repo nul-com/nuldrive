@@ -25,9 +25,9 @@ export function WebLayoutsBaseHeader(props: WebLayoutsBaseHeaderProps) {
             <div className="w-[34px]">
               <Logo />
             </div>
-            <div className="flex gap-1">
-              <h1 className="font-extrabold text-lg md:hidden">nuldrive</h1>
-              <p className="text-xxs text-countryCode font-medium md:hidden">
+            <div className="flex gap-1 md:ml-1">
+              <h1 className="font-extrabold text-lg">nuldrive</h1>
+              <p className="text-xxs text-countryCode font-medium">
                 AT
               </p>
             </div>
